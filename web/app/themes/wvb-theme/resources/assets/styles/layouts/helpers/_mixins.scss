@@ -1,0 +1,144 @@
+// border-radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+// transition
+@mixin transition($duration) {
+  -webkit-transition: $duration;
+  -o-transition: $duration;
+  transition: $duration;
+}
+// box-shadow
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+// transform-rotate
+@mixin transform-rotate($rotate) {
+  -webkit-transform: rotate($rotate);
+  -ms-transform: rotate($rotate);
+  transform: rotate($rotate);
+}
+// background-opacity
+@mixin background-opacity($color, $opacity) {
+  background-color: rgba($color, $opacity);
+}
+// color-opacity
+@mixin color($color, $opacity) {
+  color: rgba($color, $opacity);
+}
+// size
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+// box-size
+@mixin box($height, $width, $backgroundColor) {
+  height: $height;
+  width: $width;
+  background-color: $backgroundColor;
+}
+// linx
+@mixin linx ($link, $visit, $hover, $active) {
+  a {
+    color: $link;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;
+    }
+    &:active {
+      color: $active;
+    }
+  }
+  // @include linx(white, blue, green, red);
+}
+// padding
+@mixin padding($pads...) {
+  padding: $pads;
+}
+//margin
+@mixin margin($margs) {
+  margin: $margs;
+}
+@mixin sexy-border($color, $width) {
+  border: {
+    color: $color;
+    width: $width;
+    style: dashed;
+  }
+}
+@mixin colors($text, $background, $border) {
+  color: $text;
+  background-color: $background;
+  border-color: $border;
+}
+
+// Responsive mixins //
+@mixin xxl-large-device {
+  @media (min-width: 1201px) and (max-width: 1400px) {
+    @content;
+  }
+}
+@mixin xl-large-device {
+  @media (min-width: 992px) and (max-width: 1366px) {
+    @content;
+  }
+}
+@mixin large-device {
+  @media (min-width: 992px) and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin min-large-device {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin medium-device {
+  @media (min-width: 768px) and (max-width: 991px) {
+    @content;
+  }
+}
+@mixin small-device {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+@mixin x-small-device {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+@mixin custom-device {
+  @media (min-width: 480px) and (max-width: 767px) {
+    @content;
+  }
+}
+@mixin xs-md-custom-device {
+  @media (min-width: 280px) and (max-width: 575px) {
+    @content;
+  }
+}
+@mixin md-custom-device {
+  @media (min-width: 280px) and (max-width: 490px) {
+    @content;
+  }
+}
+@mixin xs-custom-device {
+  @media (min-width: 280px) and (max-width: 320px) {
+    @content;
+  }
+}
+
+// IE 10+
+@mixin ie-10-plus {
+  @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+    @content;
+  }
+}
