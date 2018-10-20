@@ -4,9 +4,8 @@ import 'jquery';
 // Import everything from autoload
 // import "./autoload/**/*"
 import "./autoload/_bootstrap"
-import "./autoload/_swiper"
-import "./autoload/_flexslider"
-import "./autoload/_ekko-lightbox"
+import "./autoload/_owl"
+import "./autoload/_modernizr"
 
 // import local dependencies
 import Router from './util/Router';

@@ -2,9 +2,8 @@
 
 /** Import everything from autoload */
 @import "./autoload/bootstrap";
-@import "./autoload/swiper";
-@import "./autoload/flexslider";
-@import "./autoload/ekko-lightbox";
+@import "./autoload/fontawesome";
+@import "./autoload/deus/style";
 
 /**
  * Import npm dependencies
@@ -22,18 +21,14 @@
 @import "components/wp-classes";
 
 /** Helpers */
-@import "layouts/helpers/mixins";
-@import "layouts/helpers/typography";
-@import "layouts/helpers/colors";
-@import "layouts/helpers/variables";
-@import "layouts/helpers/common";
-@import "layouts/helpers/default";
+//@import "layouts/helpers/colors";
+//@import "layouts/helpers/default";
 
 /** Layout */
-@import "layouts/header";
-@import "layouts/nav";
-@import "layouts/sidebar";
-@import "layouts/footer";
-@import "layouts/pages";
-@import "layouts/posts";
-@import "layouts/tinymce";
+//@import "layouts/header";
+//@import "layouts/nav";
+//@import "layouts/sidebar";
+//@import "layouts/footer";
+//@import "layouts/pages";
+//@import "layouts/posts";
+//@import "layouts/tinymce";

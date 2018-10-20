@@ -5,7 +5,7 @@
 @extends('layouts.app')
 
 @section('content')
-    @include('partials.slider')
+    @include('partials.featured')
     @while(have_posts()) @php the_post() @endphp
     @if($recent_posts)
         @include('partials.latest-posts')

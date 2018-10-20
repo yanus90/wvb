@@ -11,8 +11,12 @@ use Roots\Sage\Template\BladeProvider;
  * Theme assets
  */
 add_action('wp_enqueue_scripts', function () {
+    $url = env('WP_HOME');
+
     wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
     wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+    wp_enqueue_script('deus/js/jquery.newsTicker.min.js', $url.'/app/themes/wvb-theme/resources/assets/scripts/deus/js/jquery.newsTicker.min.js', ['jquery'], null, true);
+    wp_enqueue_script('deus/js/scripts.js', $url.'/app/themes/wvb-theme/resources/assets/scripts/deus/js/scripts.js', ['jquery'], null, true);
 
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
@@ -130,3 +134,10 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+if( function_exists('acf_add_options_page') ) {
+    acf_add_options_page('Contactgegevens');
+}
+
+require_once('nav.php');
+register_nav_menu('primary_navigation', 'Primary navigation');

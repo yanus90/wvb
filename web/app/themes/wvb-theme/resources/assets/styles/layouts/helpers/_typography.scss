@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i');
+
 // Font Family
-$font-open-sans: 'Open Sans', sans-serif;
+$font-family: 'Montserrat', sans-serif;
 
 // Font Weight
-$weight-light: 300;
-$weight-regular: 400;
-$weight-semi-bold: 600;
-$weight-bold: 700;
-$weight-extra-bold: 800;
+$weight-light:        300;
+$weight-regular:      400;
+$weight-medium:       500;
+$weight-semi-bold:    600;
+$weight-bold:         700;
+$weight-extra-bold:   800;
 
 // Font Style
 $style-font: italic;
 
 // Font Size
-$font-size-root:				14px !default;
+$font-size-root:				16px !default;
 $font-size-base:				1 !default;
 
 $font-size-h1:       		    2.4375em !default;
