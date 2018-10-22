@@ -23,7 +23,7 @@ class bs4Navwalker extends Walker_Nav_Menu
      */
     public function start_lvl( &$output, $depth = 0, $args = array() ) {
         $indent = str_repeat("\t", $depth);
-        $output .= "\n$indent<div class=\"dropdown-menu\">\n";
+        $output .= "\n$indent<ul class=\"nav__dropdown-menu\">\n";
     }
 
     /**
@@ -39,7 +39,7 @@ class bs4Navwalker extends Walker_Nav_Menu
      */
     public function end_lvl( &$output, $depth = 0, $args = array() ) {
         $indent = str_repeat("\t", $depth);
-        $output .= "$indent</div>\n";
+        $output .= "$indent</ul>\n";
     }
 
     /**
@@ -75,10 +75,10 @@ class bs4Navwalker extends Walker_Nav_Menu
         $class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args, $depth ) );
 
         // New
-        $class_names .= ' nav-item';
+        $class_names .= '';
 
         if (in_array('menu-item-has-children', $classes)) {
-            $class_names .= ' dropdown';
+            $class_names .= ' nav__dropdown';
         }
 
         if (in_array('current-menu-item', $classes)) {
@@ -105,12 +105,12 @@ class bs4Navwalker extends Walker_Nav_Menu
         $id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
 
         // New
-        if ($depth === 0) {
-            $output .= $indent . '<li' . $id . $class_names .'>';
-        }
+//        if ($depth === 0) {
+//            $output .= $indent . '<li' . $id . $class_names .'>';
+//        }
         //
 
-        // $output .= $indent . '<li' . $id . $class_names .'>';
+        $output .= $indent . '<li' . $id . $class_names .'>';
 
         $atts = array();
         $atts['title']  = ! empty( $item->attr_title ) ? $item->attr_title : '';
@@ -125,18 +125,18 @@ class bs4Navwalker extends Walker_Nav_Menu
         }
 
         if ($depth === 0 && in_array('menu-item-has-children', $classes)) {
-            $atts['class']       .= 'nav-link dropdown-toggle';
-            $atts['data-toggle']  = 'dropdown';
-            $atts['aria-expanded']  = 'false';
+            $atts['class']       .= '';
+            $atts['data-toggle']  = '';
+            $atts['aria-expanded']  = '';
         }
 
-        if ($depth > 0) {
-            $manual_class = array_values($classes)[0] .' '. 'dropdown-item';
-            $atts ['class']= $manual_class;
-        }
+//        if ($depth > 0) {
+//            $manual_class = array_values($classes)[0] .' '. 'dropdown-item';
+//            $atts ['class']= $manual_class;
+//        }
 
         if (in_array('current-menu-item', $item->classes)) {
-            $atts['class'] .= ' active';
+            $atts['class'] .= 'active';
         }
         // print_r($item);
         //
@@ -171,15 +171,7 @@ class bs4Navwalker extends Walker_Nav_Menu
 
         $item_output = $args->before;
         // New
-        /*
-        if ($depth === 0 && in_array('menu-item-has-children', $classes)) {
-            $item_output .= '<a class="nav-link dropdown-toggle"' . $attributes .'data-toggle="dropdown">';
-        } elseif ($depth === 0) {
-            $item_output .= '<a class="nav-link"' . $attributes .'>';
-        } else {
-            $item_output .= '<a class="dropdown-item"' . $attributes .'>';
-        }
-        */
+
         //
         $item_output .= '<a'. $attributes .'>';
         /** This filter is documented in wp-includes/post-template.php */

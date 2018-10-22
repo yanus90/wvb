@@ -12,35 +12,35 @@
   $('.loader-mask').delay(350).fadeOut('slow');
 
 
-  // Init
-  initOwlCarousel();
-  setTimeout(function() {
-    initFlickity();
-  }, 1000);
-  
+  // // Init
+  // initOwlCarousel();
+  // setTimeout(function() {
+  //   initFlickity();
+  // }, 1000);
+  //
   
 
   $window.on('resize', function() {
-    hideSidenav();
+    // hideSidenav();
     megaMenu();
   });
 
-
-  /* Detect Browser Size
-  -------------------------------------------------------*/
-  var minWidth;
-  if (Modernizr.mq('(min-width: 0px)')) {
-    // Browsers that support media queries
-    minWidth = function (width) {
-      return Modernizr.mq('(min-width: ' + width + 'px)');
-    };
-  }
-  else {
-    // Fallback for browsers that does not support media queries
-    minWidth = function (width) {
-      return $window.width() >= width;
-    };
-  }
+  //
+  // /* Detect Browser Size
+  // -------------------------------------------------------*/
+  // var minWidth;
+  // if (Modernizr.mq('(min-width: 0px)')) {
+  //   // Browsers that support media queries
+  //   minWidth = function (width) {
+  //     return Modernizr.mq('(min-width: ' + width + 'px)');
+  //   };
+  // }
+  // else {
+  //   // Fallback for browsers that does not support media queries
+  //   minWidth = function (width) {
+  //     return $window.width() >= width;
+  //   };
+  // }
 
 
   /* Mobile Detect
@@ -110,12 +110,12 @@
     $contentOverlay.removeClass('content-overlay--is-visible');
   }
 
-  function hideSidenav() {
-    if( minWidth(992) ) {
-      resetNav();
-      setTimeout( megaMenu, 500 );
-    }
-  }
+  // function hideSidenav() {
+  //   if( minWidth(992) ) {
+  //     resetNav();
+  //     setTimeout( megaMenu, 500 );
+  //   }
+  // }
 
   $contentOverlay.on('click', function() {
     resetNav();
@@ -201,27 +201,6 @@
       $this.css('left', -offset);
     });
   }
-  
-
-  /* Twitter Feed
-  -------------------------------------------------------*/
-  if($('#tweets').length) {
-    function initTwitter() {
-      var config1 = {
-        "id": '594366594521804800',
-        "domId": 'tweets',
-        "showUser": false,
-        "showInteraction": false,
-        "showPermalinks": false,
-        "showTime": true,
-        "maxTweets": 2,
-        "enableLinks": true
-      };
-      twitterFetcher.fetch(config1);
-    }
-    initTwitter();
-  }
-
 
   /* YouTube Video Playlist
   -------------------------------------------------------*/
@@ -385,29 +364,29 @@
   };
 
 
-  /* Flickity Slider
-  -------------------------------------------------------*/
-  function initFlickity() {
-
-    // 1st carousel, main
-    $('#flickity-hero').flickity({
-      cellAlign: 'left',
-      contain: true,
-      pageDots: false,
-      prevNextButtons: false,
-      draggable: false
-    });
-
-    // 2nd carousel, navigation
-    $('#flickity-thumbs').flickity({
-      cellAlign: 'left',
-      asNavFor: '#flickity-hero',
-      contain: true,
-      pageDots: false,
-      prevNextButtons: false,
-      draggable: false
-    });
-  }
+  // /* Flickity Slider
+  // -------------------------------------------------------*/
+  // function initFlickity() {
+  //
+  //   // 1st carousel, main
+  //   $('#flickity-hero').flickity({
+  //     cellAlign: 'left',
+  //     contain: true,
+  //     pageDots: false,
+  //     prevNextButtons: false,
+  //     draggable: false
+  //   });
+  //
+  //   // 2nd carousel, navigation
+  //   $('#flickity-thumbs').flickity({
+  //     cellAlign: 'left',
+  //     asNavFor: '#flickity-hero',
+  //     contain: true,
+  //     pageDots: false,
+  //     prevNextButtons: false,
+  //     draggable: false
+  //   });
+  // }
 
 
   /* Sticky Socials
