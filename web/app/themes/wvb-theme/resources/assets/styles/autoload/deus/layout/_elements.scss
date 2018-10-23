@@ -109,6 +109,15 @@
     margin-left: 3px;
     top: -1px;
     line-height: 1;
+
+    &.home-btn {
+      font-size: 22px;
+      position: relative;
+      margin-left: 3px;
+      margin-right: 7px;
+      top: 3px;
+      line-height: 1;
+    }
   }
 }
 

@@ -8,7 +8,7 @@ class FrontPage extends Controller
 {
     public function RecentPosts() {
         $args = array(
-            'numberposts' => 3,
+            'numberposts' => 6,
             'offset' => 0,
             'category' => 5,
             'orderby' => 'post_date',

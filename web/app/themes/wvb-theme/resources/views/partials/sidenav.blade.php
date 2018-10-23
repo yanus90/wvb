@@ -2,7 +2,7 @@
 
     <div class="sidenav__close">
         <button class="sidenav__close-button" id="sidenav__close-button" aria-label="close sidenav">
-            <i class="ui-close sidenav__close-icon"></i>
+            <i class="fas fa-close"></i>
         </button>
     </div>
 
