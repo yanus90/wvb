@@ -1,0 +1,149 @@
+.header {
+  .topbar {
+    padding: 0.45rem 0;
+
+    p,
+    ul {
+      font-size: 0.875rem;
+      color: $primary;
+      font-weight: $font-weight-normal;
+
+      a {
+        color: $black;
+      }
+    }
+  }
+
+  .nav-wrapper {
+    @include media-breakpoint-down(sm) {
+      min-height: 5.5rem;
+    }
+
+    @include media-breakpoint-up(sm) {
+      min-height: 7.1875rem;
+    }
+
+    @include media-breakpoint-up(md) {
+      min-height: 7.5rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      min-height: 8.25rem;
+    }
+
+    .nav-container {
+      background: $primary;
+      color: $white;
+      padding: 0.5rem 0;
+      z-index: 10;
+
+      .navbar {
+        .navbar-brand {
+          margin-right: 3.45rem;
+
+          img {
+            &.logo {
+              height: 5.625rem;
+            }
+          }
+        }
+
+        .navbar-nav {
+          .menu-item {
+            margin-right: 1.875rem;
+
+            &:last-child {
+              margin-right: 0;
+            }
+
+            a {
+              color: #fff;
+              font-size: 1.125rem;
+
+              &:hover,
+              &:focus {
+                text-decoration: none;
+              }
+
+              &.nav-link {
+                padding: 0;
+              }
+            }
+          }
+
+          .menu-item-has-children {
+            .dropdown-menu {
+              a {
+                color: $paragraph-text-color;
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+
+        .navbar-more {
+          font-size: 1.125rem;
+          color: $black;
+          background: $white;
+          border: 0;
+          padding: 0.55rem 1rem;
+          border-radius: 0.25rem;
+
+          i {
+            font-size: 1.4rem;
+            color: $black;
+            vertical-align: middle;
+          }
+        }
+
+        form {
+          .input-search {
+            padding: 1.38rem 2.375rem 1.4rem 1.3rem;
+            border: 0;
+            font-size: 0.875rem;
+            font-weight: 400;
+
+            @include media-breakpoint-up(lg) {
+              width: 17.5rem;
+            }
+          }
+        }
+
+        ul {
+          &.social-links-header {
+            li {
+              &:first-child {
+                margin-right: 0.5rem;
+              }
+            }
+          }
+        }
+        .social-header-icon {
+          display: block;
+          border: 0.1875rem solid $white;
+          border-radius: 0.25rem;
+          color: #fff;
+          width: 2.8125rem;
+          height: 2.8125rem;
+          font-size: 1.4rem;
+          text-align: center;
+
+          i {
+            vertical-align: middle;
+          }
+
+          &:hover,
+          &:focus {
+            color: $primary-dark;
+            border-color: $primary-dark;
+            transition: ease 0.3s;
+
+            i {
+              color: $primary-dark;
+            }
+          }
+        }
+      }
+    }
+  }
+}

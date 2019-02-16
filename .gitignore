@@ -17,3 +17,5 @@ web/.htaccess
 
 # Composer
 /vendor
+
+.idea

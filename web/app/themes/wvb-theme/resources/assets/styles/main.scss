@@ -3,7 +3,6 @@
 /** Import everything from autoload */
 @import "./autoload/bootstrap";
 @import "./autoload/fontawesome";
-@import "./autoload/deus/style";
 
 /**
  * Import npm dependencies
@@ -20,15 +19,13 @@
 @import "components/forms";
 @import "components/wp-classes";
 
-/** Helpers */
-//@import "layouts/helpers/colors";
-//@import "layouts/helpers/default";
-
 /** Layout */
-//@import "layouts/header";
-//@import "layouts/nav";
-//@import "layouts/sidebar";
-//@import "layouts/footer";
-//@import "layouts/pages";
-//@import "layouts/posts";
-//@import "layouts/tinymce";
+@import "layouts/header";
+@import "layouts/slider";
+@import "layouts/nav";
+@import "layouts/navbar-right";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";

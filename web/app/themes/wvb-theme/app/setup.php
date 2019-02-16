@@ -11,12 +11,14 @@ use Roots\Sage\Template\BladeProvider;
  * Theme assets
  */
 add_action('wp_enqueue_scripts', function () {
-    $url = env('WP_HOME');
+    // Fonts
+    wp_enqueue_style('font/montserrat', 'https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
+    // Styles
     wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
+
+    // JavaScript
     wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
-    wp_enqueue_script('deus/js/jquery.newsTicker.min.js', $url.'/app/themes/wvb-theme/resources/assets/scripts/deus/js/jquery.newsTicker.min.js', ['jquery'], null, true);
-    wp_enqueue_script('deus/js/scripts.js', $url.'/app/themes/wvb-theme/resources/assets/scripts/deus/js/scripts.js', ['jquery'], null, true);
 
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
@@ -48,7 +50,11 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
      */
     register_nav_menus([
-        'primary_navigation' => __('Primary Navigation', 'sage')
+        'primary_navigation' => __('Hoofdmenu', 'sage')
+    ]);
+
+    register_nav_menus([
+        'right_navigation' => __('Rechternavigatie', 'sage')
     ]);
 
     /**
@@ -134,10 +140,3 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
-
-if( function_exists('acf_add_options_page') ) {
-    acf_add_options_page('Contactgegevens');
-}
-
-require_once('nav.php');
-register_nav_menu('primary_navigation', 'Primary navigation');

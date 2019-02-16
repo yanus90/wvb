@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $paragraph-text-color;
+
+  &.fixed-navbar {
+    .nav-container {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      box-shadow: 0 5px 40px 0 rgba($black, 0.1);
+    }
+  }
+
+  &.navbar-is-open {
+    overflow: hidden;
+
+    .navbar-overlay {
+      content: "";
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba($black, 0.7);
+      z-index: 10;
+    }
+  }
+}
+
+.section {
+  padding: 4.375rem 0;
+}
+
+.font-weight {
+  &-extra-light {
+    font-weight: $font-weight-extra-light;
+  }
+
+  &-light {
+    font-weight: $font-weight-light;
+  }
+
+  &-normal {
+    font-weight: $font-weight-normal;
+  }
+
+  &-medium {
+    font-weight: $font-weight-medium;
+  }
+
+  &-semi-bold {
+    font-weight: $font-weight-semi-bold;
+  }
+
+  &-bold {
+    font-weight: $font-weight-bold;
+  }
+
+  &-extra-bold {
+    font-weight: $font-weight-extra-bold;
+  }
+
+  &-black {
+    font-weight: $font-weight-black;
+  }
+}
+
+.pt-45,
+.px-45 {
+  padding-top: 2.65rem !important;
+}
+
+.pb-45,
+.py-45 {
+  padding-bottom: 2.65rem !important;
+}
+
+.img-grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}

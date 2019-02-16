@@ -1,0 +1,69 @@
+.carousel-inner {
+  img {
+    border-radius: 0.3125rem;
+  }
+}
+
+.home-cta {
+  display: inline-block;
+  border-radius: 0.3125rem;
+  background: $white;
+  box-shadow: 0 0 15px 0 rgba($black ,0.15);
+  margin-bottom: 1.45rem;
+
+  &.join {
+    background: $primary;
+    padding: 1.25rem 1.3rem 1.4rem 1.25rem;
+    width: 100%;
+    color: $white;
+
+    span {
+      display: block;
+
+      &.title {
+        font-weight: $font-weight-medium;
+        font-size: 1.375rem;
+        margin-bottom: 0.625rem;
+      }
+
+      &.text {
+        font-size: 1rem;
+        font-weight: $font-weight-normal;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      background: $primary-dark;
+      text-decoration: none;
+      transition: ease-in-out 0.2s;
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .image {
+    float: left;
+
+    img {
+      border-radius: 0.3125rem 0 0 0.3125rem;
+    }
+  }
+
+  .content {
+    float: left;
+    padding: 1.25rem 1.25rem 1rem 1.25rem;
+
+    h4 {
+      font-size: 1.25rem;
+      color: $black;
+    }
+
+    p {
+      font-size: 1rem;
+      color: $black;
+    }
+  }
+}

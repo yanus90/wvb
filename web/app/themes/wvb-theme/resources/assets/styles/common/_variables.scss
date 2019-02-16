@@ -1,10 +1,91 @@
 /** Import Bootstrap functions */
 @import "~bootstrap/scss/functions";
 
-$theme-colors: (
-  primary: #525ddc
-);
+$primary: #669D24;
+$secondary: #706e6f;
+$warning: #f1b600;
+$black: #000;
+$white: #fff;
+
+$primary-light: rgba($primary, 0.15);
+$primary-dark: #416C0F;
+$primary-super-light: rgba($primary, 0.12);
+$paragraph-text-color: #777;
+
+$bg-dark-light: #ededed;
+
+$secondary-dark: #4b4b4b;
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
 $navbar-light-toggler-icon-bg: none;
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+$grid-columns:      12;
+$grid-gutter-width: 30px;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1440px
+);
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1380px
+);
+
+$font-family-base: "Montserrat", sans-serif;
+$font-size-base: 1rem;
+
+$font-weight-extra-light: 200;
+$font-weight-light:       300;
+$font-weight-normal:      400;
+$font-weight-medium:      500;
+$font-weight-semi-bold:   600;
+$font-weight-bold:        700;
+$font-weight-extra-bold:  800;
+$font-weight-black:       900;
+
+$input-padding-y: 0.6875rem;
+$input-padding-x: $input-padding-y;
+
+/** Colors */
+.color {
+  &-primary {
+    color: $primary !important;
+  }
+
+  &-black {
+    color: $black !important;
+  }
+
+  &-white {
+    color: $white !important;
+  }
+}
+
+/** Background colors */
+.bg-primary-light {
+  background: $primary-light !important;
+}
+
+.bg-dark-light {
+  background: $bg-dark-light !important;
+}
