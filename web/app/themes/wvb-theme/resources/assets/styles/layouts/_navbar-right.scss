@@ -4,7 +4,7 @@
   right: -100%;
   bottom: 0;
   background: $white;
-  z-index: 11;
+  z-index: 21;
   width: 22.5rem;
   box-shadow: -0.5rem 0 2rem 0 rgba($black, 0.15);
   padding: 1.5rem 0.875rem 3rem;
@@ -60,13 +60,15 @@
       }
 
       &.icon {
+        border-bottom: none;
+
         a {
           background: $primary;
           border-radius: 50%;
           width: 60px;
           height: 60px;
           text-align: center;
-          line-height: 51px;
+          line-height: 40px;
           font-size: 1.5rem;
 
           i {

@@ -1,69 +1,81 @@
-.carousel-inner {
-  img {
-    border-radius: 0.3125rem;
-  }
-}
+.section-slider {
+  .carousel-inner {
+    img {
+      border-radius: 0.3125rem;
+    }
 
-.home-cta {
-  display: inline-block;
-  border-radius: 0.3125rem;
-  background: $white;
-  box-shadow: 0 0 15px 0 rgba($black ,0.15);
-  margin-bottom: 1.45rem;
+    .carousel-caption {
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-align: left;
+      width: 100%;
+      padding: 2.75rem;
+      background-image: linear-gradient(to bottom, rgba($black, 0), rgba($black, 0.7));
+      border-radius: 0 0 0.3125rem 0.3125rem;
 
-  &.join {
-    background: $primary;
-    padding: 1.25rem 1.3rem 1.4rem 1.25rem;
-    width: 100%;
-    color: $white;
-
-    span {
-      display: block;
-
-      &.title {
+      h3 {
+        font-size: 2.125rem;
         font-weight: $font-weight-medium;
-        font-size: 1.375rem;
-        margin-bottom: 0.625rem;
+      }
+    }
+  }
+
+  .card {
+    border: none;
+    box-shadow: 0 0 15px 0 rgba($black ,0.15);
+    border-radius: 0.3125rem;
+
+    .card-img {
+      border-radius: 0.3125rem 0 0 0.3125rem;
+    }
+
+    .card-body {
+      .card-title {
+        color: $black;
+        font-size: 1.3rem;
       }
 
-      &.text {
-        font-size: 1rem;
-        font-weight: $font-weight-normal;
+      .card-text {
+        color: $primary;
       }
     }
 
     &:hover,
     &:focus {
-      background: $primary-dark;
+      box-shadow: 0 0 15px 0 rgba($black ,0.25);
       text-decoration: none;
+      color: $primary-dark;
       transition: ease-in-out 0.2s;
     }
-  }
 
-  &:last-child {
-    margin-bottom: 0;
-  }
+    &.card-join {
+      background: $primary;
+      padding: 1.55rem 1.3rem;
+      color: $white;
 
-  .image {
-    float: left;
+      .card-body {
+        padding: 0;
 
-    img {
-      border-radius: 0.3125rem 0 0 0.3125rem;
-    }
-  }
+        .card-title {
+          font-weight: $font-weight-medium;
+          font-size: 1.375rem;
+          margin-bottom: 0.625rem;
+        }
 
-  .content {
-    float: left;
-    padding: 1.25rem 1.25rem 1rem 1.25rem;
+        .card-text {
+          font-size: 1rem;
+          font-weight: $font-weight-normal;
+        }
+      }
 
-    h4 {
-      font-size: 1.25rem;
-      color: $black;
-    }
-
-    p {
-      font-size: 1rem;
-      color: $black;
+      &:hover,
+      &:focus {
+        background: $primary-dark;
+        text-decoration: none;
+        transition: ease-in-out 0.2s;
+        box-shadow: 0 0 15px 0 rgba($black ,0.25);
+      }
     }
   }
 }

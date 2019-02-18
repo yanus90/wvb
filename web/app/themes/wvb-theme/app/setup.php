@@ -57,6 +57,18 @@ add_action('after_setup_theme', function () {
         'right_navigation' => __('Rechternavigatie', 'sage')
     ]);
 
+    register_nav_menus([
+        'top_navigation' => __('Top navigatie', 'sage')
+    ]);
+
+    register_nav_menus([
+        'Footer_1' => __('Footer 1', 'sage')
+    ]);
+
+    register_nav_menus([
+        'Footer_2' => __('Footer 2', 'sage')
+    ]);
+
     /**
      * Enable post thumbnails
      * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/

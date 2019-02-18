@@ -2,16 +2,20 @@
     <div class="topbar">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <p class="mb-0">Voetballen doe je bij Warnsveldse Boys</p>
-                </div>
-                <div class="col">
-                    <ul class="list-inline mb-0 text-right">
-                        <li class="list-inline-item"><a href="#" title="Home">Home</a></li>
-                        <li class="list-inline-item"><a href="#" title="Lid worden">Lid worden</a></li>
-                        <li class="list-inline-item"><a href="#" title="Route">Route</a></li>
-                        <li class="list-inline-item"><a href="#" title="Contact">Contact</a></li>
-                    </ul>
+                @if (get_field('slogan', 'option'))
+                    <div class="col-12 col-sm-7 col-md-6">
+                        <p class="mb-0">{!! get_field('slogan', 'option') !!}</p>
+                    </div>
+                @endif
+                <div class="d-none d-sm-block col-sm-5 col-md-6">
+                    @if (has_nav_menu('top_navigation'))
+                        {!!
+                            wp_nav_menu([
+                                'theme_location' => 'top_navigation',
+                                'menu_class' => 'list-inline mb-0 text-right'
+                            ])
+                        !!}
+                    @endif
                 </div>
             </div>
         </div>
@@ -20,6 +24,7 @@
         <div class="nav-container">
             <nav class="navbar navbar-expand-xl">
                 <div class="container">
+                    <div class="navbar-brand-bg"></div>
                     <a class="navbar-brand" href="{{ home_url('/') }}" title="{!! get_bloginfo('name', 'display') !!}">
                         <img src="{{ get_template_directory_uri() }}/assets/images/logo/logo.svg" class="logo" alt="{!! get_bloginfo('name', 'display') !!}">
                     </a>
@@ -46,12 +51,16 @@
                             <input name="s" class="form-control input-search" type="search" placeholder="Waar ben je naar op zoek?" aria-label="Zoeken">
                         </form>
                         <ul class="list-inline mb-0 social-links-header">
-                            <li class="list-inline-item">
-                                <a href="#" class="social-header-icon"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li class="list-inline-item mr-0">
-                                <a href="#" class="social-header-icon"><i class="fab fa-twitter"></i></a>
-                            </li>
+                            @if (get_field('facebook_pagina', 'option'))
+                                <li class="list-inline-item">
+                                    <a href="{{ get_field('facebook_pagina', 'option') }}" class="social-header-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                            @endif
+                            @if (get_field('twitter_pagina', 'option'))
+                                <li class="list-inline-item mr-0">
+                                    <a href="{{ get_field('twitter_pagina', 'option') }}" class="social-header-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+                                </li>
+                            @endif
                         </ul>
                     </div>
                 </div>
