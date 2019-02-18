@@ -7,34 +7,42 @@
         </div>
         <div class="row mb-5">
             <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <a href="#" class="card bg-dark text-white">
+                <a href="#" class="card">
                     <img src="//placehold.it/315x215" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="mt-auto">
+                            <h5 class="card-title">Hier kan een titel komen voor het nieuwsbericht</h5>
+                        </div>
                     </div>
                 </a>
             </div>
             <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <a href="#" class="card bg-dark text-white">
+                <a href="#" class="card">
                     <img src="//placehold.it/315x215" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="mt-auto">
+                            <h5 class="card-title">Hier kan een titel komen voor het nieuwsbericht</h5>
+                        </div>
                     </div>
                 </a>
             </div>
             <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <a href="#" class="card bg-dark text-white">
+                <a href="#" class="card">
                     <img src="//placehold.it/315x215" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="mt-auto">
+                            <h5 class="card-title">Hier kan een titel komen voor het nieuwsbericht</h5>
+                        </div>
                     </div>
                 </a>
             </div>
             <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <a href="#" class="card bg-dark text-white">
+                <a href="#" class="card">
                     <img src="//placehold.it/315x215" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="mt-auto">
+                            <h5 class="card-title">Hier kan een titel komen voor het nieuwsbericht</h5>
+                        </div>
                     </div>
                 </a>
             </div>

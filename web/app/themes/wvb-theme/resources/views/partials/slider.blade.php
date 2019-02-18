@@ -34,7 +34,7 @@
                                 <div class="d-none d-sm-block d-md-none d-lg-block col-sm-3 col-md-4">
                                     <img src="//placehold.it/160x117" class="card-img" alt="...">
                                 </div>
-                                <div class="col-sm-9 col-md-8">
+                                <div class="col-sm-9 col-md-12 col-lg-8">
                                     <div class="card-body">
                                         <h5 class="card-title mb-2">Wedstrijdverslagen</h5>
                                         <p class="card-text mb-0">Lees alle wedstrijdverslagen</p>
