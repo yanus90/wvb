@@ -9,7 +9,7 @@ function register_elftal_post_type() {
         'singular_name'      => 'Elftal',
         'menu_name'          => 'Elftallen',
         'name_admin_bar'     => 'Elftal',
-        'add_new'            => 'Nieuw elftal',
+        'add_new'            => 'Nieuw toevoegen',
         'add_new_item'       => 'Voeg nieuw elftal toe',
         'new_item'           => 'Nieuw elftal',
         'edit_item'          => 'Bewerk elftal',

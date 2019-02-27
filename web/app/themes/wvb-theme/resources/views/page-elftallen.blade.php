@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-12">
                     <ul class="list-inline mb-4">
-                        <li class="list-inline-item"><a href="/elftallen" title="Alle projecten" class="btn btn-sm btn-primary border-b-4-primary-dark">Alles</a></li>
+                        <li class="list-inline-item"><a href="/elftallen" title="Alle elftallen" class="btn btn-sm btn-primary border-b-4-primary-dark">Alles</a></li>
                         @foreach($categories as $category)
                             <li class="list-inline-item"><a href="/elftallen/{{ $category->slug }}" class="btn btn-sm btn-secondary border-b-4-secondary-dark">{{ $category->name }}</a></li>
                         @endforeach
@@ -20,16 +20,18 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 col-xxl-3 mb-4">
-                    @foreach ($elftallen as $elftal)
-                        <a href="{{ get_permalink($elftal) }}" class="card">
-                            <img src="{!! get_the_post_thumbnail_url($elftal) !!}" class="card-img" alt="{{ $elftal->post_title }}">
-                            <div class="card-img-overlay d-flex flex-column">
-                                <div class="btn-group mt-auto" role="group" aria-label="{{ $elftal->post_title }}">
-                                    <span class="btn btn-light btn-md no-border">{{ $elftal->post_title }}</span>
-                                    <span class="btn btn-primary btn-md no-border btn-i"><i class="far fa-angle-right"></i></span>
+                    @foreach($categories as $category)
+                        @foreach ($elftallen as $elftal)
+                            <a href="{{ get_permalink($category) }}" class="card">
+                                <img src="{!! get_the_post_thumbnail_url($elftal) !!}" class="card-img" alt="{{ $elftal->post_title }}">
+                                <div class="card-img-overlay d-flex flex-column">
+                                    <div class="btn-group mt-auto" role="group" aria-label="{{ $category->post_title }}">
+                                        <span class="btn btn-light btn-md no-border">{{ $category->post_title }}</span>
+                                        <span class="btn btn-primary btn-md no-border btn-i"><i class="far fa-angle-right"></i></span>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        @endforeach
                     @endforeach
                 </div>
             </div>

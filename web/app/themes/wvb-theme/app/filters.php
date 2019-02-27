@@ -80,3 +80,14 @@ add_filter('comments_template', function ($comments_template) {
 
     return $comments_template;
 }, 100);
+
+// Nice URL structure combining post_type and taxonomy when using links.
+add_filter('post_type_link', function ($post_link, $post) {
+    if (is_object($post) && $post->post_type === 'elftal') {
+        $terms = wp_get_object_terms($post->ID, 'afdeling');
+        if ($terms) {
+            return str_replace('%afdeling%' , $terms[0]->slug , $post_link);
+        }
+    }
+    return $post_link;
+}, 1, 2);
