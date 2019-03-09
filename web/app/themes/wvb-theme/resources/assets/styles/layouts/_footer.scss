@@ -1,0 +1,15 @@
+.footer {
+  background: #ededed;
+
+  .footer-first {
+    &::after {
+      background: $primary;
+      -webkit-transform-origin: bottom left;
+      -o-transform-origin: bottom left;
+      transform-origin: bottom left;
+      -webkit-transform: skew(-10deg, 0deg);
+      -o-transform: skew(-10deg, 0deg);
+      transform: skew(-10deg, 0deg);
+    }
+  }
+}

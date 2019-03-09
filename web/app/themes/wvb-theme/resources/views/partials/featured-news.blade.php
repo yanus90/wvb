@@ -19,6 +19,7 @@
                             <img src="{!! get_the_post_thumbnail_url() !!}" class="card-img" alt="">
                             <div class="card-img-overlay d-flex flex-column">
                                 <div class="mt-auto">
+                                    <h6 class="date small">{{ get_the_date() }}</h6>
                                     <h5 class="card-title">{{ get_the_title() }}</h5>
                                 </div>
                             </div>
