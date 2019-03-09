@@ -62,7 +62,7 @@
     "wpackagist-plugin/wp-smushit": "^3.1",
     "wpackagist-plugin/invisible-recaptcha": "^1.2",
     "advanced-custom-fields/advanced-custom-fields-pro": "^5.7.0",
-    "wpackagist-plugin/wordpress-seo":"^9.6",
+    "wpackagist-plugin/wordpress-seo":"^9.7",
     "wpackagist-plugin/bootstrap-for-contact-form-7":"1.4.8"
   },
   "require-dev": {

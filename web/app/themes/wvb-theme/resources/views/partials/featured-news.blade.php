@@ -6,50 +6,30 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <a href="#" class="card">
-                    <img src="//placehold.it/315x215" class="card-img" alt="...">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="mt-auto">
-                            <h5 class="card-title">Hier kan een titel komen voor het nieuwsbericht</h5>
-                        </div>
+
+            @php
+                $args = array('post_type' => 'post', 'posts_per_page' => 4);
+                $loop = new WP_Query($args);
+            @endphp
+
+            @while ($loop->have_posts()) @php $loop->the_post() @endphp
+                @if (has_post_thumbnail())
+                    <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                        <a href="{{ get_the_permalink() }}" class="card" title="{{ get_the_title() }}">
+                            <img src="{!! get_the_post_thumbnail_url() !!}" class="card-img" alt="">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <div class="mt-auto">
+                                    <h5 class="card-title">{{ get_the_title() }}</h5>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <a href="#" class="card">
-                    <img src="//placehold.it/315x215" class="card-img" alt="...">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="mt-auto">
-                            <h5 class="card-title">Hier kan een titel komen voor het nieuwsbericht</h5>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <a href="#" class="card">
-                    <img src="//placehold.it/315x215" class="card-img" alt="...">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="mt-auto">
-                            <h5 class="card-title">Hier kan een titel komen voor het nieuwsbericht</h5>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <a href="#" class="card">
-                    <img src="//placehold.it/315x215" class="card-img" alt="...">
-                    <div class="card-img-overlay d-flex flex-column">
-                        <div class="mt-auto">
-                            <h5 class="card-title">Hier kan een titel komen voor het nieuwsbericht</h5>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                @endif
+            @endwhile
         </div>
         <div class="row">
             <div class="col text-center">
-                <a href="#" class="btn btn-lg btn-primary">Nieuwsoverzicht<i class="fal fa-angle-right ml-3"></i></a>
+                <a href="/nieuws" class="btn btn-lg btn-primary" title="Nieuwsoverzicht">Nieuwsoverzicht<i class="fal fa-angle-right ml-3"></i></a>
             </div>
         </div>
     </div>
