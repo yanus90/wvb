@@ -2,10 +2,17 @@
 
 namespace App\Controllers;
 
+use Carbon\Carbon;
 use Sober\Controller\Controller;
 
 class App extends Controller
 {
+    public function __construct()
+    {
+        setlocale(LC_ALL, 'nl_NL.utf8');
+        Carbon::setLocale('nl');
+    }
+
     public function siteName()
     {
         return get_bloginfo('name');

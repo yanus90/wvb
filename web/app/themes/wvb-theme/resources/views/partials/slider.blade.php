@@ -4,26 +4,19 @@
             @if (get_field('homepagina_slider'))
                 <div class="col-xl-7 col-xxl-8 mb-4 mb-xl-0">
                     <div id="carouselHome" class="carousel slide" data-ride="carousel">
-                        @if ( count(get_field('homepagina_slider')) > 1 )
-                            <ol class="carousel-indicators">
-                                @php $i = 0; @endphp
-                                @foreach (get_field('homepagina_slider') as $slide)
-                                    <li data-target="#carouselHome" data-slide-to="{{ $i }}" class="{{ ($i == 0 ? 'active' : '') }}"></li>
-                                    @php $i++ @endphp
-                                @endforeach
-                            </ol>
-                        @endif
+                        <ol class="carousel-indicators">
+                            @foreach ($slider as $key => $slide)
+                                <li data-target="#carouselHome" data-slide-to="{{ $key }}" @if ($key < 1) class="active" @endif></li>
+                            @endforeach
+                        </ol>
                         <div class="carousel-inner">
-                            @php $i = 0; @endphp
-    {{--                        {{ dd(get_field('homepagina_slider')) }}--}}
-                            @foreach (get_field('homepagina_slider') as $slide)
-                                <a href="{{ $slide['link'] }}" class="carousel-item {{ ($i == 0 ? 'active' : '') }}" title="{!! $slide['titel'] !!}" target="{{ ($slide['nieuw_tabblad'] == '_blank' ? '_blank' : 'self') }}">
-                                    <img src="{{ $slide['afbeelding'][$i]['url'] }}" class="d-block w-100" alt="{!! $slide['afbeelding'][$i]['alt'] !!}">
+                            @foreach ($slider as $key => $slide)
+                                <a href="{{ $slide['link'] }}" class="carousel-item @if ($key < 1) active @endif" title="{!! $slide['titel'] !!}" target="{{ ($slide['nieuw_tabblad'] == '_blank' ? '_blank' : 'self') }}">
+                                    <img src="{!! $slide['afbeelding']['url'] !!}" class="d-block w-100" alt="{!! $slide['afbeelding']['alt'] !!}">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h3>{!! $slide['titel'] !!}</h3>
                                     </div>
                                 </a>
-                                @php $i++ @endphp
                             @endforeach
                         </div>
                     </div>

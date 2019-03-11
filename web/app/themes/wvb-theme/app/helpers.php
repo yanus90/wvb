@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Carbon\Carbon;
 use Roots\Sage\Container;
 
 /**
@@ -139,4 +140,9 @@ function display_sidebar()
     static $display;
     isset($display) || $display = apply_filters('sage/display_sidebar', false);
     return $display;
+}
+
+function getDutchDate($string, $format = 'd F Y')
+{
+    return Carbon::parse($string)->format($format);
 }
