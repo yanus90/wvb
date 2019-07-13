@@ -47,10 +47,10 @@
                         <span class="d-none d-lg-inline-block mr-3">
                             <button class="btn navbar-more" onclick="toggleMenu()">Meer <i class="fal fa-align-right ml-2"></i></button>
                         </span>
-                        <form class="form-inline my-2 my-lg-0 mr-lg-3 d-none d-lg-block" action="/" method="GET">
-                            <input name="s" class="form-control input-search" type="search" placeholder="Waar ben je naar op zoek?" aria-label="Zoeken">
-                        </form>
                         <ul class="list-inline mb-0 social-links-header">
+                            <li class="list-inline-item">
+                                <a href="#" class="social-header-icon" target="_blank"><i class="fal fa-search"></i></a>
+                            </li>
                             @if (get_field('facebook_pagina', 'option'))
                                 <li class="list-inline-item">
                                     <a href="{{ get_field('facebook_pagina', 'option') }}" class="social-header-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>

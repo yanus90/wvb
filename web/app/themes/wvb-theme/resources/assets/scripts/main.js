@@ -4,7 +4,7 @@ import 'jquery';
 // Import everything from autoload
 // import "./autoload/**/*"
 import "./autoload/_bootstrap"
-import "./autoload/_magnific-popup"
+import "./autoload/_fancybox"
 
 // import local dependencies
 import Router from './util/Router';

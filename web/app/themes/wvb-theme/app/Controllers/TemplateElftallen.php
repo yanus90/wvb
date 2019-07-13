@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Controllers\Partials\AllAfdelingen;
 use Sober\Controller\Controller;
 
-class PageElftallen extends Controller
+class TemplateElftallen extends Controller
 {
     use AllAfdelingen;
 

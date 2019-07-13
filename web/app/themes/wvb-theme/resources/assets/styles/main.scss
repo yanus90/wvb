@@ -3,6 +3,7 @@
 /** Import everything from autoload */
 @import "./autoload/bootstrap";
 @import "./autoload/fontawesome";
+@import "./autoload/fancybox";
 
 /**
  * Import npm dependencies
@@ -14,7 +15,9 @@
 
 /** Import theme styles */
 @import "common/global";
+@import "helpers/mixins";
 @import "components/buttons";
+@import "components/cards";
 @import "components/comments";
 @import "components/forms";
 @import "components/wp-classes";
@@ -31,4 +34,5 @@
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
+@import "layouts/events";
 @import "layouts/tinymce";

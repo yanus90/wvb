@@ -39,3 +39,41 @@ function custom_afdeling_taxonomy()
     ];
     register_taxonomy('afdeling', ['elftal'], $args);
 }
+
+add_action('init', 'custom_category_sponsor_taxonomy', 0);
+function custom_category_sponsor_taxonomy()
+{
+    $labels = [
+        'name'                       => 'Soorten',
+        'singular_name'              => 'Soort',
+        'menu_name'                  => 'Soorten',
+        'all_items'                  => __( 'Alle soorten', 'text_domain' ),
+        'parent_item'                => __( 'Hoofd soort', 'text_domain' ),
+        'parent_item_colon'          => __( 'Hoofd soort:', 'text_domain' ),
+        'new_item_name'              => __( 'Nieuw soort', 'text_domain' ),
+        'add_new_item'               => __( 'Voeg soort toe', 'text_domain' ),
+        'edit_item'                  => __( 'Soort aanpassen', 'text_domain' ),
+        'update_item'                => __( 'Bewerk soort', 'text_domain' ),
+        'view_item'                  => __( 'Toon soort', 'text_domain' ),
+        'separate_items_with_commas' => __( 'Separate items with commas', 'text_domain' ),
+        'add_or_remove_items'        => __( 'Soorten toevoegen of verwijderen', 'text_domain' ),
+        'choose_from_most_used'      => __( 'Choose from the most used', 'text_domain' ),
+        'popular_items'              => __( 'Pupulaire soorten', 'text_domain' ),
+        'search_items'               => __( 'Zoek soorten', 'text_domain' ),
+        'not_found'                  => __( 'Niet gevonden', 'text_domain' ),
+        'no_terms'                   => __( 'Geen soorten', 'text_domain' ),
+        'items_list'                 => __( 'Soorten lijst', 'text_domain' ),
+        'items_list_navigation'      => __( 'Soortenlijst navigatie', 'text_domain' ),
+    ];
+    $args = [
+        'labels'                     => $labels,
+        'hierarchical'               => false,
+        'public'                     => true,
+        'show_ui'                    => true,
+        'show_admin_column'          => true,
+        'show_in_nav_menus'          => true,
+        'show_tagcloud'              => true,
+        'rewrite'                    => ['slug' => 'sponsoren'],
+    ];
+    register_taxonomy('soort', ['sponsor'], $args);
+}

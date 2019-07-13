@@ -1,0 +1,56 @@
+// border-radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+// transition
+@mixin transition($duration) {
+  -webkit-transition: $duration;
+  -o-transition: $duration;
+  transition: $duration;
+}
+// box-shadow
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+// transform-rotate
+@mixin transform-rotate($rotate) {
+  -webkit-transform: rotate($rotate);
+  -ms-transform: rotate($rotate);
+  transform: rotate($rotate);
+}
+// transform-translate
+@mixin transform-translate($translate) {
+  -webkit-transform: translate($translate);
+  -moz-transform: translate($translate);
+  -ms-transform: translate($translate);
+  -o-transform: translate($translate);
+  transform: translate($translate);
+}
+// transform
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+// webkit-animation
+@mixin webkit-animation($animation) {
+  -webkit-animation: $animation;
+  animation: $animation;
+}
+// text-shadow
+@mixin text-shadow($shadow) {
+  text-shadow: $shadow;
+}
+// filter
+@mixin filter($filter) {
+  -webkit-filter: $filter;
+  filter: $filter;
+}
+// background-opacity
+@mixin background-opacity($color, $opacity) {
+  background-color: rgba($color, $opacity);
+}

@@ -1,0 +1,89 @@
+.card {
+  &.no-border {
+    border: none;
+    border-radius: 0;
+
+    .card-img {
+      border-radius: 0;
+    }
+  }
+
+  &.card-sponsor {
+    padding: 0.875rem 1.2rem;
+
+    &.small {
+      height: 7rem;
+
+      img {
+        max-height: 4.5rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        height: 9rem;
+
+        img {
+          max-height: 6.5rem;
+        }
+      }
+
+      @include media-breakpoint-up(lg) {
+        height: 9rem;
+
+        img {
+          max-height: 6.5rem;
+        }
+      }
+
+      @include media-breakpoint-up(xl) {
+        height: 7rem;
+
+        img {
+          max-height: 4rem;
+          max-width: 8rem;
+        }
+      }
+    }
+
+    &.big {
+      height: 13rem;
+
+      img {
+        max-height: 9rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        height: 9rem;
+
+        img {
+          max-height: 6.5rem;
+        }
+      }
+
+      @include media-breakpoint-up(lg) {
+        height: 9rem;
+
+        img {
+          max-height: 6.5rem;
+        }
+      }
+
+      @include media-breakpoint-up(xl) {
+        height: 12rem;
+
+        img {
+          max-height: 9rem;
+        }
+      }
+    }
+
+    &.main-sponsor {
+      @include media-breakpoint-up(xl) {
+        height: 15.5rem;
+
+        img {
+          max-height: 8rem;
+        }
+      }
+    }
+  }
+}

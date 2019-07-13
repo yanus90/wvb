@@ -10,7 +10,7 @@ class App extends Controller
     public function __construct()
     {
         setlocale(LC_ALL, 'nl_NL.utf8');
-        Carbon::setLocale('nl');
+        Carbon::setLocale('nl_NL');
     }
 
     public function siteName()

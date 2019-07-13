@@ -12,7 +12,7 @@
                         <div class="carousel-inner">
                             @foreach ($slider as $key => $slide)
                                 <a href="{{ $slide['link'] }}" class="carousel-item @if ($key < 1) active @endif" title="{!! $slide['titel'] !!}" target="{{ ($slide['nieuw_tabblad'] == '_blank' ? '_blank' : 'self') }}">
-                                    <img src="{!! $slide['afbeelding']['url'] !!}" class="d-block w-100" alt="{!! $slide['afbeelding']['alt'] !!}">
+                                    <img src="{!! wp_get_attachment_image_url($slide['afbeelding']['ID'], 'slider_image_crop') !!}" class="d-block w-100" alt="{!! $slide['afbeelding']['alt'] !!}">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h3>{!! $slide['titel'] !!}</h3>
                                     </div>
@@ -62,7 +62,7 @@
                         </a>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 col-xl-12">
-                        <a href="#" class="card">
+                        <a href="/evenementen" class="card" title="Wat staat er op de agenda?">
                             <div class="row no-gutters">
                                 <div class="d-none d-lg-block col-md-4">
                                     <img src="//placehold.it/160x117" class="card-img" alt="...">

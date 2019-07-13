@@ -16,6 +16,12 @@ $bg-dark-light: #ededed;
 
 $secondary-dark: #4b4b4b;
 
+$twitter-blue:      #1da1f2;
+$faceboook-blue:    #3b5998;
+$linkedin-blue:     #0077b5;
+$instagram:         #405de6;
+$whatsapp:          #25d366;
+
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
 $navbar-light-toggler-icon-bg: none;
@@ -65,31 +71,3 @@ $font-weight-black:       900;
 
 $input-padding-y: 0.6875rem;
 $input-padding-x: $input-padding-y;
-
-/** Colors */
-.color {
-  &-primary {
-    color: $primary !important;
-  }
-
-  &-black {
-    color: $black !important;
-  }
-
-  &-white {
-    color: $white !important;
-  }
-}
-
-/** Background colors */
-.bg-primary-light {
-  background: $primary-light !important;
-}
-
-.bg-primary-dark {
-  background: $primary-dark !important;
-}
-
-.bg-dark-light {
-  background: $bg-dark-light !important;
-}

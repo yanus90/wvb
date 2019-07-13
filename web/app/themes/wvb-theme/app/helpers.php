@@ -142,7 +142,17 @@ function display_sidebar()
     return $display;
 }
 
-function getDutchDate($string, $format = 'd F Y')
+/**
+ * Return the current URL.
+ * @return string
+ */
+function current_location()
 {
-    return Carbon::parse($string)->format($format);
+    global $wp;
+    return home_url($wp->request);
+}
+
+function currentUrl()
+{
+    return (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 }

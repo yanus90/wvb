@@ -1,17 +1,37 @@
-.section-single-post {
-  padding: 4.375rem 0;
-
-  .post-image {
-    border-radius: 0.3125rem;
+.news-list {
+  .news-item {
+    display: block;
+    background: $white;
     margin-bottom: 2rem;
+    @include border-radius(0.3125rem);
+    @include box-shadow(0 0 1.5rem 0 rgba($black, 0.2));
 
-    img {
-      border-radius: 0.3125rem;
+    .news-item-image {
+      img {
+        @include border-radius(0.3125rem 0 0.3125rem 0);
+
+        @include media-breakpoint-up(sm) {
+          @include border-radius(0.3125rem 0 0 0.3125rem);
+        }
+
+        @include media-breakpoint-up(lg) {
+          @include border-radius(0.3125rem 0 0.3125rem 0);
+        }
+
+        @include media-breakpoint-up(xl) {
+          @include border-radius(0.3125rem 0 0 0.3125rem);
+        }
+      }
     }
-  }
 
-  .post-meta {
-    margin-bottom: 1.75rem;
-    font-size: 0.875rem;
+    .news-item-content {
+      padding: 0.875rem 1rem;
+
+      hr {
+        margin-top: 0.3rem;
+        margin-bottom: 0.9rem;
+        border-top: 1px solid rgba($black, 0.2);
+      }
+    }
   }
 }

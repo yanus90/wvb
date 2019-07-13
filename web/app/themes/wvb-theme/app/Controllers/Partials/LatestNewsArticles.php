@@ -9,9 +9,8 @@ trait LatestNewsArticles
         $query = new \WP_Query([
             'post_type' => 'post',
             'post_status' => 'publish',
-            'order' => 'desc',
-            'orderby' => 'post_date',
-            'per_page' => 4
+            'posts_per_page' => 3,
+            'ignore_sticky_posts' => 1
         ]);
         return $query->posts;
     }

@@ -17,28 +17,12 @@ class TaxonomyAfdeling extends Controller
         $this->category = get_queried_object();
     }
 
-//    public function leftDescription()
-//    {
-//        $description['koptekst'] = get_term_meta($this->category->term_id, 'two_text_columns_linkerkoptekst', true);
-//        $description['subtekst'] = get_term_meta($this->category->term_id, 'two_text_columns_linkersubtekst', true);
-//
-//        return $description;
-//    }
-//
-//    public function rightDescription()
-//    {
-//        $description['koptekst'] = get_term_meta($this->category->term_id, 'two_text_columns_rechterkoptekst', true);
-//        $description['subtekst'] = get_term_meta($this->category->term_id, 'two_text_columns_rechtersubtekst', true);
-//
-//        return $description;
-//    }
-
     public function elftallen()
     {
         $query = new \WP_Query([
             'post_type' => 'elftal',
             'orderby' => 'menu_order',
-            'order' => 'DESC',
+            'order' => 'ASC',
             'tax_query' => [
                 [
                     'taxonomy' => 'afdeling',
