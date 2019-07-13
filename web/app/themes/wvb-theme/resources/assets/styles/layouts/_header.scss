@@ -53,6 +53,7 @@
           top: -0.5rem;
           margin-left: -2.2rem;
           z-index: 1;
+          transition: all 0.3s ease-out;
 
           &::before,
           &::after {
@@ -86,10 +87,12 @@
         .navbar-brand {
           margin-right: 3.45rem;
           z-index: 2;
+          transition: all 0.3s ease-out;
 
           img {
             &.logo {
               height: 5.625rem;
+              transition: all 0.3s ease-out;
             }
           }
         }
@@ -145,24 +148,6 @@
             font-size: 1.4rem;
             color: $black;
             vertical-align: middle;
-          }
-        }
-
-        form {
-          .input-search {
-            border: 0;
-            font-size: 0.875rem;
-            font-weight: 400;
-
-            @include media-breakpoint-up(md) {
-              padding: 1.38rem 1.3rem 1.4rem 1.3rem;
-              width: 14.5rem;
-            }
-
-            @include media-breakpoint-up(xxl) {
-              padding: 1.38rem 2.375rem 1.4rem 1.3rem;
-              width: 17.5rem;
-            }
           }
         }
 

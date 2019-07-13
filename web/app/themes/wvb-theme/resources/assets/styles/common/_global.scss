@@ -13,7 +13,25 @@ body {
       position: fixed;
       width: 100%;
       top: 0;
-      box-shadow: 0 5px 40px 0 rgba($black, 0.1);
+      box-shadow: 0 5px 40px 0 rgba($black, 0.25);
+
+      .navbar {
+        .navbar-brand-bg {
+          @include media-breakpoint-up(xl) {
+            width: 9.2rem !important;
+            height: 7.1rem !important;
+          }
+        }
+        .navbar-brand {
+          img {
+            &.logo {
+              @include media-breakpoint-up(xl) {
+                height: 4.5rem !important;
+              }
+            }
+          }
+        }
+      }
     }
   }
 
