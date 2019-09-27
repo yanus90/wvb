@@ -1,7 +1,8 @@
 <div class="section section-content">
     <div class="container">
-        <div class="row justify-content-lg-center mb-5">
-            <div class="col-12 col-lg-10 col-xl-8">
+        <div class="row mb-5">
+            <div class="col-lg-2"></div>
+            <div class="col-12 col-lg-8">
                 <div class="row">
                     <div class="col-12 font-weight-medium line-height-md-big">
                         @php the_content() @endphp
@@ -35,7 +36,18 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        @include('partials.pagination-news')
+                        <ul class="pagination">
+                            {!!
+                                paginate_links([
+                                    'base' => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
+                                    'format' => '/page/%#%',
+                                    'current' => max(1, get_query_var('paged')),
+                                    'total' => $news_query->max_num_pages,
+                                    'prev_text' => '«',
+                                    'next_text' => '»',
+                                ])
+                            !!}
+                        </ul>
                     </div>
                 </div>
             </div>

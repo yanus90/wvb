@@ -33,10 +33,10 @@
                         </a>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-xl-12">
-                        <a href="#" class="card mb-4">
+                        <a href="/wedstrijdverslagen" class="card mb-4" title="Wedstrijdverslagen">
                             <div class="row no-gutters">
                                 <div class="d-none d-sm-block d-md-none d-lg-block col-sm-3 col-md-4">
-                                    <img src="//placehold.it/160x117" class="card-img" alt="...">
+                                    <img src="//placehold.it/160x117" class="card-img" alt="Wedstrijdverslagen">
                                 </div>
                                 <div class="col-sm-9 col-md-12 col-lg-8">
                                     <div class="card-body">

@@ -1,0 +1,10 @@
+.pagination {
+  .page-numbers {
+    @extend .page-link;
+
+    &.current {
+      background: $primary-dark;
+      color: $white;
+    }
+  }
+}

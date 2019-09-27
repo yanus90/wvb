@@ -34,7 +34,7 @@ function register_elftal_post_type() {
         'has_archive'        => 'afdeling',
         'hierarchical'       => true,
         'menu_position'      => null,
-        'supports'           => ['title', 'editor', 'thumbnail', 'excerpt', 'page-attributes'],
+        'supports'           => ['title', 'page-attributes'],
         'taxonomies'         => ['afdeling']
     ];
     register_post_type('elftal', $args);
@@ -79,6 +79,7 @@ function register_evenement_post_type() {
     register_post_type('evenement', $args);
 }
 
+// Sponsoren
 add_action('init', 'register_sponsor_post_type');
 function register_sponsor_post_type() {
     $labels = [
@@ -115,4 +116,82 @@ function register_sponsor_post_type() {
         'taxonomies'         => ['soorten']
     ];
     register_post_type('sponsor', $args);
+}
+
+// Personen
+add_action('init', 'register_person_post_type');
+function register_person_post_type() {
+    $labels = [
+        'name'               => 'Personen',
+        'singular_name'      => 'Persoon',
+        'menu_name'          => 'Personen',
+        'name_admin_bar'     => 'Persoon',
+        'add_new'            => 'Nieuwe toevoegen',
+        'add_new_item'       => 'Voeg nieuw persoon toe',
+        'new_item'           => 'Nieuw persoon',
+        'edit_item'          => 'Bewerk persoon',
+        'view_item'          => 'Bekijk persoon',
+        'all_items'          => 'Alle personen',
+        'search_items'       => 'Zoek personen',
+        'parent_item_colon'  => 'Bovenliggend persoon',
+        'not_found'          => 'Geen personen gevonden',
+        'not_found_in_trash' => 'Geen personen gevonden in de prullenbak'
+    ];
+    $args = [
+        'labels'             => $labels,
+        'description'        => 'Personen post type',
+        'public'             => false,
+        'publicly_queryable' => false,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => true,
+        'menu_position'      => null,
+        'menu_icon'          => 'dashicons-admin-users',
+        'taxonomies'         => ['functies'],
+        'supports'           => ['title', 'page-attributes']
+    ];
+    register_post_type('person', $args);
+    add_post_type_support('person', 'page-attributes');
+}
+
+// Spelers
+add_action('init', 'register_speler_post_type');
+function register_speler_post_type() {
+    $labels = [
+        'name'               => 'Spelers',
+        'singular_name'      => 'Speler',
+        'menu_name'          => 'Spelers',
+        'name_admin_bar'     => 'Speler',
+        'add_new'            => 'Nieuwe toevoegen',
+        'add_new_item'       => 'Voeg nieuwe speler toe',
+        'new_item'           => 'Nieuwe speler',
+        'edit_item'          => 'Bewerk speler',
+        'view_item'          => 'Bekijk speler',
+        'all_items'          => 'Alle spelers',
+        'search_items'       => 'Zoek spelers',
+        'parent_item_colon'  => 'Bovenliggende spelers',
+        'not_found'          => 'Geen spelers gevonden',
+        'not_found_in_trash' => 'Geen spelers gevonden in de prullenbak'
+    ];
+    $args = [
+        'labels'             => $labels,
+        'description'        => 'Spelers post type',
+        'public'             => false,
+        'publicly_queryable' => false,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => true,
+        'menu_position'      => null,
+        'menu_icon'          => 'dashicons-admin-users',
+        'taxonomies'         => ['functies'],
+        'supports'           => ['title', 'page-attributes']
+    ];
+    register_post_type('speler', $args);
+    add_post_type_support('speler', 'page-attributes');
 }

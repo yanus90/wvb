@@ -44,24 +44,9 @@
                                 ])
                             !!}
                         @endif
-                        <span class="d-none d-lg-inline-block mr-3">
+                        <span class="d-none d-lg-inline-block">
                             <button class="btn navbar-more" onclick="toggleMenu()">Meer <i class="fal fa-align-right ml-2"></i></button>
                         </span>
-                        <ul class="list-inline mb-0 social-links-header">
-                            <li class="list-inline-item">
-                                <a href="#" class="social-header-icon" target="_blank"><i class="fal fa-search"></i></a>
-                            </li>
-                            @if (get_field('facebook_pagina', 'option'))
-                                <li class="list-inline-item">
-                                    <a href="{{ get_field('facebook_pagina', 'option') }}" class="social-header-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                            @endif
-                            @if (get_field('twitter_pagina', 'option'))
-                                <li class="list-inline-item mr-0">
-                                    <a href="{{ get_field('twitter_pagina', 'option') }}" class="social-header-icon" target="_blank"><i class="fab fa-twitter"></i></a>
-                                </li>
-                            @endif
-                        </ul>
                     </div>
                 </div>
             </nav>

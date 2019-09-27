@@ -28,13 +28,6 @@ export default {
         }
       });
     });
-
-    $('.popup-image').magnificPopup({
-      type:'image',
-      gallery: {
-        enabled: true,
-      },
-    });
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired

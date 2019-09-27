@@ -19,6 +19,7 @@ add_action('wp_enqueue_scripts', function () {
 
     // JavaScript
     wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+    wp_enqueue_script('sportlink', 'https://dexels.github.io/navajofeeds-json-parser/js/dist/feed-0.0.1.min.js');
 
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
