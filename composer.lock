@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d039b5ed9032e3fa9d25d7031152e972",
+    "content-hash": "05e645ff491e79d9d37929d92d2fed66",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -255,6 +255,56 @@
                 "wp"
             ],
             "time": "2019-01-30T21:44:48+00:00"
+        },
+        {
+            "name": "j7mbo/twitter-api-php",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/J7mbo/twitter-api-php.git",
+                "reference": "443d22c53d621b3cc6b7e0c56daa60c5ada033f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/J7mbo/twitter-api-php/zipball/443d22c53d621b3cc6b7e0c56daa60c5ada033f7",
+                "reference": "443d22c53d621b3cc6b7e0c56daa60c5ada033f7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.5,>=4.5.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "TwitterAPIExchange.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU Public License"
+            ],
+            "authors": [
+                {
+                    "name": "James Mallison",
+                    "homepage": "https://github.com/j7mbo/twitter-api-php"
+                }
+            ],
+            "description": "Simple PHP Wrapper for Twitter API v1.1 calls",
+            "homepage": "https://github.com/j7mbo/twitter-api-php",
+            "keywords": [
+                "api",
+                "php",
+                "twitter"
+            ],
+            "time": "2017-05-08T12:10:56+00:00"
         },
         {
             "name": "jamesryanbell/cloudflare",
@@ -1139,16 +1189,16 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.3.7",
+            "version": "v3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "7f9af51eec7336d4bd4d7a0193be8d9f06750d99"
+                "reference": "7ff6b932752c910ef9b8ea73433bc58fad72535b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/7f9af51eec7336d4bd4d7a0193be8d9f06750d99",
-                "reference": "7f9af51eec7336d4bd4d7a0193be8d9f06750d99",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/7ff6b932752c910ef9b8ea73433bc58fad72535b",
+                "reference": "7ff6b932752c910ef9b8ea73433bc58fad72535b",
                 "shasum": ""
             },
             "require": {
@@ -1158,13 +1208,14 @@
                 "league/container": "2.4.1",
                 "matthiasmullie/minify": "1.3.*",
                 "monolog/monolog": "^1.0",
-                "php": ">=5.4.0",
+                "php": ">=5.6.0",
                 "wp-media/rocket-lazyload-common": "^2.2"
             },
             "require-dev": {
                 "brain/monkey": "^2.0",
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
                 "doctrine/instantiator": "1.0.*",
+                "mikey179/vfsstream": "^1.6",
                 "myclabs/deep-copy": "1.6.*",
                 "phpcompatibility/phpcompatibility-wp": "^2.0",
                 "phpdocumentor/reflection-docblock": "^3.3",
@@ -1182,6 +1233,9 @@
                 "exclude-from-classmap": [
                     "inc/vendors/classes/class-rocket-mobile-detect.php",
                     "inc/classes/class-wp-rocket-requirements-check.php"
+                ],
+                "files": [
+                    "inc/functions/api.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1203,7 +1257,7 @@
                 "minification",
                 "wordpress"
             ],
-            "time": "2019-08-28T15:04:14+00:00"
+            "time": "2019-09-29T22:43:43+00:00"
         },
         {
             "name": "wpackagist-plugin/acf-image-aspect-ratio-crop",

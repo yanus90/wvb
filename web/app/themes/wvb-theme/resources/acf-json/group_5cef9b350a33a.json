@@ -1,6 +1,6 @@
 {
     "key": "group_5cef9b350a33a",
-    "title": "Elftal eigenschappen",
+    "title": "Eigenschappen elftal",
     "fields": [
         {
             "key": "field_5cef9b50bdfa8",
@@ -251,5 +251,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1569616521
+    "modified": 1569867483
 }

@@ -1,6 +1,6 @@
 {
     "key": "group_5c9643db92d93",
-    "title": "Event eigenschappen",
+    "title": "Eigenschappen evenement",
     "fields": [
         {
             "key": "field_5c9645253a5ee",
@@ -441,5 +441,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1563047686
+    "modified": 1569867848
 }

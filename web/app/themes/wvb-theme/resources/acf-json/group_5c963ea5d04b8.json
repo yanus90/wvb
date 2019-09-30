@@ -1,6 +1,6 @@
 {
     "key": "group_5c963ea5d04b8",
-    "title": "Nieuwsbericht eigenschappen",
+    "title": "Eigenschappen nieuwsbericht",
     "fields": [
         {
             "key": "field_5c963eae0baeb",
@@ -113,5 +113,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1563043093
+    "modified": 1569867457
 }

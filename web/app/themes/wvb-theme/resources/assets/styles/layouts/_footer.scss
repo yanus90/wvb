@@ -2,14 +2,119 @@
   background: #ededed;
 
   .footer-first {
-    &::after {
-      background: $primary;
-      -webkit-transform-origin: bottom left;
-      -o-transform-origin: bottom left;
-      transform-origin: bottom left;
-      -webkit-transform: skew(-10deg, 0deg);
-      -o-transform: skew(-10deg, 0deg);
-      transform: skew(-10deg, 0deg);
+    background: $primary;
+    padding: 3.75rem 3rem 4.375rem 5.5rem;
+    margin-top: -3.75rem;
+    -webkit-clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+
+    .footer-logo {
+      margin-bottom: 1.875rem;
+    }
+
+    .social-media-list {
+      margin-bottom: 1.5rem;
+
+      li {
+        a {
+          display: block;
+          transition: all 0.3s ease-out;
+
+          &.social-icon {
+            background: $primary;
+            border: 2px solid $white;
+            border-radius: 0.3125rem;
+            width: 2.75rem;
+            height: 2.75rem;
+            text-align: center;
+
+            i {
+              color: $white;
+              font-size: 1.45rem;
+              line-height: 1.7;
+            }
+
+            &:hover,
+            &:focus {
+              background: $primary-dark;
+              color: $white;
+              border-color: $primary-dark;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-second {
+    padding-top: 4.625rem;
+
+    * {
+      color: $black;
+      font-size: 1.125rem;
+    }
+
+    ul {
+      &.fa-ul {
+        margin-left: 1.7rem;
+      }
+
+      li {
+        font-weight: $font-weight-normal;
+        line-height: 2rem;
+
+        &.name {
+          font-weight: $font-weight-medium;
+        }
+
+        a {
+          &:hover,
+          &:focus {
+            text-decoration: none;
+            color: $primary-dark;
+          }
+
+          i {
+            color: $primary;
+
+            &:hover,
+            &:focus {
+              text-decoration: none;
+              color: $primary-dark;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-third {
+    padding-top: 4.625rem;
+
+    * {
+      color: $black;
+      font-size: 1.125rem;
+      line-height: 2rem;
+    }
+
+    p {
+      font-weight: $font-weight-medium;
+    }
+
+    ul {
+      li {
+        font-weight: $font-weight-normal;
+
+        a {
+          color: $black;
+
+          &:hover,
+          &:focus {
+            text-decoration: none;
+            color: $primary-dark;
+          }
+        }
+      }
     }
   }
 }

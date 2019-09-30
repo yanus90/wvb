@@ -35,7 +35,8 @@ function register_elftal_post_type() {
         'hierarchical'       => true,
         'menu_position'      => null,
         'supports'           => ['title', 'page-attributes'],
-        'taxonomies'         => ['afdeling']
+        'taxonomies'         => ['afdeling'],
+        'menu_icon'          => 'dashicons-id'
     ];
     register_post_type('elftal', $args);
     add_post_type_support('elftal', 'page-attributes');
@@ -112,7 +113,7 @@ function register_sponsor_post_type() {
         'hierarchical'       => true,
         'menu_position'      => null,
         'supports'           => ['title', 'editor'],
-        'menu_icon'          => 'dashicons-groups',
+        'menu_icon'          => 'dashicons-star-filled',
         'taxonomies'         => ['soorten']
     ];
     register_post_type('sponsor', $args);
@@ -122,20 +123,20 @@ function register_sponsor_post_type() {
 add_action('init', 'register_person_post_type');
 function register_person_post_type() {
     $labels = [
-        'name'               => 'Personen',
-        'singular_name'      => 'Persoon',
-        'menu_name'          => 'Personen',
-        'name_admin_bar'     => 'Persoon',
+        'name'               => 'Contactpersonen',
+        'singular_name'      => 'Contactpersoon',
+        'menu_name'          => 'Contactpersonen',
+        'name_admin_bar'     => 'Contactpersoon',
         'add_new'            => 'Nieuwe toevoegen',
-        'add_new_item'       => 'Voeg nieuw persoon toe',
-        'new_item'           => 'Nieuw persoon',
-        'edit_item'          => 'Bewerk persoon',
-        'view_item'          => 'Bekijk persoon',
-        'all_items'          => 'Alle personen',
-        'search_items'       => 'Zoek personen',
-        'parent_item_colon'  => 'Bovenliggend persoon',
-        'not_found'          => 'Geen personen gevonden',
-        'not_found_in_trash' => 'Geen personen gevonden in de prullenbak'
+        'add_new_item'       => 'Voeg nieuw contactpersoon toe',
+        'new_item'           => 'Nieuw contactpersoon',
+        'edit_item'          => 'Bewerk contactpersoon',
+        'view_item'          => 'Bekijk contactpersoon',
+        'all_items'          => 'Alle contactpersonen',
+        'search_items'       => 'Zoek contactpersonen',
+        'parent_item_colon'  => 'Bovenliggend contactpersoon',
+        'not_found'          => 'Geen contactpersonen gevonden',
+        'not_found_in_trash' => 'Geen contactpersonen gevonden in de prullenbak'
     ];
     $args = [
         'labels'             => $labels,
@@ -149,9 +150,9 @@ function register_person_post_type() {
         'has_archive'        => false,
         'hierarchical'       => true,
         'menu_position'      => null,
-        'menu_icon'          => 'dashicons-admin-users',
+        'menu_icon'          => 'dashicons-businessman',
         'taxonomies'         => ['functies'],
-        'supports'           => ['title', 'page-attributes']
+        'supports'           => ['title', 'editor', 'page-attributes']
     ];
     register_post_type('person', $args);
     add_post_type_support('person', 'page-attributes');
@@ -194,4 +195,120 @@ function register_speler_post_type() {
     ];
     register_post_type('speler', $args);
     add_post_type_support('speler', 'page-attributes');
+}
+
+// Commissies
+add_action('init', 'register_commissie_post_type');
+function register_commissie_post_type() {
+    $labels = [
+        'name'               => 'Commissies',
+        'singular_name'      => 'Commissie',
+        'menu_name'          => 'Commissies',
+        'name_admin_bar'     => 'Commissie',
+        'add_new'            => 'Nieuwe toevoegen',
+        'add_new_item'       => 'Voeg nieuwe commissie toe',
+        'new_item'           => 'Nieuwe commissie',
+        'edit_item'          => 'Bewerk commissie',
+        'view_item'          => 'Bekijk commissie',
+        'all_items'          => 'Alle commissies',
+        'search_items'       => 'Zoek commissies',
+        'parent_item_colon'  => 'Bovenliggende commissies',
+        'not_found'          => 'Geen commissies gevonden',
+        'not_found_in_trash' => 'Geen commissies gevonden in de prullenbak'
+    ];
+    $args = [
+        'labels'             => $labels,
+        'description'        => 'Commissies post type',
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => ['slug' => 'commissies'],
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => true,
+        'menu_position'      => null,
+        'menu_icon'          => 'dashicons-share',
+        'supports'           => ['title', 'editor', 'page-attributes']
+    ];
+    register_post_type('commissie', $args);
+    add_post_type_support('commissie', 'page-attributes');
+}
+
+// Vacatures
+add_action('init', 'register_vacature_post_type');
+function register_vacature_post_type() {
+    $labels = [
+        'name'               => 'Vacatures',
+        'singular_name'      => 'Vacature',
+        'menu_name'          => 'Vacatures',
+        'name_admin_bar'     => 'Vacature',
+        'add_new'            => 'Nieuwe toevoegen',
+        'add_new_item'       => 'Voeg nieuwe vacature toe',
+        'new_item'           => 'Nieuwe vacature',
+        'edit_item'          => 'Bewerk vacature',
+        'view_item'          => 'Bekijk vacature',
+        'all_items'          => 'Alle vacatures',
+        'search_items'       => 'Zoek vacatures',
+        'parent_item_colon'  => 'Bovenliggende vacatures',
+        'not_found'          => 'Geen vacatures gevonden',
+        'not_found_in_trash' => 'Geen vacatures gevonden in de prullenbak'
+    ];
+    $args = [
+        'labels'             => $labels,
+        'description'        => 'Vacatures post type',
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => ['slug' => 'vacatures'],
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => true,
+        'menu_position'      => null,
+        'menu_icon'          => 'dashicons-search',
+        'supports'           => ['title', 'editor', 'page-attributes']
+    ];
+    register_post_type('vacature', $args);
+    add_post_type_support('vacature', 'page-attributes');
+}
+
+// Meldingen
+add_action('init', 'register_melding_post_type');
+function register_melding_post_type() {
+    $labels = [
+        'name'               => 'Meldingen',
+        'singular_name'      => 'Melding',
+        'menu_name'          => 'Meldingen',
+        'name_admin_bar'     => 'Melding',
+        'add_new'            => 'Nieuwe toevoegen',
+        'add_new_item'       => 'Voeg nieuwe melding toe',
+        'new_item'           => 'Nieuwe melding',
+        'edit_item'          => 'Bewerk melding',
+        'view_item'          => 'Bekijk melding',
+        'all_items'          => 'Alle meldingen',
+        'search_items'       => 'Zoek meldingen',
+        'parent_item_colon'  => 'Bovenliggende meldingen',
+        'not_found'          => 'Geen meldingen gevonden',
+        'not_found_in_trash' => 'Geen meldingen gevonden in de prullenbak'
+    ];
+    $args = [
+        'labels'             => $labels,
+        'description'        => 'Meldingen post type',
+        'public'             => false,
+        'publicly_queryable' => false,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => true,
+        'menu_position'      => null,
+        'menu_icon'          => 'dashicons-format-chat',
+        'supports'           => ['title', 'page-attributes']
+    ];
+    register_post_type('melding', $args);
+    add_post_type_support('melding', 'page-attributes');
 }

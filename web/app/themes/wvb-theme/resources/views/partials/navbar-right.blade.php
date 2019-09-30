@@ -37,16 +37,16 @@
         <div class="row mb-3">
             <div class="col">
                 <ul class="list-inline contact-details">
-                    <li class="font-weight-medium">{{ get_field('naam', 'option') }}</li>
+                    <li class="font-weight-medium color-black">{{ get_field('naam', 'option') }}</li>
                     <li>{{ get_field('sportpark', 'option') }}</li>
                     <li>{{ get_field('adres', 'option') }}</li>
                     <li>{{ get_field('postcode', 'option') }} {{ get_field('woonplaats', 'option') }}</li>
                     <li>&nbsp;</li>
                     @if (get_field('telefoonnummer', 'option'))
-                        <li><i class="fal fa-phone mr-2 fa-flip-horizontal"></i><a href="tel:{{ get_field('telefoonnummer_link', 'option') }}">{{ get_field('telefoonnummer', 'option') }}</a></li>
+                        <li><i class="fal fa-phone mr-2 fa-flip-horizontal"></i><a href="tel:{{ get_field('telefoonnummer_link', 'option') }}" class="text-decoration-none" title="Neem contact met ons op">{{ get_field('telefoonnummer', 'option') }}</a></li>
                     @endif
                     @if (get_field('emailadres', 'option'))
-                        <li><i class="fal fa-envelope mr-2"></i><a href="mailto:{{ get_field('emailadres', 'option') }}">{{ get_field('emailadres', 'option') }}</a></li>
+                        <li><i class="fal fa-envelope mr-2"></i><a href="mailto:{{ get_field('emailadres', 'option') }}" class="text-decoration-none" title="Neem contact met ons op">{{ get_field('emailadres', 'option') }}</a></li>
                     @endif
                 </ul>
             </div>

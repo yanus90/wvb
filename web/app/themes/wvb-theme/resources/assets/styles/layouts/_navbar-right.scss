@@ -147,6 +147,16 @@
           display: block;
         }
       }
+
+      li {
+        a {
+          &:hover,
+          &:focus {
+            text-decoration: none;
+            color: $primary-dark;
+          }
+        }
+      }
     }
 
     &.navbar-nav {

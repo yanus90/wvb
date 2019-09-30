@@ -1,6 +1,6 @@
 {
     "key": "group_5d2a3bc556cd2",
-    "title": "Sponsor eigenschappen",
+    "title": "Eigenschappen sponsor",
     "fields": [
         {
             "key": "field_5d2a3bea71a2b",
@@ -43,6 +43,25 @@
             "placeholder": ""
         },
         {
+            "key": "field_5d9246a066ec7",
+            "label": "E-mailadres",
+            "name": "emailadres",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5d2a3c44aa1ef",
             "label": "Zichtbaar op homepagina",
             "name": "zichtbaar_op_homepagina",
@@ -83,5 +102,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1563049318
+    "modified": 1569867438
 }

@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\Partials\EventTrait;
 use App\Controllers\Partials\LatestNewsArticles;
+//use App\Services\TwitterTweets;
 use Sober\Controller\Controller;
 
 class FrontPage extends Controller
@@ -34,4 +35,9 @@ class FrontPage extends Controller
 
         return $query->posts;
     }
+
+//    public function tweets()
+//    {
+//        return (new TwitterTweets())->tweets();
+//    }
 }

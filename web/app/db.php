@@ -1,1 +1,0 @@
-/home/vagrant/code/wvb/web/app/plugins/query-monitor/wp-content/db.php

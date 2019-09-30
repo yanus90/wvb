@@ -77,7 +77,8 @@
     "wpackagist-plugin/advanced-nocaptcha-recaptcha": "^5.0",
     "laposta/laposta-api-php": "^1.5",
     "wp-media/wp-rocket": "^3.3",
-    "advanced-custom-fields/advanced-custom-fields-pro": "^5.0"
+    "advanced-custom-fields/advanced-custom-fields-pro": "^5.0",
+    "j7mbo/twitter-api-php": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",

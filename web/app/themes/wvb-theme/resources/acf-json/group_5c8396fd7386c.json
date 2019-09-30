@@ -22,6 +22,25 @@
             "maxlength": ""
         },
         {
+            "key": "field_5c8397de169b0",
+            "label": "Slogan",
+            "name": "slogan",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5c83971772839",
             "label": "Sportpark",
             "name": "sportpark",
@@ -231,9 +250,9 @@
             "maxlength": ""
         },
         {
-            "key": "field_5c8397de169b0",
-            "label": "Slogan",
-            "name": "slogan",
+            "key": "field_5d924cefdd0fd",
+            "label": "Youtube pagina",
+            "name": "youtube_pagina",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -267,5 +286,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1553349752
+    "modified": 1569869057
 }

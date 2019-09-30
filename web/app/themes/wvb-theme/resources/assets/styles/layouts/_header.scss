@@ -128,9 +128,27 @@
 
           .menu-item-has-children {
             .dropdown-menu {
+              top: 97% !important;
+
               a {
-                color: $paragraph-text-color;
-                font-size: 1rem;
+                text-shadow: none;
+                padding: 0.5rem 1rem;
+                color: $black;
+                font-size: 0.875rem;
+
+                &.active {
+                  color: $white;
+                }
+              }
+
+              &.show {
+                top: 97% !important;
+              }
+            }
+
+            &:hover {
+              .dropdown-menu {
+                display: block;
               }
             }
           }

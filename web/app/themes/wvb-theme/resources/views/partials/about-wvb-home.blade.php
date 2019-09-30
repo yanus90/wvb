@@ -2,9 +2,9 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             @if(get_field('over_wvb_afbeelding'))
-                <div class="col-md-6">
+                <div class="col-md-6 bg-primary">
                     <div class="about-image">
-                        <img src="{!! wp_get_attachment_image_url(get_field('over_wvb_afbeelding')['ID'], 'about_wvb_home_image') !!}" class="img-fluid w-100" alt="{!! get_post_meta($event->over_wvb_afbeelding, '_wp_attachment_image_alt', TRUE); !!}">
+                        <img src="{!! wp_get_attachment_image_url(get_field('over_wvb_afbeelding')['ID'], 'about_wvb_home_image') !!}" class="img-fluid w-100" alt="{!! get_post_meta(get_field('over_wvb_afbeelding')['ID'], '_wp_attachment_image_alt', TRUE); !!}">
                     </div>
                 </div>
             @endif

@@ -3,11 +3,11 @@
         <div class="container">
             <div class="row">
                 @if (get_field('slogan', 'option'))
-                    <div class="col-12 col-sm-7 col-md-6">
+                    <div class="col-12 col-sm-7 col-md-6 col-lg-8 col-xl-9 col-xxl-10 text-center">
                         <p class="mb-0">{!! get_field('slogan', 'option') !!}</p>
                     </div>
                 @endif
-                <div class="d-none d-sm-block col-sm-5 col-md-6">
+                <div class="d-none d-sm-block col-sm-5 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
                     @if (has_nav_menu('top_navigation'))
                         {!!
                             wp_nav_menu([
