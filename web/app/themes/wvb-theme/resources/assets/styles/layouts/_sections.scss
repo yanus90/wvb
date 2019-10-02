@@ -24,3 +24,17 @@
     }
   }
 }
+
+.section-boysconnected {
+  .container {
+    @include media-breakpoint-down(md) {
+      max-width: 100%;
+    }
+
+    @media (max-width: 575px) {
+      img {
+        max-width: 60%;
+      }
+    }
+  }
+}

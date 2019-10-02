@@ -142,6 +142,7 @@ body {
     .font-size#{$infix}-p14   { font-size: 0.875rem !important; }
     .font-size#{$infix}-p16   { font-size: 1rem !important; }
     .font-size#{$infix}-p18   { font-size: 1.125rem !important; }
+    .font-size#{$infix}-p20   { font-size: 1.25rem !important; }
     .font-size#{$infix}-p26   { font-size: 1.625rem !important; }
     .font-size#{$infix}-p30   { font-size: 1.875rem !important; }
     .font-size#{$infix}-p36   { font-size: 2.25rem !important; }
@@ -317,10 +318,6 @@ i {
 
 .bc-thumb {
   display: block;
-  background: $white;
-  padding: 0.625rem;
-
-  @include border-radius(0.3125rem)
 }
 
 .main-sponsor-label {

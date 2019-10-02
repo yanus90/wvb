@@ -28,7 +28,6 @@
                     <p>{!! $row['rij'] !!}</p>
                   @endforeach
                 </div>
-                {{--<hr class="mt-lg-5">--}}
               @endif
                 @include('partials.team.team-data')
                 <h2 class="h4 text-primary text-uppercase mt-5 mb-4">Spelers en staf <span class="color-black">{!! $post->post_title !!}</span></h2>

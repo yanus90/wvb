@@ -9,7 +9,7 @@
   }
 
   &.card-sponsor {
-    padding: 0.875rem 1.2rem;
+    padding: 0.5rem 0.8rem;
 
     &.small {
       height: 7rem;
@@ -19,22 +19,31 @@
       }
 
       @include media-breakpoint-up(md) {
-        height: 9rem;
+        height: 5rem;
 
         img {
-          max-height: 6.5rem;
+          max-height: 4rem;
         }
       }
 
       @include media-breakpoint-up(lg) {
-        height: 9rem;
+        height: 6rem;
 
         img {
-          max-height: 6.5rem;
+          max-height: 4rem;
         }
       }
 
       @include media-breakpoint-up(xl) {
+        height: 6.25rem;
+
+        img {
+          max-height: 3rem;
+          max-width: 6.5rem;
+        }
+      }
+
+      @include media-breakpoint-up(xxl) {
         height: 7rem;
 
         img {
@@ -77,11 +86,35 @@
     }
 
     &.main-sponsor {
+      @include media-breakpoint-up(md) {
+        height: 16rem;
+
+        img {
+          max-height: 12rem;
+        }
+      }
+
+      @include media-breakpoint-up(lg) {
+        height: 21rem;
+
+        img {
+          max-height: 15rem;
+        }
+      }
+
       @include media-breakpoint-up(xl) {
+        height: 14rem;
+
+        img {
+          max-height: 11rem;
+        }
+      }
+
+      @include media-breakpoint-up(xxl) {
         height: 15.5rem;
 
         img {
-          max-height: 8rem;
+          max-height: 12rem;
         }
       }
     }
