@@ -19,3 +19,5 @@ web/.htaccess
 /vendor
 
 .idea
+web/app/themes/wvb-theme/resources/storage/*
+!web/app/themes/wvb-theme/resources/storage/.gitkeep
