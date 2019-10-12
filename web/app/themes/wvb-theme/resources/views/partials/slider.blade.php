@@ -27,8 +27,19 @@
                     <div class="col-sm-12 col-md-12 col-xl-12">
                         <a href="#" class="card card-join bg-primary mb-4">
                             <div class="card-body">
-                                <h5 class="card-title color-white">Lid worden bij Warnsveldse Boys!</h5>
-                                <p class="card-text mb-0 color-white">Altijd al willen voetballen? Meld je snel aan!</p>
+                                <div class="row">
+                                    <div class="col-xxl-4">
+                                        <div class="bg-white p-2 rounded">
+                                            <img src="//placehold.it/110x70" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-8 pt-2">
+                                        <h5 class="card-title color-white mb-2">Sponsor van de maand</h5>
+                                        <p class="mb-0">Lees verder ></p>
+                                    </div>
+                                </div>
+                                {{--<h5 class="card-title color-white">Lid worden bij Warnsveldse Boys!</h5>--}}
+                                {{--<p class="card-text mb-0 color-white">Altijd al willen voetballen? Meld je snel aan!</p>--}}
                             </div>
                         </a>
                     </div>
