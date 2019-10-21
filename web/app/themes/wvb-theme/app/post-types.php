@@ -69,7 +69,7 @@ function register_evenement_post_type() {
         'show_ui'            => true,
         'show_in_menu'       => true,
         'query_var'          => true,
-        'rewrite'            => ['slug' => 'evenementen'],
+        'rewrite'            => ['slug' => 'agenda'],
         'capability_type'    => 'post',
         'has_archive'        => false,
         'hierarchical'       => true,

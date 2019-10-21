@@ -6,17 +6,6 @@ use Sober\Controller\Controller;
 
 class TemplateSmoelenboek extends Controller
 {
-    public function functies()
-    {
-        $query = new \WP_Term_Query([
-            'taxonomy' => 'functie',
-            'order' => 'DESC',
-            'post_per_page' => -1
-        ]);
-
-        return $query->get_terms();
-    }
-
     public function smoelenboek()
     {
         $query = new \WP_Query([
