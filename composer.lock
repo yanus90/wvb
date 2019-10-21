@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05e645ff491e79d9d37929d92d2fed66",
+    "content-hash": "7321367ee04aee373e4bf7252802d1e6",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -37,10 +37,10 @@
         },
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
-            "version": "5.7.12",
+            "version": "5.8.2",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&k={%ACF_PRO_KEY}&t=5.7.12"
+                "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&k={%ACF_PRO_KEY}&t=5.8.2"
             },
             "require": {
                 "composer/installers": "^1.0",
