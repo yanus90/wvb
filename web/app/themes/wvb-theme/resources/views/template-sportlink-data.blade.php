@@ -1,5 +1,5 @@
 {{--
-  Template Name: Sportlink Template
+  Template Name: Template Sportlink
 --}}
 
 @extends('layouts.app')

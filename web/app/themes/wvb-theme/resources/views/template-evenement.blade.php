@@ -1,5 +1,5 @@
 {{--
-  Template Name: Evenementen template
+  Template Name: Template evenementen
 --}}
 
 @extends('layouts.app')

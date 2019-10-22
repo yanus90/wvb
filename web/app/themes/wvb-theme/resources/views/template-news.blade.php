@@ -1,5 +1,5 @@
 {{--
-  Template Name: Nieuws template
+  Template Name: Template nieuws
 --}}
 
 @extends('layouts.app')

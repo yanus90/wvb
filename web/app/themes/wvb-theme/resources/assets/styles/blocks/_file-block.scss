@@ -1,0 +1,11 @@
+.file-block {
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid rgba($black, 0.15);
+  border-left-width: .25rem;
+  border-radius: .25rem;
+
+  &.primary {
+    border-left-color: $primary;
+  }
+}

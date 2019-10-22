@@ -1,5 +1,5 @@
 {{--
-  Template Name: Wedstrijdverslagen template
+  Template Name: Template wedstrijdverslagen
 --}}
 
 @extends('layouts.app')
