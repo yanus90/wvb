@@ -21,7 +21,6 @@
                             <div class="card-img-overlay d-flex flex-column">
                                 <div class="mt-auto">
                                     <h3 class="h5 color-white">{{ $category->name }}</h3>
-                                    <p class="mb-0"><a href="/elftallen/{!! $category->slug !!}" class="btn btn-sm btn-primary">Teaminformatie<i class="fal fa-angle-right ml-2"></i></a></p>
                                 </div>
                             </div>
                         </a>
