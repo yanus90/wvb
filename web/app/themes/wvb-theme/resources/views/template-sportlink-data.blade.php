@@ -19,9 +19,16 @@
                                   $data = json_decode($json, true);
                               @endphp
 
-                              <pre>
-                                  @php var_dump($data) @endphp
-                              </pre>
+{{--                              {{ var_dump($data) }}--}}
+                                  @foreach($data as $d)
+                                      <strong>{!! $d['teamnaam'] !!}</strong><br>
+                                      <ul class="mb-5">
+                                          <li>Competitiesoort: {!! strtoupper($d['competitiesoort']) !!}</li>
+                                          <li>Competitienaam: {!! $d['competitienaam'] !!}</li>
+                                          <li>Teamcode: {!! $d['teamcode'] !!}</li>
+                                          <li>Poulecode: {!! $d['poulecode'] !!}</li>
+                                      </ul>
+                                  @endforeach
 
                               @php the_content() @endphp
                               {!! wp_link_pages(['echo' => 0, 'before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
