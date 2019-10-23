@@ -15,7 +15,7 @@
                           <div class="col-12 font-weight-medium line-height-md-big">
 
                               @php
-                                  $json = file_get_contents('https://data.sportlink.com/programma?clientId=X5wbJgu0J7');
+                                  $json = file_get_contents('https://data.sportlink.com/teams?clientId=X5wbJgu0J7');
                                   $data = json_decode($json, true);
                               @endphp
 
