@@ -63,7 +63,7 @@
     "wpackagist-plugin/contact-form-7": "^5.1",
     "wpackagist-plugin/safe-redirect-manager": "^1.9",
     "wpackagist-plugin/simple-page-ordering": "^2.3",
-    "wpackagist-plugin/wp-smushit": "^3.2",
+    "wpackagist-plugin/wp-smushit": "^3.3",
     "wpackagist-plugin/wordpress-seo":"^12.0",
     "wpackagist-plugin/acf-image-aspect-ratio-crop":"^3.0",
     "wpackagist-plugin/google-analytics-dashboard-for-wp":"^5.3",

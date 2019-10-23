@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7321367ee04aee373e4bf7252802d1e6",
+    "content-hash": "b29663f8ce43d92e7f46b8ac0696f5d4",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1513,15 +1513,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-smushit",
-            "version": "3.2.4",
+            "version": "3.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-smushit/",
-                "reference": "tags/3.2.4"
+                "reference": "tags/3.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-smushit.3.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-smushit.3.3.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
