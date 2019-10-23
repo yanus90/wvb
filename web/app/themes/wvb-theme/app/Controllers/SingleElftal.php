@@ -143,7 +143,7 @@ class SingleElftal extends Controller
         $results = [];
 
         try {
-            $json = file_get_contents('https://data.sportlink.com/periodestand?clientId=X5wbJgu0J7&poulecode=' . $this->poulecode);
+            $json = file_get_contents('https://data.sportlink.com/periodestand?clientId='. CLIENT_ID .'&poulecode=' . $this->poulecode);
         } catch (\Exception $e) {
             $json = null;
         }
