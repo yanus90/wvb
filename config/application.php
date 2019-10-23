@@ -126,6 +126,8 @@ Config::define('WP_ROCKET_KEY', env('WP_ROCKET_KEY'));
  */
 Config::define('LAPOSTA_APIKEY', env('LAPOSTA_APIKEY'));
 
+Config::define('CLIENT_ID', env('CLIENT_ID'));
+
 Config::apply();
 
 /**
