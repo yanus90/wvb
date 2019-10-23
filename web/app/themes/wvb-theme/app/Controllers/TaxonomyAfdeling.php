@@ -22,7 +22,7 @@ class TaxonomyAfdeling extends Controller
         $query = new \WP_Query([
             'post_type' => 'elftal',
             'orderby' => 'menu_order',
-            'order' => 'DESC',
+            'order' => 'ASC',
             'tax_query' => [
                 [
                     'taxonomy' => 'afdeling',

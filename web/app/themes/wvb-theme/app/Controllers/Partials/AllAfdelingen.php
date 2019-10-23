@@ -8,7 +8,8 @@ trait AllAfdelingen
     {
         $query = new \WP_Term_Query([
             'taxonomy' => 'afdeling',
-            'order' => 'DESC',
+            'orderby' => 'menu_order',
+            'order' => 'ASC',
             'post_per_page' => -1
         ]);
 
