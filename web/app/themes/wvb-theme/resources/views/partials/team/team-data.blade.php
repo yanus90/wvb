@@ -14,9 +14,9 @@
         <li class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#results"><i class="fas fa-futbol mr-2"></i>Uitslagen</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#cup"><i class="fal fa-trophy-alt mr-2"></i>Beker</a>
-        </li>
+        {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" data-toggle="tab" href="#cup"><i class="fal fa-trophy-alt mr-2"></i>Beker</a>--}}
+        {{--</li>--}}
     </ul>
     <div class="tab-content" id="team-data-content">
         <div class="tab-pane fade show active" id="ranking" role="tabpanel" aria-labelledby="ranking-tab">
@@ -141,8 +141,8 @@
                 </table>
             </div>
         </div>
-        <div class="tab-pane fade" id="cup" role="tabpanel" aria-labelledby="cup-tab">
-            Beker
-        </div>
+        {{--<div class="tab-pane fade" id="cup" role="tabpanel" aria-labelledby="cup-tab">--}}
+            {{--Beker--}}
+        {{--</div>--}}
     </div>
 </div>

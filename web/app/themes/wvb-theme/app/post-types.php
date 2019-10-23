@@ -191,7 +191,7 @@ function register_speler_post_type() {
         'hierarchical'       => true,
         'menu_position'      => null,
         'menu_icon'          => 'dashicons-admin-users',
-        'taxonomies'         => ['functies'],
+        'taxonomies'         => ['positie'],
         'supports'           => ['title', 'page-attributes']
     ];
     register_post_type('speler', $args);

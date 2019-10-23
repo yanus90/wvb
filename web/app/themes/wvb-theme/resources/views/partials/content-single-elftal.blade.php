@@ -1,6 +1,6 @@
 @include('partials.page-header')
 
-<div class="section-single-post section">
+<div class="section-single-post section section-persons">
   <div class="container">
     <div class="row">
       <div class="col-12 font-weight-medium line-height-md-big">
@@ -30,15 +30,7 @@
                 </div>
               @endif
                 @include('partials.team.team-data')
-                <h2 class="h4 text-primary text-uppercase mt-5 mb-4">Spelers en staf <span class="color-black">{!! $post->post_title !!}</span></h2>
-                <div class="team-players">
-                    <div class="row">
-                        <div class="col-6 col-xl-3">
-                            <img src="//placehold.it/600x800" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-                <hr class="mt-lg-5">
+                @include('partials.team.team-staff-players')
             </div>
           </div>
           <div class="col-lg-4 col-xl-3">
