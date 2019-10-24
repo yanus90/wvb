@@ -21,7 +21,7 @@
                 $kind = 'small';
             }
         @endphp
-        <div class="section section-sponsoring {{ (! $loop->first ?? 'pt-0') }}">
+        <div class="section section-sponsoring {{ ($soort == 'Hoofdsponsor' ? 'pt-0' : '') }}">
             <div class="container">
                 <div class="row">
                     <div class="col-12 font-weight-medium line-height-md-big">
