@@ -12,93 +12,131 @@
     padding: 0.5rem 0.8rem;
 
     &.small {
-      height: 7rem;
-
-      img {
-        max-height: 4.5rem;
-      }
-
-      @include media-breakpoint-up(md) {
+      @media (max-width: 380px) {
         height: 5rem;
 
         img {
-          max-height: 4rem;
+          max-height: 3.5rem;
+          max-width: 7rem;
+        }
+      }
+
+      @media (min-width: 381px) and (max-width: 499px) {
+        height: 7rem;
+
+        img {
+          max-height: 3.5rem;
+          max-width: 7rem;
+        }
+      }
+
+      @media (min-width: 500px) {
+        height: 9rem;
+
+        img {
+          max-height: 5rem;
+          max-width: 12rem;
+        }
+      }
+
+      @include media-breakpoint-up(sm) {
+        height: 6rem;
+
+        img {
+          max-height: 5rem;
+          max-width: 7rem;
+        }
+      }
+
+      @include media-breakpoint-up(md) {
+        height: 8rem;
+
+        img {
+          max-height: 5rem;
+          max-width: 10rem;
         }
       }
 
       @include media-breakpoint-up(lg) {
-        height: 6rem;
+        height: 8rem;
 
         img {
-          max-height: 4rem;
+          max-height: 5rem;
+          max-width: 10rem;
         }
       }
 
       @include media-breakpoint-up(xl) {
-        height: 6.25rem;
+        height: 8.5rem;
 
         img {
-          max-height: 3rem;
-          max-width: 6.5rem;
+          max-height: 6rem;
+          max-width: 10rem;
         }
       }
 
       @include media-breakpoint-up(xxl) {
-        height: 7rem;
+        height: 11rem;
 
         img {
-          max-height: 4rem;
-          max-width: 8rem;
+          max-height: 8rem;
+          max-width: 14rem;
         }
       }
     }
 
     &.big {
-      height: 13rem;
+      @media (max-width: 380px) {
+        height: 5rem;
 
-      img {
-        max-height: 9rem;
+        img {
+          max-height: 3.5rem;
+          max-width: 7rem;
+        }
       }
 
-      @include media-breakpoint-up(md) {
+      @media (min-width: 381px) and (max-width: 499px) {
+        height: 7rem;
+
+        img {
+          max-height: 3.5rem;
+          max-width: 7rem;
+        }
+      }
+      
+      @media (min-width: 500px) {
         height: 9rem;
 
         img {
-          max-height: 6.5rem;
+          max-height: 5rem;
+          max-width: 12rem;
+        }
+      }
+
+      @include media-breakpoint-up(sm) {
+        height: 9rem;
+
+        img {
+          max-height: 5rem;
+          max-width: 12rem;
+        }
+      }
+
+      @include media-breakpoint-up(md) {
+        height: 10rem;
+
+        img {
+          max-height: 6rem;
+          max-width: 15rem;
         }
       }
 
       @include media-breakpoint-up(lg) {
-        height: 9rem;
+        height: 10rem;
 
         img {
-          max-height: 6.5rem;
-        }
-      }
-
-      @include media-breakpoint-up(xl) {
-        height: 12rem;
-
-        img {
-          max-height: 9rem;
-        }
-      }
-    }
-
-    &.main-sponsor {
-      @include media-breakpoint-up(md) {
-        height: 16rem;
-
-        img {
-          max-height: 12rem;
-        }
-      }
-
-      @include media-breakpoint-up(lg) {
-        height: 21rem;
-
-        img {
-          max-height: 15rem;
+          max-height: 6rem;
+          max-width: 15rem;
         }
       }
 
@@ -106,15 +144,17 @@
         height: 14rem;
 
         img {
-          max-height: 11rem;
+          max-height: 7rem;
+          max-width: 17rem;
         }
       }
 
       @include media-breakpoint-up(xxl) {
-        height: 15.5rem;
+        height: 14rem;
 
         img {
-          max-height: 12rem;
+          max-height: 9rem;
+          max-width: 21rem;
         }
       }
     }

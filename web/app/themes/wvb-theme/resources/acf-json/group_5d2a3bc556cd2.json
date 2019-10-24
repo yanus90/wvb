@@ -63,8 +63,8 @@
         },
         {
             "key": "field_5d2a3c44aa1ef",
-            "label": "Zichtbaar op homepagina",
-            "name": "zichtbaar_op_homepagina",
+            "label": "Zichtbaar op",
+            "name": "zichtbaar_op",
             "type": "checkbox",
             "instructions": "",
             "required": 0,
@@ -75,7 +75,8 @@
                 "id": ""
             },
             "choices": {
-                "homepage": "Homepagina"
+                "homepage": "Homepagina",
+                "overview": "Sponsoren overzichtspagina"
             },
             "allow_custom": 0,
             "default_value": [],
@@ -102,5 +103,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1569867438
+    "modified": 1571941268
 }

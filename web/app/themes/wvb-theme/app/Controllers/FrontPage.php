@@ -23,7 +23,7 @@ class FrontPage extends Controller
             'post_type' => 'sponsor',
             'meta_query' => [
                 [
-                    'key'     => 'zichtbaar_op_homepagina',
+                    'key'     => 'zichtbaar_op',
                     'value'   => 'homepage',
                     'compare' => 'LIKE',
                 ]
