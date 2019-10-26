@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <ul class="nav nav-tabs" id="programResults" role="tablist">
+                <ul class="nav nav-pills" id="programResults" role="tablist">
                     @if($results)
                         <li class="nav-item">
                             <a class="nav-link active font-size-lg-p20" id="results-tab" data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false">Uitslagen</a>
