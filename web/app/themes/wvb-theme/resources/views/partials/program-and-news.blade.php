@@ -5,12 +5,12 @@
                 <ul class="nav nav-pills" id="programResults" role="tablist">
                     @if($results)
                         <li class="nav-item">
-                            <a class="nav-link active font-size-lg-p20" id="results-tab" data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false">Uitslagen</a>
+                            <a class="nav-link active font-size-lg-p20" id="results-tab" data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false"><i class="fal fa-futbol mr-2"></i>Uitslagen</a>
                         </li>
                     @endif
                     @if($program)
                         <li class="nav-item">
-                            <a class="nav-link font-size-lg-p20" id="program-tab" data-toggle="tab" href="#program" role="tab" aria-controls="program" aria-selected="true">Programma</a>
+                            <a class="nav-link font-size-lg-p20" id="program-tab" data-toggle="tab" href="#program" role="tab" aria-controls="program" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Programma</a>
                         </li>
                     @endif
                 </ul>
@@ -71,6 +71,11 @@
             </div>
             @if ($latest_news_articles)
                 <div class="col-lg-6">
+                    <ul class="nav nav-pills mb-4">
+                        <li class="nav-item">
+                            <span class="nav-link active font-size-lg-p20"><i class="fal fa-newspaper mr-2"></i>Nieuws</span>
+                        </li>
+                    </ul>
                     <div class="row">
                         <div class="col-12">
                             <ul class="list-unstyled mb-3 mb-md-4">
