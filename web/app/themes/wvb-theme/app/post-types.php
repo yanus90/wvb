@@ -46,24 +46,24 @@ function register_elftal_post_type() {
 add_action('init', 'register_evenement_post_type');
 function register_evenement_post_type() {
     $labels = [
-        'name'               => 'Evenementen',
-        'singular_name'      => 'Evenement',
-        'menu_name'          => 'Evenementen',
-        'name_admin_bar'     => 'Evenement',
-        'add_new'            => 'Nieuw evenement',
-        'add_new_item'       => 'Voeg nieuw evenement toe',
-        'new_item'           => 'Nieuw evenement',
-        'edit_item'          => 'Bewerk evenement',
-        'view_item'          => 'Bekijk evenement',
-        'all_items'          => 'Alle evenementen',
-        'search_items'       => 'Zoek evenementen',
-        'parent_item_colon'  => 'Bovenliggend evenement',
-        'not_found'          => 'Geen evenementen gevonden',
-        'not_found_in_trash' => 'Geen evenementen gevonden in de prullenbak'
+        'name'               => 'Agenda',
+        'singular_name'      => 'Agenda',
+        'menu_name'          => 'Agenda',
+        'name_admin_bar'     => 'Agenda',
+        'add_new'            => 'Nieuw item',
+        'add_new_item'       => 'Voeg nieuw item toe',
+        'new_item'           => 'Nieuw item',
+        'edit_item'          => 'Bewerk item',
+        'view_item'          => 'Bekijk item',
+        'all_items'          => 'Alle items',
+        'search_items'       => 'Zoek items',
+        'parent_item_colon'  => 'Bovenliggend item',
+        'not_found'          => 'Geen items gevonden',
+        'not_found_in_trash' => 'Geen items gevonden in de prullenbak'
     ];
     $args = [
         'labels'             => $labels,
-        'description'        => 'Evenementen post type',
+        'description'        => 'Agenda post type',
         'public'             => true,
         'publicly_queryable' => true,
         'show_ui'            => true,
