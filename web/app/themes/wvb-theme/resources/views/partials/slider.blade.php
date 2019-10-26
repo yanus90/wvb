@@ -29,7 +29,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-12">
-                                        <img src="//placehold.it/110x70" class="img-fluid">
+                                        <img src="//placehold.it/280x175" class="img-fluid mb-3">
                                     </div>
                                     <div class="col-12 pt-2">
                                         <h5 class="card-title mb-2">Sponsor van de maand</h5>
