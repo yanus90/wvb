@@ -1,33 +1,14 @@
-@if ($events)
-    <div class="section section-upcoming-events">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="text-center color-primary mb-5">Aankomende activiteiten</h3>
+<ul class="list-unstyled mb-3 mb-md-4">
+    @foreach($events as $event)
+        <li class="mb-3">
+            <a href="{!! get_permalink($event) !!}" title="{!! $event->post_title !!}" class="media text-decoration-none">
+                <img src="{!! ($event->overzichtafbeelding ? wp_get_attachment_image_url($event->overzichtafbeelding, 'thumbnail') : '//placehold.it/150x150') !!}" class="mr-3 img-fluid rounded" alt="{!! $event->post_title !!}" width="70">
+                <div class="media-body font-size-p16 line-height-regular">
+                    <h6 class="date small mb-1 color-black">{{ $event->datum }}</h6>
+                    <h5 class="">{!! $event->post_title !!}</h5>
                 </div>
-            </div>
-            <div class="row mb-5">
-                @foreach($events as $event)
-                    @if ($event->overzichtafbeelding)
-                        <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                            <a href="{{ get_permalink($event) }}" class="card" title="{!! $event->post_title !!}">
-                                <img src="{!! wp_get_attachment_image_url($event->overzichtafbeelding, 'post_thumb') !!}" class="card-img" alt="{!! get_post_meta($event->overzichtafbeelding, '_wp_attachment_image_alt', TRUE); !!}">
-                                <div class="card-img-overlay d-flex flex-column">
-                                    <div class="mt-auto">
-                                        <h6 class="date small">{{ $event->datum }}</h6>
-                                        <h5 class="card-title">{!! $event->post_title !!}</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    @endif
-                @endforeach
-            </div>
-            <div class="row mb-4">
-                <div class="col-12 text-center">
-                    <a href="/evenementen/" class="btn btn-lg btn-primary" title="Agendaoverzicht">Agendaoverzicht<i class="fal fa-angle-right ml-3"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-@endif
+            </a>
+        </li>
+    @endforeach
+</ul>
+<p class="mb-0"><a href="/de-club/agenda" class="btn btn-sm btn-outline-primary" title="Volledig overzicht">Volledig overzicht<i class="fal fa-angle-right ml-3"></i></a></p>

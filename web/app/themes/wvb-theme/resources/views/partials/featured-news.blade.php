@@ -11,4 +11,4 @@
         </li>
     @endforeach
 </ul>
-<p class="mb-0"><a href="/nieuws" class="btn btn-sm btn-outline-primary" title="Meer nieuws">Meer nieuws<i class="fal fa-angle-right ml-3"></i></a></p>
+<p class="mb-2"><a href="/nieuws" class="btn btn-sm btn-outline-primary" title="Meer nieuws">Meer nieuws<i class="fal fa-angle-right ml-3"></i></a></p>

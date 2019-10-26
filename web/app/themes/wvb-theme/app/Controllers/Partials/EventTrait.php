@@ -15,7 +15,7 @@ trait EventTrait
             'post_type' => 'evenement',
             'order' => 'DESC',
             'orderBy' => 'startdatum',
-            'posts_per_page' => 4,
+            'posts_per_page' => 3,
             'meta_query' => [
                 [
                     'key' => 'einddatum',

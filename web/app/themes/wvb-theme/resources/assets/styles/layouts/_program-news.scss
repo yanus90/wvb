@@ -70,11 +70,11 @@
           }
 
           @include media-breakpoint-only(lg) {
-            max-height: 600px;
+            max-height: 775px;
           }
 
           @include media-breakpoint-up(xl) {
-            max-height: 520px;
+            max-height: 685px;
           }
         }
       }

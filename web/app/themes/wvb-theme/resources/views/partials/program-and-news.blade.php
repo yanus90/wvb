@@ -18,6 +18,11 @@
                             <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="news-tab" data-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="true"><i class="fal fa-newspaper mr-2"></i>Nieuws</a>
                         </li>
                     @endif
+                    @if($events)
+                        <li class="nav-item d-lg-none">
+                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Agenda</a>
+                        </li>
+                    @endif
                 </ul>
                 <div class="tab-content" id="programResultsContent">
                     @if($results)
@@ -77,20 +82,32 @@
                             @include('partials.featured-news')
                         </div>
                     @endif
+                    @if($events)
+                        <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
+                            @include('partials.upcoming-events')
+                        </div>
+                    @endif
                 </div>
             </div>
-            @if ($latest_news_articles)
+            @if ($latest_news_articles || $events)
                 <div class="d-none d-lg-inline-block col-lg-4 col-xl-5 col-xxl-4">
-                    <ul class="nav nav-pills mb-2">
-                        <li class="nav-item">
-                            <span class="nav-link active font-size-lg-p20"><i class="fal fa-newspaper mr-2"></i>Nieuws</span>
-                        </li>
-                    </ul>
+                    <h3 class="font-size-p14 font-size-md-p16 font-size-lg-p22 mb-4 mt-2"><i class="fal fa-newspaper mr-2"></i>Laatste nieuws</h3>
                     <div class="row">
                         <div class="col-12">
                             @include('partials.featured-news')
                         </div>
                     </div>
+                    @if ($events)
+                        <hr>
+                        <div class="mt-4">
+                            <h3 class="font-size-p14 font-size-md-p16 font-size-lg-p22 mb-4 mt-2"><i class="fal fa-calendar-alt mr-2"></i>Agenda</h3>
+                            <div class="row">
+                                <div class="col-12">
+                                    @include('partials.upcoming-events')
+                                </div>
+                            </div>
+                        </div>
+                    @endif
                 </div>
             @endif
         </div>
