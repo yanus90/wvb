@@ -2,13 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3 class="color-black mb-4">Hoofdsponsoren <span class="text-primary">Warnsveldse Boys</span></h3>
+                <h3 class="color-black mb-4">Hoofdsponsoren <br class="d-sm-none"><span class="text-primary">Warnsveldse Boys</span></h3>
             </div>
         </div>
         <div class="row">
             @foreach($sponsoren as $sponsor)
                 @if($loop->first)
-                    <div class="col-12 col-md-3 col-lg-3 col-xl-2 col-xxl-2">
+                    <div class="col-12 d-none d-md-inline-block col-md-3 col-lg-3 col-xl-2 col-xxl-2">
                         <a href="{!! $sponsor->website_url !!}" title="{!! $sponsor->post_title !!}" target="_blank" class="card card-sponsor main-sponsor align-self-center">
                             <div class="my-auto text-center">
                                 <img src="{!! wp_get_attachment_image_url($sponsor->logo, 'large') !!}" class="img-fluid" alt="{!! $sponsor->post_title !!}">
@@ -18,10 +18,10 @@
                 @endif
             @endforeach
             <div class="col-12 col-md-9 col-lg-9 col-xl-10 col-xxl-10">
-                <div class="row">
+                <div class="row main-sponsors-small-cards">
                     @foreach($sponsoren as $sponsor)
                         @if(! $loop->first)
-                            <div class="col-12 col-md-3 col-lg-3 col-xl-2 col-xxl-2 mb-md-2 mb-lg-4">
+                            <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-2 col-xxl-2 mb-2 mb-lg-4">
                                 @if($sponsor->website_url)
                                     <a href="{!! $sponsor->website_url !!}" title="{!! $sponsor->post_title !!}" target="_blank" class="card card-sponsor small align-self-center">
                                 @else

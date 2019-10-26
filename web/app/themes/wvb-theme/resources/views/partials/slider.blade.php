@@ -43,7 +43,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-xl-12">
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-12">
                         <a href="/wedstrijdverslagen" class="card mb-4" title="Wedstrijdverslagen">
                             <div class="row no-gutters">
                                 <div class="d-none d-sm-block d-md-none d-lg-block col-sm-3 col-md-4">
@@ -58,21 +58,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-12">
-                        <a href="#" class="card mb-4">
-                            <div class="row no-gutters">
-                                <div class="d-none d-lg-block col-md-4">
-                                    <img src="//placehold.it/160x117" class="card-img" alt="...">
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title mb-2">Programma en<br>uitslagen</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-xl-12">
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-12">
                         <a href="/evenementen" class="card" title="Wat staat er op de agenda?">
                             <div class="row no-gutters">
                                 <div class="d-none d-lg-block col-md-4">
