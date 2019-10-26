@@ -14,7 +14,7 @@ class TemplateProgramResults extends Controller
         $program_home = [];
 
         try {
-            $json = file_get_contents('https://data.sportlink.com/programma?clientId=X5wbJgu0J7&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=NEE');
+            $json = file_get_contents('https://data.sportlink.com/programma?clientId='.CLIENT_ID.'&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=NEE');
         } catch (\Exception $e) {
             $json = null;
         }
@@ -39,7 +39,7 @@ class TemplateProgramResults extends Controller
         $program_away = [];
 
         try {
-            $json = file_get_contents('https://data.sportlink.com/programma?clientId=X5wbJgu0J7&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=NEE&uit=JA');
+            $json = file_get_contents('https://data.sportlink.com/programma?clientId='.CLIENT_ID.'&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=NEE&uit=JA');
         } catch (\Exception $e) {
             $json = null;
         }
@@ -64,7 +64,7 @@ class TemplateProgramResults extends Controller
         $results = [];
 
         try {
-            $json = file_get_contents('https://data.sportlink.com/uitslagen?clientId=X5wbJgu0J7&gebruiklokaleteamgegevens=NEE&sorteervolgorde=datum-omgekeerd');
+            $json = file_get_contents('https://data.sportlink.com/uitslagen?clientId='.CLIENT_ID.'&gebruiklokaleteamgegevens=NEE&sorteervolgorde=datum-omgekeerd');
         } catch (\Exception $e) {
             $json = null;
         }
@@ -89,7 +89,7 @@ class TemplateProgramResults extends Controller
         $cup = [];
 
         try {
-            $json = file_get_contents('https://data.sportlink.com/programma?clientId=X5wbJgu0J7&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=JA&competitiesoort=beker');
+            $json = file_get_contents('https://data.sportlink.com/programma?clientId='.CLIENT_ID.'&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=JA&competitiesoort=beker');
         } catch (\Exception $e) {
             $json = null;
         }

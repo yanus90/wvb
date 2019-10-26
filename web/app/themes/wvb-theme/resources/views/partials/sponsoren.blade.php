@@ -1,4 +1,4 @@
-<div class="section pt-0 pb-5 section-sponsoren">
+<div class="section pt-0 pb-5 section-sponsoren-home">
     <div class="container">
         <div class="row">
             <div class="col-12">

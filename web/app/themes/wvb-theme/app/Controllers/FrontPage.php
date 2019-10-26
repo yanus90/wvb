@@ -5,12 +5,14 @@ namespace App\Controllers;
 use App\Controllers\Partials\EventTrait;
 use App\Controllers\Partials\LatestNewsArticles;
 //use App\Services\TwitterTweets;
+use App\Controllers\Partials\Sportlink;
 use Sober\Controller\Controller;
 
 class FrontPage extends Controller
 {
     use LatestNewsArticles;
     use EventTrait;
+    use Sportlink;
 
     public function slider()
     {
@@ -34,6 +36,20 @@ class FrontPage extends Controller
         ]);
 
         return $query->posts;
+    }
+
+    public function program()
+    {
+        $file = get_template_directory().'/storage/complete-club-program.json';
+
+        return $this->getFileFromExternalLink('programma', $file,'','&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=JA');
+    }
+
+    public function results()
+    {
+        $file = get_template_directory().'/storage/complete-club-results.json';
+
+        return $this->getFileFromExternalLink('uitslagen', $file, '', '&gebruiklokaleteamgegevens=NEE&sorteervolgorde=datum-omgekeerd&eigenwedstrijden=JA&thuis=JA&uit=JA');
     }
 
 //    public function tweets()

@@ -2,14 +2,12 @@
 
 namespace App\Controllers;
 
+use App\Controllers\Partials\Sportlink;
 use Sober\Controller\Controller;
 
 class SingleElftal extends Controller
 {
-    private $sportlink_settings;
-    private $teamcode;
-    private $poulecode;
-    private $poulecode_cup;
+    use Sportlink;
 
     public function __construct()
     {
@@ -75,30 +73,4 @@ class SingleElftal extends Controller
 //
 //        return $results_cup;
 //    }
-    
-    private function getFileFromExternalLink($type, $file_path, $teamcode = null, $extra = null)
-    {
-        $teamcode_full = '&teamcode=' . $teamcode ?? null;
-        $results = [];
-
-        try {
-            $json = file_get_contents('https://data.sportlink.com/'.$type.'?clientId='. CLIENT_ID .''. $teamcode_full .'&poulecode=' . $this->poulecode . '' . $extra);
-        } catch (\Exception $e) {
-            $json = null;
-        }
-
-        if ($json !== false) {
-            $file = file_put_contents($file_path, $json);
-        } else {
-            $file = file_get_contents($file_path);
-            $json = json_encode($file, true);
-        }
-
-        if ($json) {
-            $results = json_decode($json, true);
-        }
-
-        return $results;
-    }
-
 }

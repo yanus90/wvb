@@ -1,0 +1,124 @@
+.section-sponsoren-home {
+  .card {
+    &.no-border {
+      border: none;
+      border-radius: 0;
+
+      .card-img {
+        border-radius: 0;
+      }
+    }
+
+    &.card-sponsor {
+      padding: 0.5rem 0.8rem;
+
+      &.small {
+        height: 7rem;
+
+        img {
+          max-height: 4.5rem;
+        }
+
+        @include media-breakpoint-up(md) {
+          height: 5rem;
+
+          img {
+            max-height: 4rem;
+          }
+        }
+
+        @include media-breakpoint-up(lg) {
+          height: 6rem;
+
+          img {
+            max-height: 4rem;
+          }
+        }
+
+        @include media-breakpoint-up(xl) {
+          height: 6.25rem;
+
+          img {
+            max-height: 3rem;
+            max-width: 6.5rem;
+          }
+        }
+
+        @include media-breakpoint-up(xxl) {
+          height: 7rem;
+
+          img {
+            max-height: 4rem;
+            max-width: 8rem;
+          }
+        }
+      }
+
+      &.big {
+        height: 13rem;
+
+        img {
+          max-height: 9rem;
+        }
+
+        @include media-breakpoint-up(md) {
+          height: 9rem;
+
+          img {
+            max-height: 6.5rem;
+          }
+        }
+
+        @include media-breakpoint-up(lg) {
+          height: 9rem;
+
+          img {
+            max-height: 6.5rem;
+          }
+        }
+
+        @include media-breakpoint-up(xl) {
+          height: 12rem;
+
+          img {
+            max-height: 9rem;
+          }
+        }
+      }
+
+      &.main-sponsor {
+        @include media-breakpoint-up(md) {
+          height: 16rem;
+
+          img {
+            max-height: 15rem;
+          }
+        }
+
+        @include media-breakpoint-up(lg) {
+          height: 21rem;
+
+          img {
+            max-height: 15rem;
+          }
+        }
+
+        @include media-breakpoint-up(xl) {
+          height: 14rem;
+
+          img {
+            max-height: 11rem;
+          }
+        }
+
+        @include media-breakpoint-up(xxl) {
+          height: 15.5rem;
+
+          img {
+            max-height: 12rem;
+          }
+        }
+      }
+    }
+  }
+}

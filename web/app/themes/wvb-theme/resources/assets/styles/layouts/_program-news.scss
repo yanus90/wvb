@@ -1,0 +1,43 @@
+.section-featured-news {
+  .nav-tabs {
+    .nav-item {
+      .nav-link {
+        color: $black;
+        border: none;
+
+        &.active {
+          color: $white;
+          background: $primary;
+          border: none;
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    padding: 1rem 0;
+
+    .table-responsive {
+      @include media-breakpoint-up(lg) {
+        max-height: 390px;
+        overflow-y: scroll;
+      }
+
+      .table {
+        font-size: 0.85rem;
+
+        td {
+          padding: 0.5rem 0.75rem;
+        }
+
+        thead {
+          th {
+            border-top: none;
+            padding: 0.5rem 0.75rem;
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+}
