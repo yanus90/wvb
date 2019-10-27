@@ -15,7 +15,7 @@ class TemplateElftallen extends Controller
             'post_type' => 'elftal',
             'orderby' => 'menu_order',
             'order' => 'DESC',
-            'post_per_page' => -1
+            'posts_per_page' => -1
         ]);
         return $query->posts;
     }

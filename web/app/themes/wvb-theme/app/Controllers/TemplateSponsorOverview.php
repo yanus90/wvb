@@ -27,7 +27,7 @@ class TemplateSponsorOverview extends Controller
                 'post_type' => 'sponsor',
                 'orderby' => 'menu_order',
                 'order' => 'DESC',
-                'post_per_page' => -1,
+                'posts_per_page' => -1,
                 'meta_query' => [
                     [
                         'key'     => 'zichtbaar_op',

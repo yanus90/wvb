@@ -19,7 +19,7 @@ class TemplateSmoelenboek extends Controller
             ],
             'orderby' => 'menu_order',
             'order' => 'ASC',
-            'post_per_page' => -1
+            'posts_per_page' => -1
         ]);
         return $query->posts;
     }
