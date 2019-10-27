@@ -23,6 +23,7 @@ class TaxonomyAfdeling extends Controller
             'post_type' => 'elftal',
             'orderby' => 'menu_order',
             'order' => 'ASC',
+            'post_per_page' => -1,
             'tax_query' => [
                 [
                     'taxonomy' => 'afdeling',
