@@ -17,26 +17,28 @@
                   <div class="table-header">
                     <h4 class="mb-0">{!! $dag['programmaoverzicht_titel'] !!}</h4>
                   </div>
-                  @foreach($dag['programmalijst'] as $item)
-                    <div class="table-row">
-                      <div class="row">
-                        <div class="col-12 col-sm-5 col-md-4 col-lg-4">
-                          <p class="time">{!! $item['tijd'] !!}</p>
-                        </div>
-                        <div class="col-12 col-sm-7 col-md-8 col-lg-8">
-                          <p class="subject">{!! $item['onderwerp'] !!}</p>
-                          @if($item['items_per_tijdstip'])
-                            <hr class="mt-2 mb-2">
-                            <ul class="list-unstyled mb-0 font-size-small line-height-big">
-                              @foreach($item['items_per_tijdstip'] as $row)
-                                <li>{!! $row['naam'] !!}@if($row['link_tekst'] && $row['link']) - <a href="{!! $row['link'] !!}" target="{{ $row['nieuw_tabblad'] }}" title="{!! $row['link_tekst'] !!}">{!! $row['link_tekst'] !!}</a> @endif</li>
-                              @endforeach
-                            </ul>
-                          @endif
+                  @if($dag['programmalijst'])
+                    @foreach($dag['programmalijst'] as $item)
+                      <div class="table-row">
+                        <div class="row">
+                          <div class="col-12 col-sm-5 col-md-4 col-lg-4">
+                            <p class="time">{!! $item['tijd'] !!}</p>
+                          </div>
+                          <div class="col-12 col-sm-7 col-md-8 col-lg-8">
+                            <p class="subject">{!! $item['onderwerp'] !!}</p>
+                            @if($item['items_per_tijdstip'])
+                              <hr class="mt-2 mb-2">
+                              <ul class="list-unstyled mb-0 font-size-small line-height-big">
+                                @foreach($item['items_per_tijdstip'] as $row)
+                                  <li>{!! $row['naam'] !!}@if($row['link_tekst'] && $row['link']) - <a href="{!! $row['link'] !!}" target="{{ $row['nieuw_tabblad'] }}" title="{!! $row['link_tekst'] !!}">{!! $row['link_tekst'] !!}</a> @endif</li>
+                                @endforeach
+                              </ul>
+                            @endif
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  @endforeach
+                    @endforeach
+                  @endif
                 </div>
               @endforeach
             @endif
