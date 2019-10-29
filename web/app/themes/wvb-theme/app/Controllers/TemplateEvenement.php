@@ -19,7 +19,7 @@ class TemplateEvenement extends Controller
             'post_type' => 'evenement',
             'order' => 'DESC',
             'orderBy' => 'startdatum',
-            'posts_per_page' => 10,
+            'posts_per_page' => 25,
             'paged' => get_query_var('paged') ? get_query_var('paged') : 1,
             'meta_query' => [
                 [
