@@ -11,10 +11,10 @@
             <div class="col-lg-6 bg-primary content-about-home">
                 <div class="row no-gutters h-100">
                     <div class="col-xl-11 col-xxl-9 my-auto">
-                        <div class="p-5">
-                            <h1 class="color-white font-size-md-p40 mb-4">Over Warnsveldse Boys</h1>
+                        <div class="p-3 p-md-4 p-lg-5">
+                            <h1 class="color-white font-size-p26 font-size-lg-p30 font-size-xl-p40 mb-lg-4">Over Warnsveldse Boys</h1>
                             @if(get_field('over_wvb'))
-                                <div class="color-white font-size-md-p18 font-weight-medium line-height-big">
+                                <div class="color-white font-size-p14 font-size-md-p16 font-size-lg-p18 font-weight-medium line-height-big">
                                     {!! get_field('over_wvb') !!}
                                 </div>
                             @endif

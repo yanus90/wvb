@@ -22,38 +22,38 @@
   }
 
   .nav-wrapper {
-    @include media-breakpoint-down(sm) {
-      min-height: 5.5rem;
-    }
+    min-height: 5.5rem;
 
-    @include media-breakpoint-up(sm) {
-      min-height: 7.1875rem;
-    }
-
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(xl) {
       min-height: 7.5rem;
-    }
-
-    @include media-breakpoint-up(lg) {
-      min-height: 8.25rem;
     }
 
     .nav-container {
       background: $primary;
       color: $white;
-      padding: 0.5rem 0;
       z-index: 18;
+      padding: 0;
+
+      @include media-breakpoint-up(xl) {
+        padding: 0.5rem 0;
+      }
 
       .navbar {
         .navbar-brand-bg {
           position: absolute;
-          width: 10.4rem;
-          height: 8.25rem;
           background: #fff;
-          top: -0.5rem;
+          top: 0;
           margin-left: -2.2rem;
           z-index: 1;
           transition: all 0.3s ease-out;
+          width: 8.5rem;
+          height: 5.6rem;
+
+          @include media-breakpoint-up(xl) {
+            top: -0.5rem;
+            width: 10.4rem;
+            height: 8.25rem;
+          }
 
           &::before,
           &::after {
@@ -85,14 +85,22 @@
         }
 
         .navbar-brand {
-          margin-right: 3.45rem;
           z-index: 2;
           transition: all 0.3s ease-out;
+          margin-right: 0;
+
+          @include media-breakpoint-up(xl) {
+            margin-right: 3.45rem;
+          }
 
           img {
             &.logo {
-              height: 5.625rem;
               transition: all 0.3s ease-out;
+              height: 4rem;
+
+              @include media-breakpoint-up(xl) {
+                height: 5.625rem;
+              }
             }
           }
         }
@@ -100,7 +108,13 @@
         .navbar-toggler {
           background: $primary-dark;
           color: $white;
-          padding: 0.75rem;
+          padding: 0.5rem;
+          font-size: 1rem;
+
+          @include media-breakpoint-up(xl) {
+            padding: 0.75rem;
+            font-size: 1.25rem;
+          }
         }
 
         .navbar-nav {

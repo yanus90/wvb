@@ -1,4 +1,4 @@
-<div class="section section-slider pt-5 pb-lg-3 pb-xl-5">
+<div class="section section-slider pt-4 pt-xl-5 pb-md-4 pb-xl-5">
     <div class="container">
         <div class="row">
             @if (get_field('homepagina_slider'))
@@ -28,14 +28,14 @@
             <div class="col-lg-4 col-xl-3 col-xxl-3">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-xl-12">
-                        <a href="#" class="card card-sponsor-featured mb-4">
+                        <a href="#" class="card card-sponsor-featured mb-lg-4">
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-12">
-                                        <img src="//placehold.it/280x175" class="img-fluid w-100 mb-2">
+                                    <div class="col-4 col-sm-3 col-md-3 col-lg-12">
+                                        <img src="//placehold.it/280x175" class="img-fluid w-100 mb-lg-2" alt="">
                                     </div>
-                                    <div class="col-12 pt-2">
-                                        <h5 class="card-title mb-0 font-size-xl-p18 font-size-xxl-p20">Sponsor van de maand</h5>
+                                    <div class="col-8 col-sm-9 col-md-9 col-lg-12 pt-lg-2">
+                                        <h5 class="card-title mb-0 font-size-p18 font-size-xl-p18 font-size-xxl-p20">Sponsor van de maand</h5>
                                     </div>
                                 </div>
                                 {{--<h5 class="card-title color-white">Lid worden bij Warnsveldse Boys!</h5>--}}
