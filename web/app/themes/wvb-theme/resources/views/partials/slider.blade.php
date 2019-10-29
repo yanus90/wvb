@@ -28,7 +28,7 @@
             <div class="col-lg-4 col-xl-3 col-xxl-3">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-xl-12">
-                        <a href="#" class="card card-sponsor-featured mb-lg-4">
+                        <a href="/sponsor-van-de-maand" class="card card-sponsor-featured mb-lg-4" title="Sponsor van de maand">
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-4 col-sm-3 col-md-3 col-lg-12">
@@ -37,7 +37,7 @@
                                     <div class="col-8 col-sm-9 col-md-9 col-lg-12 pt-lg-2">
                                         <h5 class="card-title font-size-p16 mb-2">Sponsor van de maand</h5>
                                         <h5 class="card-title font-size-p18 font-size-xl-p18 font-size-xxl-p22 text-primary">Houx Sport Zutphen</h5>
-                                        <p class="font-size-p14 color-black">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                        <p class="font-size-p14 color-black d-none d-xl-inline-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                                         <p class="mb-0"><span class="btn btn-sm btn-primary">Lees verder<i class="fal fa-angle-right ml-2"></i></span></p>
                                     </div>
                                 </div>
