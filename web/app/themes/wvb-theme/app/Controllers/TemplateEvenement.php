@@ -15,11 +15,11 @@ class TemplateEvenement extends Controller
     {
         $now = Carbon::now();
 
-        $query = new \WP_Query([
+        $args = [
             'post_type' => 'evenement',
             'order' => 'DESC',
             'orderBy' => 'startdatum',
-            'posts_per_page' => 25,
+            'posts_per_page' => 10,
             'paged' => get_query_var('paged') ? get_query_var('paged') : 1,
             'meta_query' => [
                 [
@@ -29,9 +29,10 @@ class TemplateEvenement extends Controller
                     'type' => 'DATE'
                 ]
             ]
-        ]);
+        ];
 
-        $events = $query->posts;
+        $this->eventsQuery = new WP_Query($args);
+        $events = $this->eventsQuery->posts;
 
         foreach ($events as $event) {
             $event->datum = (new DateHelper())->setDateString($event);

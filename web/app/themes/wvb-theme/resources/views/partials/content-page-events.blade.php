@@ -11,26 +11,26 @@
                         @if($events)
                             <div class="event-list mt-5">
                                 @foreach($events as $event)
-                                    @if($event->overzichtafbeelding)
-                                        <a href="{!! get_permalink($event) !!}" title="{!! $event->post_title !!}" class="event-item text-decoration-none">
-                                            <div class="row no-gutters">
-                                                <div class="col-12 col-sm-4 col-md-5 col-lg-4 col-xl-5">
+                                    <a href="{!! get_permalink($event) !!}" title="{!! $event->post_title !!}" class="event-item text-decoration-none">
+                                        <div class="row no-gutters">
+                                            @if($event->overzichtafbeelding)
+                                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
                                                     <div class="event-item-image">
                                                         <img src="{!! wp_get_attachment_image_url($event->overzichtafbeelding, 'post_thumb') !!}" alt="{{ get_post_meta($event->overzichtafbeelding, '_wp_attachment_image_alt', true) }}" class="img-fluid w-100">
                                                     </div>
                                                 </div>
-                                                <div class="col-12 col-sm-8 col-md-7 col-lg-8 col-xl-7">
-                                                    <div class="event-item-content">
-                                                        <p class="font-size-small mb-0">{{ $event->datum }}</p>
-                                                        <hr>
-                                                        <div class="mb-3">
-                                                            <h3 class="font-size-p26">{!! $event->post_title !!}</h3>
-                                                        </div>
+                                            @endif
+                                            <div class="{{ ($event->overzichtafbeelding ? 'col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-9' : 'col-12') }}">
+                                                <div class="event-item-content">
+                                                    <p class="font-size-small mb-0">{{ $event->datum }}</p>
+                                                    <hr>
+                                                    <div class="mb-3">
+                                                        <h3 class="font-size-p26">{!! $event->post_title !!}</h3>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
-                                    @endif
+                                        </div>
+                                    </a>
                                 @endforeach
                             </div>
                         @endif
