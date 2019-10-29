@@ -35,7 +35,10 @@
                                         <img src="//placehold.it/280x175" class="img-fluid w-100 mb-lg-2" alt="">
                                     </div>
                                     <div class="col-8 col-sm-9 col-md-9 col-lg-12 pt-lg-2">
-                                        <h5 class="card-title mb-0 font-size-p18 font-size-xl-p18 font-size-xxl-p20">Sponsor van de maand</h5>
+                                        <h5 class="card-title font-size-p16 mb-2">Sponsor van de maand</h5>
+                                        <h5 class="card-title font-size-p18 font-size-xl-p18 font-size-xxl-p22 text-primary">Houx Sport Zutphen</h5>
+                                        <p class="font-size-p14 color-black">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                        <p class="mb-0"><span class="btn btn-sm btn-primary">Lees verder<i class="fal fa-angle-right ml-2"></i></span></p>
                                     </div>
                                 </div>
                                 {{--<h5 class="card-title color-white">Lid worden bij Warnsveldse Boys!</h5>--}}
