@@ -10,8 +10,7 @@
                                 @if($sponsor->afbeelding)
                                     <img src="{!! wp_get_attachment_image_url($sponsor->afbeelding, 'sponsor_month_image') !!}" alt="{!! $sponsor->post_title !!}" class="img-fluid mb-3 mb-md-4 rounded">
                                 @endif
-                                @php the_content() @endphp
-                                {!! wp_link_pages(['echo' => 0, 'before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
+                                {!! $sponsor->post_content !!}
                             </div>
                             <div class="col-12 col-md-5 col-lg-4 font-weight-medium line-height-md-big">
                                 @if($sponsor->logo)
