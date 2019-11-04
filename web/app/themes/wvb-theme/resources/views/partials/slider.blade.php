@@ -27,55 +27,33 @@
             @endif
             <div class="col-lg-4 col-xl-3 col-xxl-3">
                 <div class="row">
-                    <div class="col-sm-12 col-md-12 col-xl-12">
-                        <a href="/sponsor-van-de-maand" class="card card-sponsor-featured mb-lg-4" title="Sponsor van de maand">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-4 col-sm-3 col-md-3 col-lg-12">
-                                        <img src="//placehold.it/280x175" class="img-fluid w-100 mb-lg-2" alt="">
+                    @if($sponsor_of_the_month)
+                        @foreach($sponsor_of_the_month as $sponsor)
+                            <div class="col-sm-12 col-md-12 col-xl-12">
+                                <a href="/sponsor-van-de-maand" class="card card-sponsor-featured mb-lg-4" title="Sponsor van de maand: {!! $sponsor->post_title !!}">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            @if($sponsor->afbeelding)
+                                                <div class="col-4 col-sm-3 col-md-3 col-lg-12">
+                                                    <img src="{!! wp_get_attachment_image_url($sponsor->afbeelding, 'sponsor_month_image') !!}" alt="{!! $sponsor->post_title !!}" class="img-fluid rounded mb-2">
+                                                </div>
+                                            @endif
+                                            <div class="{{ ($sponsor->afbeelding ? 'col-8 col-sm-9 col-md-9 col-lg-12 pt-lg-2' : 'col-12 pt-lg-2') }}">
+                                                <h5 class="card-title font-size-p16 mb-2">Sponsor van de maand</h5>
+                                                <h5 class="card-title font-size-p18 font-size-xl-p18 font-size-xxl-p22 text-primary">{!! $sponsor->post_title !!}</h5>
+                                                @if($sponsor->korte_omschrijving)
+                                                    <p class="font-size-p14 color-black d-none d-xl-inline-block">
+                                                        {!! $sponsor->korte_omschrijving !!}
+                                                    </p>
+                                                @endif
+                                                <p class="mb-0"><span class="btn btn-sm btn-primary">Lees verder<i class="fal fa-angle-right ml-2"></i></span></p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-8 col-sm-9 col-md-9 col-lg-12 pt-lg-2">
-                                        <h5 class="card-title font-size-p16 mb-2">Sponsor van de maand</h5>
-                                        <h5 class="card-title font-size-p18 font-size-xl-p18 font-size-xxl-p22 text-primary">Houx Sport Zutphen</h5>
-                                        <p class="font-size-p14 color-black d-none d-xl-inline-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                        <p class="mb-0"><span class="btn btn-sm btn-primary">Lees verder<i class="fal fa-angle-right ml-2"></i></span></p>
-                                    </div>
-                                </div>
-                                {{--<h5 class="card-title color-white">Lid worden bij Warnsveldse Boys!</h5>--}}
-                                {{--<p class="card-text mb-0 color-white">Altijd al willen voetballen? Meld je snel aan!</p>--}}
+                                </a>
                             </div>
-                        </a>
-                    </div>
-                    {{--<div class="col-12 col-sm-6 col-md-6 col-xl-12">--}}
-                        {{--<a href="/wedstrijdverslagen" class="card mb-4" title="Wedstrijdverslagen">--}}
-                            {{--<div class="row no-gutters">--}}
-                                {{--<div class="d-none d-sm-block d-md-none d-lg-block col-sm-3 col-md-4">--}}
-                                    {{--<img src="//placehold.it/160x117" class="card-img" alt="Wedstrijdverslagen">--}}
-                                {{--</div>--}}
-                                {{--<div class="col-sm-9 col-md-12 col-lg-8">--}}
-                                    {{--<div class="card-body">--}}
-                                        {{--<h5 class="card-title mb-2">Wedstrijdverslagen</h5>--}}
-                                        {{--<p class="card-text mb-0">Lees alle wedstrijdverslagen</p>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</a>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-12 col-sm-6 col-md-6 col-xl-12">--}}
-                        {{--<a href="/evenementen" class="card" title="Wat staat er op de agenda?">--}}
-                            {{--<div class="row no-gutters">--}}
-                                {{--<div class="d-none d-lg-block col-md-4">--}}
-                                    {{--<img src="//placehold.it/160x117" class="card-img" alt="...">--}}
-                                {{--</div>--}}
-                                {{--<div class="col-lg-8">--}}
-                                    {{--<div class="card-body">--}}
-                                        {{--<h5 class="card-title mb-2">Agenda</h5>--}}
-                                        {{--<p class="card-text mb-0">Wat staat er op de agenda?</p>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</a>--}}
-                    {{--</div>--}}
+                        @endforeach
+                    @endif
                 </div>
             </div>
         </div>

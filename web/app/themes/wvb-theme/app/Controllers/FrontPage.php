@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Controllers\Partials\EventTrait;
 use App\Controllers\Partials\LatestNewsArticles;
 //use App\Services\TwitterTweets;
+use App\Controllers\Partials\SponsorOfTheMonth;
 use App\Controllers\Partials\Sportlink;
 use Sober\Controller\Controller;
 
@@ -13,6 +14,7 @@ class FrontPage extends Controller
     use LatestNewsArticles;
     use EventTrait;
     use Sportlink;
+    use SponsorOfTheMonth;
 
     public function slider()
     {
