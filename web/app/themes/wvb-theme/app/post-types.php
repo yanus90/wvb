@@ -259,8 +259,8 @@ function register_vacature_post_type() {
     $args = [
         'labels'             => $labels,
         'description'        => 'Vacatures post type',
-        'public'             => false,
-        'publicly_queryable' => false,
+        'public'             => true,
+        'publicly_queryable' => true,
         'show_ui'            => true,
         'show_in_menu'       => true,
         'query_var'          => true,
