@@ -12,8 +12,8 @@ class TemplateSmoelenboek extends Controller
             'post_type' => 'person',
             'meta_query' => [
                 [
-                    'key'     => 'actief_smoelenboek',
-                    'value'   => 1,
+                    'key'     => 'zichtbaar_op',
+                    'value'   => 'smoelenboek',
                     'compare' => 'LIKE',
                 ]
             ],
