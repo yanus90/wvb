@@ -7,10 +7,10 @@
 
                 @if($smoelenboek)
                     @foreach($smoelenboek as $commission => $items)
-                        <div class="row">
+                        <div class="row mb-4">
                             <div class="col-12 font-weight-medium line-height-md-big">
                                 <div class="persons">
-                                    <h2 class="h4 mb-3 mb-md-4 text-uppercase">{!! $commission !!}</h2>
+                                    <h2 class="h4 mb-3 mb-md-4 text-uppercase text-primary">{!! $commission !!}</h2>
                                     <div class="row">
                                         @foreach($items as $item)
                                             @php
