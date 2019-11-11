@@ -141,7 +141,7 @@ function register_person_post_type() {
     $args = [
         'labels'             => $labels,
         'description'        => 'Personen post type',
-        'public'             => true,
+        'public'             => false,
         'publicly_queryable' => true,
         'show_ui'            => true,
         'show_in_menu'       => true,
