@@ -7,7 +7,7 @@
 
                 @if($smoelenboek)
                     @foreach($smoelenboek as $commission => $items)
-                        <div class="row mb-4">
+                        <div class="row mb-4 mb-lg-5">
                             <div class="col-12 font-weight-medium line-height-md-big">
                                 <div class="persons">
                                     <h2 class="h4 mb-3 mb-md-4 text-uppercase text-primary">{!! $commission !!}</h2>
