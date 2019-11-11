@@ -60,6 +60,10 @@
     "roots/wordpress": "^5.2",
     "roots/wp-config": "^1.0",
     "roots/wp-password-bcrypt": "^1.0",
+    "laposta/laposta-api-php": "^1.5",
+    "wp-media/wp-rocket": "^3.3",
+    "advanced-custom-fields/advanced-custom-fields-pro": "^5.0",
+    "j7mbo/twitter-api-php": "^1.0",
     "wpackagist-plugin/contact-form-7": "^5.1",
     "wpackagist-plugin/safe-redirect-manager": "^1.9",
     "wpackagist-plugin/simple-page-ordering": "^2.3",
@@ -75,10 +79,7 @@
     "wpackagist-plugin/svg-support": "^2.3",
     "wpackagist-plugin/wp-email-smtp": "^1.0",
     "wpackagist-plugin/advanced-nocaptcha-recaptcha": "^5.0",
-    "laposta/laposta-api-php": "^1.5",
-    "wp-media/wp-rocket": "^3.3",
-    "advanced-custom-fields/advanced-custom-fields-pro": "^5.0",
-    "j7mbo/twitter-api-php": "^1.0",
+    "wpackagist-plugin/webp-express": "^0.17",
     "wpackagist-plugin/wp-all-import":"3.5.2"
   },
   "require-dev": {
