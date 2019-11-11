@@ -153,3 +153,41 @@ function custom_positie_taxonomy()
     ];
     register_taxonomy('positie', ['speler'], $args);
 }
+
+add_action('init', 'custom_commission_taxonomy', 0);
+function custom_commission_taxonomy()
+{
+    $labels = [
+        'name'                       => 'Commissies',
+        'singular_name'              => 'Commissie',
+        'menu_name'                  => 'Commissies',
+        'all_items'                  => __( 'Alle commissies', 'text_domain' ),
+        'parent_item'                => __( 'Hoofd commissie', 'text_domain' ),
+        'parent_item_colon'          => __( 'Hoofd commissie:', 'text_domain' ),
+        'new_item_name'              => __( 'Nieuwe commissie', 'text_domain' ),
+        'add_new_item'               => __( 'Voeg commissie toe', 'text_domain' ),
+        'edit_item'                  => __( 'Commissie aanpassen', 'text_domain' ),
+        'update_item'                => __( 'Bewerk commissie', 'text_domain' ),
+        'view_item'                  => __( 'Toon commissie', 'text_domain' ),
+        'separate_items_with_commas' => __( 'Separate items with commas', 'text_domain' ),
+        'add_or_remove_items'        => __( 'Commissies toevoegen of verwijderen', 'text_domain' ),
+        'choose_from_most_used'      => __( 'Choose from the most used', 'text_domain' ),
+        'popular_items'              => __( 'Pupulaire commissies', 'text_domain' ),
+        'search_items'               => __( 'Zoek commissies', 'text_domain' ),
+        'not_found'                  => __( 'Niet gevonden', 'text_domain' ),
+        'no_terms'                   => __( 'Geen commissies', 'text_domain' ),
+        'items_list'                 => __( 'Commissies lijst', 'text_domain' ),
+        'items_list_navigation'      => __( 'Commissielijst navigatie', 'text_domain' ),
+    ];
+    $args = [
+        'labels'                     => $labels,
+        'hierarchical'               => false,
+        'public'                     => true,
+        'show_ui'                    => true,
+        'show_admin_column'          => true,
+        'show_in_nav_menus'          => true,
+        'show_tagcloud'              => true,
+        'rewrite'                    => ['slug' => 'commissies', 'with_front' => true],
+    ];
+    register_taxonomy('commissie', ['person'], $args);
+}

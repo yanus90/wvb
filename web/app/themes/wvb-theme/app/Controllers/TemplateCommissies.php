@@ -6,14 +6,15 @@ use Sober\Controller\Controller;
 
 class TemplateCommissies extends Controller
 {
-    public function commissies()
+    public function commissions()
     {
-        $query = new \WP_Query([
-            'post_type' => 'commissie',
+        $query = new \WP_Term_Query([
+            'taxonomy' => 'commissie',
             'orderby' => 'menu_order',
             'order' => 'ASC',
-            'post_per_page' => -1
+            'posts_per_page' => -1
         ]);
-        return $query->posts;
+
+        return $query->get_terms();
     }
 }

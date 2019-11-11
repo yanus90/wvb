@@ -27,7 +27,7 @@ class App extends Controller
             return __('Latest Posts', 'sage');
         }
         if (is_archive()) {
-            if (is_tax('afdeling')) {
+            if (is_tax('afdeling') || is_tax('commissie')) {
                 return single_term_title();
             } else {
                 return get_the_archive_title();
