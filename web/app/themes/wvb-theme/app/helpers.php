@@ -156,3 +156,12 @@ function currentUrl()
 {
     return (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 }
+
+function convertYoutube($string)
+{
+    return preg_replace(
+        "/\s*[a-zA-Z\/\/:\.]*youtu(be.com\/watch\?v=|.be\/)([a-zA-Z0-9\-_]+)([a-zA-Z0-9\/\*\-\_\?\&\;\%\=\.]*)/i",
+        "<iframe class=\"embed-responsive-item\" src=\"//www.youtube.com/embed/$2\" allowfullscreen></iframe>",
+        $string
+    );
+}

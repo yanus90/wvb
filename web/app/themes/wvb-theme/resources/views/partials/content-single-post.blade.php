@@ -1,4 +1,5 @@
 @include('partials.page-header')
+
 @php
   $image_id = $post->afbeelding_bericht;
   $alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
@@ -11,9 +12,16 @@
       <div class="col-xl-1"></div>
       <div class="col-12 col-xl-10">
         @if(get_post()->afbeelding_bericht)
-          <div class="row mb-5 justify-content-md-center">
+          <div class="row mb-4 mb-lg-5 justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-10 col-xl-9">
               <img src="{!! wp_get_attachment_image_url(get_post()->afbeelding_bericht, 'news_image') !!}" class="img-fluid w-100 rounded" alt="{{ get_post_meta(get_post()->afbeelding_bericht, '_wp_attachment_image_alt', true) }}">
+            </div>
+          </div>
+        @endif
+        @if(get_post()->fotos_externe_link)
+          <div class="row justify-content-md-center d-lg-none">
+            <div class="col-12 col-md-10">
+              <p><a href="{!! get_post()->fotos_externe_link !!}" title="Bekijk hier de foto's" target="_blank" class="btn btn-sm btn-primary"><i class="fal fa-camera-retro mr-2"></i>Bekijk hier de foto's</a></p>
             </div>
           </div>
         @endif
@@ -33,6 +41,24 @@
                     </a>
                   </div>
                 @endforeach
+              </div>
+            </div>
+          </div>
+        @endif
+        @if(get_post()->youtube_video)
+            <div class="row mb-5 justify-content-md-center">
+              <div class="col-12 col-md-10 col-lg-10 col-xl-9">
+                <div class="embed-responsive embed-responsive-16by9">
+                  @php echo \App\convertYoutube(get_post()->youtube_video) @endphp
+                </div>
+              </div>
+            </div>
+        @endif
+        @if(get_post()->vimeo_video)
+          <div class="row mb-5 justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-10 col-xl-9">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://player.vimeo.com/video/{!! get_post()->vimeo_video !!}" class="embed-responsive-item" allow="fullscreen" allowfullscreen></iframe>
               </div>
             </div>
           </div>
