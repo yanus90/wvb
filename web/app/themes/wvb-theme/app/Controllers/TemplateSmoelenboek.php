@@ -26,7 +26,7 @@ class TemplateSmoelenboek extends Controller
             $query = new \WP_Query([
                 'post_type' => 'person',
                 'orderby' => 'menu_order',
-                'order' => 'DESC',
+                'order' => 'ASC',
                 'posts_per_page' => -1,
                 'meta_query' => [
                     [
@@ -50,22 +50,4 @@ class TemplateSmoelenboek extends Controller
         }
         return $results;
     }
-
-//    public function smoelenboek()
-//    {
-//        $query = new \WP_Query([
-//            'post_type' => 'person',
-//            'meta_query' => [
-//                [
-//                    'key'     => 'zichtbaar_op',
-//                    'value'   => 'smoelenboek',
-//                    'compare' => 'LIKE',
-//                ]
-//            ],
-//            'orderby' => 'menu_order',
-//            'order' => 'ASC',
-//            'posts_per_page' => -1
-//        ]);
-//        return $query->posts;
-//    }
 }
