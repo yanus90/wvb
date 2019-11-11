@@ -50,7 +50,7 @@
         {
             "key": "field_5d9246102aa95",
             "label": "E-mailadres",
-            "name": "e-mailadres",
+            "name": "e_mailadres",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -108,5 +108,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1573499872
+    "modified": 1573504757
 }
