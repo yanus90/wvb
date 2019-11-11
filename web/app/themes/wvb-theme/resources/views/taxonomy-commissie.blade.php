@@ -46,7 +46,7 @@
                     @foreach($persons as $person)
                         @php
                             $image = get_field('profielfoto', $person);
-                            $functions = wp_get_post_terms($person->ID, 'commissie');
+                            $functions = wp_get_post_terms($person->ID, 'functie');
                         @endphp
                         <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xxl-3 mb-4">
                             <div class="card" title="{!! $person->post_title !!}">
