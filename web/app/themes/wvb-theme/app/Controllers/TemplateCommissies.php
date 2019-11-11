@@ -12,6 +12,13 @@ class TemplateCommissies extends Controller
             'taxonomy' => 'commissie',
             'orderby' => 'menu_order',
             'order' => 'ASC',
+            'meta_query' => [
+                [
+                    'key'     => 'zichtbaar_op',
+                    'value'   => 'overview',
+                    'compare' => 'LIKE',
+                ]
+            ],
             'posts_per_page' => -1
         ]);
 

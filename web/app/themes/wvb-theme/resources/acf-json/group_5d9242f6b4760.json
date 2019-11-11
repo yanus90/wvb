@@ -49,9 +49,9 @@
         },
         {
             "key": "field_5d92434421ce8",
-            "label": "Zichtbaar in smoelenboek",
-            "name": "zichtbaar_in_smoelenboek",
-            "type": "true_false",
+            "label": "Zichtbaar op",
+            "name": "zichtbaar_op",
+            "type": "checkbox",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -60,11 +60,15 @@
                 "class": "",
                 "id": ""
             },
-            "message": "",
-            "default_value": 1,
-            "ui": 0,
-            "ui_on_text": "",
-            "ui_off_text": ""
+            "choices": {
+                "overview": "Overzichtspagina"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
         }
     ],
     "location": [
@@ -84,5 +88,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1573495821
+    "modified": 1573501935
 }
