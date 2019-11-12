@@ -47,7 +47,7 @@
     <div class="col-12 col-lg-6">
         <div class="form-group">
             <label for="previous_club">Vorige vereniging</label>
-            [text* previous_club id:previous_club class:form-control placeholder "Vul hier je eventuele vorige vereniging in"]
+            [text previous_club id:previous_club class:form-control placeholder "Vul hier je eventuele vorige vereniging in"]
         </div>
     </div>
 </div>
@@ -208,7 +208,7 @@
         <p>Ik ben in het bezit van de volgende relevante diploma's:</p>
     </div>
     <div class="col-12">
-        [checkbox* diploma id:diploma class:form-check use_label_element "Voetbaltrainer" "Jeugdscheidsrechter" "Scheidsrechter" "Horeca" "EHBO / BHV / AED" "Geen"]
+        [checkbox* diploma id:diploma use_label_element "Voetbaltrainer" "Jeugdscheidsrechter" "Scheidsrechter" "Horeca" "EHBO / BHV / AED" "Geen"]
     </div>
 </div>
 <hr>
@@ -217,97 +217,180 @@
         <p>Geef aan op welk gebied je een vrijwillige bijdrage wil leveren. Meerdere opties mogelijk:</p>
     </div>
     <div class="col-12 col-sm-6">
-        <div class="checkbox">
-            <label for="contribution_trainer_youth">
-                <input type="checkbox" name="contribution_trainer_youth" id="contribution_trainer_youth" value="1">
-                Trainer jeugd / senioren / keepers
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_leader_youth_seniors">
-                <input type="checkbox" name="contribution_leader_youth_seniors" id="contribution_leader_youth_seniors" value="1">
-                Teamleider jeugd / senioren
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_youth_seniors_referee">
-                <input type="checkbox" name="contribution_youth_seniors_referee" id="contribution_youth_seniors_referee" value="1">
-                Scheidsrechter jeugd / senioren
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_communication">
-                <input type="checkbox" name="contribution_communication" id="contribution_communication" value="1">
-                Communicatie werkzaamheden
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_website">
-                <input type="checkbox" name="contribution_website" id="contribution_website" value="1">
-                Website webmaster
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_editors">
-                <input type="checkbox" name="contribution_editors" id="contribution_editors" value="1">
-                Redactie
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_board_member">
-                <input type="checkbox" name="contribution_board_member" id="contribution_board_member" value="1">
-                Bestuurslid
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_bar">
-                <input type="checkbox" name="contribution_bar" id="contribution_bar" value="1">
-                Bardienst
-            </label>
-        </div>
-    </div>
-    <div class="col-12 col-sm-6">
-        <div class="checkbox">
-            <label for="contribution_organisation">
-                <input type="checkbox" name="contribution_organisation" id="contribution_organisation" value="1">
-                Organisatie activiteiten
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_activities">
-                <input type="checkbox" name="contribution_activities" id="contribution_activities" value="1">
-                Begeleiding activiteiten
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_ehbo_bhv_aed">
-                <input type="checkbox" name="contribution_ehbo_bhv_aed" id="contribution_ehbo_bhv_aed" value="1">
-                EHBO / BHV / AED
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_cleaning">
-                <input type="checkbox" name="contribution_cleaning" id="contribution_cleaning" value="1">
-                Schoonmaak
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_clutches">
-                <input type="checkbox" name="contribution_clutches" id="contribution_clutches" value="1">
-                Kluswerkzaamheden
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_sponsor_activities">
-                <input type="checkbox" name="contribution_sponsor_activities" id="contribution_sponsor_activities" value="1">
-                Sponsoractiviteiten
-            </label>
-        </div>
-        <div class="checkbox">
-            <label for="contribution_administration">
-                <input type="checkbox" name="contribution_administration" id="contribution_administration" value="1">
-                Secretariele / administratieve werkzaamheden
-            </label>
-        </div>
+        [checkbox* voluntary_contribution id:voluntary_contribution use_label_element "Trainer jeugd / senioren / keepers" "Teamleider jeugd / senioren" "Scheidsrechter jeugd / senioren" "Communicatie werkzaamheden" "Website webmaster" "Redactie" "Bestuurslid" "Bardienst" "Organisatie activiteiten" "Begeleiding activiteiten" "EHBO / BHV / AED" "Schoonmaak" "Kluswerkzaamheden" "Sponsoractiviteiten" "Secretariele / administratieve werkzaamheden"]
     </div>
 </div>
+<div class="row">
+    <div class="col-12">
+        [submit id:submit_new_member class:btn class:btn-lg class:btn-primary class:mt-5 "Aanmelden"]
+    </div>
+</div>
+[response]
+
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" border="0" align="center" width="600">
+    <tr>
+        <td bgcolor="#ffffff" style="padding: 30px; text-align: left; font-family: sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;">
+            Beste [initials]. [firstname] [middlename] [lastname],<br><br>Hartelijk dank voor je aanmelding. We nemen je aanmelding z.s.m. in behandeling en zullen contact met je opnemen.<br><br>
+            Volgens onze gegevens hebben wij onderstaande ontvangen:<br><br>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr valign="top" bgcolor="#669d24" style="color:#ffffff;">
+                    <td colspan="2" height="20" style="padding: 5px 15px; color:#ffffff;"><strong>Gegevens nieuwe voetballer/voetbalster</strong></td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Aanhef</th>
+                    <td style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[gender]</td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Geboortedatum</th>
+                    <td style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[date_of_birth]</td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Naam</th>
+                    <td style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[initials]. [firstname] [middlename] [lastname]</td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Vorige vereniging</th>
+                    <td style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[previous_club]</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr valign="top" bgcolor="#669d24" style="color:#ffffff;">
+                    <td colspan="2" style="padding: 5px 15px; color:#ffffff;"><strong>Legitimatie</strong></td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Soort indentiteit</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">
+                        [identification]
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Indentiteit kaartnummer</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[cardnumber]</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr valign="top" bgcolor="#669d24" style="color:#ffffff;">
+                    <td colspan="2" style="padding: 5px 15px; color:#ffffff;"><strong>Overige belangrijke gegevens</strong></td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Adres</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[address]</td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Postcode en plaats</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[zip] [place]</td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">E-mailadres</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[email]</td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Telefoonnummer</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[phone]</td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Mobiel</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[mobile]</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr valign="top" bgcolor="#669d24" style="color:#ffffff;">
+                    <td colspan="2" style="padding: 5px 15px; color:#ffffff;"><strong>Bankgegevens</strong></td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">IBAN nummer</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[iban]</td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Op naam van</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[iban_name]</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr valign="top" bgcolor="#669d24" style="color:#ffffff;">
+                    <td colspan="2" style="padding: 5px 15px; color:#ffffff;"><strong>Extra gegevens bij gescheiden ouders</strong></td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">E-mailadres</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[email_second]</td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Telefoonnummer</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[phone_second]</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr valign="top" bgcolor="#669d24" style="color:#ffffff;">
+                    <td colspan="2" style="padding: 5px 15px; color:#ffffff;"><strong>Lidmaatschap</strong></td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Soort lidmaatschap</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">
+                        [membership]
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr valign="top" bgcolor="#669d24" style="color:#ffffff;">
+                    <td colspan="2" style="padding: 5px 15px; color:#ffffff;"><strong>Inzet vrijwilligers</strong></td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Beroep</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[profession]</td>
+                </tr>
+                <tr valign="top">
+                    <th width="200" style="border-bottom:1px solid #cccccc; padding: 3px 15px;">Beroep partner</th>
+                    <td  style="border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; padding: 3px 15px;">[profession_partner]</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr valign="top" bgcolor="#669d24" style="color:#ffffff;">
+                    <td colspan="2" style="padding: 5px 15px; color:#ffffff;"><strong>Relevante diploma&#39;s</strong></td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="2" style="padding: 3px 0;">
+                        [diploma]
+                    </td>
+                </tr>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr valign="top" bgcolor="#669d24" style="color:#ffffff;">
+                    <td colspan="2" style="padding: 5px 15px; color:#ffffff;"><strong>Vrijwillige bijdrage</strong></td>
+                </tr>
+                <tr valign="top">
+                    <td colspan="2" style="border-bottom:1px solid #cccccc; padding: 3px 0;">
+                        [voluntary_contribution]
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+            Met vriendelijke groet,<br><br>v.v. Warnsveldse Boys
+        </td>
+    </tr>
+</table>
