@@ -17,3 +17,39 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+.wpcf7-checkbox {
+  .wpcf7-list-item {
+    display: block !important;
+  }
+}
+
+.wpcf7-form {
+  &.invalid {
+    .wpcf7-response-output {
+      margin: 2rem 0 !important;
+
+      &.wpcf7-display-none {
+        &.wpcf7-validation-errors {
+          @extend .alert;
+          @extend .alert-warning;
+        }
+
+        &.wpcf7-mail-sent-ok {
+          @extend .alert;
+          @extend .alert-success;
+        }
+      }
+    }
+
+    .wpcf7-form-control-wrap {
+      .wpcf7-not-valid {
+        border-color: $danger !important;
+      }
+
+      .wpcf7-not-valid-tip {
+        font-size: 80% !important;
+      }
+    }
+  }
+}
