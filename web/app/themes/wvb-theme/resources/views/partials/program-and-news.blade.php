@@ -1,16 +1,16 @@
 <div class="section section-featured-news bg-dark-light">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-xl-7 col-xxl-8">
+            <div class="col-12">
                 <ul class="nav nav-pills" id="programResults" role="tablist">
-                    @if($results)
-                        <li class="nav-item">
-                            <a class="nav-link active font-size-p14 font-size-md-p16 font-size-lg-p20" id="results-tab" data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false"><i class="fal fa-futbol mr-2"></i>Uitslagen</a>
-                        </li>
-                    @endif
                     @if($program)
                         <li class="nav-item">
-                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="program-tab" data-toggle="tab" href="#program" role="tab" aria-controls="program" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Programma</a>
+                            <a class="nav-link active font-size-p14 font-size-md-p16 font-size-lg-p20" id="program-tab" data-toggle="tab" href="#program" role="tab" aria-controls="program" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Programma</a>
+                        </li>
+                    @endif
+                    @if($results)
+                        <li class="nav-item">
+                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="results-tab" data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false"><i class="fal fa-futbol mr-2"></i>Uitslagen</a>
                         </li>
                     @endif
                     @if($latest_news_articles)
@@ -25,8 +25,36 @@
                     @endif
                 </ul>
                 <div class="tab-content" id="programResultsContent">
+                    @if($program)
+                        <div class="tab-pane fade show active program" id="program" role="tabpanel" aria-labelledby="program-tab">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Datum</th>
+                                        <th>Tijd</th>
+                                        <th>Thuisteam</th>
+                                        <th>Uitteam</th>
+                                        <th class="d-none d-lg-inline-block">Accommodatie</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @foreach($program as $p)
+                                        <tr>
+                                            <td>{!! $p['datum'] !!}</td>
+                                            <td>{!! $p['aanvangstijd'] !!}</td>
+                                            <td>{!! $p['thuisteam'] !!}</td>
+                                            <td>{!! $p['uitteam'] !!}</td>
+                                            <td class="d-none d-lg-inline-block">{!! $p['accommodatie'] !!}</td>
+                                        </tr>
+                                    @endforeach
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    @endif
                     @if($results)
-                        <div class="tab-pane fade show active results" id="results" role="tabpanel" aria-labelledby="results-tab">
+                        <div class="tab-pane fade results" id="results" role="tabpanel" aria-labelledby="results-tab">
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead>
@@ -51,32 +79,6 @@
                             </div>
                         </div>
                     @endif
-                    @if($program)
-                        <div class="tab-pane fade program" id="program" role="tabpanel" aria-labelledby="program-tab">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                    <tr>
-                                        <th>Datum</th>
-                                        <th>Tijd</th>
-                                        <th>Thuisteam</th>
-                                        <th>Uitteam</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    @foreach($program as $p)
-                                        <tr>
-                                            <td>{!! $p['datum'] !!}</td>
-                                            <td>{!! $p['aanvangstijd'] !!}</td>
-                                            <td>{!! $p['thuisteam'] !!}</td>
-                                            <td>{!! $p['uitteam'] !!}</td>
-                                        </tr>
-                                    @endforeach
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    @endif
                     @if($latest_news_articles)
                         <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="news-tab">
                             @include('partials.featured-news')
@@ -89,27 +91,6 @@
                     @endif
                 </div>
             </div>
-            @if ($latest_news_articles || $events)
-                <div class="d-none d-lg-inline-block col-lg-4 col-xl-5 col-xxl-4">
-                    <h3 class="font-size-p14 font-size-md-p16 font-size-lg-p22 mb-4 mt-2"><i class="fal fa-newspaper mr-2"></i>Laatste nieuws</h3>
-                    <div class="row">
-                        <div class="col-12">
-                            @include('partials.featured-news')
-                        </div>
-                    </div>
-                    @if ($events)
-                        <hr>
-                        <div class="mt-4">
-                            <h3 class="font-size-p14 font-size-md-p16 font-size-lg-p22 mb-4 mt-2"><i class="fal fa-calendar-alt mr-2"></i>Agenda</h3>
-                            <div class="row">
-                                <div class="col-12">
-                                    @include('partials.upcoming-events')
-                                </div>
-                            </div>
-                        </div>
-                    @endif
-                </div>
-            @endif
         </div>
     </div>
 </div>

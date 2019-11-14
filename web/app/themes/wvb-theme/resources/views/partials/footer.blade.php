@@ -1,7 +1,7 @@
 <footer class="footer mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-5 col-xl-4">
                 <div class="footer-first">
                     <div class="footer-logo">
                         <img src="{{ get_template_directory_uri() }}/assets/images/logo/logo.svg" class="logo" alt="{!! get_bloginfo('name', 'display') !!}" width="200">
