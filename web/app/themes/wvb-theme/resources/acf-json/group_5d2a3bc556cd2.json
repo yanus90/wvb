@@ -31,7 +31,7 @@
             "label": "Afbeelding",
             "name": "afbeelding",
             "type": "image_aspect_ratio_crop",
-            "instructions": "",
+            "instructions": "Deze afbeelding wordt getoond zodra deze sponsor een Sponsor van de maand is. Is dus een optioneel veld.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -243,5 +243,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1572897129
+    "modified": 1573761029
 }
