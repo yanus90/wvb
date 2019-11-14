@@ -1,11 +1,11 @@
-<div class="section-boysconnected pt-4 pb-4">
+<div class="section-boysconnected pt-4 pb-4 bg-light">
     <div class="container">
         <div class="row justify-content-xxl-center">
             <div class="col-12 col-xxl-10">
                 <div class="row">
                     <div class="col-12 col-sm-5 col-md-3 col-lg-3 col-xl-3 col-xxl-4 text-center text-sm-left">
                         <a href="https://www.boysconnected.nl/inschrijven" title="Meld je snel aan bij Boys Connected" target="_blank" class="bc-thumb">
-                            <img src="@asset('images/logo-boys-connected.jpg')" class="img-fluid" alt="Logo Boys Connected">
+                            <img src="@asset('images/logo-boys-connected.png')" class="img-fluid" alt="Logo Boys Connected">
                         </a>
                     </div>
                     <div class="col-12 col-sm-7 col-md-6 col-lg-6 col-xl-6 col-xxl-5">
