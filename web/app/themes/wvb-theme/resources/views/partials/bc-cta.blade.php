@@ -1,4 +1,4 @@
-<div class="section-boysconnected pt-4 pb-4 bg-light">
+<div class="section-boysconnected pt-4 pb-4 bg-bc-grey">
     <div class="container">
         <div class="row justify-content-xxl-center">
             <div class="col-12 col-xxl-10">

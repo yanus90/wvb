@@ -41,4 +41,12 @@
       }
     }
   }
+
+  &.bg-bc-grey {
+    background: $bg-dark-light !important;
+
+    @include media-breakpoint-down(md) {
+      background: $white !important;
+    }
+  }
 }

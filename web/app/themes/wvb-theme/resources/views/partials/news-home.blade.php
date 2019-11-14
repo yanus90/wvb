@@ -1,4 +1,4 @@
-<div class="section section-featured-news bg-dark-light">
+<div class="section section-featured-news bg-dark-light d-none d-lg-block">
     <div class="container">
         <div class="row">
             <div class="col-12">
