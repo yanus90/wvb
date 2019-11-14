@@ -7,7 +7,7 @@
                         <div class="d-none d-lg-inline-block col-lg-8">
                             <h3 class="mb-4 mb-lg-5"><i class="fal fa-newspaper mr-2 text-primary"></i>Laatste nieuws</h3>
                             <div class="row">
-                                @foreach(array_chunk($latest_news_articles, 2) as $chunk)
+                                @foreach(array_chunk($latest_news_articles, 3) as $chunk)
                                     <div class="d-none d-lg-inline-block col-lg-6">
                                         <ul class="list-unstyled mb-3 mb-md-4">
                                             @foreach($chunk as $article)
