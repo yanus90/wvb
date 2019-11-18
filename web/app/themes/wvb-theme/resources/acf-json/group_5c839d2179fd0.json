@@ -137,9 +137,9 @@
     "location": [
         [
             {
-                "param": "page_template",
+                "param": "options_page",
                 "operator": "==",
-                "value": "views\/front-page.blade.php"
+                "value": "dashicons-images-alt2"
             }
         ]
     ],
@@ -151,5 +151,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1572096498
+    "modified": 1574110521
 }

@@ -394,3 +394,96 @@
         </td>
     </tr>
 </table>
+
+
+
+{{--<div class="row">--}}
+    {{--<div class="col-12">--}}
+        {{--<hr class="mt-4 mb-4 mt-md-5 mb-md-5">--}}
+    {{--</div>--}}
+{{--</div>--}}
+<div class="row mt-4">
+    <div class="col-12">
+        <h2 class="text-primary mb-3">Gegevens voetballer/voetbalster</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 col-sm-8 col-md-8 col-lg-4">
+        <div class="form-group">
+            <label for="date_of_birth">Geboortedatum *</label>
+            [text* date_of_birth id:date_of_birth class:form-control]
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 col-sm-4 col-md-4 col-lg-2">
+        <div class="form-group">
+            <label for="initials">Voorletters *</label>
+            [text* initials id:initials class:form-control]
+        </div>
+    </div>
+    <div class="col-12 col-sm-8 col-md-8 col-lg-4">
+        <div class="form-group">
+            <label for="firstname">Voornaam *</label>
+            [text* firstname id:firstname class:form-control placeholder "Vul hier je voornaam in"]
+        </div>
+    </div>
+    <div class="col-12 col-sm-4 col-md-4 col-lg-2">
+        <div class="form-group">
+            <label for="middlename">Tussenv.</label>
+            [text middlename id:middlename class:form-control]
+        </div>
+    </div>
+    <div class="col-12 col-sm-8 col-md-8 col-lg-4">
+        <div class="form-group">
+            <label for="lastname">Achternaam *</label>
+            [text* lastname id:lastname class:form-control placeholder "Vul hier je achternaam in"]
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <hr class="mt-4 mb-4 mt-md-5 mb-md-5">
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <h2 class="text-primary mb-3">Overige belangrijke gegevens</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 col-md-6">
+        <div class="form-group">
+            <label for="email">E-mailadres *</label>
+            [email* email id:email class:form-control placeholder "Vul hier je e-mailadres in"]
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <h4 class="mt-0 mb-2">Bankgegevens</h4>
+    </div>
+    <div class="col-12 col-sm-6">
+        <div class="form-group">
+            <label for="iban_old">Oude bankrekeningnummer *</label>
+            [text* iban_old id:iban_old class:form-control placeholder "Vul hier uw volledige oude IBAN nummer in"]
+        </div>
+    </div>
+    <div class="col-12 col-sm-6">
+        <div class="form-group">
+            <label for="iban_new">Nieuwe bankrekeningnummer *</label>
+            [text* iban_new id:iban_new class:form-control placeholder "Vul hier uw volledige nieuwe IBAN nummer in"]
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        [submit id:submit_change_bank_account class:btn class:btn-lg class:btn-primary class:mt-5 "Wijziging doorgeven"]
+    </div>
+</div>
+[response]

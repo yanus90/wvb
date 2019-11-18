@@ -11,7 +11,7 @@
                         </ol>
                         <div class="carousel-inner">
                             @foreach ($slider as $key => $slide)
-                                <a href="{{ $slide['link'] }}" class="carousel-item @if ($key < 1) active @endif" title="{!! $slide['titel'] !!}" target="{{ ($slide['nieuw_tabblad'] == '_blank' ? '_blank' : 'self') }}">
+                                <a href="{{ $slide['link'] }}" class="carousel-item @if ($key < 1) active @endif" title="{!! $slide['titel'] !!}" target="{{ ($slide['nieuw_tabblad'] == '_blank' ? '_blank' : '_self') }}">
                                     <img src="{!! wp_get_attachment_image_url($slide['afbeelding']['ID'], 'slider_image_crop') !!}" class="d-block w-100" alt="{!! $slide['afbeelding']['alt'] !!}">
                                     <div class="carousel-caption">
                                         <h3 class="font-size-p20 font-size-sm-p22 font-size-md-p24 font-size-lg-p26 {{ ($slide['korte_intro'] ? 'mb-1' : '') }}">{!! $slide['titel'] !!}</h3>

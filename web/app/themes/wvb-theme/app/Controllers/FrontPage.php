@@ -18,7 +18,7 @@ class FrontPage extends Controller
 
     public function slider()
     {
-        return $slider = get_field('homepagina_slider');
+        return $slider = get_field('homepagina_slider', 'option');
     }
 
     public function sponsoren()
