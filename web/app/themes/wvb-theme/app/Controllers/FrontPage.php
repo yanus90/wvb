@@ -58,4 +58,16 @@ class FrontPage extends Controller
 //    {
 //        return (new TwitterTweets())->tweets();
 //    }
+
+    public function notifications()
+    {
+        $query = new \WP_Query([
+            'post_type' => 'melding',
+            'order' => 'ASC',
+            'orderby' => 'menu_order',
+            'posts_per_page' => 1,
+        ]);
+
+        return $query->posts;
+    }
 }

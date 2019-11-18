@@ -16,13 +16,13 @@
                 "id": ""
             },
             "choices": {
-                "alert-info": "Informatie melding",
-                "alert-warning": "Waarschuwing melding",
-                "alert-success": "Succes melding",
-                "alert-danger": "Let op melding"
+                "info": "Informatie melding",
+                "warning": "Waarschuwing melding",
+                "success": "Succes melding",
+                "danger": "Let op melding"
             },
             "default_value": [
-                "alert-danger"
+                "danger"
             ],
             "allow_null": 0,
             "multiple": 0,
@@ -87,5 +87,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1569867796
+    "modified": 1574111777
 }

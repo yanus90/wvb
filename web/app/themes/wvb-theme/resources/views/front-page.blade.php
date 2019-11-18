@@ -5,6 +5,7 @@
 @extends('layouts.app')
 
 @section('content')
+    @include('partials.notifications')
     @include('partials.slider')
     @include('partials.sponsoren')
     @include('partials.news-home')
