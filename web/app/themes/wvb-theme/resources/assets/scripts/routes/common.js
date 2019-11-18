@@ -1,3 +1,5 @@
+import CookieNotice from '../util/CookieNotice';
+
 export default {
   init() {
     // JavaScript to be fired on all pages
@@ -37,6 +39,8 @@ export default {
       $('.overlay-search').fadeIn();
       $('.search-text').focus();
     });
+
+    CookieNotice.init();
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired

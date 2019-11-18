@@ -30,8 +30,8 @@
                     </ul>
                     <ul class="list-unstyled small color-white mb-0">
                         <li>Copyright 2019</li>
-                        <li>Privacyverklaring</li>
-                        <li>Ontwikkeling: <a href="https://avnc.nl/" target="_blank" title="Avancé Communicatie" class="color-white">Avancé Communicatie</a></li>
+                        <li><a href="/app/uploads/2019/11/privacyverklaring-warnsveldse-boys-2019.pdf" target="_blank" class="color-white text-decoration-none" title="Privacyverklaring">Privacyverklaring</a></li>
+                        <li>Ontwikkeling: <a href="https://avnc.nl/" target="_blank" title="Avancé Communicatie" class="color-white text-decoration-none">Avancé Communicatie</a></li>
                     </ul>
                 </div>
             </div>

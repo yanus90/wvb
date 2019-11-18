@@ -20,6 +20,7 @@
         @include('partials.footer')
     </main>
 
+    @include('partials.cookie')
     @php wp_footer() @endphp
     <div class="navbar-overlay" onclick="toggleMenu()"></div>
   </body>
