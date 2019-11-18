@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\Partials\EventTrait;
 use App\Controllers\Partials\LatestNewsArticles;
-//use App\Services\TwitterTweets;
+use App\Services\TwitterTweets;
 use App\Controllers\Partials\SponsorOfTheMonth;
 use App\Controllers\Partials\Sportlink;
 use Sober\Controller\Controller;
@@ -54,10 +54,10 @@ class FrontPage extends Controller
         return $this->getFileFromExternalLink('uitslagen', $file, '', '&gebruiklokaleteamgegevens=NEE&sorteervolgorde=datum-omgekeerd&eigenwedstrijden=JA&thuis=JA&uit=JA');
     }
 
-//    public function tweets()
-//    {
-//        return (new TwitterTweets())->tweets();
-//    }
+    public function tweets()
+    {
+        return (new TwitterTweets())->tweets();
+    }
 
     public function notifications()
     {

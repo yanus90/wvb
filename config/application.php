@@ -121,6 +121,11 @@ if (file_exists($env_config)) {
 Config::define('WP_ROCKET_EMAIL', env('WP_ROCKET_EMAIL'));
 Config::define('WP_ROCKET_KEY', env('WP_ROCKET_KEY'));
 
+Config::define('YOUR_OAUTH_ACCESS_TOKEN', env('YOUR_OAUTH_ACCESS_TOKEN'));
+Config::define('YOUR_OAUTH_ACCESS_TOKEN_SECRET', env('YOUR_OAUTH_ACCESS_TOKEN_SECRET'));
+Config::define('YOUR_CONSUMER_KEY', env('YOUR_CONSUMER_KEY'));
+Config::define('YOUR_CONSUMER_SECRET', env('YOUR_CONSUMER_SECRET'));
+
 /**
  * Custom Project Config
  */
