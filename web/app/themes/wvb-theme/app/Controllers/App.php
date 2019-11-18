@@ -34,7 +34,7 @@ class App extends Controller
             }
         }
         if (is_search()) {
-            return sprintf(__('Search Results for %s', 'sage'), get_search_query());
+            return sprintf(__('Je zocht naar <strong>%s</strong>', 'sage'), get_search_query());
         }
         if (is_404()) {
             return 'Pagina helaas niet gevonden!';

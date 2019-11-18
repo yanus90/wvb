@@ -2,6 +2,7 @@
 <html {!! get_language_attributes() !!}>
   @include('partials.head')
   <body @php body_class('style-default style-rounded') @endphp>
+    @include('partials.search-overlay')
     @php do_action('get_header') @endphp
     @include('partials.header')
 

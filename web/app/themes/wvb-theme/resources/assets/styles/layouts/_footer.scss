@@ -3,10 +3,14 @@
 
   .footer-first {
     background: $primary;
-    padding: 3.75rem 3rem 4.375rem 5.5rem;
+    padding: 2rem 1.5rem 2rem 4.5rem;
     margin-top: -3.75rem;
     -webkit-clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
     clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+
+    @include media-breakpoint-up(lg) {
+      padding: 3.75rem 3rem 4.375rem 5.5rem;
+    }
 
     .footer-logo {
       margin-bottom: 1.875rem;
@@ -47,11 +51,21 @@
   }
 
   .footer-second {
-    padding-top: 4.625rem;
+    padding-top: 2.5rem;
 
     * {
       color: $black;
-      font-size: 1.125rem;
+      font-size: 1rem;
+      line-height: 1.6rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-top: 4.625rem;
+
+      * {
+        font-size: 1.125rem;
+        line-height: 2rem;
+      }
     }
 
     ul {
@@ -61,7 +75,6 @@
 
       li {
         font-weight: $font-weight-normal;
-        line-height: 2rem;
 
         &.name {
           font-weight: $font-weight-medium;
@@ -89,12 +102,22 @@
   }
 
   .footer-third {
-    padding-top: 4.625rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 
     * {
       color: $black;
-      font-size: 1.125rem;
-      line-height: 2rem;
+      font-size: 1rem;
+      line-height: 1.6rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-top: 4.625rem;
+
+      * {
+        font-size: 1.125rem;
+        line-height: 2rem;
+      }
     }
 
     p {

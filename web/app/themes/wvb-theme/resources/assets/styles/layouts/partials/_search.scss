@@ -1,0 +1,114 @@
+.overlay-search {
+  display: none;
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba($black, 0.9);
+  z-index: 1032;
+  overflow: auto;
+  text-align: center;
+  margin: 0;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: 0;
+  }
+
+  .centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+
+    @include media-breakpoint-up(sm) {
+      width: 80%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+    }
+
+    padding: 0.625rem 0.9375rem;
+    color: $white;
+    border: none;
+    background: transparent;
+
+    .search-box {
+      position: relative;
+      width: 100%;
+      margin: 0;
+
+      .search-form {
+        height: 7.4rem;
+        border: 0;
+        border-radius: 0.25rem;
+        background-color: $white;
+        overflow: hidden;
+
+        @include media-breakpoint-up(sm) {
+          height: 4rem;
+        }
+
+        .search-text {
+          font-size: 1.25rem;
+          color: $black;
+          border-width: 0;
+          background: transparent;
+        }
+      }
+
+      input[type="search"] {
+        width: 100%;
+        padding: 1.25rem;
+        color: $black;
+        outline: none;
+        font-size: 1.25rem;
+
+        @include media-breakpoint-up(sm) {
+          width: 90%;
+        }
+      }
+
+      .search-button {
+        height: 4rem;
+        width: 100%;
+        font-size: 1.25rem;
+        color: $white;
+        text-align: center;
+        line-height: 2.625rem;
+        border-width: 0;
+        background-color: $primary;
+        border-radius: 0 0 0.25rem 0.25rem;
+        cursor: pointer;
+
+        @include media-breakpoint-up(sm) {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 9rem;
+          border-radius: 0 0.25rem 0.25rem 0;
+        }
+      }
+
+      .close-btn {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        color: $white;
+      }
+
+      .close-btn {
+        &:hover{
+          color: $primary;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

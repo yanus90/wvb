@@ -26,7 +26,7 @@
                 <div class="container">
                     <div class="navbar-brand-bg"></div>
                     <a class="navbar-brand" href="{{ home_url('/') }}" title="{!! get_bloginfo('name', 'display') !!}">
-                        <img src="{{ get_template_directory_uri() }}/assets/images/logo/logo.svg" class="logo" alt="{!! get_bloginfo('name', 'display') !!}">
+                        <img src="@asset('images/logo/logo.svg')" class="logo" alt="{!! get_bloginfo('name', 'display') !!}">
                     </a>
                     <button class="navbar-toggler" type="button" onclick="toggleMenu()">
                         <span class="text-uppercase">Menu<i class="fal fa-align-right ml-2"></i></span>
@@ -45,6 +45,7 @@
                             !!}
                         @endif
                         <span class="d-none d-lg-inline-block">
+                            <button class="navbar-search mr-3"><i class="fal fa-search"></i></button>
                             <button class="btn navbar-more" onclick="toggleMenu()">Meer <i class="fal fa-align-right ml-2"></i></button>
                         </span>
                     </div>

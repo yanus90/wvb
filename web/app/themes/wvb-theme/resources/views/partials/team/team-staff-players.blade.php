@@ -16,7 +16,7 @@
                     $positions = wp_get_post_terms($item->ID, 'positie');
                     $image = get_field('profielfoto', $item);
                 @endphp
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
                     <div class="card" title="{!! $item->post_title !!}">
                         <img src="{!! wp_get_attachment_image_url($image['id'], 'person_image') !!}" class="card-img" alt="{!! $item->post_title !!}">
                         <div class="card-img-overlay d-flex flex-column">
@@ -48,7 +48,7 @@
                     $positions = wp_get_post_terms($item->ID, 'positie');
                     $image = get_field('profielfoto', $item);
                 @endphp
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
                     <div class="card" title="{!! $item->post_title !!}">
                         <img src="{!! wp_get_attachment_image_url($image['id'], 'person_image') !!}" class="card-img" alt="{!! $item->post_title !!}">
                         <div class="card-img-overlay d-flex flex-column">
@@ -72,7 +72,7 @@
                     $item = $defender['verdediger'];
                     $image = get_field('profielfoto', $item);
                 @endphp
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
                     <div class="card" title="{!! $item->post_title !!}">
                         <img src="{!! wp_get_attachment_image_url($image['id'], 'person_image') !!}" class="card-img" alt="{!! $item->post_title !!}">
                         <div class="card-img-overlay d-flex flex-column">
@@ -96,7 +96,7 @@
                     $item = $midfielder['middenvelder'];
                     $image = get_field('profielfoto', $item);
                 @endphp
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
                     <div class="card" title="{!! $item->post_title !!}">
                         <img src="{!! wp_get_attachment_image_url($image['id'], 'person_image') !!}" class="card-img" alt="{!! $item->post_title !!}">
                         <div class="card-img-overlay d-flex flex-column">
@@ -120,7 +120,7 @@
                     $item = $forward_player['aanvaller'];
                     $image = get_field('profielfoto', $item);
                 @endphp
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
                     <div class="card" title="{!! $item->post_title !!}">
                         <img src="{!! wp_get_attachment_image_url($image['id'], 'person_image') !!}" class="card-img" alt="{!! $item->post_title !!}">
                         <div class="card-img-overlay d-flex flex-column">

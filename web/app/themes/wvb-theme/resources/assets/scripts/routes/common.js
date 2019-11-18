@@ -28,6 +28,15 @@ export default {
         }
       });
     });
+
+    $('.close-btn').click(() => {
+      $('.overlay-search').fadeOut();
+    });
+
+    $('.navbar-search').click(() => {
+      $('.overlay-search').fadeIn();
+      $('.search-text').focus();
+    });
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired

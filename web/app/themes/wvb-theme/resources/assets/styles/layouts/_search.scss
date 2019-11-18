@@ -1,0 +1,28 @@
+.search-results {
+  .search-item {
+    background: $white;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+
+    @include border-radius(0.3125rem);
+    @include box-shadow(0 0 1.5rem 0 rgba($black, 0.1));
+
+    .entry-summary {
+      a {
+        &:last-of-type {
+          display: none;
+        }
+
+        &.read-more {
+          display: inline-block;
+        }
+      }
+    }
+
+    .entry-title {
+      a {
+        display: block;
+      }
+    }
+  }
+}
