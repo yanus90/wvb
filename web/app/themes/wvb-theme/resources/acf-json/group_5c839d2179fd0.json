@@ -19,7 +19,7 @@
             "min": 0,
             "max": 0,
             "layout": "row",
-            "button_label": "",
+            "button_label": "Nieuwe slider",
             "sub_fields": [
                 {
                     "key": "field_5c839d5400c8d",
@@ -86,23 +86,115 @@
                     "mime_types": ""
                 },
                 {
-                    "key": "field_5c839dac00c8f",
-                    "label": "Link",
-                    "name": "link",
-                    "type": "text",
+                    "key": "field_5dd440072201a",
+                    "label": "Soort link",
+                    "name": "soort_link",
+                    "type": "select",
                     "instructions": "",
-                    "required": 1,
+                    "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
                         "class": "",
                         "id": ""
                     },
+                    "choices": {
+                        "post_item": "Nieuwsbericht",
+                        "page": "Pagina",
+                        "external_link": "Externe link"
+                    },
+                    "default_value": [
+                        "post_item"
+                    ],
+                    "allow_null": 1,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5dd441452201c",
+                    "label": "Pagina",
+                    "name": "pagina",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5dd440072201a",
+                                "operator": "==",
+                                "value": "page"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "page"
+                    ],
+                    "taxonomy": "",
+                    "allow_null": 0,
+                    "allow_archives": 1,
+                    "multiple": 0
+                },
+                {
+                    "key": "field_5dd4415c2201d",
+                    "label": "Nieuwsbericht",
+                    "name": "nieuwsbericht",
+                    "type": "post_object",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5dd440072201a",
+                                "operator": "==",
+                                "value": "post_item"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "post"
+                    ],
+                    "taxonomy": "",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "return_format": "object",
+                    "ui": 1
+                },
+                {
+                    "key": "field_5dd441772201e",
+                    "label": "Externe URL",
+                    "name": "externe_url",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5dd440072201a",
+                                "operator": "==",
+                                "value": "external_link"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
                     "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "placeholder": ""
                 },
                 {
                     "key": "field_5c839db900c90",
@@ -151,5 +243,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1574110521
+    "modified": 1574192607
 }
