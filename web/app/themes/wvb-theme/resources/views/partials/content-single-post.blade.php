@@ -14,7 +14,7 @@
         @if($post->afbeelding_bericht)
           <div class="row mb-4 mb-lg-5 justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-10 col-xl-9">
-              <img src="{!! wp_get_attachment_image_url($post->afbeelding_bericht, 'news_image') !!}" class="img-fluid w-100 rounded" alt="{{ get_post_meta($post->afbeelding_bericht, '_wp_attachment_image_alt', true) }}">
+              <img src="{!! wp_get_attachment_image_url($post->afbeelding_bericht, 'post_image') !!}" class="img-fluid w-100 rounded" alt="{{ get_post_meta($post->afbeelding_bericht, '_wp_attachment_image_alt', true) }}">
             </div>
           </div>
         @endif
