@@ -45,7 +45,7 @@
                                             <td>{!! $p['aanvangstijd'] !!}</td>
                                             <td>{!! $p['thuisteam'] !!}</td>
                                             <td>{!! $p['uitteam'] !!}</td>
-                                            <td class="d-none d-lg-inline-block">{!! $p['accommodatie'] !!}</td>
+                                            <td class="d-none d-lg-block">{!! $p['accommodatie'] !!}</td>
                                         </tr>
                                     @endforeach
                                     </tbody>
