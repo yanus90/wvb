@@ -29,6 +29,8 @@ class App extends Controller
         if (is_archive()) {
             if (is_tax('afdeling') || is_tax('commissie')) {
                 return single_term_title();
+            } elseif (is_category()) {
+                return get_queried_object()->name;
             } else {
                 return get_the_archive_title();
             }
