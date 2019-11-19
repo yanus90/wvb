@@ -30,9 +30,12 @@ function remove_menu_items()
         remove_menu_page('edit-comments.php');
         remove_menu_page('tools.php');
         remove_menu_page('plugins.php');
+        remove_menu_page('options-general.php');
         remove_menu_page('edit.php?post_type=acf-field-group');
         remove_menu_page('smush');
         remove_menu_page('gadwp_settings');
+        remove_menu_page('wpseo_dashboard');
+        remove_menu_page('onesignal-push');
         remove_submenu_page('themes.php', 'widgets.php');
         remove_submenu_page('themes.php', 'customize.php?return='. urlencode($_SERVER['REQUEST_URI']));
         remove_submenu_page('themes.php', 'themes.php');
