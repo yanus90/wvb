@@ -22,12 +22,6 @@ class TemplateNews extends Controller
         $this->newsQuery = new WP_Query($args);
         $articles = $this->newsQuery->posts;
 
-        foreach ($articles as $key => $item) {
-            if ($item && $item->post_date) {
-                $date = Carbon::parse($item->post_date);
-                $item->post_date = strftime("%e %B %Y", $date->timestamp);
-            }
-        }
         return $articles;
     }
 
