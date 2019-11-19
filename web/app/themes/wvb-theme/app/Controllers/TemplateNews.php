@@ -13,7 +13,7 @@ class TemplateNews extends Controller
     public function articles()
     {
         $args = [
-            'post_type' => 'post',
+            'post_type' => 'news-article',
             'post_status' => 'publish',
             'posts_per_page' => 12,
             'paged' => get_query_var('paged') ? get_query_var('paged') : 1

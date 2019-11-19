@@ -313,3 +313,48 @@ function register_history_post_type() {
     register_post_type('historie', $args);
     add_post_type_support('historie', 'page-attributes');
 }
+
+// Nieuwsberichten
+add_action('init', __NAMESPACE__.'\\register_news_post_type');
+function register_news_post_type()
+{
+    $labels = [
+        'name'               => 'Nieuwsberichten',
+        'singular_name'      => 'Nieuwsbericht',
+        'menu_name'          => 'Nieuws',
+        'name_admin_bar'     => 'Nieuws',
+        'add_new'            => 'Nieuwe toevoegen',
+        'add_new_item'       => 'Voeg nieuw bericht toe',
+        'new_item'           => 'Nieuw bericht',
+        'edit_item'          => 'Bewerk bericht',
+        'view_item'          => 'Bekijk bericht',
+        'all_items'          => 'Alle nieuwsberichten',
+        'search_items'       => 'Zoek nieuwsberichten',
+        'parent_item_colon'  => 'Bovenliggend bericht',
+        'not_found'          => 'Geen berichten gevonden',
+        'not_found_in_trash' => 'Geen berichten gevonden in de prullenbak'
+    ];
+    $args = [
+        'labels'             => $labels,
+        'description'        => 'Nieuws post type',
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => ['slug' => 'nieuws'],
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => true,
+        'menu_position'      => 4,
+        'supports'           => ['title', 'editor', 'revisions', 'author', 'custom-fields', 'post-formats'],
+        'show_in_rest'       => true,
+        'menu_icon'          => 'dashicons-format-aside',
+        'taxonomies'         => ['category']
+    ];
+    register_post_type('news-article', $args);
+
+    // Pagination for news template.
+    add_rewrite_rule('^nieuws/page/([0-9]{1,})/?', 'index.php?pagename=nieuws&paged=$matches[1]', 'top');
+    add_rewrite_rule('^categorie/([^/]*)/page/([0-9]{1,})/?', 'index.php?post_type=news-article&category_name=$matches[1]&paged=$matches[2]', 'top');
+}

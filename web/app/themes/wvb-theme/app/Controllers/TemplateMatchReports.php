@@ -13,7 +13,7 @@ class TemplateMatchReports extends Controller
     public function articles()
     {
         $args = [
-            'post_type' => 'post',
+            'post_type' => 'news-article',
             'post_status' => 'publish',
             'posts_per_page' => 12,
             'tax_query' => [

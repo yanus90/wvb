@@ -7,7 +7,7 @@ trait LatestNewsArticles
     public function latestNewsArticles()
     {
         $query = new \WP_Query([
-            'post_type' => 'post',
+            'post_type' => 'news-article',
             'post_status' => 'publish',
             'posts_per_page' => 6,
             'ignore_sticky_posts' => 1
