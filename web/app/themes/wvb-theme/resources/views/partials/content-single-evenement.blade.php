@@ -56,8 +56,8 @@
                             <img src="{!! wp_get_attachment_image_url($post->afbeelding_evenement, 'post_image') !!}" class="img-fluid w-100 rounded" alt="{{ get_post_meta($post->afbeelding_evenement, '_wp_attachment_image_alt', true) }}">
                         </div>
                     @endif
-                    @include('partials.event-gallery')
                 </div>
+                @include('partials.event-gallery')
             </div>
         </div>
     </div>
