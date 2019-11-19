@@ -35,7 +35,7 @@
                                         <th>Tijd</th>
                                         <th>Thuisteam</th>
                                         <th>Uitteam</th>
-                                        <th class="d-none d-lg-inline-block">Accommodatie</th>
+                                        <th class="d-none d-lg-block">Accommodatie</th>
                                     </tr>
                                     </thead>
                                     <tbody>
