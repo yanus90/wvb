@@ -115,24 +115,6 @@ if (file_exists($env_config)) {
     require_once $env_config;
 }
 
-/**
- * WP Rocket Config
- */
-Config::define('WP_ROCKET_EMAIL', env('WP_ROCKET_EMAIL'));
-Config::define('WP_ROCKET_KEY', env('WP_ROCKET_KEY'));
-
-Config::define('YOUR_OAUTH_ACCESS_TOKEN', env('YOUR_OAUTH_ACCESS_TOKEN'));
-Config::define('YOUR_OAUTH_ACCESS_TOKEN_SECRET', env('YOUR_OAUTH_ACCESS_TOKEN_SECRET'));
-Config::define('YOUR_CONSUMER_KEY', env('YOUR_CONSUMER_KEY'));
-Config::define('YOUR_CONSUMER_SECRET', env('YOUR_CONSUMER_SECRET'));
-
-/**
- * Custom Project Config
- */
-Config::define('LAPOSTA_APIKEY', env('LAPOSTA_APIKEY'));
-
-Config::define('CLIENT_ID', env('CLIENT_ID'));
-
 Config::apply();
 
 /**
