@@ -8,7 +8,7 @@
 
     .news-item-image {
       img {
-        @include border-radius(0.3125rem 0 0.3125rem 0);
+        @include border-radius(0.3125rem 0.3125rem 0 0);
 
         @include media-breakpoint-up(sm) {
           @include border-radius(0.3125rem 0 0 0.3125rem);

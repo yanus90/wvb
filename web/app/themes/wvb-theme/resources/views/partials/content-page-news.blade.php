@@ -12,13 +12,13 @@
                                 <a href="{!! get_permalink($article) !!}" title="{!! $article->post_title !!}" class="news-item text-decoration-none">
                                     <div class="row no-gutters">
                                         @if($article->overzichtafbeelding)
-                                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
+                                            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
                                                 <div class="news-item-image">
                                                     <img src="{!! wp_get_attachment_image_url($article->overzichtafbeelding, 'post_thumb') !!}" alt="{{ get_post_meta($article->overzichtafbeelding, '_wp_attachment_image_alt', true) }}" class="img-fluid w-100">
                                                 </div>
                                             </div>
                                         @endif
-                                        <div class="{{ ($article->overzichtafbeelding ? 'col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-9' : 'col-12') }}">
+                                        <div class="{{ ($article->overzichtafbeelding ? 'col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-9' : 'col-12') }}">
                                             <div class="news-item-content">
                                                 <p class="font-size-small mb-0">{{ get_the_date('', $article) }}</p>
                                                 <hr>
