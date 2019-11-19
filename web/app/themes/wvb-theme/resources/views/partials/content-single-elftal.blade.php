@@ -62,7 +62,7 @@
                                 'exclude'          => [],
                                 'meta_key'         => '',
                                 'meta_value'       => '',
-                                'post_type'        => 'post',
+                                'post_type'        => 'news-article',
                                 'suppress_filters' => true,
                               ];
 
