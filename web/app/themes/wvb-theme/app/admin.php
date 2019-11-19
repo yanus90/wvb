@@ -37,7 +37,31 @@ function remove_menu_items()
         remove_menu_page('wpseo_dashboard');
         remove_menu_page('onesignal-push');
         remove_submenu_page('themes.php', 'widgets.php');
-        remove_submenu_page('themes.php', 'customize.php?return='. urlencode($_SERVER['REQUEST_URI']));
+        remove_submenu_page('themes.php', 'customize.php?return=' . urlencode($_SERVER['REQUEST_URI']));
+        remove_submenu_page('themes.php', 'themes.php');
+    } elseif (current_user_can('editor_1')) {
+        remove_menu_page('edit.php?post_type=elftal');
+        remove_menu_page('edit.php?post_type=evenement');
+        remove_menu_page('edit.php?post_type=sponsor');
+        remove_menu_page('edit.php?post_type=person');
+        remove_menu_page('edit.php?post_type=speler');
+        remove_menu_page('edit.php?post_type=vacature');
+        remove_menu_page('edit.php?post_type=historie');
+        remove_menu_page('wpcf7');
+        remove_menu_page('general-business-settings');
+
+        remove_menu_page('edit.php');
+        remove_menu_page('edit-comments.php');
+        remove_menu_page('tools.php');
+        remove_menu_page('plugins.php');
+        remove_menu_page('options-general.php');
+        remove_menu_page('edit.php?post_type=acf-field-group');
+        remove_menu_page('smush');
+        remove_menu_page('gadwp_settings');
+        remove_menu_page('wpseo_dashboard');
+        remove_menu_page('onesignal-push');
+        remove_submenu_page('themes.php', 'widgets.php');
+        remove_submenu_page('themes.php', 'customize.php?return=' . urlencode($_SERVER['REQUEST_URI']));
         remove_submenu_page('themes.php', 'themes.php');
     } else {
         remove_menu_page('edit.php');
@@ -56,5 +80,6 @@ add_action('init', function () {
 
     $admin = $wp_roles->get_role('administrator');
     add_role('admin_wvb', 'Admin WvB', $admin->capabilities);
-});
 
+    add_role( 'editor_1', 'Editor 1', []);
+});
