@@ -82,4 +82,12 @@ add_action('init', function () {
     add_role('admin_wvb', 'Admin WvB', $admin->capabilities);
 
     add_role( 'editor_1', 'Editor 1', []);
+
+    remove_role('editor');
+    remove_role('author');
+    remove_role('author');
+    remove_role('contributor');
+    remove_role('subscriber');
+    remove_role('wpseo_manager');
+    remove_role('wpseo_editor');
 });
