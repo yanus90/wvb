@@ -18,7 +18,7 @@
                                     <div class="col-12 testimonial-wrapper">
                                         <div class="testimonial border-primary w-100">
                                             <div class="testimonial-content w-100">
-                                                {!! $h->post_content !!}
+                                                {!! apply_filters('the_content', $h->post_content) !!}
                                             </div>
                                         </div>
                                     </div>
