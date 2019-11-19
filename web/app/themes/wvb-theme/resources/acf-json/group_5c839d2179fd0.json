@@ -176,8 +176,8 @@
                     "key": "field_5dd441772201e",
                     "label": "Externe URL",
                     "name": "externe_url",
-                    "type": "url",
-                    "instructions": "",
+                    "type": "text",
+                    "instructions": "Vul hier een volledige link in als het om een externe website gaat. Bijvoorbeeld https:\/\/www.google.nl\/",
                     "required": 0,
                     "conditional_logic": [
                         [
@@ -194,7 +194,10 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "placeholder": ""
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
                 },
                 {
                     "key": "field_5c839db900c90",
@@ -243,5 +246,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1574192607
+    "modified": 1574192828
 }
