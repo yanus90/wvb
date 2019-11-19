@@ -91,3 +91,21 @@ add_filter('post_type_link', function ($post_link, $post) {
     }
     return $post_link;
 }, 1, 2);
+
+/**
+ * @param $value
+ * @param $post_id
+ * @param $field
+ * @return mixed
+ */
+function acf_set_featured_image($value, $post_id, $field)
+{
+    if ($value != '') {
+        //Add the value which is the image ID to the _thumbnail_id meta data for the current post
+        update_post_meta($post_id, '_thumbnail_id', $value);
+    }
+
+    return $value;
+}
+add_filter('acf/update_value/name=afbeelding_bericht', __NAMESPACE__.'\\acf_set_featured_image', 10, 3);
+
