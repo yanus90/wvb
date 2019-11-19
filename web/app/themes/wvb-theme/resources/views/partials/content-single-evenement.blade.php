@@ -48,7 +48,7 @@
                             </div>
                         @endif
                         @if ($post->extra_button_naam || $post->extra_button_link)
-                            <p><a href="{!! $post->extra_button_link !!}" title="{!! $post->extra_button_naam !!}" class="btn btn-sm btn-primary">{!! $post->extra_button_naam !!}<i class="fal fa-angle-right ml-2"></i></a></p>
+                            <p><a href="{!! $post->extra_button_link !!}" title="{!! $post->extra_button_naam !!}" class="btn btn-sm btn-primary" target="{{ $post->extra_button_open_in_nieuw_tabblad }}">{!! $post->extra_button_naam !!}<i class="fal fa-angle-right ml-2"></i></a></p>
                         @endif
                     </div>
                     @if($post->afbeelding_evenement)
