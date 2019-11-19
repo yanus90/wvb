@@ -1,0 +1,38 @@
+.history-title {
+  color: rgba($primary-dark, 0.4);
+  font-weight: $font-weight-bold;
+}
+
+.testimonial-wrapper {
+  display: flex;
+
+  .testimonial {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    background: $white;
+    display: flex;
+    border-left-width: 4px;
+    border-left-style: solid;
+
+    .testimonial-content {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .testimonial-title {
+        margin-top: 1rem;
+
+        .text-muted {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.testimonial-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}

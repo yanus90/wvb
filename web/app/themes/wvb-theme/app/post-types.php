@@ -198,45 +198,6 @@ function register_speler_post_type() {
     add_post_type_support('speler', 'page-attributes');
 }
 
-// Commissies
-//add_action('init', 'register_commissie_post_type');
-//function register_commissie_post_type() {
-//    $labels = [
-//        'name'               => 'Commissies',
-//        'singular_name'      => 'Commissie',
-//        'menu_name'          => 'Commissies',
-//        'name_admin_bar'     => 'Commissie',
-//        'add_new'            => 'Nieuwe toevoegen',
-//        'add_new_item'       => 'Voeg nieuwe commissie toe',
-//        'new_item'           => 'Nieuwe commissie',
-//        'edit_item'          => 'Bewerk commissie',
-//        'view_item'          => 'Bekijk commissie',
-//        'all_items'          => 'Alle commissies',
-//        'search_items'       => 'Zoek commissies',
-//        'parent_item_colon'  => 'Bovenliggende commissies',
-//        'not_found'          => 'Geen commissies gevonden',
-//        'not_found_in_trash' => 'Geen commissies gevonden in de prullenbak'
-//    ];
-//    $args = [
-//        'labels'             => $labels,
-//        'description'        => 'Commissies post type',
-//        'public'             => true,
-//        'publicly_queryable' => true,
-//        'show_ui'            => true,
-//        'show_in_menu'       => true,
-//        'query_var'          => true,
-//        'rewrite'            => ['slug' => 'commissies'],
-//        'capability_type'    => 'post',
-//        'has_archive'        => false,
-//        'hierarchical'       => true,
-//        'menu_position'      => null,
-//        'menu_icon'          => 'dashicons-share',
-//        'supports'           => ['title', 'editor', 'page-attributes']
-//    ];
-//    register_post_type('commissie', $args);
-//    add_post_type_support('commissie', 'page-attributes');
-//}
-
 // Vacatures
 add_action('init', 'register_vacature_post_type');
 function register_vacature_post_type() {
@@ -312,4 +273,43 @@ function register_melding_post_type() {
     ];
     register_post_type('melding', $args);
     add_post_type_support('melding', 'page-attributes');
+}
+
+// Historie
+add_action('init', 'register_history_post_type');
+function register_history_post_type() {
+    $labels = [
+        'name'               => 'Historie',
+        'singular_name'      => 'Historie',
+        'menu_name'          => 'Historie',
+        'name_admin_bar'     => 'Historie',
+        'add_new'            => 'Nieuw jaar',
+        'add_new_item'       => 'Voeg nieuw jaar toe',
+        'new_item'           => 'Nieuw jaar',
+        'edit_item'          => 'Bewerk jaar',
+        'view_item'          => 'Bekijk jaar',
+        'all_items'          => 'Alle jaren',
+        'search_items'       => 'Zoek jaren',
+        'parent_item_colon'  => 'Bovenliggende jaren',
+        'not_found'          => 'Geen jaren gevonden',
+        'not_found_in_trash' => 'Geen jaren gevonden in de prullenbak'
+    ];
+    $args = [
+        'labels'             => $labels,
+        'description'        => 'Historie post type',
+        'public'             => false,
+        'publicly_queryable' => false,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => true,
+        'menu_position'      => null,
+        'show_in_rest'       => true,
+        'menu_icon'          => 'dashicons-clock',
+        'supports'           => ['title', 'editor', 'page-attributes']
+    ];
+    register_post_type('historie', $args);
+    add_post_type_support('historie', 'page-attributes');
 }
