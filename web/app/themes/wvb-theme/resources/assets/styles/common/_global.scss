@@ -49,6 +49,10 @@ body {
       z-index: 20;
     }
   }
+
+  .grecaptcha-badge {
+    display: none !important;
+  }
 }
 
 .section {
