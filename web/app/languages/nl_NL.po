@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.3.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-11-14 09:15:04+0000\n"
+"PO-Revision-Date: 2019-11-20 11:26:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1113,7 +1113,7 @@ msgstr "Sta toe dat mensen kunnen reageren op nieuwe berichten."
 #. translators: %s: Documentation URL.
 #: wp-login.php:454
 msgid "<strong>ERROR</strong>: The email could not be sent. Your site may not be correctly configured to send emails. <a href=\"%s\">Get support for resetting your password</a>."
-msgstr "<strong>FOUT</strong>: De e-mail kon niet verzonden worden. Je site is wellicht juist geconfigureerd voor het verzenden van e-mails. <a href=\"%s\">Vraag ondersteuning bij het herstellen van je wachtwoord</a>."
+msgstr "<strong>FOUT</strong>: De e-mail kon niet verzonden worden. Je site is wellicht onjuist geconfigureerd voor het verzenden van e-mails. <a href=\"%s\">Vraag ondersteuning bij het herstellen van je wachtwoord</a>."
 
 #: wp-login.php:455
 msgid "https://wordpress.org/support/article/resetting-your-password/"
