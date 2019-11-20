@@ -55,16 +55,16 @@
             <div class="col">
                 <ul class="list-inline social-links">
                     @if (get_field('facebook_pagina', 'option'))
-                        <li class="list-inline-item icon"><a href="{{ get_field('facebook_pagina', 'option') }}"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item icon"><a href="{{ get_field('facebook_pagina', 'option') }}" title="Volg ons op Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                     @endif
                     @if (get_field('twitter_pagina', 'option'))
-                        <li class="list-inline-item icon"><a href="{{ get_field('twitter_pagina', 'option') }}"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item icon"><a href="{{ get_field('twitter_pagina', 'option') }}" title="Volg ons op Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
                     @endif
                     @if (get_field('instagram_pagina', 'option'))
-                        <li class="list-inline-item icon"><a href="{{ get_field('instagram_pagina', 'option') }}"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item icon"><a href="{{ get_field('instagram_pagina', 'option') }}" title="Volg ons op Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
                     @endif
                     @if (get_field('linkedin_pagina', 'option'))
-                        <li class="list-inline-item icon"><a href="{{ get_field('linkedin_pagina', 'option') }}"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="list-inline-item icon"><a href="{{ get_field('linkedin_pagina', 'option') }}" title="Volg ons op LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                     @endif
                 </ul>
             </div>
