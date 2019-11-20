@@ -7,8 +7,8 @@
             </div>
             <div class="col-12 col-lg-5 col-xl-4 font-weight-medium line-height-md-big">
                 <div class="list-group font-weight-medium line-height-md-big mb-4 mb-md-5">
-                    <a href="/lidmaatschap/wijziging-doorgeven/" class="list-group-item list-group-item-action" title="Wijziging doorgeven"><i class="fal fa-arrow-right mr-2 text-primary"></i>Wijziging doorgeven</a>
-                    <a href="/lidmaatschap/wijziging-bankrekeningnummer/" class="list-group-item list-group-item-action" title="Wijzigen bankrekeningnummer"><i class="fal fa-arrow-right mr-2 text-primary"></i>Wijzigen bankrekeningnummer</a>
+                    <a href="/lidmaatschap/wijzigingen/" class="list-group-item list-group-item-action" title="Wijziging doorgeven"><i class="fal fa-arrow-right mr-2 text-primary"></i>Wijziging doorgeven</a>
+                    <a href="/lidmaatschap/wijzigingen-bankrekeningnummer-incasso/" class="list-group-item list-group-item-action" title="Wijzigen bankrekeningnummer"><i class="fal fa-arrow-right mr-2 text-primary"></i>Wijzigen bankrekeningnummer</a>
                 </div>
                 <div class="card mb-3">
                     <div class="card-header">Afmelden als lid</div>
