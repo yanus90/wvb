@@ -167,16 +167,15 @@
                           </tr>
                           </thead>
                           <tbody>
-{{--                          {{ dd($ranking) }}--}}
-                          @foreach($ranking as $rank)
-                              <tr class="{{ ($rank['eigenteam'] == "true" ? 'bg-primary color-white' : '') }}">
-                                  <td>{!! $rank['positie'] !!}</td>
-                                  <td>{!! $rank['teamnaam'] !!}</td>
-                                  <td>{!! $rank['gespeeldewedstrijden'] !!}</td>
-                                  <td>{!! $rank['gewonnen'] !!}</td>
-                                  <td>{!! $rank['gelijk'] !!}</td>
-                                  <td>{!! $rank['verloren'] !!}</td>
-                                  <td>{!! $rank['punten'] !!}</td>
+                          @foreach($ranking as $r)
+                              <tr class="{{ ($r['eigenteam'] == "true" ? 'bg-primary color-white' : '') }}">
+                                  <td>{!! $r['positie'] !!}</td>
+                                  <td>{!! $r['teamnaam'] !!}</td>
+                                  <td>{!! $r['gespeeldewedstrijden'] !!}</td>
+                                  <td>{!! $r['gewonnen'] !!}</td>
+                                  <td>{!! $r['gelijk'] !!}</td>
+                                  <td>{!! $r['verloren'] !!}</td>
+                                  <td>{!! $r['punten'] !!}</td>
                               </tr>
                           @endforeach
                           </tbody>

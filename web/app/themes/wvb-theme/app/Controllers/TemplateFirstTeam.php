@@ -2,22 +2,25 @@
 
 namespace App\Controllers;
 
-use App\Controllers\Partials\Sportlink;
+use App\Helpers\Sportlink;
 use Sober\Controller\Controller;
 
 class TemplateFirstTeam extends Controller
 {
-    use Sportlink;
+    private $sportlink;
 
-    public function program()
+    public function __construct()
     {
-        return $program = get_field('Programma', 'option');
+        $this->sportlink = new Sportlink(get_field('sportlink_gegevens', get_queried_object_id()));
     }
 
     public function ranking()
     {
-        $file = get_template_directory().'/storage/team-ranking-161895.json';
+        return $this->sportlink->setTeamcode('161895')->getFileFromExternalLink('poulestand', 'team-ranking');
+    }
 
-        return $this->getFileFromExternalLink('poulestand', $file);
+    public function program()
+    {
+        return $program = get_field('Programma', 'option');
     }
 }

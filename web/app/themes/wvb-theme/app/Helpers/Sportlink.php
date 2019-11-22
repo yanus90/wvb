@@ -1,19 +1,34 @@
 <?php
 
-namespace App\Controllers\Partials;
+namespace App\Helpers;
 
-trait Sportlink
+class Sportlink
 {
-    private $sportlink_settings;
     private $teamcode;
     private $poulecode;
     private $poulecode_cup;
 
-    private function getFileFromExternalLink($type, $file_path, $teamcode = null, $extra = null)
+    public function __construct($sportlink_settings)
     {
+        $this->teamcode = $sportlink_settings['sportlink_api_id'] ?? null;
+        $this->poulecode = $sportlink_settings['sportlink_poulecode'] ?? null;
+        $this->poulecode_cup = $sportlink_settings['sportlink_bekercode'] ?? null;
+    }
+
+    public function setTeamcode($teamcode)
+    {
+        $this->teamcode = $teamcode;
+
+        return $this;
+    }
+
+    public function getFileFromExternalLink($type, $file_slug, $extra = null)
+    {
+        $file_path = get_template_directory()."/storage/{$file_slug}-{$this->teamcode}.json";
+
         $teamcode_full = '';
-        if ($teamcode) {
-            $teamcode_full = '&teamcode=' . $teamcode;
+        if ($this->teamcode) {
+            $teamcode_full = '&teamcode=' . $this->teamcode;
         }
 
         $poulecode_full = '';
@@ -30,10 +45,9 @@ trait Sportlink
         }
 
         if ($json !== false) {
-            $file = file_put_contents($file_path, $json);
+            file_put_contents($file_path, $json);
         } else {
             $file = file_get_contents($file_path);
-//            $file = false;
             $json = is_array($file) ? json_encode($file, true) : $file;
         }
 

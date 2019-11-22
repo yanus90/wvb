@@ -2,75 +2,35 @@
 
 namespace App\Controllers;
 
-use App\Controllers\Partials\Sportlink;
+use App\Helpers\Sportlink;
 use Sober\Controller\Controller;
 
 class SingleElftal extends Controller
 {
-    use Sportlink;
+    private $sportlink;
 
     public function __construct()
     {
-        $this->sportlink_settings = get_field('sportlink_gegevens', get_queried_object_id());
-        
-        $this->teamcode = $this->sportlink_settings['sportlink_api_id'] ?? null;
-        $this->poulecode = $this->sportlink_settings['sportlink_poulecode'] ?? null;
-        $this->poulecode_cup = $this->sportlink_settings['sportlink_bekercode'] ?? null;
+        $this->sportlink = new Sportlink(get_field('sportlink_gegevens', get_queried_object_id()));
     }
 
     public function ranking()
     {
-        $file = get_template_directory().'/storage/team-ranking-'.$this->teamcode.'.json';
-
-        return $this->getFileFromExternalLink('poulestand', $file);
+        return $this->sportlink->getFileFromExternalLink('poulestand', 'team-ranking');
     }
 
     public function period()
     {
-        $file = get_template_directory().'/storage/team-period-'.$this->teamcode.'.json';
-
-        return $this->getFileFromExternalLink('periodestand', $file);
+        return $this->sportlink->getFileFromExternalLink('periodestand', 'team-period');
     }
 
     public function program()
     {
-        $file = get_template_directory().'/storage/team-program-'.$this->teamcode.'.json';
-
-        return $this->getFileFromExternalLink('programma', $file, $this->teamcode, '');
+        return $this->sportlink->getFileFromExternalLink('programma', 'team-program', '');
     }
 
     public function results()
     {
-        $file = get_template_directory().'/storage/team-results-'.$this->teamcode.'.json';
-
-        return $this->getFileFromExternalLink('pouleuitslagen', $file, '&weekoffset=-2');
+        return $this->sportlink->getFileFromExternalLink('pouleuitslagen', 'team-results', '&weekoffset=-2');
     }
-
-//    public function resultsCup()
-//    {
-//        $file = get_template_directory().'/storage/team-results-cup-'.$this->teamcode.'.json';
-
-//        return $this->getFileFromExternalLink('pouleuitslagen', $file, $this->teamcode, '&poulecode=' . $this->poulecode_cup);
-
-//        $results_cup = [];
-//
-//        try {
-//            $json = file_get_contents('https://data.sportlink.com/pouleuitslagen?clientId='.CLIENT_ID.'&teamcode=' . $this->teamcode . '&poulecode=' . $this->poulecode_cup);
-//        } catch (\Exception $e) {
-//            $json = null;
-//        }
-//
-//        if ($json !== false) {
-//            $file = file_put_contents(get_template_directory().'/storage/team-results-cup-'.$this->teamcode.'.json', $json);
-//        } else {
-//            $file = file_get_contents(get_template_directory().'/storage/team-results-cup-'.$this->teamcode.'.json');
-//            $json = json_encode($file, true);
-//        }
-//
-//        if ($json) {
-//            $results_cup = json_decode($json, true);
-//        }
-//
-//        return $results_cup;
-//    }
 }
