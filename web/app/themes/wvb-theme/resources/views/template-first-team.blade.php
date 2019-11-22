@@ -33,7 +33,7 @@
                                                                   }
                                                               @endphp
                                                               <ul class="list-group mb-4">
-                                                                  <li class="list-group-item active">Dag {!! $day['wanneer'] !!}</li>
+                                                                  <li class="list-group-item active">{!! $day['wanneer'] !!}</li>
                                                                   <li class="list-group-item text-uppercase">{!! $what !!}</li>
                                                                   <li class="list-group-item">
                                                                       <div class="row">
@@ -182,20 +182,20 @@
                       </table>
                   </div>
               </div>
-              <div class="col-12 col-md-4">
-                  <h3 class="">Doelpuntenmakers</h3>
-                  <div class="row">
-                      <div class="col-12">
+              {{--<div class="col-12 col-md-4">--}}
+                  {{--<h3 class="">Doelpuntenmakers</h3>--}}
+                  {{--<div class="row">--}}
+                      {{--<div class="col-12">--}}
 
-                      </div>
-                  </div>
-                  <h3 class="">Man of the match</h3>
-                  <div class="row">
-                      <div class="col-12">
+                      {{--</div>--}}
+                  {{--</div>--}}
+                  {{--<h3 class="">Man of the match</h3>--}}
+                  {{--<div class="row">--}}
+                      {{--<div class="col-12">--}}
 
-                      </div>
-                  </div>
-              </div>
+                      {{--</div>--}}
+                  {{--</div>--}}
+              {{--</div>--}}
           </div>
       </div>
   </div>
