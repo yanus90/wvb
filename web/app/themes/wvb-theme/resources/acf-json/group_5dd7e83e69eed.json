@@ -244,7 +244,23 @@
                                     },
                                     "choices": {
                                         "Lars Metselaar": "Lars Metselaar",
-                                        "Yanick Nagtegaal": "Yanick Nagtegaal"
+                                        "Jaimy Verhoef": "Jaimy Verhoef",
+                                        "Thome Boeve": "Thome Boeve",
+                                        "Yanick Nagtegaal": "Yanick Nagtegaal",
+                                        "Kevin van Kooij": "Kevin van Kooij",
+                                        "Sjoerd Ekhart": "Sjoerd Ekhart",
+                                        "Gijs Velthuis": "Gijs Velthuis",
+                                        "Rob Borninkhof": "Rob Borninkhof",
+                                        "Daniël Righard": "Daniël Righard",
+                                        "Jelger Ruikes": "Jelger Ruikes",
+                                        "Stijn Obdeijn": "Stijn Obdeijn",
+                                        "Matthias Hoorn": "Matthias Hoorn",
+                                        "Jesper Nachtegaal": "Jesper Nachtegaal",
+                                        "Matthijs de Boer": "Matthijs de Boer",
+                                        "Leon Knuttel": "Leon Knuttel",
+                                        "Cas Lankhorst": "Cas Lankhorst",
+                                        "Vincent Palmeri": "Vincent Palmeri",
+                                        "Bart Spijkers": "Bart Spijkers"
                                     },
                                     "default_value": [],
                                     "allow_null": 1,
@@ -269,7 +285,23 @@
                                     },
                                     "choices": {
                                         "Lars Metselaar": "Lars Metselaar",
-                                        "Yanick Nagtegaal": "Yanick Nagtegaal"
+                                        "Jaimy Verhoef": "Jaimy Verhoef",
+                                        "Thome Boeve": "Thome Boeve",
+                                        "Yanick Nagtegaal": "Yanick Nagtegaal",
+                                        "Kevin van Kooij": "Kevin van Kooij",
+                                        "Sjoerd Ekhart": "Sjoerd Ekhart",
+                                        "Gijs Velthuis": "Gijs Velthuis",
+                                        "Rob Borninkhof": "Rob Borninkhof",
+                                        "Daniël Righard": "Daniël Righard",
+                                        "Jelger Ruikes": "Jelger Ruikes",
+                                        "Stijn Obdeijn": "Stijn Obdeijn",
+                                        "Matthias Hoorn": "Matthias Hoorn",
+                                        "Jesper Nachtegaal": "Jesper Nachtegaal",
+                                        "Matthijs de Boer": "Matthijs de Boer",
+                                        "Leon Knuttel": "Leon Knuttel",
+                                        "Cas Lankhorst": "Cas Lankhorst",
+                                        "Vincent Palmeri": "Vincent Palmeri",
+                                        "Bart Spijkers": "Bart Spijkers"
                                     },
                                     "default_value": [],
                                     "allow_null": 1,
@@ -294,7 +326,23 @@
                                     },
                                     "choices": {
                                         "Lars Metselaar": "Lars Metselaar",
-                                        "Yanick Nagtegaal": "Yanick Nagtegaal"
+                                        "Jaimy Verhoef": "Jaimy Verhoef",
+                                        "Thome Boeve": "Thome Boeve",
+                                        "Yanick Nagtegaal": "Yanick Nagtegaal",
+                                        "Kevin van Kooij": "Kevin van Kooij",
+                                        "Sjoerd Ekhart": "Sjoerd Ekhart",
+                                        "Gijs Velthuis": "Gijs Velthuis",
+                                        "Rob Borninkhof": "Rob Borninkhof",
+                                        "Daniël Righard": "Daniël Righard",
+                                        "Jelger Ruikes": "Jelger Ruikes",
+                                        "Stijn Obdeijn": "Stijn Obdeijn",
+                                        "Matthias Hoorn": "Matthias Hoorn",
+                                        "Jesper Nachtegaal": "Jesper Nachtegaal",
+                                        "Matthijs de Boer": "Matthijs de Boer",
+                                        "Leon Knuttel": "Leon Knuttel",
+                                        "Cas Lankhorst": "Cas Lankhorst",
+                                        "Vincent Palmeri": "Vincent Palmeri",
+                                        "Bart Spijkers": "Bart Spijkers"
                                     },
                                     "default_value": [],
                                     "allow_null": 1,
@@ -328,5 +376,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1574432737
+    "modified": 1574456730
 }
