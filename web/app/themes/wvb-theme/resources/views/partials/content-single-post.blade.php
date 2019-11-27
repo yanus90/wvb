@@ -23,7 +23,7 @@
         @endif
         @if($categories)
             <div class="row mb-4 mb-lg-5 justify-content-md-center">
-              <div class="col-12">
+              <div class="col-12 col-md-10 col-lg-10 col-xl-9">
                 <ul class="list-inline">
                   @foreach($categories as $c)
                     @php
