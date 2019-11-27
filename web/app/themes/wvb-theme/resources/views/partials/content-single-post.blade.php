@@ -7,7 +7,10 @@
 
 <div class="section-single-post section">
   <div class="container">
-    @php $images = get_field('galerij') @endphp
+    @php
+      $images = get_field('galerij');
+      $categories = wp_get_post_categories($post->ID);
+    @endphp
     <div class="row mb-5">
       <div class="col-xl-1"></div>
       <div class="col-12 col-xl-10">
@@ -18,6 +21,25 @@
             </div>
           </div>
         @endif
+        @if($categories)
+            <div class="row">
+              <div class="col-12">
+                <ul class="list-inline">
+                  @foreach($categories as $c)
+                    @php
+                      $cat = get_category($c);
+                      $cat_id = get_cat_ID($cat->name);
+                    @endphp
+                    @if($cat->name != 'Geen categorie')
+                      <li class="list-inline-item">
+                        <a href="{!! get_category_link($cat_id) !!}" title="{!! $cat->name !!}"><span class="badge badge-secondary font-weight-medium px-2 py-1">{!! $cat->name !!}</span></a>
+                      </li>
+                    @endif
+                  @endforeach
+                </ul>
+              </div>
+            </div>
+          @endif
         @if($post->fotos_externe_link)
           <div class="row justify-content-md-center d-lg-none">
             <div class="col-12 col-md-10">
