@@ -234,7 +234,7 @@
             {
                 "param": "options_page",
                 "operator": "==",
-                "value": "dashicons-images-alt2"
+                "value": "carousel-home"
             }
         ]
     ],
@@ -246,5 +246,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1574194333
+    "modified": 1575056159
 }
