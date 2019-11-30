@@ -1,5 +1,5 @@
 <?php
-add_image_size('slider_image_crop', 900, 500, true);
+add_image_size('slider_image_crop', 1000, 600, true);
 add_image_size('post_thumb', 550, 360, true);
 add_image_size('post_image', 900, 600, true);
 add_image_size('team_image', 1024, 685, true);

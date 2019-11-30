@@ -72,8 +72,8 @@
                         "class": "",
                         "id": ""
                     },
-                    "aspect_ratio_width": 900,
-                    "aspect_ratio_height": 500,
+                    "aspect_ratio_width": 1000,
+                    "aspect_ratio_height": 600,
                     "return_format": "array",
                     "preview_size": "thumbnail",
                     "library": "all",
@@ -246,5 +246,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1575056159
+    "modified": 1575089603
 }
