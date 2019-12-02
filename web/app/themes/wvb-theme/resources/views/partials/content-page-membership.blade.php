@@ -14,7 +14,7 @@
                     <div class="card-header">Afmelden als lid</div>
                     <div class="card-body">
                         <p>Het lidmaatschap van Warnsveldse Boys moet vóór 1 juli worden opgezegd. Indien het lidmaatschap na 1 juli wordt opgezegd, is contributie van 6 maanden verschuldigd (dus juli tot en met december). Afmeldingen bij leider of trainer worden niet geaccepteerd. Dit om elk misverstand over opzegging en doorlopende contributieverplichtingen te voorkomen.</p>
-                        <p>Afmelden moet via <a href="mailto:ledenadministratie@warnsveldseboys.nl">ledenadministratie@warnsveldseboys.nl</a> gedaan worden.</p>
+                        <p><a href="/lidmaatschap/afmelden/" title="Afmelden">Klik hier om je af te melden</a>.</p>
                     </div>
                 </div>
             </div>
