@@ -29,13 +29,18 @@ if ( post_password_required() ) {
     return;
 }
 ?>
-<div id="product-<?php the_ID(); ?>" <?php wc_product_class(); ?>>
-    <div class="row">
-        <div class="col">
-            @php the_title( '<h1 class="font-weight-normal mb-4">', '</h1>' ); @endphp
-            @include('woocommerce.single-product.sale-flash')
+<div class="section-page-header bg-primary-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="page-header">
+                    @php the_title( '<h1 class="font-size-p26 font-size-sm-p30 font-size-md-p36 font-size-xl-p40 mb-0">', '</h1>' ); @endphp
+                </div>
+            </div>
         </div>
     </div>
+</div>
+<div id="product-<?php the_ID(); ?>" <?php wc_product_class(); ?>>
     <div class="row">
         <div class="col-lg-8 col-xl-7 col-xxl-8">
             <?php
@@ -87,7 +92,7 @@ if ( post_password_required() ) {
             @endif
         </div>
     </div>
-    @include('woocommerce.single-product.add-to-cart.cart-mobile')
+{{--    @include('woocommerce.single-product.add-to-cart.cart-mobile')--}}
 </div>
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>

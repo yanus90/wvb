@@ -27,7 +27,7 @@ global $product;
 $attachment_ids = $product->get_gallery_image_ids();
 
 $product_detail_image = get_field('product_overzicht_afbeelding');
-$product_gallery = get_field('product_galerij');
+//$product_gallery = get_field('product_galerij');
 
 $columns           = apply_filters( 'woocommerce_product_thumbnails_columns', 4 );
 $post_thumbnail_id = $product->get_image_id();
@@ -60,15 +60,15 @@ $wrapper_classes   = apply_filters( 'woocommerce_single_product_image_gallery_cl
     </div>
 </div>
 <div class="row">
-    @if($product_gallery)
-        @foreach($product_gallery as $gal)
-            <div class="col-4 col-sm-3 col-xl-2 mb-3">
-                <a href="{!! wp_get_attachment_image_url( $gal['afbeelding']['ID'], 'large' ) !!}" data-fancybox="product-gallery" class="image-product-thumb" title="{{ get_post_meta($gal['afbeelding']['ID'], '_wp_attachment_image_alt', true) }}">
-                    <img src="{!! wp_get_attachment_image_url( $gal['afbeelding']['ID'], 'thumbnail' ) !!}" alt="{{ get_post_meta($gal['afbeelding']['ID'], '_wp_attachment_image_alt', true) }}" class="img-fluid">
-                </a>
-            </div>
-        @endforeach
-    @endif
+    {{--@if($product_gallery)--}}
+        {{--@foreach($product_gallery as $gal)--}}
+            {{--<div class="col-4 col-sm-3 col-xl-2 mb-3">--}}
+                {{--<a href="{!! wp_get_attachment_image_url( $gal['afbeelding']['ID'], 'large' ) !!}" data-fancybox="product-gallery" class="image-product-thumb" title="{{ get_post_meta($gal['afbeelding']['ID'], '_wp_attachment_image_alt', true) }}">--}}
+                    {{--<img src="{!! wp_get_attachment_image_url( $gal['afbeelding']['ID'], 'thumbnail' ) !!}" alt="{{ get_post_meta($gal['afbeelding']['ID'], '_wp_attachment_image_alt', true) }}" class="img-fluid">--}}
+                {{--</a>--}}
+            {{--</div>--}}
+        {{--@endforeach--}}
+    {{--@endif--}}
     @if($attachment_ids)
         @foreach($attachment_ids as $attachment_id)
             <div class="col-4 col-sm-3 col-xl-2 mb-3">

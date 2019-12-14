@@ -34,8 +34,5 @@ global $product;
             $discount = ($regular_price - $sale_price) * 1;
             $discount_total = $discount;
         @endphp
-        <div class="col-12 col-md-6 d-none d-lg-block text-right">
-            <span class="badge badge-primary font-weight-normal p-2 no-border font-size-small">&euro; {{ App\money($discount_total) }} korting</span>
-        </div>
     @endif
 </div>
