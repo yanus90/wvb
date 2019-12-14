@@ -11,7 +11,7 @@ msgstr ""
 "Language: nl\n"
 "Project-Id-Version: WordPress - 5.3.x - Development\n"
 
-#: wp-includes/script-loader.php:2111
+#: wp-includes/script-loader.php:2114
 msgctxt "Google Font Name and Variants"
 msgid "Noto Serif:400,400i,700,700i"
 msgstr "Noto Serif:400,400i,700,700i"
@@ -30,7 +30,7 @@ msgctxt "decline months names: on or off"
 msgid "off"
 msgstr "off"
 
-#: wp-includes/script-loader.php:2018
+#: wp-includes/script-loader.php:2021
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
@@ -60,7 +60,7 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: Opening curly double quote.
-#: wp-includes/formatting.php:98 wp-includes/formatting.php:5332
+#: wp-includes/formatting.php:98 wp-includes/formatting.php:5368
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -121,7 +121,7 @@ msgstr "Onbekend e-mailadres. Opnieuw controleren of probeer je gebruikersnaam."
 msgid "Unknown username. Check again or try your email address."
 msgstr "Onbekende gebruikersnaam. Opnieuw controleren of probeer je e-mailadres."
 
-#: wp-includes/script-loader.php:1804
+#: wp-includes/script-loader.php:1807
 msgid "The personal data export link for this user was sent."
 msgstr "De link om persoonlijke gegevens te exporteren voor deze gebruiker is verzonden."
 
@@ -149,321 +149,321 @@ msgstr "Bloknavigatie"
 msgid "Inline Code"
 msgstr "Inline code"
 
-#: wp-includes/js/dist/block-library.js:13971
-#: wp-includes/js/dist/block-library.js:16281
+#: wp-includes/js/dist/block-library.js:13975
+#: wp-includes/js/dist/block-library.js:16285
 msgid "Grid view"
 msgstr "Rasterweergave"
 
-#: wp-includes/js/dist/block-library.js:13962
-#: wp-includes/js/dist/block-library.js:16272
+#: wp-includes/js/dist/block-library.js:13966
+#: wp-includes/js/dist/block-library.js:16276
 msgid "List view"
 msgstr "Lijstweergave"
 
-#: wp-includes/js/dist/block-library.js:13909
+#: wp-includes/js/dist/block-library.js:13913
 msgid "Sorting and Filtering"
 msgstr "Sorteren en filteren"
 
-#: wp-includes/js/dist/block-library.js:13899
+#: wp-includes/js/dist/block-library.js:13903
 msgid "Post Meta Settings"
 msgstr "Bericht meta instellingen"
 
-#: wp-includes/js/dist/block-library.js:13866
+#: wp-includes/js/dist/block-library.js:13870
 msgid "Post Content"
 msgstr "Bericht inhoud"
 
-#: wp-includes/js/dist/block-library.js:13864
+#: wp-includes/js/dist/block-library.js:13868
 msgid "Post Content Settings"
 msgstr "Bericht inhoud instellingen"
 
-#: wp-includes/js/dist/block-library.js:9936
+#: wp-includes/js/dist/block-library.js:9940
 msgid "Percentage width"
 msgstr "Percentage breedte"
 
-#: wp-includes/js/dist/block-library.js:9934
+#: wp-includes/js/dist/block-library.js:9938
 msgid "Column Settings"
 msgstr "Kolominstellingen"
 
-#: wp-includes/js/dist/block-library.js:19555
+#: wp-includes/js/dist/block-library.js:19559
 msgid "There is no poster image currently selected"
 msgstr "Er is momenteel geen posterafbeelding geselecteerd"
 
-#: wp-includes/js/dist/block-library.js:19555
+#: wp-includes/js/dist/block-library.js:19559
 msgid "The current poster image url is %s"
 msgstr "De URL van de huidige posterafbeelding is %s"
 
-#: wp-includes/js/dist/block-library.js:19516
+#: wp-includes/js/dist/block-library.js:19520
 msgid "Play inline"
 msgstr "Inline afspelen"
 
-#: wp-includes/js/dist/block-library.js:19418
+#: wp-includes/js/dist/block-library.js:19422
 msgid "Note: Autoplaying videos may cause usability issues for some visitors."
 msgstr "Opmerking: video's die automatisch worden afgespeeld, kunnen voor sommige bezoekers gebruiksproblemen veroorzaken."
 
-#: wp-includes/js/dist/block-library.js:7607
+#: wp-includes/js/dist/block-library.js:7611
 msgid "Note: Autoplaying audio may cause usability issues for some visitors."
 msgstr "Opmerking: audiobestanden die automatisch worden afgespeeld, kunnen voor sommige bezoekers gebruiksproblemen veroorzaken."
 
-#: wp-includes/js/dist/block-library.js:15150
+#: wp-includes/js/dist/block-library.js:15154
 msgid "All around this is an almost totally black screen. Now, as the camera moves slowly towards the window which is almost a postage stamp in the frame, other forms appear;"
 msgstr "Hier omheen is een bijna compleet zwart scherm. Terwijl de camera langzaam naar het raam beweegt, wat bijna een postzegel in het frame is, beginnen andere vormen te verschijnen;"
 
-#: wp-includes/js/dist/block-library.js:15150
+#: wp-includes/js/dist/block-library.js:15154
 msgid "Window, very small in the distance, illuminated."
 msgstr "Raam, erg klein in de verte, verlicht."
 
-#: wp-includes/js/dist/block-library.js:15150
+#: wp-includes/js/dist/block-library.js:15154
 msgid "EXT. XANADU - FAINT DAWN - 1940 (MINIATURE)"
 msgstr "EXT. XANADU - FAINT DAWN - 1940 (MINIATUUR)"
 
-#: wp-includes/js/dist/block-library.js:9883
+#: wp-includes/js/dist/block-library.js:9887
 msgid "Nam risus massa, ullamcorper consectetur eros fermentum, porta aliquet ligula. Sed vel mauris nec enim."
 msgstr "Nam risus massa, ullamcorper consectetur eros fermentum, porta aliquet ligula. Sed vel mauris nec enim."
 
-#: wp-includes/js/dist/block-library.js:9878
+#: wp-includes/js/dist/block-library.js:9882
 msgid "Etiam et egestas lorem. Vivamus sagittis sit amet dolor quis lobortis. Integer sed fermentum arcu, id vulputate lacus. Etiam fermentum sem eu quam hendrerit."
 msgstr "Etiam et egestas lorem. Vivamus sagittis sit amet dolor quis lobortis. Integer sed fermentum arcu, id vulputate lacus. Etiam fermentum sem eu quam hendrerit."
 
-#: wp-includes/js/dist/block-library.js:9604
+#: wp-includes/js/dist/block-library.js:9608
 msgid "Three columns; wide center column"
 msgstr "Drie kolommen, brede midden kolom"
 
-#: wp-includes/js/dist/block-library.js:9592
+#: wp-includes/js/dist/block-library.js:9596
 msgid "Three columns; equal split"
 msgstr "Drie kolommen; gelijkmatig verdeeld"
 
-#: wp-includes/js/dist/block-library.js:9575
+#: wp-includes/js/dist/block-library.js:9579
 msgid "Two columns; two-thirds, one-third split"
 msgstr "Twee kolommen; twee derde, één derde verdeling"
 
-#: wp-includes/js/dist/block-library.js:9558
+#: wp-includes/js/dist/block-library.js:9562
 msgid "Two columns; one-third, two-thirds split"
 msgstr "Twee kolommen; één derde, twee derde verdeling"
 
-#: wp-includes/js/dist/block-library.js:9545
+#: wp-includes/js/dist/block-library.js:9549
 msgid "Two columns; equal split"
 msgstr "Twee kolommen; gelijkmatig verdeeld"
 
-#: wp-includes/js/dist/block-library.js:8523
+#: wp-includes/js/dist/block-library.js:8527
 msgid "Fill"
 msgstr "Vulling"
 
-#: wp-includes/js/dist/block-library.js:8514
+#: wp-includes/js/dist/block-library.js:8518
 msgid "Call to Action"
 msgstr "Call to Action"
 
-#: wp-includes/js/dist/block-library.js:8357
+#: wp-includes/js/dist/block-library.js:8361
 msgid "Link rel"
 msgstr "Linkrelatie"
 
-#: wp-includes/js/dist/block-library.js:8199
+#: wp-includes/js/dist/block-library.js:8203
 msgid "Border Radius"
 msgstr "Hoekafronding"
 
-#: wp-includes/js/dist/block-library.js:12717
+#: wp-includes/js/dist/block-library.js:12721
 msgid "Welcome to the wonderful world of blocks…"
 msgstr "Welkom in de wondere wereld van blokken..."
 
-#: wp-includes/js/dist/block-library.js:5975
+#: wp-includes/js/dist/block-library.js:5979
 msgid "In quoting others, we cite ourselves."
 msgstr "Wanneer we anderen quoten, citeren we onszelf."
 
-#: wp-includes/js/dist/block-library.js:5972
+#: wp-includes/js/dist/block-library.js:5976
 msgid "cite"
 msgstr "citaat"
 
-#: wp-includes/js/dist/block-library.js:14151
+#: wp-includes/js/dist/block-library.js:14155
 msgid "Reverse List Numbering"
 msgstr "Omgekeerde lijstnummering"
 
-#: wp-includes/js/dist/block-library.js:14138
+#: wp-includes/js/dist/block-library.js:14142
 msgid "Start Value"
 msgstr "Startwaarde"
 
-#: wp-includes/js/dist/block-library.js:14136
+#: wp-includes/js/dist/block-library.js:14140
 msgid "Ordered List Settings"
 msgstr "Geordende lijst instellingen"
 
-#: wp-includes/js/dist/block-library.js:9190
+#: wp-includes/js/dist/block-library.js:9194
 msgid "registerBlockType( name, settings );"
 msgstr "registerBlockType( name, settings );"
 
-#: wp-includes/js/dist/block-library.js:9190
+#: wp-includes/js/dist/block-library.js:9194
 msgid "// content or layout of a page."
 msgstr "// inhoud of lay-out van een pagina."
 
-#: wp-includes/js/dist/block-library.js:9190
+#: wp-includes/js/dist/block-library.js:9194
 msgid "// when composed together, form the"
 msgstr "// wanneer samengesteld vormt de"
 
-#: wp-includes/js/dist/block-library.js:9190
+#: wp-includes/js/dist/block-library.js:9194
 msgid "// to describe units of markup that,"
 msgstr "// beschrijft eenheden van markup die,"
 
-#: wp-includes/js/dist/block-library.js:9190
+#: wp-includes/js/dist/block-library.js:9194
 msgid "// A \"block\" is the abstract term used"
 msgstr "// Een \"blok\" is een abstract woord wat wordt gebruikt"
 
-#: wp-includes/js/dist/block-library.js:15741
+#: wp-includes/js/dist/block-library.js:15745
 msgid "One of the hardest things to do in technology is disrupt yourself."
 msgstr "Eén van de moeilijkste dingen die je in technologie kunt doen is jezelf ontwrichten."
 
-#: wp-includes/js/dist/block-library.js:19214
+#: wp-includes/js/dist/block-library.js:19218
 msgid "    With the dragon-fly on the river."
 msgstr "Met de libelle over de rivier."
 
-#: wp-includes/js/dist/block-library.js:19214
+#: wp-includes/js/dist/block-library.js:19218
 msgid "And breaking the golden lilies afloat"
 msgstr "En de gouden lelies laten drijven"
 
-#: wp-includes/js/dist/block-library.js:19214
+#: wp-includes/js/dist/block-library.js:19218
 msgid "Splashing and paddling with hoofs of a goat,"
 msgstr "Spetterend en peddelend met de hoeven van een geit,"
 
-#: wp-includes/js/dist/block-library.js:19214
+#: wp-includes/js/dist/block-library.js:19218
 msgid "Spreading ruin and scattering ban,"
 msgstr "Verderf en verbod verspreidend,"
 
-#: wp-includes/js/dist/block-library.js:19214
+#: wp-includes/js/dist/block-library.js:19218
 msgid "    Down in the reeds by the river?"
 msgstr "Daar in het riet bij de rivier?"
 
-#: wp-includes/js/dist/block-library.js:19214
+#: wp-includes/js/dist/block-library.js:19218
 msgid "WHAT was he doing, the great god Pan,"
 msgstr "WAT was hij aan het doen, de grote god Pan,"
 
-#: wp-includes/js/dist/block-library.js:12179
+#: wp-includes/js/dist/block-library.js:12183
 msgid "Upload a file or pick one from your media library."
 msgstr "Upload een bestand of selecteer er één vanuit je mediabibliotheek."
 
-#: wp-includes/js/dist/block-library.js:8353
-#: wp-includes/js/dist/block-library.js:11970
+#: wp-includes/js/dist/block-library.js:8357
+#: wp-includes/js/dist/block-library.js:11974
 msgid "Open in new tab"
 msgstr "In nieuw tabblad openen"
 
-#: wp-includes/js/dist/block-library.js:11958
+#: wp-includes/js/dist/block-library.js:11962
 msgid "Attachment page"
 msgstr "Bijlagepagina"
 
-#: wp-includes/js/dist/block-library.js:18827
+#: wp-includes/js/dist/block-library.js:18831
 msgid "December 6, 2018"
 msgstr "6 december 2018"
 
-#: wp-includes/js/dist/block-library.js:18816
+#: wp-includes/js/dist/block-library.js:18820
 msgid "February 21, 2019"
 msgstr "21 februari 2019"
 
-#: wp-includes/js/dist/block-library.js:18805
+#: wp-includes/js/dist/block-library.js:18809
 msgid "May 7, 2019"
 msgstr "7 mei 2019"
 
-#: wp-includes/js/dist/block-library.js:18793
+#: wp-includes/js/dist/block-library.js:18797
 msgid "Release Date"
 msgstr "Release datum"
 
-#: wp-includes/js/dist/block-library.js:18790
+#: wp-includes/js/dist/block-library.js:18794
 msgid "Jazz Musician"
 msgstr "Jazz muzikant"
 
-#: wp-includes/js/dist/block-library.js:18486
+#: wp-includes/js/dist/block-library.js:18490
 msgid "Footer section"
 msgstr "Footer sectie"
 
-#: wp-includes/js/dist/block-library.js:18482
+#: wp-includes/js/dist/block-library.js:18486
 msgid "Header section"
 msgstr "Header sectie"
 
-#: wp-includes/js/dist/block-library.js:18467
+#: wp-includes/js/dist/block-library.js:18471
 msgid "Change column alignment"
 msgstr "Uitlijning kolom wijzigen"
 
-#: wp-includes/js/dist/block-library.js:18454
+#: wp-includes/js/dist/block-library.js:18458
 msgid "Create Table"
 msgstr "Tabel maken"
 
-#: wp-includes/js/dist/block-library.js:18431
+#: wp-includes/js/dist/block-library.js:18435
 msgid "Insert a table for sharing data."
 msgstr "Een tabel invoegen voor het delen van gegevens."
 
-#: wp-includes/js/dist/block-library.js:17919
+#: wp-includes/js/dist/block-library.js:17923
 msgid "Align Column Right"
 msgstr "Kolom rechts uitlijnen"
 
-#: wp-includes/js/dist/block-library.js:17915
+#: wp-includes/js/dist/block-library.js:17919
 msgid "Align Column Center"
 msgstr "Kolom centreren"
 
-#: wp-includes/js/dist/block-library.js:17911
+#: wp-includes/js/dist/block-library.js:17915
 msgid "Align Column Left"
 msgstr "Kolom links uitlijnen"
 
-#: wp-includes/js/dist/block-library.js:11089
+#: wp-includes/js/dist/block-library.js:11093
 msgid "<strong>Snow Patrol</strong>"
 msgstr "<strong>Snow Patrol</strong>"
 
-#: wp-includes/js/dist/block-library.js:10726
+#: wp-includes/js/dist/block-library.js:10730
 msgid "Upload an image or video file, or pick one from your media library."
 msgstr "Upload een afbeelding of videobestand of selecteer er één vanuit je mediabibliotheek."
 
-#: wp-includes/js/dist/block-library.js:10687
+#: wp-includes/js/dist/block-library.js:10691
 msgid "Clear Media"
 msgstr "Media wissen"
 
-#: wp-includes/js/dist/block-library.js:10459
+#: wp-includes/js/dist/block-library.js:10463
 msgid "Minimum height in pixels"
 msgstr "Minimum hoogte in pixels"
 
-#: wp-includes/js/dist/block-library.js:4959
+#: wp-includes/js/dist/block-library.js:4963
 msgctxt "block style"
 msgid "Circle Mask"
 msgstr "Cirkel masker"
 
-#: wp-includes/js/dist/block-library.js:4950
+#: wp-includes/js/dist/block-library.js:4954
 msgid "Mont Blanc appears—still, snowy, and serene."
 msgstr "Mont Blanc verschijnt—stil, bedekt door sneeuw en sereen. "
 
-#: wp-includes/js/dist/block-library.js:4254
+#: wp-includes/js/dist/block-library.js:4258
 msgid "You are now editing the image in the image block."
 msgstr "Je bewerkt nu de afbeelding in het afbeelding-blok."
 
-#: wp-includes/js/dist/block-library.js:4252
+#: wp-includes/js/dist/block-library.js:4256
 msgid "You are now viewing the image in the image block."
 msgstr "Je bekijkt nu de afbeelding in het afbeelding-blok."
 
-#: wp-includes/js/dist/block-library.js:13593
+#: wp-includes/js/dist/block-library.js:13597
 msgid "— Kobayashi Issa (一茶)"
 msgstr "— Kobayashi Issa (一茶)"
 
-#: wp-includes/js/dist/block-library.js:13588
+#: wp-includes/js/dist/block-library.js:13592
 msgid "The wren<br>Earns his living<br>Noiselessly."
 msgstr "Het winterkoninkje<br>Verdient z'n brood<br>Geruisloos."
 
-#: wp-includes/js/dist/block-library.js:4410
-#: wp-includes/js/dist/block-library.js:13310
+#: wp-includes/js/dist/block-library.js:4414
+#: wp-includes/js/dist/block-library.js:13314
 msgid "Leave empty if the image is purely decorative."
 msgstr "Laat leeg als de afbeelding alleen decoratief is."
 
-#: wp-includes/js/dist/block-library.js:4410
-#: wp-includes/js/dist/block-library.js:13310
+#: wp-includes/js/dist/block-library.js:4414
+#: wp-includes/js/dist/block-library.js:13314
 msgid "Describe the purpose of the image"
 msgstr "Het doel van de afbeelding beschrijven"
 
-#: wp-includes/js/dist/block-library.js:13288
+#: wp-includes/js/dist/block-library.js:13292
 msgid "Crop image to fill entire column"
 msgstr "Afbeelding bijsnijden om de gehele kolom te vullen"
 
-#: wp-includes/js/dist/block-library.js:7010
+#: wp-includes/js/dist/block-library.js:7014
 msgid "Write gallery caption…"
 msgstr "Een galerij onderschrift schrijven..."
 
-#: wp-includes/js/dist/block-library.js:6561
+#: wp-includes/js/dist/block-library.js:6565
 msgid "Move image forward"
 msgstr "Afbeelding naar voren verplaatsen"
 
-#: wp-includes/js/dist/block-library.js:6554
+#: wp-includes/js/dist/block-library.js:6558
 msgid "Move image backward"
 msgstr "Afbeelding naar achteren verplaatsen"
 
-#: wp-includes/js/dist/block-library.js:5478
+#: wp-includes/js/dist/block-library.js:5482
 msgid "Code is Poetry"
 msgstr "Code is Poetry"
 
@@ -471,63 +471,63 @@ msgstr "Code is Poetry"
 msgid "In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing."
 msgstr "In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing."
 
-#: wp-includes/js/dist/block-library.js:16691
+#: wp-includes/js/dist/block-library.js:16695
 msgid "Six."
 msgstr "Zes."
 
-#: wp-includes/js/dist/block-library.js:16684
+#: wp-includes/js/dist/block-library.js:16688
 msgid "Five."
 msgstr "Vijf."
 
-#: wp-includes/js/dist/block-library.js:16677
+#: wp-includes/js/dist/block-library.js:16681
 msgid "Four."
 msgstr "Vier."
 
-#: wp-includes/js/dist/block-library.js:16670
+#: wp-includes/js/dist/block-library.js:16674
 msgid "Three."
 msgstr "Drie."
 
-#: wp-includes/js/dist/block-library.js:16663
+#: wp-includes/js/dist/block-library.js:16667
 msgid "Two."
 msgstr "Twee."
 
-#: wp-includes/js/dist/block-library.js:16656
+#: wp-includes/js/dist/block-library.js:16660
 msgid "One."
 msgstr "Eén."
 
-#: wp-includes/js/dist/block-library.js:16646
+#: wp-includes/js/dist/block-library.js:16650
 msgid "section"
 msgstr "sectie"
 
-#: wp-includes/js/dist/block-library.js:16646
+#: wp-includes/js/dist/block-library.js:16650
 msgid "row"
 msgstr "rij"
 
-#: wp-includes/js/dist/block-library.js:16646
+#: wp-includes/js/dist/block-library.js:16650
 msgid "wrapper"
 msgstr "wrapper"
 
-#: wp-includes/js/dist/block-library.js:16646
+#: wp-includes/js/dist/block-library.js:16650
 msgid "container"
 msgstr "container"
 
-#: wp-includes/js/dist/block-library.js:16645
+#: wp-includes/js/dist/block-library.js:16649
 msgid "A block that groups other blocks."
 msgstr "Een blok wat andere blokken groepeert."
 
-#: wp-includes/js/dist/block-library.js:16643
+#: wp-includes/js/dist/block-library.js:16647
 msgid "Group"
 msgstr "Groep"
 
-#: wp-includes/js/dist/block-library.js:11204
+#: wp-includes/js/dist/block-library.js:11208
 msgid "Learn more about embeds"
 msgstr "Meer informatie over insluitingen"
 
-#: wp-includes/js/dist/block-library.js:11203
+#: wp-includes/js/dist/block-library.js:11207
 msgid "https://wordpress.org/support/article/embeds/"
 msgstr "https://wordpress.org/support/article/embeds/"
 
-#: wp-includes/js/dist/block-library.js:11179
+#: wp-includes/js/dist/block-library.js:11183
 msgid "Paste a link to the content you want to display on your site."
 msgstr "Plak een link naar de inhoud die je wilt laten zien op je site."
 
@@ -594,7 +594,7 @@ msgid "Upload a video file, pick one from your media library, or add one with a 
 msgstr "Upload een videobestand, selecteer er één vanuit je mediabibliotheek of voeg er één toe met een URL."
 
 #: wp-includes/js/dist/block-editor.js:16416
-#: wp-includes/js/dist/block-library.js:4359
+#: wp-includes/js/dist/block-library.js:4363
 msgid "Upload an image file, pick one from your media library, or add one with a URL."
 msgstr "Upload een afbeelding, selecteer er één vanuit je mediabibliotheek of voeg er één toe met een URL."
 
@@ -800,12 +800,12 @@ msgstr "WordPress versie %s"
 msgid "https://wordpress.org/support/article/debugging-a-wordpress-network/"
 msgstr "https://wordpress.org/support/article/debugging-a-wordpress-network/"
 
-#: wp-includes/formatting.php:4770
+#: wp-includes/formatting.php:4781
 msgid "https://wordpress.org/support/article/using-permalinks/#choosing-your-permalink-structure"
 msgstr "https://wordpress.org/support/article/using-permalinks/#choosing-your-permalink-structure"
 
-#: wp-includes/link-template.php:2577 wp-includes/link-template.php:2656
-#: wp-includes/link-template.php:2721
+#: wp-includes/link-template.php:2580 wp-includes/link-template.php:2659
+#: wp-includes/link-template.php:2724
 msgid "Posts"
 msgstr "Berichten"
 
@@ -845,7 +845,7 @@ msgstr "Lees meer over probleemoplossing in WordPress."
 
 #. translators: Documentation explaining debugging in WordPress.
 #: wp-includes/class-wp-fatal-error-handler.php:190
-#: wp-includes/functions.php:4900
+#: wp-includes/functions.php:4967
 msgid "https://wordpress.org/support/article/debugging-in-wordpress/"
 msgstr "https://wordpress.org/support/article/debugging-in-wordpress/"
 
@@ -998,46 +998,46 @@ msgstr "Onverwachte melding van de server. Het kan zijn dat het bestand succesvo
 msgid "https://wordpress.org/support/article/editing-wp-config-php/"
 msgstr "https://wordpress.org/support/article/editing-wp-config-php/"
 
-#: wp-login.php:697
+#: wp-login.php:712
 msgid "Remind me later"
 msgstr "Mij later herinneren"
 
-#: wp-login.php:682
+#: wp-login.php:696
 msgid "The email is correct"
 msgstr "Het e-mailadres is correct"
 
-#: wp-login.php:670
+#: wp-login.php:684
 msgid "This email may be different from your personal email address."
 msgstr "Dit kan een ander adres zijn dan je persoonlijke e-mail."
 
 #. translators: %s: Admin email address.
-#: wp-login.php:663
+#: wp-login.php:677
 msgid "Current administration email: %s"
 msgstr "Het huidige beheerders e-mailadres: %s."
 
-#: wp-login.php:652
+#: wp-login.php:666
 msgid "Why is this important?"
 msgstr "Waarom is dit belangrijk?"
 
 #. translators: URL to the WordPress help section about admin email.
-#: wp-login.php:644
+#: wp-login.php:658
 msgid "https://wordpress.org/support/article/settings-general-screen/#email-address"
 msgstr "https://wordpress.org/support/article/settings-general-screen/#email-address"
 
-#: wp-login.php:640
+#: wp-login.php:654
 msgid "Please verify that the <strong>administration email</strong> for this website is still correct."
 msgstr "Bevestig dat het <strong>beheerders e-mailadres</strong> voor deze website nog steeds klopt."
 
-#: wp-login.php:637
+#: wp-login.php:651
 msgid "Administration email verification"
 msgstr "Bevestiging beheerders e-mailadres"
 
-#: wp-login.php:609
+#: wp-login.php:622
 msgid "Confirm your administration email"
 msgstr "Bevestig je beheerders e-mailadres"
 
 #. translators: Maximum number of words used in a post excerpt.
-#: wp-includes/formatting.php:3795
+#: wp-includes/formatting.php:3806
 msgctxt "excerpt_length"
 msgid "55"
 msgstr "55"
@@ -1213,7 +1213,7 @@ msgstr "Verplaatsen naar prullenbak"
 msgid "Restore from Trash"
 msgstr "Uit prullenbak herstellen"
 
-#: wp-login.php:1181 wp-includes/wp-db.php:1124 wp-includes/wp-db.php:1699
+#: wp-login.php:1197 wp-includes/wp-db.php:1124 wp-includes/wp-db.php:1699
 #: wp-includes/wp-db.php:1857 wp-includes/update.php:160
 #: wp-includes/update.php:386 wp-includes/update.php:575
 #: wp-includes/customize/class-wp-customize-themes-section.php:90
@@ -1237,7 +1237,7 @@ msgstr "[%s] Verzoek wijzigen e-mailadres netwerkbeheerder"
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title.
-#: wp-includes/functions.php:6744
+#: wp-includes/functions.php:6811
 msgid "[%s] Admin Email Changed"
 msgstr "[%s] E-mailadres beheerder gewijzigd"
 
@@ -1251,153 +1251,153 @@ msgstr "[%s] Verzoek wijzigen e-mailadres"
 msgid "[%s] Email Changed"
 msgstr "[%s] E-mailadres gewijzigd"
 
-#: wp-includes/js/dist/block-library.js:19880
+#: wp-includes/js/dist/block-library.js:19884
 msgid "Tag Cloud Settings"
 msgstr "Tagwolk instellingen"
 
-#: wp-includes/js/dist/block-library.js:19841
+#: wp-includes/js/dist/block-library.js:19845
 msgid "- Select -"
 msgstr "- Selecteer -"
 
-#: wp-includes/js/dist/block-library.js:16366
+#: wp-includes/js/dist/block-library.js:16370
 msgid "feed"
 msgstr "feed"
 
-#: wp-includes/js/dist/block-library.js:16366
+#: wp-includes/js/dist/block-library.js:16370
 msgid "atom"
 msgstr "atom"
 
-#: wp-includes/js/dist/block-library.js:16363
+#: wp-includes/js/dist/block-library.js:16367
 msgid "Display entries from any RSS or Atom feed."
 msgstr "Toon invoer van elke RSS of Atom feed."
 
-#: wp-includes/js/dist/block-library.js:13889
-#: wp-includes/js/dist/block-library.js:16317
+#: wp-includes/js/dist/block-library.js:13893
+#: wp-includes/js/dist/block-library.js:16321
 msgid "Max number of words in excerpt"
 msgstr "Maximum aantal woorden in samenvatting"
 
-#: wp-includes/js/dist/block-library.js:16313
+#: wp-includes/js/dist/block-library.js:16317
 msgid "Display excerpt"
 msgstr "Samenvatting tonen"
 
-#: wp-includes/js/dist/block-library.js:16309
+#: wp-includes/js/dist/block-library.js:16313
 msgid "Display date"
 msgstr "Datum tonen"
 
-#: wp-includes/js/dist/block-library.js:16305
+#: wp-includes/js/dist/block-library.js:16309
 msgid "Display author"
 msgstr "Auteur tonen"
 
-#: wp-includes/js/dist/block-library.js:16292
+#: wp-includes/js/dist/block-library.js:16296
 msgid "RSS Settings"
 msgstr "RSS instellingen"
 
-#: wp-includes/js/dist/block-library.js:16264
+#: wp-includes/js/dist/block-library.js:16268
 msgid "Edit RSS URL"
 msgstr "RSS-URL bewerken"
 
-#: wp-includes/js/dist/block-library.js:16259
+#: wp-includes/js/dist/block-library.js:16263
 msgid "Use URL"
 msgstr "URL gebruiken"
 
-#: wp-includes/js/dist/block-library.js:16248
+#: wp-includes/js/dist/block-library.js:16252
 msgid "Enter URL here…"
 msgstr "URL hier invullen..."
 
-#: wp-includes/js/dist/block-library.js:16451
+#: wp-includes/js/dist/block-library.js:16455
 msgid "find"
 msgstr "zoek"
 
-#: wp-includes/js/dist/block-library.js:16448
+#: wp-includes/js/dist/block-library.js:16452
 msgid "Help visitors find your content."
 msgstr "Help bezoekers je inhoud te vinden."
 
-#: wp-includes/js/dist/block-library.js:16424
+#: wp-includes/js/dist/block-library.js:16428
 msgid "Add button text…"
 msgstr "Knoptekst toevoegen..."
 
-#: wp-includes/js/dist/block-library.js:16423
+#: wp-includes/js/dist/block-library.js:16427
 msgid "Button text"
 msgstr "Knoptekst"
 
-#: wp-includes/js/dist/block-library.js:16413
+#: wp-includes/js/dist/block-library.js:16417
 msgid "Optional placeholder…"
 msgstr "Optionele placeholder…"
 
-#: wp-includes/js/dist/block-library.js:16409
+#: wp-includes/js/dist/block-library.js:16413
 msgid "Optional placeholder text"
 msgstr "Optionele placeholder tekst"
 
-#: wp-includes/js/dist/block-library.js:16399
+#: wp-includes/js/dist/block-library.js:16403
 msgid "Add label…"
 msgstr "Label toevoegen..."
 
-#: wp-includes/js/dist/block-library.js:16398
+#: wp-includes/js/dist/block-library.js:16402
 msgid "Label text"
 msgstr "Labeltekst"
 
-#: wp-includes/js/dist/block-library.js:14881
+#: wp-includes/js/dist/block-library.js:14885
 msgid "Content before this block will be shown in the excerpt on your archives page."
 msgstr "Inhoud voor dit blok wordt getoond in de samenvatting op je archiefpagina."
 
-#: wp-includes/js/dist/block-library.js:14755
+#: wp-includes/js/dist/block-library.js:14759
 msgid "Hide the excerpt on the full content page"
 msgstr "Verberg de samenvatting op de volledige inhoudspagina"
 
-#: wp-includes/js/dist/block-library.js:14735
+#: wp-includes/js/dist/block-library.js:14739
 msgid "The excerpt is visible."
 msgstr "De samenvatting is zichtbaar."
 
-#: wp-includes/js/dist/block-library.js:14735
+#: wp-includes/js/dist/block-library.js:14739
 msgid "The excerpt is hidden."
 msgstr "De samenvatting is verborgen."
 
-#: wp-includes/js/dist/block-library.js:8664
+#: wp-includes/js/dist/block-library.js:8668
 msgid "archive"
 msgstr "archief"
 
-#: wp-includes/js/dist/block-library.js:8664
+#: wp-includes/js/dist/block-library.js:8668
 msgid "posts"
 msgstr "berichten"
 
 #: wp-includes/widgets/class-wp-widget-calendar.php:34
-#: wp-includes/js/dist/block-library.js:8661
+#: wp-includes/js/dist/block-library.js:8665
 msgid "A calendar of your site’s posts."
 msgstr "Een kalender met de berichten van je site."
 
-#: wp-includes/js/dist/block-library.js:8509
+#: wp-includes/js/dist/block-library.js:8513
 msgid "link"
 msgstr "link"
 
-#: wp-includes/js/dist/block-library.js:8507
+#: wp-includes/js/dist/block-library.js:8511
 msgid "Prompt visitors to take action with a button-style link."
 msgstr "Vraag bezoekers om actie te ondernemen met een link in de stijl van een knop."
 
-#: wp-includes/js/dist/block-library.js:10665
-#: wp-includes/js/dist/block-library.js:13296
+#: wp-includes/js/dist/block-library.js:10669
+#: wp-includes/js/dist/block-library.js:13300
 msgid "Focal Point Picker"
 msgstr "Focuspunt kiezer"
 
 #. translators: %1$d is the order number of the image, %2$d is the total number
 #. of images.
-#: wp-includes/js/dist/block-library.js:6986
+#: wp-includes/js/dist/block-library.js:6990
 msgid "image %1$d of %2$d in gallery"
 msgstr "afbeelding %1$d van %2$d in galerij"
 
 #. translators: %s: host providing embed content e.g: www.youtube.com
-#: wp-includes/js/dist/block-library.js:11416
+#: wp-includes/js/dist/block-library.js:11420
 msgid "Embedded content from %s can't be previewed in the editor."
 msgstr "Van ingesloten inhoud van %s kan geen voorbeeld getoond worden in de editor."
 
-#: wp-includes/js/dist/block-library.js:11194
+#: wp-includes/js/dist/block-library.js:11198
 msgid "Sorry, this content could not be embedded."
 msgstr "Sorry, deze inhoud kan niet ingesloten worden."
 
-#: wp-includes/js/dist/block-library.js:3240
+#: wp-includes/js/dist/block-library.js:3244
 msgid "Embed Amazon Kindle content."
 msgstr "Amazon Kindle inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3238
+#: wp-includes/js/dist/block-library.js:3242
 msgid "ebook"
 msgstr "e-book"
 
@@ -1458,20 +1458,20 @@ msgid "Change block type or style"
 msgstr "Bloktype of stijl wijzigen"
 
 #: wp-includes/js/dist/block-editor.js:18223
-#: wp-includes/js/dist/block-library.js:4955
-#: wp-includes/js/dist/block-library.js:5982
-#: wp-includes/js/dist/block-library.js:15747
-#: wp-includes/js/dist/block-library.js:18835
+#: wp-includes/js/dist/block-library.js:4959
+#: wp-includes/js/dist/block-library.js:5986
+#: wp-includes/js/dist/block-library.js:15751
+#: wp-includes/js/dist/block-library.js:18839
 msgctxt "block style"
 msgid "Default"
 msgstr "Standaard"
 
-#: wp-includes/js/dist/block-library.js:14266
+#: wp-includes/js/dist/block-library.js:14270
 msgctxt "keyboard key"
 msgid "Space"
 msgstr "Spatie"
 
-#: wp-includes/js/dist/block-library.js:14259
+#: wp-includes/js/dist/block-library.js:14263
 msgctxt "keyboard key"
 msgid "Backspace"
 msgstr "Backspace"
@@ -1661,23 +1661,23 @@ msgstr[1] "%s reacties in afwachting"
 msgid "Quote from Hello Dolly song, by Jerry Herman:"
 msgstr "Citaat van Hello Dolly, door Jerry Herman:"
 
-#: wp-login.php:1296
+#: wp-login.php:1318
 msgid "Recovery Mode Initialized. Please log in to continue."
 msgstr "Herstel mode geïnitialiseerd. Login om verder te gaan."
 
-#: wp-login.php:1191
+#: wp-login.php:1207
 msgid "https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
 msgstr "https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
 
-#: wp-login.php:1180
+#: wp-login.php:1196
 msgid "https://wordpress.org/support/article/cookies/"
 msgstr "https://wordpress.org/support/article/cookies/"
 
-#: wp-login.php:1101 wp-includes/user.php:3652
+#: wp-login.php:1117 wp-includes/user.php:3652
 msgid "Missing confirm key."
 msgstr "Ontbrekende bevestigingsleutel."
 
-#: wp-login.php:1097
+#: wp-login.php:1113
 msgid "Missing request ID."
 msgstr "Ontbrekend aanvraag-ID."
 
@@ -1685,7 +1685,7 @@ msgstr "Ontbrekend aanvraag-ID."
 msgid "Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead."
 msgstr "Het gebruik van het 'title' attribuut op het aanmeldlogo wordt om redenen van toegankelijkheid niet aanbevolen. Gebruik in plaats daarvan de linktekst."
 
-#: wp-includes/functions.php:7164
+#: wp-includes/functions.php:7231
 msgid "Update PHP"
 msgstr "PHP bijwerken"
 
@@ -1693,7 +1693,7 @@ msgstr "PHP bijwerken"
 msgid "Could not retrieve site data."
 msgstr "Site gegevens kunnen niet opgehaald worden."
 
-#: wp-includes/js/dist/block-library.js:3052
+#: wp-includes/js/dist/block-library.js:3056
 msgid "Embed Crowdsignal (formerly Polldaddy) content."
 msgstr "Crowdsignal (voorheen Polldaddy) inhoud insluiten."
 
@@ -1703,7 +1703,7 @@ msgid "REST API routes must be registered on the %s action."
 msgstr "REST API-routes moeten worden geregistreerd voor de actie %s."
 
 #. translators: Used to join last two items in a list with more than 2 times.
-#: wp-includes/formatting.php:5011
+#: wp-includes/formatting.php:5047
 msgid "%1$s, and %2$s"
 msgstr "%1$s en %2$s"
 
@@ -1792,18 +1792,18 @@ msgid "Formats"
 msgstr "Formaten"
 
 #. translators: Used to join items in a list with more than 2 items.
-#: wp-includes/formatting.php:5009
+#: wp-includes/formatting.php:5045
 msgid "%1$s, %2$s"
 msgstr "%1$s, %2$s"
 
 #. translators: %s: Default Update PHP page URL.
-#: wp-includes/functions.php:7107
+#: wp-includes/functions.php:7174
 msgid "This resource is provided by your web host, and is specific to your site. For more information, <a href=\"%s\" target=\"_blank\">see the official WordPress documentation</a>."
 msgstr ""
 "Deze resource is van je webhost en is specifiek voor je site. Meer informatie, \n"
 " vind je in de<a href=\"%s\" target=\"_blank\">officiële WordPress documentatie</a>."
 
-#: wp-includes/functions.php:7064
+#: wp-includes/functions.php:7131
 msgctxt "localized PHP upgrade information page"
 msgid "https://wordpress.org/support/update-php/"
 msgstr "https://wordpress.org/support/update-php/"
@@ -1811,14 +1811,14 @@ msgstr "https://wordpress.org/support/update-php/"
 #. translators: %s: Time duration in second or seconds.
 #. translators: Time difference between two dates, in seconds. %s: Number of
 #. seconds.
-#: wp-includes/functions.php:516 wp-includes/formatting.php:3708
+#: wp-includes/functions.php:521 wp-includes/formatting.php:3719
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] "%s seconde"
 msgstr[1] "%s seconden"
 
 #. translators: %s: Time duration in minute or minutes.
-#: wp-includes/functions.php:510
+#: wp-includes/functions.php:515
 msgid "%s minute"
 msgid_plural "%s minutes"
 msgstr[0] "%s minuut"
@@ -1865,17 +1865,17 @@ msgstr "<strong>FOUT</strong>: Er is geen account met die gebruikersnaam of dat 
 msgid "Editor tips"
 msgstr "Editor tips"
 
-#: wp-includes/js/dist/block-library.js:13097
+#: wp-includes/js/dist/block-library.js:13101
 msgctxt "content placeholder"
 msgid "Content…"
 msgstr "Inhoud..."
 
-#: wp-includes/js/dist/block-library.js:11200
+#: wp-includes/js/dist/block-library.js:11204
 msgctxt "button label"
 msgid "Convert to link"
 msgstr "Omzetten naar link"
 
-#: wp-includes/js/dist/block-library.js:11197
+#: wp-includes/js/dist/block-library.js:11201
 msgctxt "button label"
 msgid "Try again"
 msgstr "Opnieuw proberen"
@@ -1899,7 +1899,7 @@ msgstr "Blok (geselecteerd)"
 msgid "Document (selected)"
 msgstr "Document (geselecteerd)"
 
-#: wp-includes/js/dist/block-library.js:16153
+#: wp-includes/js/dist/block-library.js:16157
 msgid "Create content, and save it for you and other contributors to reuse across your site. Update the block, and the changes apply everywhere it’s used."
 msgstr "Inhoud creëren en bewaar het voor jezelf en andere bijdragers voor hergebruik overal op de site. Het blok bijwerken en de wijzigingen worden direct overal zichtbaar waar ze gebruikt zijn."
 
@@ -1918,11 +1918,11 @@ msgstr[1] "%d woorden"
 msgid "Classic Block Keyboard Shortcuts"
 msgstr "Klassiek blok toetsenbord snelkoppelingen"
 
-#: wp-includes/js/dist/block-library.js:4480
+#: wp-includes/js/dist/block-library.js:4484
 msgid "This image has an empty alt attribute"
 msgstr "Deze afbeelding heeft een leeg alt-attribuut"
 
-#: wp-includes/js/dist/block-library.js:4478
+#: wp-includes/js/dist/block-library.js:4482
 msgid "This image has an empty alt attribute; its file name is %s"
 msgstr "Deze afbeelding heeft een leeg alt-attribuut; de bestandsnaam is %s"
 
@@ -1997,11 +1997,11 @@ msgstr "Tekst centreren"
 msgid "Align Text Left"
 msgstr "Tekst links uitlijnen"
 
-#: wp-includes/js/dist/block-library.js:14981
+#: wp-includes/js/dist/block-library.js:14985
 msgid "Page Break"
 msgstr "Pagina-einde"
 
-#: wp-includes/js/dist/block-library.js:13280
+#: wp-includes/js/dist/block-library.js:13284
 msgid "Stack on mobile"
 msgstr "Stapel op mobiel"
 
@@ -2063,225 +2063,225 @@ msgstr "Inline afbeelding"
 msgid "media"
 msgstr "media"
 
-#: wp-includes/js/dist/block-library.js:19783
+#: wp-includes/js/dist/block-library.js:19787
 msgid "movie"
 msgstr "film"
 
-#: wp-includes/js/dist/block-library.js:19781
+#: wp-includes/js/dist/block-library.js:19785
 msgid "Embed a video from your media library or upload a new one."
 msgstr "Een video uit je mediabibliotheek insluiten of upload een nieuwe."
 
-#: wp-includes/js/dist/block-library.js:19559
+#: wp-includes/js/dist/block-library.js:19563
 msgid "Remove Poster Image"
 msgstr "Posterafbeelding verwijderen"
 
-#: wp-includes/js/dist/block-library.js:19512
+#: wp-includes/js/dist/block-library.js:19516
 msgid "Playback Controls"
 msgstr "Afspeelknoppen"
 
-#: wp-includes/js/dist/block-library.js:19508
+#: wp-includes/js/dist/block-library.js:19512
 msgid "Muted"
 msgstr "Gedempt"
 
-#: wp-includes/js/dist/block-library.js:19497
+#: wp-includes/js/dist/block-library.js:19501
 msgid "Video Settings"
 msgstr "Video-instellingen"
 
-#: wp-includes/js/dist/block-library.js:19493
+#: wp-includes/js/dist/block-library.js:19497
 msgid "Edit video"
 msgstr "Video bewerken"
 
-#: wp-includes/js/dist/block-library.js:19108
+#: wp-includes/js/dist/block-library.js:19112
 msgid "Write…"
 msgstr "Schrijven..."
 
-#: wp-includes/js/dist/block-library.js:19217
+#: wp-includes/js/dist/block-library.js:19221
 msgid "poetry"
 msgstr "poëzie"
 
-#: wp-includes/js/dist/block-library.js:19210
+#: wp-includes/js/dist/block-library.js:19214
 msgid "Insert poetry. Use special spacing formats. Or quote song lyrics."
 msgstr "Poëzie toevoegen. Gebruik speciale ruimte-indelingen. Of citeer muziekteksten."
 
-#: wp-includes/js/dist/block-library.js:19209
+#: wp-includes/js/dist/block-library.js:19213
 msgid "Verse"
 msgstr "Strofe"
 
-#: wp-includes/js/dist/block-library.js:18912
+#: wp-includes/js/dist/block-library.js:18916
 msgid "New Column"
 msgstr "Nieuwe kolom"
 
-#: wp-includes/js/dist/block-library.js:19022
+#: wp-includes/js/dist/block-library.js:19026
 msgid "This block is deprecated. Please use the Columns block instead."
 msgstr "Dit blok is verouderd. Gebruik in plaats hiervan het kolommenblok."
 
-#: wp-includes/js/dist/block-library.js:19021
+#: wp-includes/js/dist/block-library.js:19025
 msgid "Text Columns (deprecated)"
 msgstr "Tekstkolommen (verouderd)"
 
-#: wp-includes/js/dist/block-library.js:18839
+#: wp-includes/js/dist/block-library.js:18843
 msgid "Stripes"
 msgstr "Strepen"
 
-#: wp-includes/js/dist/block-library.js:18781
+#: wp-includes/js/dist/block-library.js:18785
 msgid "Insert a table — perfect for sharing charts and data."
 msgstr "Een tabel invoegen — perfect voor het delen van grafieken en gegevens."
 
-#: wp-includes/js/dist/block-library.js:18478
+#: wp-includes/js/dist/block-library.js:18482
 msgid "Fixed width table cells"
 msgstr "Tabelcellen met een vaste breedte"
 
-#: wp-includes/js/dist/block-library.js:18475
+#: wp-includes/js/dist/block-library.js:18479
 msgid "Table Settings"
 msgstr "Tabel-instellingen"
 
-#: wp-includes/js/dist/block-library.js:18464
+#: wp-includes/js/dist/block-library.js:18468
 msgid "Edit table"
 msgstr "Tabel bewerken"
 
-#: wp-includes/js/dist/block-library.js:18445
+#: wp-includes/js/dist/block-library.js:18449
 msgid "Row Count"
 msgstr "Aantal rijen"
 
-#: wp-includes/js/dist/block-library.js:18438
+#: wp-includes/js/dist/block-library.js:18442
 msgid "Column Count"
 msgstr "Aantal kolommen"
 
-#: wp-includes/js/dist/block-library.js:18322
+#: wp-includes/js/dist/block-library.js:18326
 msgid "Delete Column"
 msgstr "Kolom verwijderen"
 
-#: wp-includes/js/dist/block-library.js:18317
+#: wp-includes/js/dist/block-library.js:18321
 msgid "Add Column After"
 msgstr "Kolom toevoegen na"
 
-#: wp-includes/js/dist/block-library.js:18312
+#: wp-includes/js/dist/block-library.js:18316
 msgid "Add Column Before"
 msgstr "Kolom voor toevoegen"
 
-#: wp-includes/js/dist/block-library.js:18307
+#: wp-includes/js/dist/block-library.js:18311
 msgid "Delete Row"
 msgstr "Rij verwijderen"
 
-#: wp-includes/js/dist/block-library.js:18302
+#: wp-includes/js/dist/block-library.js:18306
 msgid "Add Row After"
 msgstr "Rij eronder invoegen "
 
-#: wp-includes/js/dist/block-library.js:18297
+#: wp-includes/js/dist/block-library.js:18301
 msgid "Add Row Before"
 msgstr "Rij ervoor invoegen"
 
-#: wp-includes/js/dist/block-library.js:17243
+#: wp-includes/js/dist/block-library.js:17247
 msgid "Write subheading…"
 msgstr "Subtitel schrijven..."
 
-#: wp-includes/js/dist/block-library.js:17328
+#: wp-includes/js/dist/block-library.js:17332
 msgid "This block is deprecated. Please use the Paragraph block instead."
 msgstr "Dit blok is verouderd. Gebruik in plaats hiervan het paragraafblok."
 
-#: wp-includes/js/dist/block-library.js:17327
+#: wp-includes/js/dist/block-library.js:17331
 msgid "Subheading (deprecated)"
 msgstr "Subkop (verouderd)"
 
-#: wp-includes/js/dist/block-library.js:17100
+#: wp-includes/js/dist/block-library.js:17104
 msgid "Height in pixels"
 msgstr "Hoogte in pixels"
 
-#: wp-includes/js/dist/block-library.js:17098
+#: wp-includes/js/dist/block-library.js:17102
 msgid "Spacer Settings"
 msgstr "Vulelement-instellingen"
 
-#: wp-includes/js/dist/block-library.js:17194
+#: wp-includes/js/dist/block-library.js:17198
 msgid "Add white space between blocks and customize its height."
 msgstr "Ruimte toevoegen tussen blokken en de hoogte aanpassen."
 
-#: wp-includes/js/dist/block-library.js:17193
+#: wp-includes/js/dist/block-library.js:17197
 msgid "Spacer"
 msgstr "Vulelement"
 
-#: wp-includes/js/dist/block-library.js:16936
+#: wp-includes/js/dist/block-library.js:16940
 msgid "Write shortcode here…"
 msgstr "Hier een shortcode schrijven..."
 
-#: wp-includes/js/dist/block-library.js:17022
+#: wp-includes/js/dist/block-library.js:17026
 msgid "Insert additional custom elements with a WordPress shortcode."
 msgstr "Extra aangepaste elementen invoegen met een WordPress-shortcode."
 
-#: wp-includes/js/dist/block-library.js:16932
-#: wp-includes/js/dist/block-library.js:17021
+#: wp-includes/js/dist/block-library.js:16936
+#: wp-includes/js/dist/block-library.js:17025
 msgid "Shortcode"
 msgstr "Shortcode"
 
-#: wp-includes/js/dist/block-library.js:16902
+#: wp-includes/js/dist/block-library.js:16906
 msgid "Dots"
 msgstr "Stippen"
 
-#: wp-includes/js/dist/block-library.js:16899
+#: wp-includes/js/dist/block-library.js:16903
 msgid "Wide Line"
 msgstr "Brede lijn"
 
-#: wp-includes/js/dist/block-library.js:16886
+#: wp-includes/js/dist/block-library.js:16890
 msgid "divider"
 msgstr "scheidslijn"
 
-#: wp-includes/js/dist/block-library.js:16886
+#: wp-includes/js/dist/block-library.js:16890
 msgid "horizontal-line"
 msgstr "horizontale lijn"
 
-#: wp-includes/js/dist/block-library.js:16884
+#: wp-includes/js/dist/block-library.js:16888
 msgid "Create a break between ideas or sections with a horizontal separator."
 msgstr "Geef de lezer rust tussen ideeën of secties met een horizontale scheidingslijn."
 
-#: wp-includes/js/dist/block-library.js:16883
+#: wp-includes/js/dist/block-library.js:16887
 msgid "Separator"
 msgstr "Scheidingslijn"
 
-#: wp-includes/js/dist/block-library.js:5986
+#: wp-includes/js/dist/block-library.js:5990
 msgctxt "block style"
 msgid "Large"
 msgstr "Groot"
 
-#: wp-includes/js/dist/block-library.js:5972
+#: wp-includes/js/dist/block-library.js:5976
 msgid "blockquote"
 msgstr "blockquote"
 
-#: wp-includes/js/dist/block-library.js:5970
+#: wp-includes/js/dist/block-library.js:5974
 msgid "Give quoted text visual emphasis. \"In quoting others, we cite ourselves.\" — Julio Cortázar"
 msgstr "Geef geciteerde tekst visuele nadruk. \"Door anderen te citeren, citeren we onszelf.\" — Julio Cortázar"
 
-#: wp-includes/js/dist/block-library.js:15751
+#: wp-includes/js/dist/block-library.js:15755
 msgid "Solid Color"
 msgstr "Effen kleur"
 
-#: wp-includes/js/dist/block-library.js:15737
+#: wp-includes/js/dist/block-library.js:15741
 msgid "Give special visual emphasis to a quote from your text."
 msgstr "Geef speciale visuele nadruk aan een citaat uit je eigen tekst."
 
-#: wp-includes/js/dist/block-library.js:15736
+#: wp-includes/js/dist/block-library.js:15740
 msgid "Pullquote"
 msgstr "Pull-quote"
 
-#: wp-includes/js/dist/block-library.js:15580
+#: wp-includes/js/dist/block-library.js:15584
 msgid "Main Color"
 msgstr "Hoofdkleur"
 
 #. translators: placeholder text used for the citation
-#: wp-includes/js/dist/block-library.js:5687
-#: wp-includes/js/dist/block-library.js:15568
+#: wp-includes/js/dist/block-library.js:5691
+#: wp-includes/js/dist/block-library.js:15572
 msgid "Write citation…"
 msgstr "Citaat schrijven..."
 
 #. translators: placeholder text used for the quote
-#: wp-includes/js/dist/block-library.js:5667
-#: wp-includes/js/dist/block-library.js:15563
+#: wp-includes/js/dist/block-library.js:5671
+#: wp-includes/js/dist/block-library.js:15567
 msgid "Write quote…"
 msgstr "Citaat schrijven..."
 
-#: wp-includes/js/dist/block-library.js:15022
+#: wp-includes/js/dist/block-library.js:15026
 msgid "Write preformatted text…"
 msgstr "Voorgeformatteerde tekst schrijven..."
 
-#: wp-includes/js/dist/block-library.js:15146
+#: wp-includes/js/dist/block-library.js:15150
 msgid "Add text that respects your spacing and tabs, and also allows styling."
 msgstr "Tekst toevoegen die je tussenruimte en tabs behoudt, en ook styling toestaat."
 
@@ -2309,227 +2309,227 @@ msgstr "Klik om een grote eerste letter te tonen."
 msgid "Showing large initial letter."
 msgstr "Toont grote eerste letter."
 
-#: wp-includes/js/dist/block-library.js:14984
+#: wp-includes/js/dist/block-library.js:14988
 msgid "pagination"
 msgstr "paginering"
 
-#: wp-includes/js/dist/block-library.js:14984
+#: wp-includes/js/dist/block-library.js:14988
 msgid "next page"
 msgstr "volgende pagina"
 
-#: wp-includes/js/dist/block-library.js:14982
+#: wp-includes/js/dist/block-library.js:14986
 msgid "Separate your content into a multi-page experience."
 msgstr "Laat je inhoud ervaren over meerdere pagina's."
 
-#: wp-includes/js/dist/block-library.js:14880
+#: wp-includes/js/dist/block-library.js:14884
 msgctxt "block name"
 msgid "More"
 msgstr "Meer"
 
-#: wp-includes/js/dist/block-library.js:14660
+#: wp-includes/js/dist/block-library.js:14664
 msgid "Your site doesn’t include support for this block."
 msgstr "Je site biedt geen ondersteuning voor dit blok."
 
-#: wp-includes/js/dist/block-library.js:14659
+#: wp-includes/js/dist/block-library.js:14663
 msgid "Unrecognized Block"
 msgstr "Niet herkend blok"
 
-#: wp-includes/js/dist/block-library.js:14590
+#: wp-includes/js/dist/block-library.js:14594
 msgid "Your site doesn’t include support for the \"%s\" block. You can leave this block intact or remove it entirely."
 msgstr "Je site biedt geen ondersteuning voor het \"%s\" blok. Je kunt dit blok laten staan of het helemaal verwijderen."
 
-#: wp-includes/js/dist/block-library.js:14588
+#: wp-includes/js/dist/block-library.js:14592
 msgid "Keep as HTML"
 msgstr "Houd als HTML"
 
-#: wp-includes/js/dist/block-library.js:14582
+#: wp-includes/js/dist/block-library.js:14586
 msgid "Your site doesn’t include support for the \"%s\" block. You can leave this block intact, convert its content to a Custom HTML block, or remove it entirely."
 msgstr "Je site biedt geen ondersteuning voor het \"%s\" blok. Je kunt dit blok laten staan, de inhoud converteren naar een Aangepast HTML-blok of het helemaal verwijderen."
 
-#: wp-includes/js/dist/block-library.js:12979
+#: wp-includes/js/dist/block-library.js:12983
 msgid "Media area"
 msgstr "Mediagebied"
 
-#: wp-includes/js/dist/block-library.js:13573
+#: wp-includes/js/dist/block-library.js:13577
 msgid "Set media and words side-by-side for a richer layout."
 msgstr "Zet media en woorden naast elkaar in voor een rijkere layout."
 
-#: wp-includes/js/dist/block-library.js:13572
+#: wp-includes/js/dist/block-library.js:13576
 msgid "Media & Text"
 msgstr "Media & tekst"
 
-#: wp-includes/js/dist/block-library.js:13278
+#: wp-includes/js/dist/block-library.js:13282
 msgid "Media & Text Settings"
 msgstr "Media- & tekst-instellingen"
 
-#: wp-includes/js/dist/block-library.js:13256
+#: wp-includes/js/dist/block-library.js:13260
 msgid "Show media on right"
 msgstr "Media rechts tonen"
 
-#: wp-includes/js/dist/block-library.js:13247
+#: wp-includes/js/dist/block-library.js:13251
 msgid "Show media on left"
 msgstr "Media links tonen"
 
-#: wp-includes/js/dist/block-library.js:14288
+#: wp-includes/js/dist/block-library.js:14292
 msgid "Write list…"
 msgstr "Lijst maken..."
 
-#: wp-includes/js/dist/block-library.js:14265
+#: wp-includes/js/dist/block-library.js:14269
 msgid "Indent list item"
 msgstr "Inspringen verhogen voor lijstitem"
 
-#: wp-includes/js/dist/block-library.js:14258
+#: wp-includes/js/dist/block-library.js:14262
 msgid "Outdent list item"
 msgstr "Inspringen verlagen voor lijstitem"
 
-#: wp-includes/js/dist/block-library.js:14243
+#: wp-includes/js/dist/block-library.js:14247
 msgid "Convert to ordered list"
 msgstr "Omzetten naar geordende lijst"
 
-#: wp-includes/js/dist/block-library.js:14228
+#: wp-includes/js/dist/block-library.js:14232
 msgid "Convert to unordered list"
 msgstr "Omzetten naar ongeordende lijst"
 
-#: wp-includes/js/dist/block-library.js:14533
+#: wp-includes/js/dist/block-library.js:14537
 msgid "numbered list"
 msgstr "genummerde lijst"
 
-#: wp-includes/js/dist/block-library.js:14531
+#: wp-includes/js/dist/block-library.js:14535
 msgid "Create a bulleted or numbered list."
 msgstr "Lijst maken met opsommingstekens of nummers."
 
-#: wp-includes/js/dist/block-library.js:14113
+#: wp-includes/js/dist/block-library.js:14117
 msgid "recent posts"
 msgstr "recente berichten"
 
-#: wp-includes/js/dist/block-library.js:14110
+#: wp-includes/js/dist/block-library.js:14114
 msgid "Display a list of your most recent posts."
 msgstr "Een lijst weergeven van je meest recente berichten."
 
-#: wp-includes/js/dist/block-library.js:13954
-#: wp-includes/js/dist/block-library.js:14109
+#: wp-includes/js/dist/block-library.js:13958
+#: wp-includes/js/dist/block-library.js:14113
 msgid "Latest Posts"
 msgstr "Nieuwste berichten"
 
-#: wp-includes/js/dist/block-library.js:13901
+#: wp-includes/js/dist/block-library.js:13905
 msgid "Display post date"
 msgstr "Datum bericht tonen"
 
-#: wp-includes/js/dist/block-library.js:13750
+#: wp-includes/js/dist/block-library.js:13754
 msgid "recent comments"
 msgstr "recente reacties"
 
-#: wp-includes/js/dist/block-library.js:13747
+#: wp-includes/js/dist/block-library.js:13751
 msgid "Display a list of your most recent comments."
 msgstr "Een lijst tonen van je meest recente reacties."
 
-#: wp-includes/js/dist/block-library.js:13746
+#: wp-includes/js/dist/block-library.js:13750
 msgid "Latest Comments"
 msgstr "Nieuwste reacties"
 
-#: wp-includes/js/dist/block-library.js:13698
+#: wp-includes/js/dist/block-library.js:13702
 msgid "Number of Comments"
 msgstr "Aantal reacties"
 
-#: wp-includes/js/dist/block-library.js:13694
+#: wp-includes/js/dist/block-library.js:13698
 msgid "Display Excerpt"
 msgstr "Samenvatting weergeven"
 
-#: wp-includes/js/dist/block-library.js:13690
+#: wp-includes/js/dist/block-library.js:13694
 msgid "Display Date"
 msgstr "Datum weergeven"
 
-#: wp-includes/js/dist/block-library.js:13686
+#: wp-includes/js/dist/block-library.js:13690
 msgid "Display Avatar"
 msgstr "Avatar weergeven"
 
-#: wp-includes/js/dist/block-library.js:13684
+#: wp-includes/js/dist/block-library.js:13688
 msgid "Latest Comments Settings"
 msgstr "Nieuwste reacties-instellingen"
 
-#: wp-includes/js/dist/block-library.js:4945
+#: wp-includes/js/dist/block-library.js:4949
 #: wp-includes/js/dist/format-library.js:582
 msgid "photo"
 msgstr "foto"
 
-#: wp-includes/js/dist/block-library.js:4942
+#: wp-includes/js/dist/block-library.js:4946
 msgid "Insert an image to make a visual statement."
 msgstr "Een afbeelding invoegen om een visuele uitspraak te maken."
 
-#: wp-includes/js/dist/block-library.js:4420
+#: wp-includes/js/dist/block-library.js:4424
 msgid "Image Dimensions"
 msgstr "Grootte afbeelding"
 
-#: wp-includes/js/dist/block-library.js:4405
-#: wp-includes/js/dist/block-library.js:13305
+#: wp-includes/js/dist/block-library.js:4409
+#: wp-includes/js/dist/block-library.js:13309
 msgid "Alt Text (Alternative Text)"
 msgstr "Alt tekst (alternatieve tekst)"
 
-#: wp-includes/js/dist/block-library.js:4403
+#: wp-includes/js/dist/block-library.js:4407
 msgid "Image Settings"
 msgstr "Afbeeldingsinstellingen"
 
-#: wp-includes/js/dist/block-library.js:4329
-#: wp-includes/js/dist/block-library.js:4358
+#: wp-includes/js/dist/block-library.js:4333
 #: wp-includes/js/dist/block-library.js:4362
-#: wp-includes/js/dist/block-library.js:4363
+#: wp-includes/js/dist/block-library.js:4366
+#: wp-includes/js/dist/block-library.js:4367
 msgid "Edit image"
 msgstr "Afbeelding bewerken"
 
-#: wp-includes/js/dist/block-library.js:12612
+#: wp-includes/js/dist/block-library.js:12616
 msgid "Write HTML…"
 msgstr "HTML schrijven..."
 
-#: wp-includes/js/dist/block-library.js:12714
+#: wp-includes/js/dist/block-library.js:12718
 msgid "embed"
 msgstr "insluiten"
 
-#: wp-includes/js/dist/block-library.js:12712
+#: wp-includes/js/dist/block-library.js:12716
 msgid "Add custom HTML code and preview it as you edit."
 msgstr "Aangepaste HTML-code toevoegen en voorbeeld bekijken tijdens het bewerken."
 
-#: wp-includes/js/dist/block-library.js:5471
+#: wp-includes/js/dist/block-library.js:5475
 msgid "subtitle"
 msgstr "subtitel"
 
-#: wp-includes/js/dist/block-library.js:5471
+#: wp-includes/js/dist/block-library.js:5475
 msgid "title"
 msgstr "titel"
 
-#: wp-includes/js/dist/block-library.js:5469
+#: wp-includes/js/dist/block-library.js:5473
 msgid "Introduce new sections and organize content to help visitors (and search engines) understand the structure of your content."
 msgstr "Introduceer nieuwe secties en organiseer je inhoud zo dat bezoekers (en zoekmachines) de structuur van je inhoud begrijpen."
 
-#: wp-includes/js/dist/block-library.js:5468
+#: wp-includes/js/dist/block-library.js:5472
 msgid "Heading"
 msgstr "Kop"
 
 #. translators: %s: heading level e.g: "1", "2", "3"
-#: wp-includes/js/dist/block-library.js:5145
+#: wp-includes/js/dist/block-library.js:5149
 msgid "Heading %d"
 msgstr "Kop %s"
 
-#: wp-includes/js/dist/block-library.js:5290
+#: wp-includes/js/dist/block-library.js:5294
 msgid "Write heading…"
 msgstr "Schrijf kop..."
 
-#: wp-includes/js/dist/block-library.js:5252
+#: wp-includes/js/dist/block-library.js:5256
 msgid "Level"
 msgstr "Niveau"
 
-#: wp-includes/js/dist/block-library.js:5251
+#: wp-includes/js/dist/block-library.js:5255
 msgid "Heading Settings"
 msgstr "Kopinstellingen"
 
-#: wp-includes/js/dist/block-library.js:7335
+#: wp-includes/js/dist/block-library.js:7339
 msgid "photos"
 msgstr "foto's"
 
-#: wp-includes/js/dist/block-library.js:7335
+#: wp-includes/js/dist/block-library.js:7339
 msgid "images"
 msgstr "afbeeldingen"
 
-#: wp-includes/js/dist/block-library.js:7333
+#: wp-includes/js/dist/block-library.js:7337
 msgid "Display multiple images in a rich gallery."
 msgstr "Meerdere afbeeldingen tonen in een grandioze galerij."
 
@@ -2537,195 +2537,195 @@ msgstr "Meerdere afbeeldingen tonen in een grandioze galerij."
 msgid "Remove Image"
 msgstr "Afbeelding verwijderen"
 
-#: wp-includes/js/dist/block-library.js:6971
+#: wp-includes/js/dist/block-library.js:6975
 msgid "Crop Images"
 msgstr "Afbeeldingen bijsnijden"
 
-#: wp-includes/js/dist/block-library.js:6943
+#: wp-includes/js/dist/block-library.js:6947
 msgid "Drag images, upload new ones or select files from your library."
 msgstr "Sleep afbeeldingen, upload nieuwe of selecteer bestanden vanuit je bibliotheek."
 
-#: wp-includes/js/dist/block-library.js:6848
+#: wp-includes/js/dist/block-library.js:6852
 msgid "Thumbnails are not cropped."
 msgstr "Thumbnails zijn niet bijgesneden."
 
-#: wp-includes/js/dist/block-library.js:6848
+#: wp-includes/js/dist/block-library.js:6852
 msgid "Thumbnails are cropped to align."
 msgstr "Thumbnails zijn passend bijgesneden."
 
-#: wp-includes/js/dist/block-library.js:11976
+#: wp-includes/js/dist/block-library.js:11980
 msgid "Show download button"
 msgstr "Toon downloadknop"
 
-#: wp-includes/js/dist/block-library.js:11974
+#: wp-includes/js/dist/block-library.js:11978
 msgid "Download button settings"
 msgstr "Downloadknop-instellingen"
 
-#: wp-includes/js/dist/block-library.js:11963
+#: wp-includes/js/dist/block-library.js:11967
 msgid "Text link settings"
 msgstr "Tekstlink-instellingen"
 
-#: wp-includes/js/dist/block-library.js:12076
+#: wp-includes/js/dist/block-library.js:12080
 msgctxt "button label"
 msgid "Download"
 msgstr "Download"
 
-#: wp-includes/js/dist/block-library.js:12509
+#: wp-includes/js/dist/block-library.js:12513
 msgid "pdf"
 msgstr "pdf"
 
-#: wp-includes/js/dist/block-library.js:12509
+#: wp-includes/js/dist/block-library.js:12513
 msgid "document"
 msgstr "document"
 
-#: wp-includes/js/dist/block-library.js:12507
+#: wp-includes/js/dist/block-library.js:12511
 msgid "Add a link to a downloadable file."
 msgstr "Link naar downloadbaar bestand invoegen."
 
-#: wp-includes/js/dist/block-library.js:12256
+#: wp-includes/js/dist/block-library.js:12260
 msgid "Copy URL"
 msgstr "URL kopiëren"
 
-#: wp-includes/js/dist/block-library.js:12228
+#: wp-includes/js/dist/block-library.js:12232
 msgid "Write file name…"
 msgstr "Bestandsnaam schrijven..."
 
-#: wp-includes/js/dist/block-library.js:12210
+#: wp-includes/js/dist/block-library.js:12214
 msgid "Edit file"
 msgstr "Bestand bewerken"
 
-#: wp-includes/js/dist/block-library.js:11759
+#: wp-includes/js/dist/block-library.js:11763
 msgid "Add a block that displays content pulled from other sites, like Twitter, Instagram or YouTube."
 msgstr "Een blok toevoegen dat inhoud van andere sites laat zien, zoals Twitter, Instagram, of YouTube."
 
-#: wp-includes/js/dist/block-library.js:11882
+#: wp-includes/js/dist/block-library.js:11886
 msgid "Embed videos, images, tweets, audio, and other content from external sources."
 msgstr "Video, afbeeldingen, tweets, audio en andere inhoud van externe bronnen insluiten."
 
-#: wp-includes/js/dist/block-library.js:11881
+#: wp-includes/js/dist/block-library.js:11885
 msgctxt "block title"
 msgid "Embed"
 msgstr "Insluiten"
 
-#: wp-includes/js/dist/block-library.js:11375
+#: wp-includes/js/dist/block-library.js:11379
 msgid "Embedded content from %s"
 msgstr "Ingesloten inhoud van %s"
 
-#: wp-includes/js/dist/block-library.js:11192
+#: wp-includes/js/dist/block-library.js:11196
 msgctxt "button label"
 msgid "Embed"
 msgstr "Insluiten"
 
-#: wp-includes/js/dist/block-library.js:11187
+#: wp-includes/js/dist/block-library.js:11191
 msgid "Enter URL to embed here…"
 msgstr "In te sluiten URL hier invoeren..."
 
-#: wp-includes/js/dist/block-library.js:11638
+#: wp-includes/js/dist/block-library.js:11642
 msgid "%s URL"
 msgstr "%s URL"
 
-#: wp-includes/js/dist/block-library.js:11148
+#: wp-includes/js/dist/block-library.js:11152
 msgid "Embedding…"
 msgstr "Insluiten..."
 
-#: wp-includes/js/dist/block-library.js:11127
+#: wp-includes/js/dist/block-library.js:11131
 msgid "Resize for smaller devices"
 msgstr "Formaat veranderen voor kleinere apparaten"
 
-#: wp-includes/js/dist/block-library.js:10659
-#: wp-includes/js/dist/block-library.js:11124
+#: wp-includes/js/dist/block-library.js:10663
+#: wp-includes/js/dist/block-library.js:11128
 msgid "Media Settings"
 msgstr "Media-instellingen"
 
-#: wp-includes/js/dist/block-library.js:11120
+#: wp-includes/js/dist/block-library.js:11124
 msgid "Edit URL"
 msgstr "URL bewerken"
 
-#: wp-includes/js/dist/block-library.js:11601
+#: wp-includes/js/dist/block-library.js:11605
 msgid "This embed may not preserve its aspect ratio when the browser is resized."
 msgstr "Deze insluiting behoudt mogelijk niet haar beeldverhouding wanneer de browsergrootte wordt gewijzigd."
 
-#: wp-includes/js/dist/block-library.js:11601
+#: wp-includes/js/dist/block-library.js:11605
 msgid "This embed will preserve its aspect ratio when the browser is resized."
 msgstr "Deze insluiting behoudt haar beeldverhouding wanneer de browsergrootte wordt gewijzigd."
 
-#: wp-includes/js/dist/block-library.js:3230
+#: wp-includes/js/dist/block-library.js:3234
 msgid "Embed a WordPress.tv video."
 msgstr "Een WordPress.tv video insluiten."
 
-#: wp-includes/js/dist/block-library.js:3222
+#: wp-includes/js/dist/block-library.js:3226
 msgid "Embed a VideoPress video."
 msgstr "Een VideoPress video insluiten."
 
-#: wp-includes/js/dist/block-library.js:3213
+#: wp-includes/js/dist/block-library.js:3217
 msgid "Embed a Tumblr post."
 msgstr "Een Tumblr bericht insluiten."
 
-#: wp-includes/js/dist/block-library.js:3205
+#: wp-includes/js/dist/block-library.js:3209
 msgid "Embed a TED video."
 msgstr "Een TED video insluiten."
 
-#: wp-includes/js/dist/block-library.js:3197
+#: wp-includes/js/dist/block-library.js:3201
 msgid "Embed Speaker Deck content."
 msgstr "Speaker Deck inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3169
+#: wp-includes/js/dist/block-library.js:3173
 msgid "Embed SmugMug content."
 msgstr "SmugMug inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3161
+#: wp-includes/js/dist/block-library.js:3165
 msgid "Embed Slideshare content."
 msgstr "Slideshare inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3153
+#: wp-includes/js/dist/block-library.js:3157
 msgid "Embed Scribd content."
 msgstr "Scribd inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3145
+#: wp-includes/js/dist/block-library.js:3149
 msgid "Embed Screencast content."
 msgstr "Screencast inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3137
+#: wp-includes/js/dist/block-library.js:3141
 msgid "Embed ReverbNation content."
 msgstr "ReverbNation inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3129
+#: wp-includes/js/dist/block-library.js:3133
 msgid "Embed a Reddit thread."
 msgstr "Een Reddit discussie insluiten."
 
-#: wp-includes/js/dist/block-library.js:3118
+#: wp-includes/js/dist/block-library.js:3122
 msgid "Embed Polldaddy content."
 msgstr "Polldaddy inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3109
+#: wp-includes/js/dist/block-library.js:3113
 msgid "Embed Mixcloud content."
 msgstr "Mixcloud inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3100
+#: wp-includes/js/dist/block-library.js:3104
 msgid "Embed Meetup.com content."
 msgstr "Meetup.com inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3092
+#: wp-includes/js/dist/block-library.js:3096
 msgid "Embed Kickstarter content."
 msgstr "Kickstarter inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3084
+#: wp-includes/js/dist/block-library.js:3088
 msgid "Embed Issuu content."
 msgstr "Issuu inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3076
+#: wp-includes/js/dist/block-library.js:3080
 msgid "Embed Imgur content."
 msgstr "Imgur inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3068
+#: wp-includes/js/dist/block-library.js:3072
 msgid "Embed Hulu content."
 msgstr "Hulu inhoud insluiten."
 
-#: wp-includes/js/dist/block-library.js:3060
+#: wp-includes/js/dist/block-library.js:3064
 msgid "Embed a Dailymotion video."
 msgstr "Een Dailymotion video insluiten."
 
-#: wp-includes/js/dist/block-library.js:3034
+#: wp-includes/js/dist/block-library.js:3035
 msgid "Embed CollegeHumor content."
 msgstr "CollegeHumor inhoud insluiten."
 
@@ -2755,7 +2755,7 @@ msgstr "SoundCloud inhoud insluiten."
 
 #: wp-includes/js/dist/block-library.js:2981
 #: wp-includes/js/dist/block-library.js:2990
-#: wp-includes/js/dist/block-library.js:3108
+#: wp-includes/js/dist/block-library.js:3112
 msgid "audio"
 msgstr "audio"
 
@@ -2773,7 +2773,7 @@ msgstr "Een Instagram bericht insluiten."
 
 #: wp-includes/js/dist/block-library.js:2963
 #: wp-includes/js/dist/block-library.js:2999
-#: wp-includes/js/dist/block-library.js:13575
+#: wp-includes/js/dist/block-library.js:13579
 msgid "image"
 msgstr "afbeelding"
 
@@ -2787,15 +2787,15 @@ msgstr "Een YouTube video insluiten."
 
 #: wp-includes/js/dist/block-library.js:2946
 #: wp-includes/js/dist/block-library.js:3008
-#: wp-includes/js/dist/block-library.js:3221
-#: wp-includes/js/dist/block-library.js:13575
+#: wp-includes/js/dist/block-library.js:3225
+#: wp-includes/js/dist/block-library.js:13579
 msgid "video"
 msgstr "video"
 
 #: wp-includes/js/dist/block-library.js:2946
 #: wp-includes/js/dist/block-library.js:2981
 #: wp-includes/js/dist/block-library.js:2990
-#: wp-includes/js/dist/block-library.js:3108
+#: wp-includes/js/dist/block-library.js:3112
 msgid "music"
 msgstr "muziek"
 
@@ -2803,160 +2803,160 @@ msgstr "muziek"
 msgid "Embed a tweet."
 msgstr "Een tweet insluiten."
 
-#: wp-includes/js/dist/block-library.js:10243
-#: wp-includes/js/dist/block-library.js:10299
-#: wp-includes/js/dist/block-library.js:10345
-#: wp-includes/js/dist/block-library.js:10418
+#: wp-includes/js/dist/block-library.js:10247
+#: wp-includes/js/dist/block-library.js:10303
+#: wp-includes/js/dist/block-library.js:10349
+#: wp-includes/js/dist/block-library.js:10422
 msgid "Write title…"
 msgstr "Titel schrijven..."
 
-#: wp-includes/js/dist/block-library.js:10705
+#: wp-includes/js/dist/block-library.js:10709
 msgid "Background Opacity"
 msgstr "Achtergronddekking"
 
-#: wp-includes/js/dist/block-library.js:10702
+#: wp-includes/js/dist/block-library.js:10706
 msgid "Overlay Color"
 msgstr "Bedekkingskleur"
 
-#: wp-includes/js/dist/block-library.js:10697
+#: wp-includes/js/dist/block-library.js:10701
 msgid "Overlay"
 msgstr "Bedekking"
 
-#: wp-includes/js/dist/block-library.js:10661
+#: wp-includes/js/dist/block-library.js:10665
 msgid "Fixed Background"
 msgstr "Vaste achtergrond"
 
-#: wp-includes/js/dist/block-library.js:8196
+#: wp-includes/js/dist/block-library.js:8200
 msgid "Border Settings"
 msgstr "Rand-instellingen"
 
-#: wp-includes/js/dist/block-library.js:10653
-#: wp-includes/js/dist/block-library.js:12929
+#: wp-includes/js/dist/block-library.js:10657
+#: wp-includes/js/dist/block-library.js:12933
 msgid "Edit media"
 msgstr "Bewerk media"
 
-#: wp-includes/js/dist/block-library.js:11074
+#: wp-includes/js/dist/block-library.js:11078
 msgid "Add an image or video with a text overlay — great for headers."
 msgstr "Voeg een afbeelding of video toe met tekst eroverheen — geweldig voor headers."
 
-#: wp-includes/js/dist/block-library.js:10719
-#: wp-includes/js/dist/block-library.js:11073
+#: wp-includes/js/dist/block-library.js:10723
+#: wp-includes/js/dist/block-library.js:11077
 msgid "Cover"
 msgstr "Omslagafbeelding"
 
-#: wp-includes/js/dist/block-library.js:9849
+#: wp-includes/js/dist/block-library.js:9853
 msgid "Add a block that displays content in multiple columns, then add whatever content blocks you’d like."
 msgstr "Een blok toevoegen dat inhoud toont in meerdere kolommen, daarna de inhoudsblokken toevoegen die je wilt."
 
-#: wp-includes/js/dist/block-library.js:10097
+#: wp-includes/js/dist/block-library.js:10101
 msgid "A single column within a columns block."
 msgstr "Een enkele kolom in een kolommenblok."
 
-#: wp-includes/js/dist/block-library.js:9186
+#: wp-includes/js/dist/block-library.js:9190
 msgid "Display code snippets that respect your spacing and tabs."
 msgstr "Stukjes code tonen die je spatiëring en tabs respecteren."
 
-#: wp-includes/js/dist/block-library.js:9097
+#: wp-includes/js/dist/block-library.js:9101
 msgid "Write code…"
 msgstr "Code schrijven…"
 
-#: wp-includes/js/dist/block-library.js:20284
+#: wp-includes/js/dist/block-library.js:20288
 msgid "Use the classic WordPress editor."
 msgstr "Gebruik de klassieke WordPress editor."
 
-#: wp-includes/js/dist/block-library.js:20283
+#: wp-includes/js/dist/block-library.js:20287
 msgctxt "block title"
 msgid "Classic"
 msgstr "Klassiek"
 
-#: wp-includes/js/dist/block-library.js:20157
+#: wp-includes/js/dist/block-library.js:20161
 msgid "Classic"
 msgstr "Klassiek"
 
-#: wp-includes/js/dist/block-library.js:20089
+#: wp-includes/js/dist/block-library.js:20093
 msgctxt "button to expand options"
 msgid "More"
 msgstr "Meer"
 
-#: wp-includes/js/dist/block-library.js:8945
+#: wp-includes/js/dist/block-library.js:8949
 msgid "Display a list of all categories."
 msgstr "Een lijst van alle categorieën weergeven."
 
-#: wp-includes/js/dist/block-library.js:8868
+#: wp-includes/js/dist/block-library.js:8872
 msgid "Show Hierarchy"
 msgstr "Hiërarchie weergeven"
 
-#: wp-includes/js/dist/block-library.js:8862
+#: wp-includes/js/dist/block-library.js:8866
 msgid "Categories Settings"
 msgstr "Categorie-instellingen"
 
-#: wp-includes/js/dist/block-library.js:8527
+#: wp-includes/js/dist/block-library.js:8531
 msgid "Outline"
 msgstr "Omtrek"
 
-#: wp-includes/js/dist/block-library.js:8506
+#: wp-includes/js/dist/block-library.js:8510
 msgid "Button"
 msgstr "Knop"
 
 #: wp-includes/js/dist/block-library.js:2346
-#: wp-includes/js/dist/block-library.js:5209
-#: wp-includes/js/dist/block-library.js:8329
-#: wp-includes/js/dist/block-library.js:13313
-#: wp-includes/js/dist/block-library.js:15576
-#: wp-includes/js/dist/block-library.js:16533
-#: wp-includes/js/dist/block-library.js:16765
-#: wp-includes/js/dist/block-library.js:18490
+#: wp-includes/js/dist/block-library.js:5213
+#: wp-includes/js/dist/block-library.js:8333
+#: wp-includes/js/dist/block-library.js:13317
+#: wp-includes/js/dist/block-library.js:15580
+#: wp-includes/js/dist/block-library.js:16537
+#: wp-includes/js/dist/block-library.js:16769
+#: wp-includes/js/dist/block-library.js:18494
 msgid "Color Settings"
 msgstr "Kleurinstellingen"
 
-#: wp-includes/js/dist/block-library.js:8290
-#: wp-includes/js/dist/block-library.js:12243
+#: wp-includes/js/dist/block-library.js:8294
+#: wp-includes/js/dist/block-library.js:12247
 msgid "Add text…"
 msgstr "Tekst toevoegen..."
 
 #. translators: %s: title/name of the reusable block
-#: wp-includes/js/dist/block-library.js:15900
+#: wp-includes/js/dist/block-library.js:15904
 msgid "Reusable Block: %s"
 msgstr "Herbruikbaar blok: %s"
 
-#: wp-includes/js/dist/block-library.js:16151
+#: wp-includes/js/dist/block-library.js:16155
 msgid "Reusable Block"
 msgstr "Herbruikbaar blok"
 
-#: wp-includes/js/dist/block-library.js:16068
+#: wp-includes/js/dist/block-library.js:16072
 msgid "Block has been deleted or is unavailable."
 msgstr "Blok is verwijderd of is niet beschikbaar."
 
-#: wp-includes/js/dist/block-library.js:7883
+#: wp-includes/js/dist/block-library.js:7887
 msgid "Embed a simple audio player."
 msgstr "Een simpele audiospeler insluiten."
 
-#: wp-includes/js/dist/block-library.js:4577
-#: wp-includes/js/dist/block-library.js:6574
-#: wp-includes/js/dist/block-library.js:7716
-#: wp-includes/js/dist/block-library.js:11418
-#: wp-includes/js/dist/block-library.js:19568
+#: wp-includes/js/dist/block-library.js:4581
+#: wp-includes/js/dist/block-library.js:6578
+#: wp-includes/js/dist/block-library.js:7720
+#: wp-includes/js/dist/block-library.js:11422
+#: wp-includes/js/dist/block-library.js:19572
 msgid "Write caption…"
 msgstr "Onderschrift schrijven..."
 
-#: wp-includes/js/dist/block-library.js:7680
+#: wp-includes/js/dist/block-library.js:7684
 msgid "Audio Settings"
 msgstr "Audio-instellingen"
 
-#: wp-includes/js/dist/block-library.js:7676
+#: wp-includes/js/dist/block-library.js:7680
 msgid "Edit audio"
 msgstr "Audio bewerken"
 
-#: wp-includes/js/dist/block-library.js:7426
+#: wp-includes/js/dist/block-library.js:7430
 msgid "Display a monthly archive of your posts."
 msgstr "Maandelijks archief van je berichten weergeven."
 
-#: wp-includes/js/dist/block-library.js:7385
-#: wp-includes/js/dist/block-library.js:8872
+#: wp-includes/js/dist/block-library.js:7389
+#: wp-includes/js/dist/block-library.js:8876
 msgid "Show Post Counts"
 msgstr "Aantal berichten weergeven"
 
-#: wp-includes/js/dist/block-library.js:7375
+#: wp-includes/js/dist/block-library.js:7379
 msgid "Archives Settings"
 msgstr "Archief-instellingen"
 
@@ -3412,7 +3412,7 @@ msgid "HTML Anchor"
 msgstr "HTML Anker"
 
 #: wp-includes/js/dist/block-editor.js:16172
-#: wp-includes/js/dist/block-library.js:8351
+#: wp-includes/js/dist/block-library.js:8355
 msgid "Link settings"
 msgstr "Link instellingen"
 
@@ -3613,7 +3613,7 @@ msgid "Copy Link"
 msgstr "Link kopiëren"
 
 #: wp-includes/js/dist/editor.js:10162 wp-includes/js/dist/edit-post.js:825
-#: wp-includes/js/dist/block-library.js:12256
+#: wp-includes/js/dist/block-library.js:12260
 msgid "Copied!"
 msgstr "Gekopieerd!"
 
@@ -3769,7 +3769,7 @@ msgstr "Standaard"
 msgid "Aside"
 msgstr "Terzijde"
 
-#: wp-includes/js/dist/block-library.js:19550
+#: wp-includes/js/dist/block-library.js:19554
 msgid "Replace image"
 msgstr "Afbeelding vervangen"
 
@@ -4071,7 +4071,7 @@ msgid "Error loading block: %s"
 msgstr "Fout bij laden blok: %s"
 
 #: wp-includes/js/dist/components.js:42254
-#: wp-includes/js/dist/block-library.js:16294
+#: wp-includes/js/dist/block-library.js:16298
 msgid "Number of items"
 msgstr "Aantal items"
 
@@ -4130,7 +4130,7 @@ msgstr "Item toevoegen"
 
 #: wp-includes/js/dist/components.js:39712
 #: wp-includes/js/dist/components.js:39909
-#: wp-includes/js/dist/block-library.js:4454
+#: wp-includes/js/dist/block-library.js:4458
 msgid "Reset"
 msgstr "Herstellen"
 
@@ -4141,10 +4141,10 @@ msgstr "Normaal"
 
 #. translators: accessibility text
 #. translators: Accessibility text.
-#: wp-login.php:647 wp-includes/widgets/class-wp-widget-custom-html.php:314
+#: wp-login.php:661 wp-includes/widgets/class-wp-widget-custom-html.php:314
 #: wp-includes/media-template.php:173
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:59
-#: wp-includes/functions.php:7166
+#: wp-includes/functions.php:7233
 #: wp-includes/class-wp-customize-manager.php:4307
 #: wp-includes/class-wp-customize-manager.php:5609
 #: wp-includes/class-wp-customize-manager.php:5630
@@ -4815,15 +4815,15 @@ msgstr "WordPress gebruiker"
 msgid "WordPress Media"
 msgstr "WordPress Media"
 
-#: wp-includes/script-loader.php:1806
+#: wp-includes/script-loader.php:1809
 msgid "An error occurred while attempting to export personal data."
 msgstr "Er is een fout opgetreden tijdens het exporteren van persoonlijke gegevens."
 
-#: wp-includes/script-loader.php:1805
+#: wp-includes/script-loader.php:1808
 msgid "No personal data export file was generated."
 msgstr "Er is geen exportbestand met persoonlijke gegevens gegenereerd."
 
-#: wp-login.php:1129
+#: wp-login.php:1145
 msgid "User action confirmed."
 msgstr "Gebruikersactie bevestigd."
 
@@ -4861,12 +4861,12 @@ msgid "User Requests"
 msgstr "Gebruikersverzoeken"
 
 #. translators: Deleted long text.
-#: wp-includes/functions.php:6891
+#: wp-includes/functions.php:6958
 msgid "This content was deleted by the author."
 msgstr "Deze inhoud is verwijderd door de auteur."
 
 #. translators: Deleted text.
-#: wp-includes/functions.php:6887
+#: wp-includes/functions.php:6954
 msgid "[deleted]"
 msgstr "[verwijderd]"
 
@@ -4923,23 +4923,23 @@ msgstr ""
 "Iedereen van ###SITENAME###\n"
 "###SITEURL###"
 
-#: wp-includes/script-loader.php:1803
+#: wp-includes/script-loader.php:1806
 msgid "An error occurred while attempting to find and erase personal data."
 msgstr "Er is een fout opgetreden tijdens het zoeken naar en verwijderen van persoonlijke gegevens."
 
-#: wp-includes/script-loader.php:1802
+#: wp-includes/script-loader.php:1805
 msgid "Personal data was found for this user but some of the personal data found was not erased."
 msgstr "Persoonlijke gegevens zijn gevonden voor deze gebruiker, maar sommige gevonden gegevens zijn niet verwijderd."
 
-#: wp-includes/script-loader.php:1801
+#: wp-includes/script-loader.php:1804
 msgid "Personal data was found for this user but was not erased."
 msgstr "Persoonlijke gegevens zijn gevonden voor deze gebruiker, maar zijn niet verwijderd."
 
-#: wp-includes/script-loader.php:1800
+#: wp-includes/script-loader.php:1803
 msgid "All of the personal data found for this user was erased."
 msgstr "Alle gevonden persoonlijke gegevens voor deze gebruiker zijn verwijderd."
 
-#: wp-includes/script-loader.php:1799
+#: wp-includes/script-loader.php:1802
 msgid "No personal data was found for this user."
 msgstr "Geen persoonlijke gegevens gevonden voor deze gebruiker."
 
@@ -5028,18 +5028,18 @@ msgstr "Mijn"
 msgid "Whether or not the post type can be viewed."
 msgstr "Of een berichttype bekeken kan worden of niet."
 
-#: wp-includes/functions.php:3078
+#: wp-includes/functions.php:3145
 msgid "The link you followed has expired."
 msgstr "De link die je volgde is verlopen."
 
-#: wp-includes/script-loader.php:1547
+#: wp-includes/script-loader.php:1550
 #: wp-includes/class-wp-customize-manager.php:515
 msgid "You need a higher level of permission."
 msgstr "Je hebt onvoldoende rechten."
 
-#: wp-includes/script-loader.php:1047 wp-includes/script-loader.php:1546
-#: wp-includes/script-loader.php:1634 wp-includes/script-loader.php:1891
-#: wp-includes/class-wp-xmlrpc-server.php:3928 wp-includes/functions.php:3089
+#: wp-includes/script-loader.php:1047 wp-includes/script-loader.php:1549
+#: wp-includes/script-loader.php:1637 wp-includes/script-loader.php:1894
+#: wp-includes/class-wp-xmlrpc-server.php:3928 wp-includes/functions.php:3156
 #: wp-includes/class-wp-customize-manager.php:450
 msgid "Something went wrong."
 msgstr "Er is iets fout gegaan."
@@ -5062,7 +5062,7 @@ msgstr "Toch bijwerken, zelfs als het de site onbruikbaar kan maken?"
 msgid "The query only expected one placeholder, but an array of multiple placeholders was sent."
 msgstr "De query verwachtte één placeholder, maar er is een array met meerdere placeholders verzonden."
 
-#: wp-includes/script-loader.php:1536
+#: wp-includes/script-loader.php:1539
 msgctxt "customizer changeset status"
 msgid "Scheduled"
 msgstr "Ingepland"
@@ -5079,7 +5079,7 @@ msgid "%1$s is not a valid property of Object."
 msgstr "%1$s is geen geldige eigenschap van Object."
 
 #. translators: %s: URL to Add Themes admin screen.
-#: wp-includes/script-loader.php:1583
+#: wp-includes/script-loader.php:1586
 msgid "You won&#8217;t be able to install new themes from here yet since your install requires SFTP credentials. For now, please <a href=\"%s\">add themes in the admin</a>."
 msgstr "Het is niet mogelijk om vanuit hier nieuwe thema's te installeren. De installatie vereist SFTP inloggegevens. Voor nu, ga naar <a href=\"%s\">thema's toevoegen in admin</a>."
 
@@ -5104,12 +5104,12 @@ msgstr "Op &#8220;Volgende&#8221; klikken om te beginnen met links aan je nieuwe
 msgid "Sorry, we can&#8217;t load the video at the supplied URL. Please check that the URL is for a supported video file (%s) or stream (e.g. YouTube and Vimeo)."
 msgstr "We kunnen de video van de opgegeven URL niet laden. Controleer of de URL verwijst naar een ondersteund videobestand (%s) of stream (bijv. YouTube of Vimeo)."
 
-#: wp-includes/script-loader.php:1696
+#: wp-includes/script-loader.php:1699
 msgctxt "post action/button label"
 msgid "Schedule"
 msgstr "Inplannen"
 
-#: wp-includes/script-loader.php:1535
+#: wp-includes/script-loader.php:1538
 #: wp-includes/class-wp-customize-manager.php:4771
 msgctxt "customizer changeset action/button label"
 msgid "Schedule"
@@ -5135,11 +5135,11 @@ msgstr "Een navigatie menu toevoegen aan de je widget gebied."
 
 #. translators: %s: Display name of the user who has taken over the changeset
 #. in customizer.
-#: wp-includes/script-loader.php:1560
+#: wp-includes/script-loader.php:1563
 msgid "%s has taken over and is currently customizing."
 msgstr "%s heeft overgenomen en is op dit moment aan het aanpassen."
 
-#: wp-includes/script-loader.php:1554
+#: wp-includes/script-loader.php:1557
 msgid "Looks like something&#8217;s gone wrong. Wait a couple seconds, and then try again."
 msgstr "Het lijkt dat er iets is mis gegaan. Wacht een paar seconden en probeer het daarna opnieuw."
 
@@ -5275,8 +5275,8 @@ msgid "Displays an image gallery."
 msgstr "Een afbeeldingengalerij tonen."
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:28
-#: wp-includes/js/dist/editor.js:8105 wp-includes/js/dist/block-library.js:6942
-#: wp-includes/js/dist/block-library.js:7332
+#: wp-includes/js/dist/editor.js:8105 wp-includes/js/dist/block-library.js:6946
+#: wp-includes/js/dist/block-library.js:7336
 msgid "Gallery"
 msgstr "Galerij"
 
@@ -5340,32 +5340,32 @@ msgstr "&larr; Terug naar categorieën"
 msgid "&larr; Back to Link Categories"
 msgstr "&larr; Terug naar linkcategorieën"
 
-#: wp-includes/script-loader.php:1914
+#: wp-includes/script-loader.php:1917
 msgid "Color value"
 msgstr "Kleurwaarde"
 
-#: wp-includes/script-loader.php:1910
+#: wp-includes/script-loader.php:1913
 msgid "Clear color"
 msgstr "Kleur wissen"
 
-#: wp-includes/script-loader.php:1851
+#: wp-includes/script-loader.php:1854
 msgid "Installation Failed!"
 msgstr "Installatie mislukt!"
 
-#: wp-includes/script-loader.php:1580
+#: wp-includes/script-loader.php:1583
 msgid "Sorry, you can&#8217;t preview new themes when you have changes scheduled or saved as a draft. Please publish your changes, or wait until they publish to preview new themes."
 msgstr "Je kunt geen voorbeeld tonen van nieuwe thema's als er wijzigingen zijn gepland of als concept zijn opgeslagen. De wijzigingen nu publiceren of wachten totdat deze zijn gepubliceerd."
 
-#: wp-includes/script-loader.php:1579
+#: wp-includes/script-loader.php:1582
 msgid "Schedule your customization changes to publish (\"go live\") at a future date."
 msgstr "Je aanpassingen plannen om deze in de toekomst te publiceren."
 
-#: wp-includes/script-loader.php:1572
+#: wp-includes/script-loader.php:1575
 msgid "Homepage and posts page must be different."
 msgstr "Homepage en berichtenpagina moeten verschillend zijn."
 
 #. translators: %d: Error count.
-#: wp-includes/script-loader.php:1568 wp-includes/script-loader.php:1570
+#: wp-includes/script-loader.php:1571 wp-includes/script-loader.php:1573
 #: wp-includes/widgets/class-wp-widget-custom-html.php:226
 #: wp-includes/widgets/class-wp-widget-custom-html.php:228
 msgid "There is %d error which must be fixed before you can save."
@@ -5374,31 +5374,31 @@ msgstr[0] "Er is %d fout die moet worden gerepareerd alvorens je kan opslaan."
 msgstr[1] "Er zijn %d fouten die moeten worden gerepareerd alvorens je kan opslaan."
 
 #. translators: %s: URL to the Customizer to load the autosaved version.
-#: wp-includes/script-loader.php:1562
+#: wp-includes/script-loader.php:1565
 msgid "There is a more recent autosave of your changes than the one you are previewing. <a href=\"%s\">Restore the autosave</a>"
 msgstr "Er is een recentere opgeslagen kopie van de wijzigingen dan het voorbeeld dat je bekijkt. <a href=\"%s\">Herstel de recentere kopie</a>"
 
-#: wp-includes/script-loader.php:1558
+#: wp-includes/script-loader.php:1561
 msgid "Are you sure you want to discard your unpublished changes?"
 msgstr "Weet je zeker dat je ongepubliceerde wijzigingen wilt weggooien?"
 
-#: wp-includes/script-loader.php:1557
+#: wp-includes/script-loader.php:1560
 msgid "Reverting unpublished changes&hellip;"
 msgstr "Niet gepubliceerde wijzigingen terugdraaien&hellip;"
 
-#: wp-includes/script-loader.php:1556
+#: wp-includes/script-loader.php:1559
 msgid "Setting up your live preview. This may take a bit."
 msgstr "Voorbereiden van live voorbeeld. Dit kan even duren."
 
-#: wp-includes/script-loader.php:1555
+#: wp-includes/script-loader.php:1558
 msgid "Downloading your new theme&hellip;"
 msgstr "Je nieuwe thema wordt gedownload&hellip;"
 
-#: wp-includes/script-loader.php:1545
+#: wp-includes/script-loader.php:1548
 msgid "Discard changes"
 msgstr "Wijzigingen ongedaan maken"
 
-#: wp-includes/script-loader.php:1538
+#: wp-includes/script-loader.php:1541
 msgid "Please save your changes in order to share the preview."
 msgstr "Sla je wijzigingen op om het voorbeeld te delen."
 
@@ -5406,15 +5406,15 @@ msgstr "Sla je wijzigingen op om het voorbeeld te delen."
 msgid "Schedule…"
 msgstr "Inplannen..."
 
-#: wp-includes/script-loader.php:1534
+#: wp-includes/script-loader.php:1537
 msgid "Updating"
 msgstr "Bijwerken"
 
-#: wp-includes/script-loader.php:1533
+#: wp-includes/script-loader.php:1536
 msgid "Draft Saved"
 msgstr "Concept opgeslagen"
 
-#: wp-includes/script-loader.php:1528
+#: wp-includes/script-loader.php:1531
 msgid "Activate &amp; Publish"
 msgstr "Activeren &amp; publiceren"
 
@@ -5791,7 +5791,7 @@ msgstr "Helaas is de nonce controle mislukt. Probeer het opnieuw."
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:6727
+#: wp-includes/functions.php:6794
 msgid ""
 "Hi,\n"
 "\n"
@@ -5817,7 +5817,7 @@ msgstr ""
 "###SITENAME###\n"
 "###SITEURL###"
 
-#: wp-includes/functions.php:6643
+#: wp-includes/functions.php:6710
 msgid "Only UUID V4 is supported at this time."
 msgstr "Alleen UUID V4 wordt op dit moment ondersteund."
 
@@ -6035,7 +6035,7 @@ msgstr "WordPress.org-thema's"
 msgid "Installed themes"
 msgstr "Geïnstalleerde thema's"
 
-#: wp-includes/script-loader.php:1586
+#: wp-includes/script-loader.php:1589
 msgid "Publish Settings"
 msgstr "Instellingen publiceren"
 
@@ -6077,14 +6077,14 @@ msgid "There was an authentication problem. Please reload and try again."
 msgstr "Er was een authenticatieprobleem. Verversen en opnieuw proberen."
 
 #. translators: %s: Number of invalid settings.
-#: wp-includes/script-loader.php:1575 wp-includes/script-loader.php:1577
+#: wp-includes/script-loader.php:1578 wp-includes/script-loader.php:1580
 #: wp-includes/class-wp-customize-manager.php:2774
 msgid "Unable to save due to %s invalid setting."
 msgid_plural "Unable to save due to %s invalid settings."
 msgstr[0] "Niet mogelijk om op te slaan, vanwege %s ongeldige instelling."
 msgstr[1] "Niet mogelijk om op te slaan, vanwege %s ongeldige instellingen."
 
-#: wp-includes/script-loader.php:1539
+#: wp-includes/script-loader.php:1542
 #: wp-includes/class-wp-customize-manager.php:2655
 #: wp-includes/class-wp-customize-manager.php:2670
 msgid "You must supply a future date to schedule."
@@ -6139,7 +6139,7 @@ msgid "Some HTML tags are not permitted, including:"
 msgstr "Sommige HTML-tags zijn niet toegestaan, waaronder:"
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:53
-#: wp-includes/js/dist/block-library.js:12711
+#: wp-includes/js/dist/block-library.js:12715
 msgid "Custom HTML"
 msgstr "Eigen HTML"
 
@@ -6183,23 +6183,23 @@ msgid "(no author)"
 msgstr "(geen auteur)"
 
 #. translators: %s: The name of a city.
-#: wp-includes/script-loader.php:2422
+#: wp-includes/script-loader.php:2425
 msgid "City updated. Listing events near %s."
 msgstr "Stad bijgewerkt. Lijst opmaken van evenementen in de buurt van %s."
 
-#: wp-includes/script-loader.php:2418
+#: wp-includes/script-loader.php:2421
 msgid "We couldn&#8217;t locate %s. Please try another nearby city. For example: Kansas City; Springfield; Portland."
 msgstr "We waren niet in staat om %s te vinden. Probeer een andere dichtbijzijnde stad. Bijvoorbeeld: Utrecht; Nijmegen; Rotterdam."
 
-#: wp-includes/script-loader.php:2400
+#: wp-includes/script-loader.php:2403
 msgid "Attend an upcoming event near you."
 msgstr "Deelnemen aan een evenement bij je in de buurt."
 
-#: wp-includes/script-loader.php:2399
+#: wp-includes/script-loader.php:2402
 msgid "An error occurred. Please try again."
 msgstr "Er is een fout opgetreden. Probeer opnieuw."
 
-#: wp-includes/script-loader.php:2398
+#: wp-includes/script-loader.php:2401
 msgid "Enter your closest city to find nearby events."
 msgstr "Je dichtstbijzijnde stad invoeren om evenementen in de buurt te vinden."
 
@@ -6408,62 +6408,62 @@ msgstr "Geen audio geselecteerd"
 msgid "Displays an audio player."
 msgstr "Een audiospeler tonen."
 
-#: wp-includes/script-loader.php:1880
+#: wp-includes/script-loader.php:1883
 msgctxt "theme"
 msgid "Deleted!"
 msgstr "Verwijderd!"
 
-#: wp-includes/script-loader.php:1879
+#: wp-includes/script-loader.php:1882
 msgctxt "plugin"
 msgid "Deleted!"
 msgstr "Verwijderd!"
 
-#: wp-includes/script-loader.php:1850
+#: wp-includes/script-loader.php:1853
 msgctxt "theme"
 msgid "Installed!"
 msgstr "Geïnstalleerd!"
 
-#: wp-includes/script-loader.php:1849
+#: wp-includes/script-loader.php:1852
 msgctxt "plugin"
 msgid "Installed!"
 msgstr "Geïnstalleerd!"
 
 #. translators: %s: Plugin name.
-#: wp-includes/script-loader.php:1847
+#: wp-includes/script-loader.php:1850
 msgctxt "plugin"
 msgid "Install %s now"
 msgstr "%s nu installeren"
 
 #. translators: %s: Plugin name and version.
-#: wp-includes/script-loader.php:1837
+#: wp-includes/script-loader.php:1840
 msgctxt "plugin"
 msgid "%s update failed"
 msgstr "Bijwerken van %s mislukt"
 
 #. translators: %s: Plugin name and version.
-#: wp-includes/script-loader.php:1835
+#: wp-includes/script-loader.php:1838
 msgctxt "plugin"
 msgid "%s updated!"
 msgstr "%s bijgewerkt"
 
 #. translators: %s: Plugin name and version.
-#: wp-includes/script-loader.php:1833
+#: wp-includes/script-loader.php:1836
 msgctxt "plugin"
 msgid "Updating %s..."
 msgstr "%s wordt bijgewerkt"
 
 #. translators: %s: Plugin name and version.
-#: wp-includes/script-loader.php:1828
+#: wp-includes/script-loader.php:1831
 msgctxt "plugin"
 msgid "Update %s now"
 msgstr "%s bijwerken"
 
-#: wp-includes/script-loader.php:1824
+#: wp-includes/script-loader.php:1827
 msgctxt "theme"
 msgid "Updated!"
 msgstr "Bijgewerkt!"
 
-#: wp-includes/script-loader.php:1823
+#: wp-includes/script-loader.php:1826
 msgctxt "plugin"
 msgid "Updated!"
 msgstr "Bijgewerkt!"
@@ -6586,7 +6586,7 @@ msgstr ""
 msgid "Suggested image dimensions: %1$s by %2$s pixels."
 msgstr "Voorgestelde afbeeldingafmetingen: %1$s &times; %2$s pixels."
 
-#: wp-includes/script-loader.php:1229 wp-includes/functions.php:2505
+#: wp-includes/script-loader.php:1229 wp-includes/functions.php:2572
 #: wp-includes/js/dist/media-utils.js:926
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "Dit bestandstype is niet toegestaan in verband met veiligheidsredenen."
@@ -6937,7 +6937,7 @@ msgstr "Incorrecte JSONP-callbackfunctie."
 msgid "Invalid page template."
 msgstr "Ongeldige paginatemplate."
 
-#: wp-includes/script-loader.php:1587 wp-includes/rest-api.php:1320
+#: wp-includes/script-loader.php:1590 wp-includes/rest-api.php:1320
 #: wp-includes/post.php:3725
 msgid "Invalid date."
 msgstr "Ongeldige datum."
@@ -7119,7 +7119,7 @@ msgstr "Je hebt geen toestemming om berichten sticky te maken."
 msgid "Reassign the deleted user's posts and links to this user ID."
 msgstr "Ken de links en berichten van de verwijderde gebruiker toe aan deze gebruiker-ID."
 
-#: wp-includes/script-loader.php:1563
+#: wp-includes/script-loader.php:1566
 msgid "This theme doesn&#8217;t support video headers on this page. Navigate to the front page or another page that supports video headers."
 msgstr "Dit thema ondersteunt geen video-headers op deze pagina. Ga naar de homepagina of een andere pagina die video-headers ondersteunt."
 
@@ -7253,12 +7253,12 @@ msgstr "De gebruikersnaam bevat ongeldige tekens."
 msgid "Invalid user parameter(s)."
 msgstr "Ongeldige gebruikersparameter."
 
-#: wp-includes/script-loader.php:1552
+#: wp-includes/script-loader.php:1555
 msgctxt "label for hide controls button without length constraints"
 msgid "Show Controls"
 msgstr "Besturing tonen"
 
-#: wp-includes/script-loader.php:1551
+#: wp-includes/script-loader.php:1554
 msgctxt "label for hide controls button without length constraints"
 msgid "Hide Controls"
 msgstr "Besturing verbergen"
@@ -7396,19 +7396,19 @@ msgstr "Homepagina"
 msgid "Hours"
 msgstr "Openingstijden"
 
-#: wp-includes/script-loader.php:1677
+#: wp-includes/script-loader.php:1680
 msgid "Term removed."
 msgstr "Term verwijderd."
 
-#: wp-includes/script-loader.php:1676
+#: wp-includes/script-loader.php:1679
 msgid "Term added."
 msgstr "Term toegevoegd."
 
-#: wp-includes/script-loader.php:1675
+#: wp-includes/script-loader.php:1678
 msgid "Term selected."
 msgstr "Term geselecteerd."
 
-#: wp-includes/script-loader.php:1674
+#: wp-includes/script-loader.php:1677
 msgid "Remove term:"
 msgstr "Term verwijderen:"
 
@@ -8286,17 +8286,17 @@ msgstr "Sitetitel."
 msgid "Search media items..."
 msgstr "Media-items zoeken..."
 
-#: wp-includes/link-template.php:2719
+#: wp-includes/link-template.php:2722
 msgctxt "next set of posts"
 msgid "Next"
 msgstr "Volgende"
 
-#: wp-includes/link-template.php:2718
+#: wp-includes/link-template.php:2721
 msgctxt "previous set of posts"
 msgid "Previous"
 msgstr "Vorige"
 
-#: wp-login.php:829 wp-login.php:1334 wp-includes/general-template.php:463
+#: wp-login.php:845 wp-login.php:1356 wp-includes/general-template.php:463
 msgid "Username or Email Address"
 msgstr "Gebruikersnaam of e-mailadres"
 
@@ -8474,8 +8474,8 @@ msgid "Repeat Background Image"
 msgstr "Achtergrondafbeelding herhalen"
 
 #: wp-includes/class-wp-customize-manager.php:5472
-#: wp-includes/js/dist/block-library.js:4412
-#: wp-includes/js/dist/block-library.js:4439
+#: wp-includes/js/dist/block-library.js:4416
+#: wp-includes/js/dist/block-library.js:4443
 msgid "Image Size"
 msgstr "Grootte van de afbeelding"
 
@@ -8614,7 +8614,7 @@ msgstr "Geselecteerd menu bewerken"
 msgid "Warning: the link has been inserted but may have errors. Please test it."
 msgstr "Waarschuwing: de link is toegevoegd, maar kan fouten bevatten. Graag goed testen."
 
-#: wp-includes/script-loader.php:1819
+#: wp-includes/script-loader.php:1822
 msgid "Search Results"
 msgstr "Zoekresultaten"
 
@@ -8671,75 +8671,75 @@ msgid "Inexistent terms."
 msgstr "Niet-bestaande termen."
 
 #. translators: %s: Importer name.
-#: wp-includes/script-loader.php:1890
+#: wp-includes/script-loader.php:1893
 msgid "Run %s"
 msgstr "%s uitvoeren"
 
-#: wp-includes/script-loader.php:1888
+#: wp-includes/script-loader.php:1891
 msgid "Run Importer"
 msgstr "Voer importeerfunctie uit"
 
 #. translators: %s: Activation URL.
-#: wp-includes/script-loader.php:1869
+#: wp-includes/script-loader.php:1872
 msgid "Importer installed successfully. <a href=\"%s\">Run importer</a>"
 msgstr "Importeerder is geïnstalleerd. <a href=\"%s\">Voer importeerder uit</a>"
 
 #. translators: %s: Theme name.
-#: wp-includes/script-loader.php:1887
+#: wp-includes/script-loader.php:1890
 msgctxt "theme"
 msgid "Activate %s"
 msgstr "%s activeren"
 
 #. translators: %s: Theme name.
-#: wp-includes/script-loader.php:1887
+#: wp-includes/script-loader.php:1890
 msgctxt "theme"
 msgid "Network Activate %s"
 msgstr "Netwerk activeren %s"
 
 #. translators: %s: Plugin name.
-#: wp-includes/script-loader.php:1885
+#: wp-includes/script-loader.php:1888
 msgctxt "plugin"
 msgid "Activate %s"
 msgstr "%s activeren"
 
 #. translators: %s: Plugin name.
-#: wp-includes/script-loader.php:1885
+#: wp-includes/script-loader.php:1888
 msgctxt "plugin"
 msgid "Network Activate %s"
 msgstr "Netwerk activeren %s"
 
 #. translators: %s: Theme name and version.
-#: wp-includes/script-loader.php:1865
+#: wp-includes/script-loader.php:1868
 msgctxt "theme"
 msgid "%s installation failed"
 msgstr "%s installatie mislukt"
 
 #. translators: %s: Plugin name and version.
-#: wp-includes/script-loader.php:1863
+#: wp-includes/script-loader.php:1866
 msgctxt "plugin"
 msgid "%s installation failed"
 msgstr "%s installatie mislukt"
 
 #. translators: %s: Theme name and version.
-#: wp-includes/script-loader.php:1861
+#: wp-includes/script-loader.php:1864
 msgctxt "theme"
 msgid "%s installed!"
 msgstr "%s geïnstalleerd."
 
 #. translators: %s: Plugin name and version.
-#: wp-includes/script-loader.php:1859
+#: wp-includes/script-loader.php:1862
 msgctxt "plugin"
 msgid "%s installed!"
 msgstr "%s geïnstalleerd."
 
 #. translators: %s: Theme name and version.
-#: wp-includes/script-loader.php:1857
+#: wp-includes/script-loader.php:1860
 msgctxt "theme"
 msgid "Installing %s..."
 msgstr "%s installeren..."
 
 #. translators: %s: Plugin name and version.
-#: wp-includes/script-loader.php:1855
+#: wp-includes/script-loader.php:1858
 msgctxt "plugin"
 msgid "Installing %s..."
 msgstr "%s installeren..."
@@ -8749,7 +8749,7 @@ msgid "Sorry, you are not allowed to access user data on this site."
 msgstr "Sorry, je hebt geen toegang tot de gebruikersgegevens op deze site."
 
 #. translators: %s: Number of plugins.
-#: wp-includes/script-loader.php:1895
+#: wp-includes/script-loader.php:1898
 msgid "Number of plugins found: %d"
 msgstr "Aantal gevonden plugins: %d"
 
@@ -8797,7 +8797,7 @@ msgid "Tan"
 msgstr "Getint"
 
 #. translators: %s: Error string for a failed installation.
-#: wp-includes/script-loader.php:1853
+#: wp-includes/script-loader.php:1856
 msgid "Installation failed: %s"
 msgstr "Installatie mislukt: %s"
 
@@ -8832,7 +8832,7 @@ msgstr "Verkrijgen van de foutmelding van MySQL niet mogelijk"
 msgid "Edit Menu"
 msgstr "Menu bewerken"
 
-#: wp-includes/script-loader.php:2342
+#: wp-includes/script-loader.php:2345
 msgid "Today"
 msgstr "Vandaag"
 
@@ -8840,7 +8840,7 @@ msgstr "Vandaag"
 msgid "An unknown error occurred."
 msgstr "Er is een onbekende fout opgetreden. "
 
-#: wp-includes/script-loader.php:1882
+#: wp-includes/script-loader.php:1885
 msgid "Network Activate"
 msgstr "Netwerk activeren"
 
@@ -8849,50 +8849,50 @@ msgid "Deleted:"
 msgstr "Verwijderd:"
 
 #. translators: %s: Error string for a failed deletion.
-#: wp-includes/script-loader.php:1878
+#: wp-includes/script-loader.php:1881
 msgid "Deletion failed: %s"
 msgstr "Verwijderen van %s mislukt"
 
-#: wp-includes/script-loader.php:1876
+#: wp-includes/script-loader.php:1879
 msgid "Deleting..."
 msgstr "Bezig met verwijderen..."
 
-#: wp-includes/script-loader.php:1875
+#: wp-includes/script-loader.php:1878
 msgid "Caution: These themes may be active on other sites in the network. Are you sure you want to proceed?"
 msgstr "Let op: deze thema's zijn mogelijk actief op andere sites in het netwerk. Weet je zeker dat je door wilt gaan?"
 
-#: wp-includes/script-loader.php:1874
+#: wp-includes/script-loader.php:1877
 msgid "Are you sure you want to delete the selected plugins and their data?"
 msgstr "Weet je zeker dat je de geselecteerde plugins en bijbehorende gegevens wilt verwijderen?"
 
 #. translators: %s: Plugin name.
-#: wp-includes/script-loader.php:1873
+#: wp-includes/script-loader.php:1876
 msgid "Are you sure you want to delete %s and its data?"
 msgstr "Weet je zeker dat je %s en de bijbehorende gegevens wilt verwijderen?"
 
 #. translators: %s: Theme name.
-#: wp-includes/script-loader.php:1871
+#: wp-includes/script-loader.php:1874
 msgid "Are you sure you want to delete %s?"
 msgstr "Weet je zeker dat je %s wilt verwijderen?"
 
-#: wp-includes/script-loader.php:1826
+#: wp-includes/script-loader.php:1829
 msgid "Update Now"
 msgstr "Nu bijwerken"
 
-#: wp-includes/script-loader.php:1821
+#: wp-includes/script-loader.php:1824
 msgid "Please select at least one item to perform this action on."
 msgstr "Selecteer minstens één item om deze handeling op uit te voeren."
 
-#: wp-includes/script-loader.php:1820
+#: wp-includes/script-loader.php:1823
 msgid "You do not appear to have any plugins available at this time."
 msgstr "Het lijkt erop dat je op dit moment geen enkele plugin tot je beschikking hebt."
 
 #. translators: %s: Search query.
-#: wp-includes/script-loader.php:1818
+#: wp-includes/script-loader.php:1821
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "Zoekresultaten voor &#8220;%s&#8221;"
 
-#: wp-includes/script-loader.php:1648
+#: wp-includes/script-loader.php:1651
 msgid ""
 "Are you sure you want to do this?\n"
 "The comment changes you made will be lost."
@@ -8900,7 +8900,7 @@ msgstr ""
 "Weet je zeker dat je dit wilt doen?\n"
 "De wijzigingen die je in de reacties hebt gemaakt zullen verloren gaan."
 
-#: wp-login.php:953 wp-includes/script-loader.php:1480
+#: wp-login.php:969 wp-includes/script-loader.php:1480
 msgid "Confirm use of weak password"
 msgstr "Bevestig het gebruik van een zwak wachtwoord"
 
@@ -8909,7 +8909,7 @@ msgctxt "password strength"
 msgid "Password strength unknown"
 msgstr "Sterkte wachtwoord onbekend"
 
-#: wp-includes/script-loader.php:1046 wp-includes/script-loader.php:1633
+#: wp-includes/script-loader.php:1046 wp-includes/script-loader.php:1636
 #: wp-includes/rest-api/class-wp-rest-server.php:921
 msgid "Sorry, you are not allowed to do that."
 msgstr "Je hebt geen toestemming om dat te doen."
@@ -8933,7 +8933,7 @@ msgid "Image crop area preview. Requires mouse interaction."
 msgstr "Bijsnijdgebied voorbeeld. Muisgebruik vereist. "
 
 #. translators: %s: Documentation URL.
-#: wp-includes/formatting.php:4769
+#: wp-includes/formatting.php:4780
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "Voor het gebruik van aangepaste permalinks is een structuur-tag vereist. <a href=\"%s\">Meer hierover</a>"
 
@@ -8954,13 +8954,13 @@ msgstr "Je hebt geen toestemming om een categorie toe te voegen."
 msgid "Sorry, you are not allowed to list users."
 msgstr "Je hebt geen toestemming om de gebruikerslijst te bekijken."
 
-#: wp-includes/script-loader.php:1588
+#: wp-includes/script-loader.php:1591
 #: wp-includes/class-wp-customize-setting.php:577
 #: wp-includes/class-wp-customize-manager.php:2360
 msgid "Invalid value."
 msgstr "Ongeldige waarde."
 
-#: wp-includes/script-loader.php:1548
+#: wp-includes/script-loader.php:1551
 #: wp-includes/class-wp-customize-manager.php:516
 msgid "Sorry, you are not allowed to customize this site."
 msgstr "Je hebt geen toestemming om deze site aan te passen."
@@ -8991,7 +8991,7 @@ msgstr "Link geselecteerd."
 msgid "%s is required to strip image meta."
 msgstr "%s is vereist om metadata van afbeeldingen te verwijderen."
 
-#: wp-includes/script-loader.php:1786
+#: wp-includes/script-loader.php:1789
 msgid "Plugin details"
 msgstr "Plugin-gegevens"
 
@@ -9041,7 +9041,7 @@ msgstr "Handmatig %1$s verwijderen zal PHP-waarschuwingen veroorzaken. Gebruik i
 msgid "The next group of formatting shortcuts are applied as you type or when you insert them around plain text in the same paragraph. Press Escape or the Undo button to undo."
 msgstr "De volgende groep formatteringssnelkoppelingen worden toegepast, zodra je ze typt of als deze worden ingevoegd rondom platte tekst in dezelfde paragraaf. Klik op Escape of de knop 'Ongedaan maken' om ongedaan te maken."
 
-#: wp-login.php:1279
+#: wp-login.php:1301
 msgid "Your session has expired. Please log in to continue where you left off."
 msgstr "Je sessie is verlopen. Log opnieuw in om verder te gaan waar je gebleven was."
 
@@ -9064,11 +9064,11 @@ msgstr "<strong>FOUT</strong>: Het veld e-mailadres is leeg."
 msgid "Unregistering a built-in taxonomy is not allowed."
 msgstr "Deregistreren van een ingebouwde taxonomie is niet toegestaan."
 
-#: wp-includes/script-loader.php:1662
+#: wp-includes/script-loader.php:1665
 msgid "Drag boxes here"
 msgstr "Boxen hiernaartoe slepen"
 
-#: wp-includes/script-loader.php:1553 wp-includes/js/dist/block-library.js:8773
+#: wp-includes/script-loader.php:1556 wp-includes/js/dist/block-library.js:8777
 msgid "(Untitled)"
 msgstr "(Naamloos)"
 
@@ -9130,13 +9130,13 @@ msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "Feed %1$s %2$s %3$s %4$s"
 
 #: wp-includes/media-template.php:205 wp-includes/media-template.php:353
-#: wp-includes/functions.php:6210 wp-includes/js/dist/components.js:41427
+#: wp-includes/functions.php:6277 wp-includes/js/dist/components.js:41427
 msgid "Close dialog"
 msgstr "Dialoogvenster sluiten"
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: Version number,
 #. 4: __construct() method.
-#: wp-includes/functions.php:4629
+#: wp-includes/functions.php:4696
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "De aangeroepen constructiemethode voor %1$s in %2$s is <strong>niet meer in gebruik</strong> sinds versie %3$s. Gebruik in plaats daarvan: %4$s."
 
@@ -9268,7 +9268,7 @@ msgid "Read the <a href=\"%s\" target=\"_blank\">bug report</a> page. Some of th
 msgstr "Lees het <a href=\"%s\" target=\"_blank\">foutopsporingsrapport</a>. Sommige instructies kunnen helpen bepalen wat er fout is gegaan."
 
 #. translators: %s: Documentation URL.
-#: wp-includes/functions.php:4899
+#: wp-includes/functions.php:4966
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Lees <a href=\"%s\">Foutopsporing in WordPress</a> voor meer informatie."
 
@@ -9277,7 +9277,7 @@ msgstr "Lees <a href=\"%s\">Foutopsporing in WordPress</a> voor meer informatie.
 msgid "<strong>ERROR</strong>: %1$s in %2$s can only contain numbers, letters, and underscores."
 msgstr "<strong>FOUT</strong>: %1$s in %2$s mag alleen cijfers, letters en underscores bevatten."
 
-#: wp-includes/script-loader.php:1766 wp-includes/script-loader.php:1776
+#: wp-includes/script-loader.php:1769 wp-includes/script-loader.php:1779
 msgid "Changes saved."
 msgstr "Wijzigingen opgeslagen."
 
@@ -9568,7 +9568,7 @@ msgstr "Ongeldige shortcode-naam: %1$s. Gebruik geen spaties of gereserveerde te
 msgid "Invalid shortcode name: Empty name given."
 msgstr "Ongeldige shortcode-naam: lege naam opgegeven."
 
-#: wp-includes/script-loader.php:1708
+#: wp-includes/script-loader.php:1711
 msgid "Permalink saved"
 msgstr "Permalink opgeslagen"
 
@@ -9798,11 +9798,11 @@ msgctxt "Sunday initial"
 msgid "S"
 msgstr "Z"
 
-#: wp-includes/link-template.php:3037
+#: wp-includes/link-template.php:3040
 msgid "Newer comments"
 msgstr "Nieuwere reacties"
 
-#: wp-includes/link-template.php:3036
+#: wp-includes/link-template.php:3039
 msgid "Older comments"
 msgstr "Oudere reacties"
 
@@ -9848,8 +9848,8 @@ msgstr[0] "%s <span class=\"screen-reader-text\">reactie</span>"
 msgstr[1] "%s <span class=\"screen-reader-text\">reacties</span>"
 
 #: wp-includes/blocks/latest-posts.php:70
-#: wp-includes/js/dist/block-library.js:14014
-#: wp-includes/js/dist/block-library.js:14705
+#: wp-includes/js/dist/block-library.js:14018
+#: wp-includes/js/dist/block-library.js:14709
 msgid "Read more"
 msgstr "Lees verder"
 
@@ -9919,7 +9919,7 @@ msgstr "Sectie wisselen: %s"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/script-loader.php:2288 wp-includes/formatting.php:3856
+#: wp-includes/script-loader.php:2291 wp-includes/formatting.php:3867
 #: wp-includes/js/dist/editor.js:12146
 msgctxt "Word count type. Do not translate!"
 msgid "words"
@@ -9943,11 +9943,11 @@ msgstr "Sectie wisselen: aangepaste links"
 msgid "Your new password has not been saved."
 msgstr "Je nieuwe wachtwoord is niet opgeslagen."
 
-#: wp-login.php:946 wp-includes/script-loader.php:1485
+#: wp-login.php:962 wp-includes/script-loader.php:1485
 msgid "Hide password"
 msgstr "Wachtwoord verbergen"
 
-#: wp-login.php:1342 wp-includes/script-loader.php:1484
+#: wp-login.php:1364 wp-includes/script-loader.php:1484
 msgid "Show password"
 msgstr "Wachtwoord tonen"
 
@@ -9977,7 +9977,7 @@ msgstr "Als browsericoon"
 msgid "No items"
 msgstr "Geen items"
 
-#: wp-login.php:1076
+#: wp-login.php:1092
 msgid "Registration confirmation will be emailed to you."
 msgstr "Registratiebevestiging zal per e-mail worden verzonden."
 
@@ -10042,11 +10042,11 @@ msgstr "Aan menu toevoegen: %1$s (%2$s)"
 msgid "When starting a new paragraph with one of these formatting shortcuts followed by a space, the formatting will be applied automatically. Press Backspace or Escape to undo."
 msgstr "Bij het starten van een nieuwe paragraaf met één van de volgende opmaak-sneltoetsen, gevolgd door een spatie, zal de opmaak automatisch worden toegepast. Druk op Backspace of Escape om dit ongedaan te maken."
 
-#: wp-login.php:792
+#: wp-login.php:808
 msgid "Your password reset link has expired. Please request a new link below."
 msgstr "De wachtwoord-reset-link is verlopen. Vraag hieronder een nieuwe link aan."
 
-#: wp-login.php:790
+#: wp-login.php:806
 msgid "Your password reset link appears to be invalid. Please request a new link below."
 msgstr "De wachtwoord-reset-link lijkt ongeldig. Hieronder kun je een nieuwe link aanvragen."
 
@@ -10063,7 +10063,7 @@ msgid "Username may not be longer than 60 characters."
 msgstr "Gebruikersnaam mag niet langer zijn dan 60 tekens."
 
 #. translators: 1: PHP class name, 2: Version number, 3: __construct() method.
-#: wp-includes/functions.php:4640
+#: wp-includes/functions.php:4707
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "De aangeroepen constructormethode voor %1$s is <strong>verouderd</strong> sinds versie %2$s. Gebruik %3$s in plaats daarvan."
 
@@ -10197,11 +10197,11 @@ msgid "Attempting to parse a shortcode without a valid callback: %s"
 msgstr "Poging gedaan om een shortcode te verwerken zonder dat er een geldige callback was: %s"
 
 #. translators: %s: Error string for a failed update.
-#: wp-includes/script-loader.php:1831
+#: wp-includes/script-loader.php:1834
 msgid "Update Failed: %s"
 msgstr "Bijwerken mislukt: %s"
 
-#: wp-includes/script-loader.php:1647
+#: wp-includes/script-loader.php:1650
 msgid ""
 "Are you sure you want to edit this comment?\n"
 "The changes you made will be lost."
@@ -10446,7 +10446,7 @@ msgstr "Aanvullende items gevonden: %d"
 msgid "Number of items found: %d"
 msgstr "Aantal gevonden items: %d"
 
-#: wp-includes/js/dist/block-library.js:19882
+#: wp-includes/js/dist/block-library.js:19886
 msgid "Taxonomy"
 msgstr "Taxonomie"
 
@@ -10573,20 +10573,20 @@ msgstr "https://codex.wordpress.org/"
 msgid "No %1$s was set in the arguments array for the \"%2$s\" sidebar. Defaulting to \"%3$s\". Manually set the %1$s to \"%3$s\" to silence this notice and keep existing sidebar content."
 msgstr "Geen %1$s ingesteld voor de argumenten array voor de \"%2$s\" sidebar. \"%3$s\" als standaard ingesteld. De %1$s naar \"%3$s\" handmatig instellen om deze melding te verbergen en de bestaande inhoud van de sidebar te behouden."
 
-#: wp-includes/script-loader.php:1892
+#: wp-includes/script-loader.php:1895
 msgid "Connection lost or the server is busy. Please try again later."
 msgstr "Verbinding verbroken of de server is druk. Probeer het later opnieuw."
 
-#: wp-includes/script-loader.php:1844
+#: wp-includes/script-loader.php:1847
 msgid "Updates may not complete if you navigate away from this page."
 msgstr "Het bijwerken wordt wellicht niet afgerond als je deze pagina verlaat."
 
-#: wp-includes/script-loader.php:1829
+#: wp-includes/script-loader.php:1832
 msgid "Update Failed!"
 msgstr "Bijwerken mislukt."
 
 #. translators: Accessibility text.
-#: wp-includes/script-loader.php:1843
+#: wp-includes/script-loader.php:1846
 msgid "Update canceled."
 msgstr "Het bijwerken is geannuleerd."
 
@@ -10606,37 +10606,37 @@ msgid_plural "%1$s responses to %2$s"
 msgstr[0] "%1$s reactie op %2$s"
 msgstr[1] "%1$s reacties op %2$s"
 
-#: wp-includes/script-loader.php:1549
+#: wp-includes/script-loader.php:1552
 msgid "Site Preview"
 msgstr "Sitevoorbeeld"
 
-#: wp-includes/script-loader.php:1822
+#: wp-includes/script-loader.php:1825
 msgid "Updating..."
 msgstr "Aan het bijwerken..."
 
-#: wp-includes/script-loader.php:1845
+#: wp-includes/script-loader.php:1848
 msgid "Install Now"
 msgstr "Nu installeren"
 
-#: wp-includes/script-loader.php:1848
+#: wp-includes/script-loader.php:1851
 msgid "Installing..."
 msgstr "Bezig met installeren..."
 
-#: wp-includes/script-loader.php:1866
+#: wp-includes/script-loader.php:1869
 msgid "Installing... please wait."
 msgstr "Bezig met installeren... een ogenblik geduld."
 
 #. translators: Accessibility text.
-#: wp-includes/script-loader.php:1839
+#: wp-includes/script-loader.php:1842
 msgid "Updating... please wait."
 msgstr "Aan het bijwerken... even geduld."
 
 #. translators: Accessibility text.
-#: wp-includes/script-loader.php:1841
+#: wp-includes/script-loader.php:1844
 msgid "Update completed successfully."
 msgstr "Bijwerken is afgerond."
 
-#: wp-includes/script-loader.php:1867
+#: wp-includes/script-loader.php:1870
 msgid "Installation completed successfully."
 msgstr "Installatie met succes afgerond."
 
@@ -10812,7 +10812,7 @@ msgstr "De optie %1$s wordt niet meer ondersteund voor de familie van %2$s-funct
 msgid "Theme Details"
 msgstr "Themadetails"
 
-#: wp-includes/script-loader.php:1881
+#: wp-includes/script-loader.php:1884
 #: wp-includes/customize/class-wp-customize-theme-control.php:124
 msgid "Live Preview"
 msgstr "Live voorbeeld"
@@ -10891,20 +10891,20 @@ msgctxt "translations"
 msgid "Available"
 msgstr "Beschikbaar"
 
-#: wp-includes/link-template.php:2653
+#: wp-includes/link-template.php:2656
 msgid "Older posts"
 msgstr "Oudere berichten"
 
-#: wp-includes/link-template.php:2655 wp-includes/link-template.php:2720
-#: wp-includes/link-template.php:2768
+#: wp-includes/link-template.php:2658 wp-includes/link-template.php:2723
+#: wp-includes/link-template.php:2771
 msgid "Posts navigation"
 msgstr "Berichtnavigatie"
 
-#: wp-includes/link-template.php:2654
+#: wp-includes/link-template.php:2657
 msgid "Newer posts"
 msgstr "Nieuwere berichten"
 
-#: wp-includes/script-loader.php:2346
+#: wp-includes/script-loader.php:2349
 msgid "Previous"
 msgstr "Vorige"
 
@@ -11099,7 +11099,7 @@ msgid "Custom color"
 msgstr "Aangepaste kleur"
 
 #: wp-includes/class-wp-editor.php:1174
-#: wp-includes/js/dist/block-library.js:16769
+#: wp-includes/js/dist/block-library.js:16773
 msgid "Color"
 msgstr "Kleur"
 
@@ -11147,7 +11147,7 @@ msgctxt "add new media"
 msgid "Add New"
 msgstr "Nieuwe toevoegen"
 
-#: wp-login.php:1294
+#: wp-login.php:1316
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
 msgstr "<strong>WordPress is bijgewerkt.</strong> Log opnieuw in om te zien wat er nieuw is."
 
@@ -11173,7 +11173,7 @@ msgstr "Bulkselectie"
 msgid "%s: %l."
 msgstr "%s: %l"
 
-#: wp-includes/script-loader.php:1965
+#: wp-includes/script-loader.php:1968
 #: wp-includes/class-wp-customize-nav-menus.php:445
 msgctxt "missing menu item navigation label"
 msgid "(no label)"
@@ -11183,7 +11183,7 @@ msgstr "(geen label)"
 msgid "This site is no longer available."
 msgstr "Deze site is niet langer beschikbaar."
 
-#: wp-includes/script-loader.php:1896
+#: wp-includes/script-loader.php:1899
 msgid "No plugins found. Try a different search."
 msgstr "Geen plugins gevonden. Probeer een andere zoekopdracht."
 
@@ -11330,12 +11330,12 @@ msgid "Keyboard Shortcuts"
 msgstr "Toetscombinaties"
 
 #. translators: %s: Browser cookie documentation URL.
-#: wp-login.php:1190
+#: wp-login.php:1206
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
 msgstr "<strong>FOUT</strong>: Cookies zijn geblokkeerd of worden niet ondersteund door de browser. Je moet <a href=\"%s\">cookies inschakelen</a> om WordPress te kunnen gebruiken."
 
 #. translators: 1: Browser cookie documentation URL, 2: Support forums URL.
-#: wp-login.php:1179
+#: wp-login.php:1195
 msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
 msgstr "<strong>FOUT</strong>: Cookies zijn geblokkeerd vanwege onverwachte uitvoer. Bekijk voor hulp <a href=\"%1$s\">deze documentatie</a> of probeer de <a href=\"%2$s\">supportforums</a>."
 
@@ -11441,7 +11441,7 @@ msgstr "Videolijst tonen"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:129
 #: wp-includes/media-template.php:1156
-#: wp-includes/js/dist/block-library.js:4343
+#: wp-includes/js/dist/block-library.js:4347
 msgid "Link CSS Class"
 msgstr "Link CSS-class"
 
@@ -11782,8 +11782,8 @@ msgstr "Versleep om de tracks te herschikken."
 msgid "Add Subtitles"
 msgstr "Ondertiteling toevoegen"
 
-#: wp-includes/media.php:3907 wp-includes/js/dist/block-library.js:19540
-#: wp-includes/js/dist/block-library.js:19550
+#: wp-includes/media.php:3907 wp-includes/js/dist/block-library.js:19544
+#: wp-includes/js/dist/block-library.js:19554
 msgid "Select Poster Image"
 msgstr "Posterafbeelding selecteren"
 
@@ -11853,24 +11853,24 @@ msgid "There are no associated subtitles."
 msgstr "Geen ondertitels beschikbaar."
 
 #: wp-includes/media-template.php:1331
-#: wp-includes/js/dist/block-library.js:19539
+#: wp-includes/js/dist/block-library.js:19543
 msgid "Poster Image"
 msgstr "Posterafbeelding"
 
 #: wp-includes/media-template.php:1252 wp-includes/media-template.php:1351
-#: wp-includes/js/dist/block-library.js:7682
-#: wp-includes/js/dist/block-library.js:19499
+#: wp-includes/js/dist/block-library.js:7686
+#: wp-includes/js/dist/block-library.js:19503
 msgid "Autoplay"
 msgstr "Automatisch afspelen"
 
 #: wp-includes/media-template.php:1243 wp-includes/media-template.php:1342
-#: wp-includes/js/dist/block-library.js:7704
-#: wp-includes/js/dist/block-library.js:19532
+#: wp-includes/js/dist/block-library.js:7708
+#: wp-includes/js/dist/block-library.js:19536
 msgid "Metadata"
 msgstr "Metadata"
 
-#: wp-includes/js/dist/block-library.js:7701
-#: wp-includes/js/dist/block-library.js:19529
+#: wp-includes/js/dist/block-library.js:7705
+#: wp-includes/js/dist/block-library.js:19533
 msgid "Auto"
 msgstr "Automatisch"
 
@@ -11918,8 +11918,8 @@ msgid "Tools"
 msgstr "Gereedschap"
 
 #: wp-includes/js/dist/list-reusable-blocks.js:647
-#: wp-includes/js/dist/block-library.js:12178
-#: wp-includes/js/dist/block-library.js:12506
+#: wp-includes/js/dist/block-library.js:12182
+#: wp-includes/js/dist/block-library.js:12510
 msgid "File"
 msgstr "Bestand"
 
@@ -11996,7 +11996,7 @@ msgid "Paste as text"
 msgstr "Plakken als tekst"
 
 #: wp-includes/class-wp-editor.php:1150
-#: wp-includes/js/dist/block-library.js:14905
+#: wp-includes/js/dist/block-library.js:14909
 msgid "Page break"
 msgstr "Paginascheiding"
 
@@ -12084,7 +12084,7 @@ msgstr "Centreren"
 msgid "Clear formatting"
 msgstr "Opmaak verwijderen"
 
-#: wp-includes/js/dist/block-library.js:14533
+#: wp-includes/js/dist/block-library.js:14537
 msgid "bullet list"
 msgstr "ongeordende lijst"
 
@@ -12105,7 +12105,7 @@ msgstr "Genummerde lijst"
 msgid "Align right"
 msgstr "Rechts uitlijnen"
 
-#: wp-includes/script-loader.php:1893 wp-includes/script-loader.php:1928
+#: wp-includes/script-loader.php:1896 wp-includes/script-loader.php:1931
 #: wp-includes/class-wp-customize-widgets.php:781
 msgid "An error has occurred. Please reload the page and try again."
 msgstr "Er is een fout opgetreden. Vernieuw de pagina en probeer het opnieuw."
@@ -12215,8 +12215,8 @@ msgstr "Kolomgroep"
 msgid "Could not find the specified string."
 msgstr "Kan de opgegeven tekenreeks niet vinden."
 
-#: wp-includes/js/dist/block-library.js:18426
-#: wp-includes/js/dist/block-library.js:18780
+#: wp-includes/js/dist/block-library.js:18430
+#: wp-includes/js/dist/block-library.js:18784
 msgid "Table"
 msgstr "Tabel"
 
@@ -12245,7 +12245,7 @@ msgid "Attempted to set image quality outside of the range [1,100]."
 msgstr "Geprobeerd de afbeeldingskwaliteit buiten het bereik [1 tot 100] in te stellen."
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:26
-#: wp-includes/js/dist/block-library.js:19921
+#: wp-includes/js/dist/block-library.js:19925
 msgid "A cloud of your most used tags."
 msgstr "Een wolk van de meest gebruikte tags."
 
@@ -12288,13 +12288,13 @@ msgstr "Een lijst van de pagina&#39;s op deze site."
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
 msgstr "Onverwachte fout. Er kan iets mis zijn met WordPress.org of de configuratie van deze server. Als de problemen aanhouden, zoek dan hulp in het <a href=\"%s\">ondersteuningsforum</a>."
 
-#: wp-includes/script-loader.php:2025
+#: wp-includes/script-loader.php:2028
 msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
 
 #. translators: %s: The word 'and'.
-#: wp-includes/link-template.php:1719
+#: wp-includes/link-template.php:1722
 msgid "Use commas instead of %s to separate excluded terms."
 msgstr "Gebruik komma&#39;s in plaats van %s om termen uit te sluiten."
 
@@ -12335,7 +12335,7 @@ msgstr "over,een,zoals,op,zijn,door,com,voor,hoe,in,is,het,van,op,of,dat,de,dit,
 msgid "This content is password protected. To view it please enter your password below:"
 msgstr "De inhoud is beveiligd met een wachtwoord. Vul het wachtwoord hieronder in om hem te kunnen bekijken:"
 
-#: wp-includes/functions.php:1523
+#: wp-includes/functions.php:1528
 msgid "ERROR: This is not a valid feed template."
 msgstr "FOUT: Dit is geen geldig feed-template."
 
@@ -12397,13 +12397,13 @@ msgstr "Video downloaden"
 msgid "Failed"
 msgstr "Mislukt"
 
-#: wp-includes/script-loader.php:1537
+#: wp-includes/script-loader.php:1540
 msgid "Invalid"
 msgstr "Ongeldig"
 
 #. translators: Time difference between two dates, in years. %s: Number of
 #. years.
-#: wp-includes/formatting.php:3750
+#: wp-includes/formatting.php:3761
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s jaar"
@@ -12411,7 +12411,7 @@ msgstr[1] "%s jaar"
 
 #. translators: Time difference between two dates, in months. %s: Number of
 #. months.
-#: wp-includes/formatting.php:3743
+#: wp-includes/formatting.php:3754
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s maand"
@@ -12419,7 +12419,7 @@ msgstr[1] "%s maanden"
 
 #. translators: Time difference between two dates, in weeks. %s: Number of
 #. weeks.
-#: wp-includes/formatting.php:3736
+#: wp-includes/formatting.php:3747
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s week"
@@ -12499,7 +12499,7 @@ msgid "Have you entered your email correctly? You have entered %s, if it&#8217;s
 msgstr "Is het e-mailadres correct ingevoerd? Je hebt het volgende ingevoerd: %s. Is dit niet correct, dan zul je geen e-mail ontvangen."
 
 #. translators: 1: Month, 2: Day, 3: Year, 4: Hour, 5: Minute.
-#: wp-includes/script-loader.php:1692 wp-includes/script-loader.php:1724
+#: wp-includes/script-loader.php:1695 wp-includes/script-loader.php:1727
 msgid "%1$s %2$s, %3$s at %4$s:%5$s"
 msgstr "%2$s %1$s %3$s om %4$s:%5$s"
 
@@ -12507,7 +12507,7 @@ msgstr "%2$s %1$s %3$s om %4$s:%5$s"
 msgid "Your session has expired. You can log in again from this page or go to the login page."
 msgstr "Je sessie is verlopen. Je kunt opnieuw inloggen op deze pagina of naar de inlogpagina gaan."
 
-#: wp-includes/functions.php:6230
+#: wp-includes/functions.php:6297
 msgid "The login page will open in a new tab. After logging in you can close it and return to this page."
 msgstr "De inlogpagina wordt in een nieuw tabblad geopend. Na het inloggen kun je dat sluiten en naar deze pagina terugkeren."
 
@@ -12532,7 +12532,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Zoeken &hellip;"
 
-#: wp-includes/script-loader.php:1550 wp-includes/functions.php:6228
+#: wp-includes/script-loader.php:1553 wp-includes/functions.php:6295
 msgid "Session expired"
 msgstr "Sessie verlopen"
 
@@ -12638,7 +12638,7 @@ msgstr "Video beheren"
 #: wp-includes/widgets/class-wp-widget-media-video.php:28
 #: wp-includes/post.php:2729 wp-includes/js/dist/editor.js:8123
 #: wp-includes/js/dist/block-editor.js:16430
-#: wp-includes/js/dist/block-library.js:19780
+#: wp-includes/js/dist/block-library.js:19784
 msgid "Video"
 msgstr "Video"
 
@@ -12675,7 +12675,7 @@ msgstr "In pagina invoegen"
 #: wp-includes/widgets/class-wp-widget-media-audio.php:28
 #: wp-includes/post.php:2720 wp-includes/js/dist/editor.js:8126
 #: wp-includes/js/dist/block-editor.js:16426
-#: wp-includes/js/dist/block-library.js:7882
+#: wp-includes/js/dist/block-library.js:7886
 msgid "Audio"
 msgstr "Audio"
 
@@ -12696,12 +12696,12 @@ msgstr "&#8592; Terug naar bibliotheek"
 msgid "Custom URL"
 msgstr "Aangepaste URL"
 
-#: wp-includes/media-template.php:846 wp-includes/js/dist/block-library.js:6964
-#: wp-includes/js/dist/block-library.js:9669
-#: wp-includes/js/dist/block-library.js:9847
-#: wp-includes/js/dist/block-library.js:13938
-#: wp-includes/js/dist/block-library.js:16328
-#: wp-includes/js/dist/block-library.js:18886
+#: wp-includes/media-template.php:846 wp-includes/js/dist/block-library.js:6968
+#: wp-includes/js/dist/block-library.js:9673
+#: wp-includes/js/dist/block-library.js:9851
+#: wp-includes/js/dist/block-library.js:13942
+#: wp-includes/js/dist/block-library.js:16332
+#: wp-includes/js/dist/block-library.js:18890
 msgid "Columns"
 msgstr "Kolommen"
 
@@ -12727,7 +12727,7 @@ msgstr "&#8592; Galerij annuleren"
 msgid "Upload Images"
 msgstr "Afbeeldingen uploaden"
 
-#: wp-includes/media-template.php:821 wp-includes/js/dist/block-library.js:6962
+#: wp-includes/media-template.php:821 wp-includes/js/dist/block-library.js:6966
 msgid "Gallery Settings"
 msgstr "Galerij-instellingen"
 
@@ -12815,24 +12815,24 @@ msgstr ""
 
 #: wp-includes/media-template.php:762 wp-includes/media-template.php:837
 #: wp-includes/media-template.php:1110
-#: wp-includes/js/dist/block-library.js:4226
-#: wp-includes/js/dist/block-library.js:6642
-#: wp-includes/js/dist/block-library.js:11955
+#: wp-includes/js/dist/block-library.js:4230
+#: wp-includes/js/dist/block-library.js:6646
+#: wp-includes/js/dist/block-library.js:11959
 msgid "Media File"
 msgstr "Mediabestand"
 
 #: wp-includes/media-template.php:769 wp-includes/media-template.php:834
 #: wp-includes/media-template.php:1113
-#: wp-includes/js/dist/block-library.js:4231
-#: wp-includes/js/dist/block-library.js:6639
+#: wp-includes/js/dist/block-library.js:4235
+#: wp-includes/js/dist/block-library.js:6643
 msgid "Attachment Page"
 msgstr "Bijlagepagina"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:104
 #: wp-includes/media-template.php:739 wp-includes/media-template.php:824
 #: wp-includes/media-template.php:991 wp-includes/media-template.php:1106
-#: wp-includes/js/dist/block-library.js:6976
-#: wp-includes/js/dist/block-library.js:11965
+#: wp-includes/js/dist/block-library.js:6980
+#: wp-includes/js/dist/block-library.js:11969
 msgid "Link To"
 msgstr "Link naar"
 
@@ -12901,11 +12901,11 @@ msgstr "%1$s %2$s"
 msgid "Could not insert term relationship into the database."
 msgstr "Niet mogelijk termrelatie in de database in te voegen."
 
-#: wp-includes/script-loader.php:1913
+#: wp-includes/script-loader.php:1916
 msgid "Select Color"
 msgstr "Kleur selecteren"
 
-#: wp-includes/script-loader.php:1909 wp-includes/media-template.php:699
+#: wp-includes/script-loader.php:1912 wp-includes/media-template.php:699
 #: wp-includes/js/dist/components.js:37309
 msgid "Clear"
 msgstr "Wissen"
@@ -12922,7 +12922,7 @@ msgstr "Invoegen in bericht"
 msgid "Create a new gallery"
 msgstr "Een nieuwe galerij aanmaken"
 
-#: wp-includes/js/dist/block-library.js:20105
+#: wp-includes/js/dist/block-library.js:20109
 msgid "Insert Media"
 msgstr "Media invoegen"
 
@@ -13007,12 +13007,12 @@ msgstr "Headertekstkleur"
 msgid "Colors"
 msgstr "Kleuren"
 
-#: wp-includes/script-loader.php:1541 wp-includes/script-loader.php:1738
+#: wp-includes/script-loader.php:1544 wp-includes/script-loader.php:1741
 #: wp-includes/js/dist/editor.js:10545
 msgid "Saved"
 msgstr "Opgeslagen"
 
-#: wp-includes/script-loader.php:1529
+#: wp-includes/script-loader.php:1532
 msgid "Save &amp; Publish"
 msgstr "Opslaan &amp; publiceren"
 
@@ -13093,17 +13093,17 @@ msgstr "Achtergrondafbeelding"
 
 #: wp-includes/class-wp-customize-manager.php:5228
 #: wp-includes/js/dist/block-library.js:2351
-#: wp-includes/js/dist/block-library.js:8333
-#: wp-includes/js/dist/block-library.js:13243
-#: wp-includes/js/dist/block-library.js:16537
-#: wp-includes/js/dist/block-library.js:18495
+#: wp-includes/js/dist/block-library.js:8337
+#: wp-includes/js/dist/block-library.js:13247
+#: wp-includes/js/dist/block-library.js:16541
+#: wp-includes/js/dist/block-library.js:18499
 msgid "Background Color"
 msgstr "Achtergrondkleur"
 
 #: wp-includes/js/dist/block-library.js:2355
-#: wp-includes/js/dist/block-library.js:5214
-#: wp-includes/js/dist/block-library.js:8337
-#: wp-includes/js/dist/block-library.js:15584
+#: wp-includes/js/dist/block-library.js:5218
+#: wp-includes/js/dist/block-library.js:8341
+#: wp-includes/js/dist/block-library.js:15588
 msgid "Text Color"
 msgstr "Tekstkleur"
 
@@ -13112,7 +13112,7 @@ msgid "Change image"
 msgstr "Wijzig afbeelding"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:140
-#: wp-includes/js/dist/block-library.js:6570
+#: wp-includes/js/dist/block-library.js:6574
 msgid "Remove image"
 msgstr "Afbeelding verwijderen"
 
@@ -13124,7 +13124,7 @@ msgstr "Je hebt geen toestemming om deze reactie te bewerken."
 msgid "Posts page"
 msgstr "Berichtenpagina"
 
-#: wp-includes/script-loader.php:1565
+#: wp-includes/script-loader.php:1568
 msgid "Allowed Files"
 msgstr "Toegestane bestanden"
 
@@ -13319,7 +13319,7 @@ msgstr "Je hebt geen toestemming dit bericht te bewerken."
 msgid "Edit Site"
 msgstr "Site bewerken"
 
-#: wp-includes/script-loader.php:1673 wp-includes/script-loader.php:1765
+#: wp-includes/script-loader.php:1676 wp-includes/script-loader.php:1768
 #: wp-includes/post.php:4534
 msgctxt "tag delimiter"
 msgid ","
@@ -13454,7 +13454,7 @@ msgid "Your site at %1$s is active. You may now log in to your site using your c
 msgstr "Je site op %1$s is actief. Je kunt nu in je site inloggen met je gekozen gebruikersnaam &#8220;%2$s&#8221;. Controleer je e-mailinbox bij %3$s voor je wachtwoord en inloginstructies. Als je geen e-mail ontvangt, controleer de spamfolder. Wanneer je binnen een uur nog steeds geen e-mail hebt ontvangen, kun je je <a href=\"%4$s\">wachtwoord herstellen</a>."
 
 #. translators: %s: Database repair URL.
-#: wp-includes/functions.php:1715
+#: wp-includes/functions.php:1720
 msgid "One or more database tables are unavailable. The database may need to be <a href=\"%s\">repaired</a>."
 msgstr "E&#233;n of meer databasetabellen zijn niet beschikbaar. De database moet waarschijnlijk worden <a href=\"%s\">gerepareerd</a>."
 
@@ -13528,7 +13528,7 @@ msgstr "<strong>FOUT</strong>: je hebt een ongeldig e-mailadres opgegeven."
 msgid "<strong>ERROR</strong>: please type a comment."
 msgstr "<strong>FOUT</strong>: schrijf een reactie."
 
-#: wp-includes/script-loader.php:1937
+#: wp-includes/script-loader.php:1940
 msgid "Could not load the preview image. Please reload the page and try again."
 msgstr "De voorvertoning kon niet geladen worden. Herlaad de pagina en probeer het opnieuw."
 
@@ -13544,16 +13544,16 @@ msgstr "<strong>FOUT</strong>: site-URL al in gebruik."
 msgid "Documentation"
 msgstr "Documentatie"
 
-#: wp-includes/general-template.php:4205 wp-includes/formatting.php:3844
+#: wp-includes/general-template.php:4205 wp-includes/formatting.php:3855
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/wp-db.php:1681 wp-includes/functions.php:4508
+#: wp-includes/wp-db.php:1681 wp-includes/functions.php:4575
 #: wp-includes/ms-load.php:470
 msgid "Error establishing a database connection"
 msgstr "Fout bij het maken van de databaseconnectie"
 
-#: wp-includes/functions.php:4508
+#: wp-includes/functions.php:4575
 msgid "Database Error"
 msgstr "Databasefout"
 
@@ -13612,7 +13612,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blauw"
 
-#: wp-includes/formatting.php:4751
+#: wp-includes/formatting.php:4762
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "De opgegeven tijdzone is niet geldig. Selecteer een geldige tijdzone."
 
@@ -13657,16 +13657,16 @@ msgid "All Posts"
 msgstr "Alle berichten"
 
 #: wp-includes/class-wp-editor.php:1163 wp-includes/js/dist/editor.js:8108
-#: wp-includes/js/dist/block-library.js:8307
+#: wp-includes/js/dist/block-library.js:8311
 #: wp-includes/js/dist/format-library.js:1232
 msgid "Link"
 msgstr "Link"
 
-#: wp-includes/script-loader.php:1645
+#: wp-includes/script-loader.php:1648
 msgid "Approve and Reply"
 msgstr "Goedkeuren en beantwoorden"
 
-#: wp-includes/link-template.php:2576
+#: wp-includes/link-template.php:2579
 msgid "Post navigation"
 msgstr "Berichtnavigatie"
 
@@ -13674,7 +13674,7 @@ msgstr "Berichtnavigatie"
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: wp-includes/link-template.php:3038 wp-includes/link-template.php:3098
+#: wp-includes/link-template.php:3041 wp-includes/link-template.php:3101
 msgid "Comments navigation"
 msgstr "Reactienavigatie"
 
@@ -13689,8 +13689,8 @@ msgstr "Heel donkergrijs"
 #: wp-includes/widgets/class-wp-widget-media-audio.php:71
 #: wp-includes/widgets/class-wp-widget-media-video.php:73
 #: wp-includes/media-template.php:1239 wp-includes/media-template.php:1338
-#: wp-includes/js/dist/block-library.js:7691
-#: wp-includes/js/dist/block-library.js:19520
+#: wp-includes/js/dist/block-library.js:7695
+#: wp-includes/js/dist/block-library.js:19524
 msgid "Preload"
 msgstr "Preload"
 
@@ -13745,13 +13745,13 @@ msgid "The user is already active."
 msgstr "De gebruiker is al geactiveerd."
 
 #. translators: %s: Version number.
-#: wp-includes/functions.php:4895
+#: wp-includes/functions.php:4962
 msgid "(This message was added in version %s.)"
 msgstr "(Dit bericht is toegevoegd in versie %s.)"
 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message, 3: Version information message.
-#: wp-includes/functions.php:4903
+#: wp-includes/functions.php:4970
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s werd <strong>verkeerd</strong> aangeroepen. %2$s %3$s"
 
@@ -13848,7 +13848,7 @@ msgstr "Geen pagina&#39;s gevonden."
 msgid "No pages found in Trash."
 msgstr "Geen pagina&#39;s gevonden in de prullenbak."
 
-#: wp-includes/script-loader.php:1883
+#: wp-includes/script-loader.php:1886
 msgid "Network Enable"
 msgstr "Netwerk activeren"
 
@@ -13867,7 +13867,7 @@ msgstr "Ongeldig bijlage-ID."
 msgid "This file no longer needs to be included."
 msgstr "Dit bestand hoeft niet langer te worden toegevoegd."
 
-#: wp-login.php:817
+#: wp-login.php:833
 msgid "Please enter your username or email address. You will receive a link to create a new password via email."
 msgstr "Voer je gebruikersnaam of e-mailadres in. Je ontvangt per e-mail een link waarmee je een nieuw wachtwoord kunt aanmaken."
 
@@ -13904,12 +13904,12 @@ msgstr "Breedte gemiddelde afbeelding"
 msgid "Large size image height"
 msgstr "Hoogte grote afbeelding"
 
-#: wp-includes/js/dist/block-library.js:4339
+#: wp-includes/js/dist/block-library.js:4343
 #: wp-includes/js/dist/format-library.js:1154
 msgid "Open in New Tab"
 msgstr "Openen in nieuwe tab"
 
-#: wp-login.php:932
+#: wp-login.php:948
 msgid "Enter your new password below."
 msgstr "Voer hieronder je nieuwe wachtwoord in."
 
@@ -13921,19 +13921,19 @@ msgstr "Als dit een vergissing was, kun je deze e-mail negeren en zal er niets g
 msgid "Someone has requested a password reset for the following account:"
 msgstr "Iemand heeft verzocht om het wachtwoord van het volgende account opnieuw in te stellen:"
 
-#: wp-login.php:924
+#: wp-login.php:940
 msgid "Your password has been reset."
 msgstr "Je wachtwoord is opnieuw ingesteld."
 
-#: wp-login.php:924
+#: wp-login.php:940
 msgid "Password Reset"
 msgstr "Wachtwoord opnieuw instellen"
 
-#: wp-login.php:908
+#: wp-login.php:924
 msgid "The passwords do not match."
 msgstr "De wachtwoorden komen niet overeen."
 
-#: wp-login.php:932 wp-login.php:979
+#: wp-login.php:948 wp-login.php:995
 msgid "Reset Password"
 msgstr "Wachtwoord opnieuw instellen"
 
@@ -13941,11 +13941,11 @@ msgstr "Wachtwoord opnieuw instellen"
 msgid "To reset your password, visit the following address:"
 msgstr "Ga naar dit adres om je wachtwoord opnieuw in te stellen:"
 
-#: wp-login.php:958
+#: wp-login.php:974
 msgid "Confirm new password"
 msgstr "Nieuw wachtwoord bevestigen"
 
-#: wp-login.php:940
+#: wp-login.php:956
 msgid "New password"
 msgstr "Nieuw wachtwoord"
 
@@ -14030,7 +14030,7 @@ msgid "F, Y"
 msgstr "F, Y"
 
 #. translators: Used to join items in a list with only 2 items.
-#: wp-includes/formatting.php:5013
+#: wp-includes/formatting.php:5049
 msgid "%1$s and %2$s"
 msgstr "%1$s en %2$s"
 
@@ -14303,15 +14303,15 @@ msgstr "Deze site is gearchiveerd of buiten werking gesteld."
 msgid "The given object ID is not that of a menu item."
 msgstr "Het opgegeven object-ID is niet van een menu-item."
 
-#: wp-includes/formatting.php:4692
+#: wp-includes/formatting.php:4703
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Het ingevulde siteadres is geen geldige URL. Voer een geldige URL in."
 
-#: wp-includes/formatting.php:4679
+#: wp-includes/formatting.php:4690
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Het ingevulde WordPress-adres is geen geldige URL. Voer een geldige URL in."
 
-#: wp-includes/formatting.php:4569
+#: wp-includes/formatting.php:4580
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Het ingevoerde e-mailadres blijkt niet een geldig e-mailadres te zijn. Voer een geldig e-mailadres in."
 
@@ -14375,11 +14375,11 @@ msgstr "Je moet eerst <a href=\"%s\">inloggen</a>, daarna kun je een nieuwe site
 msgid "Must be at least 4 characters, letters and numbers only. It cannot be changed, so choose carefully!"
 msgstr "Het moeten minstens 4 karakters zijn, alleen letters en cijfers. Het kan niet veranderd worden, dus wees voorzichtig."
 
-#: wp-includes/script-loader.php:1787
+#: wp-includes/script-loader.php:1790
 msgid "Are you sure you want to install this plugin?"
 msgstr "Weet je zeker dat je deze plugin wilt installeren?"
 
-#: wp-includes/script-loader.php:1946
+#: wp-includes/script-loader.php:1949
 msgid "Use as featured image"
 msgstr "Als uitgelichte afbeelding gebruiken"
 
@@ -14423,7 +14423,7 @@ msgstr "Aangepast"
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Er zijn nog geen menu&#39;s aangemaakt. <a href=\"%s\">Maak er &#233;&#233;n aan</a>."
 
-#: wp-includes/script-loader.php:1963
+#: wp-includes/script-loader.php:1966
 msgid ""
 "You are about to permanently delete this menu. \n"
 " 'Cancel' to stop, 'OK' to delete."
@@ -14431,7 +14431,7 @@ msgstr ""
 "Je staat op het punt dit menu permanent te verwijderen.\n"
 " 'Annuleren' om te stoppen, 'OK' om te verwijderen."
 
-#: wp-includes/link-template.php:3958
+#: wp-includes/link-template.php:3961
 msgid "This is the short link."
 msgstr "Dit is een verkorte link."
 
@@ -14809,7 +14809,7 @@ msgstr "Voordat je kunt starten met je nieuwe gebruikersnaam, <strong>moet je de
 msgid "%s is your new username"
 msgstr "%s is je nieuwe gebruikersnaam"
 
-#: wp-includes/script-loader.php:2345
+#: wp-includes/script-loader.php:2348
 #: wp-includes/class-wp-customize-nav-menus.php:1047 wp-signup.php:621
 msgid "Next"
 msgstr "Volgende"
@@ -14857,40 +14857,40 @@ msgstr "Het lijkt erop dat er geen nieuwe e-mail is."
 msgid "Slow down cowboy, no need to check for new mails so often!"
 msgstr "Rustig aan vriend, je hoeft je mail niet zo vaak te controleren."
 
-#: wp-login.php:1292
+#: wp-login.php:1314
 msgid "Registration complete. Please check your email."
 msgstr "Registratie afgerond. Controleer je e-mail."
 
-#: wp-login.php:1290
+#: wp-login.php:1312
 msgid "Check your email for your new password."
 msgstr "Controleer je e-mail voor het nieuwe wachtwoord."
 
-#: wp-login.php:1288
+#: wp-login.php:1310
 msgid "Check your email for the confirmation link."
 msgstr "Controleer je e-mail voor de bevestigingslink."
 
-#: wp-login.php:1286
+#: wp-login.php:1308
 msgid "User registration is currently not allowed."
 msgstr "Gebruikersregistratie is momenteel niet toegestaan."
 
-#: wp-login.php:1284
+#: wp-login.php:1306
 msgid "You are now logged out."
 msgstr "Je bent nu uitgelogd."
 
-#: wp-login.php:1211
+#: wp-login.php:1227
 msgid "You have logged in successfully."
 msgstr "Je bent ingelogd."
 
-#: wp-login.php:1088 wp-login.php:1401 wp-includes/user.php:179
+#: wp-login.php:1104 wp-login.php:1423 wp-includes/user.php:179
 #: wp-includes/user.php:250
 msgid "Lost your password?"
 msgstr "Wachtwoord vergeten?"
 
-#: wp-login.php:1053
+#: wp-login.php:1069
 msgid "Register For This Site"
 msgstr "Registreren voor deze site"
 
-#: wp-login.php:1053
+#: wp-login.php:1069
 msgid "Registration Form"
 msgstr "Registratieformulier"
 
@@ -14898,11 +14898,11 @@ msgstr "Registratieformulier"
 msgid "&larr; Back to Tags"
 msgstr "&larr; Terug naar tags"
 
-#: wp-login.php:844
+#: wp-login.php:860
 msgid "Get New Password"
 msgstr "Nieuw wachtwoord aanmaken"
 
-#: wp-login.php:817
+#: wp-login.php:833
 msgid "Lost Password"
 msgstr "Wachtwoord kwijt"
 
@@ -14950,7 +14950,7 @@ msgstr "<strong>FOUT</strong>: WordPress %1$s vereist MySQL %2$s of hoger"
 msgid "Sidebar %d"
 msgstr "Widgetgebied %d"
 
-#: wp-includes/user.php:290 wp-includes/functions.php:6229
+#: wp-includes/user.php:290 wp-includes/functions.php:6296
 msgid "Please log in again."
 msgstr "Graag opnieuw inloggen."
 
@@ -14997,51 +14997,51 @@ msgstr "Item-ID ongeldig."
 msgid "Empty Term."
 msgstr "Lege term."
 
-#: wp-includes/script-loader.php:1707
+#: wp-includes/script-loader.php:1710
 msgid "Saving Draft&#8230;"
 msgstr "Concept bewaren&#8230;"
 
-#: wp-includes/script-loader.php:1948
+#: wp-includes/script-loader.php:1951
 msgid "Could not set that as the thumbnail image. Try a different attachment."
 msgstr "Niet mogelijk dit als de thumbnail-afbeelding in te stellen. Probeer een andere bijlage."
 
-#: wp-includes/script-loader.php:1947
+#: wp-includes/script-loader.php:1950
 msgid "Saving..."
 msgstr "Opslaan&#8230;"
 
-#: wp-includes/script-loader.php:1763
+#: wp-includes/script-loader.php:1766
 msgid "Remove From Bulk Edit"
 msgstr "Verwijderen uit bulkbewerking"
 
-#: wp-includes/script-loader.php:1762 wp-includes/script-loader.php:1775
+#: wp-includes/script-loader.php:1765 wp-includes/script-loader.php:1778
 msgid "Error while saving the changes."
 msgstr "Fout tijdens het opslaan van de wijzigingen."
 
-#: wp-includes/script-loader.php:1722
+#: wp-includes/script-loader.php:1725
 msgid "Submitted on:"
 msgstr "Geplaatst op:"
 
-#: wp-includes/script-loader.php:1703 wp-includes/js/dist/editor.js:9174
+#: wp-includes/script-loader.php:1706 wp-includes/js/dist/editor.js:9174
 msgid "Password Protected"
 msgstr "Beschermd met wachtwoord"
 
-#: wp-includes/script-loader.php:1694
+#: wp-includes/script-loader.php:1697
 msgid "No more comments found."
 msgstr "Geen reacties meer gevonden."
 
-#: wp-includes/script-loader.php:1693
+#: wp-includes/script-loader.php:1696
 msgid "Show more comments"
 msgstr "Meer reacties tonen"
 
-#: wp-includes/script-loader.php:1690
+#: wp-includes/script-loader.php:1693
 msgid "Published on:"
 msgstr "Gepubliceerd op:"
 
-#: wp-includes/script-loader.php:1689
+#: wp-includes/script-loader.php:1692
 msgid "Schedule for:"
 msgstr "Ingepland voor:"
 
-#: wp-includes/script-loader.php:1688
+#: wp-includes/script-loader.php:1691
 msgid "Publish on:"
 msgstr "Publiceren op:"
 
@@ -15106,8 +15106,8 @@ msgstr "van"
 #: wp-includes/widgets/class-wp-widget-media-image.php:28
 #: wp-includes/class-wp-editor.php:1119 wp-includes/js/dist/editor.js:8111
 #: wp-includes/js/dist/block-editor.js:16428
-#: wp-includes/js/dist/block-library.js:4358
-#: wp-includes/js/dist/block-library.js:4941
+#: wp-includes/js/dist/block-library.js:4362
+#: wp-includes/js/dist/block-library.js:4945
 msgid "Image"
 msgstr "Afbeelding"
 
@@ -15428,11 +15428,11 @@ msgstr "pm"
 msgid "am"
 msgstr "am"
 
-#: wp-includes/link-template.php:2935
+#: wp-includes/link-template.php:2938
 msgid "&laquo; Older Comments"
 msgstr "&laquo; Oudere reacties"
 
-#: wp-includes/link-template.php:2888
+#: wp-includes/link-template.php:2891
 msgid "Newer Comments &raquo;"
 msgstr "Nieuwere reacties &raquo;"
 
@@ -15440,15 +15440,15 @@ msgstr "Nieuwere reacties &raquo;"
 msgid "Last Post"
 msgstr "Laatste bericht"
 
-#: wp-includes/link-template.php:1910 wp-includes/link-template.php:2160
+#: wp-includes/link-template.php:1913 wp-includes/link-template.php:2163
 msgid "Next Post"
 msgstr "Volgend bericht"
 
-#: wp-includes/link-template.php:1910 wp-includes/link-template.php:2160
+#: wp-includes/link-template.php:1913 wp-includes/link-template.php:2163
 msgid "Previous Post"
 msgstr "Vorig bericht"
 
-#: wp-includes/link-template.php:756
+#: wp-includes/link-template.php:759
 msgid "Comments Feed"
 msgstr "Reactiefeed"
 
@@ -15461,18 +15461,18 @@ msgstr "Pagina-afbreektag invoegen"
 msgid "Fill Screen"
 msgstr "Schermvullend"
 
-#: wp-includes/js/dist/editor.js:8114 wp-includes/js/dist/block-library.js:5969
+#: wp-includes/js/dist/editor.js:8114 wp-includes/js/dist/block-library.js:5973
 msgid "Quote"
 msgstr "Citeren"
 
 #: wp-includes/class-wp-editor.php:1160
-#: wp-includes/js/dist/block-library.js:3874
+#: wp-includes/js/dist/block-library.js:3878
 msgid "Remove link"
 msgstr "Link verwijderen"
 
 #: wp-includes/script-loader.php:1012 wp-includes/class-wp-editor.php:1164
 #: wp-includes/js/dist/block-editor.js:17682
-#: wp-includes/js/dist/block-library.js:3838
+#: wp-includes/js/dist/block-library.js:3842
 msgid "Insert link"
 msgstr "Link invoegen"
 
@@ -15484,7 +15484,7 @@ msgstr "Spelling controleren"
 msgid "Select all"
 msgstr "Alles selecteren"
 
-#: wp-includes/script-loader.php:1544 wp-includes/class-wp-editor.php:1314
+#: wp-includes/script-loader.php:1547 wp-includes/class-wp-editor.php:1314
 msgid "Action"
 msgstr "Actie"
 
@@ -15494,7 +15494,7 @@ msgstr "Letter"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:136
 #: wp-includes/media-template.php:1152
-#: wp-includes/js/dist/block-library.js:4349
+#: wp-includes/js/dist/block-library.js:4353
 msgid "Link Rel"
 msgstr "Linkrelatie"
 
@@ -15541,8 +15541,8 @@ msgstr "Uitlijnen"
 #: wp-includes/widgets/class-wp-widget-media-audio.php:76
 #: wp-includes/widgets/class-wp-widget-media-video.php:79
 #: wp-includes/media-template.php:1257 wp-includes/media-template.php:1356
-#: wp-includes/js/dist/block-library.js:7687
-#: wp-includes/js/dist/block-library.js:19504
+#: wp-includes/js/dist/block-library.js:7691
+#: wp-includes/js/dist/block-library.js:19508
 msgid "Loop"
 msgstr "Lus"
 
@@ -15550,7 +15550,7 @@ msgstr "Lus"
 msgid "Constrain proportions"
 msgstr "Afmetingen beperken"
 
-#: wp-includes/js/dist/block-library.js:14530
+#: wp-includes/js/dist/block-library.js:14534
 msgid "List"
 msgstr "Lijst"
 
@@ -15589,7 +15589,7 @@ msgid "Vertical space"
 msgstr "Verticale ruimte"
 
 #: wp-includes/class-wp-editor.php:1129
-#: wp-includes/js/dist/block-library.js:10688
+#: wp-includes/js/dist/block-library.js:10692
 msgid "Dimensions"
 msgstr "Afmetingen"
 
@@ -15601,7 +15601,7 @@ msgstr "Rand"
 msgid "Image description"
 msgstr "Afbeeldingsomschrijving"
 
-#: wp-includes/js/dist/block-library.js:15864
+#: wp-includes/js/dist/block-library.js:15868
 msgid "Name:"
 msgstr "Naam:"
 
@@ -15634,7 +15634,7 @@ msgstr "Subscript"
 msgid "Unlink"
 msgstr "Link verwijderen"
 
-#: wp-includes/js/dist/block-library.js:14533
+#: wp-includes/js/dist/block-library.js:14537
 msgid "ordered list"
 msgstr "geordende lijst"
 
@@ -15671,8 +15671,8 @@ msgid "Bold"
 msgstr "Vet"
 
 #: wp-includes/script-loader.php:1026 wp-includes/class-wp-editor.php:1065
-#: wp-includes/js/dist/block-library.js:9098
-#: wp-includes/js/dist/block-library.js:9185
+#: wp-includes/js/dist/block-library.js:9102
+#: wp-includes/js/dist/block-library.js:9189
 msgid "Code"
 msgstr "Code"
 
@@ -15704,7 +15704,7 @@ msgstr "Koptekst 2"
 msgid "Heading 1"
 msgstr "Koptekst 1"
 
-#: wp-includes/js/dist/block-library.js:15145
+#: wp-includes/js/dist/block-library.js:15149
 msgid "Preformatted"
 msgstr "Gepreformatteerd"
 
@@ -15730,14 +15730,14 @@ msgstr "Taal"
 msgid "Document properties"
 msgstr "Documenteigenschappen"
 
-#: wp-includes/script-loader.php:1436 wp-includes/script-loader.php:1540
-#: wp-includes/script-loader.php:1706 wp-includes/script-loader.php:1739
-#: wp-includes/script-loader.php:1964 wp-includes/theme.php:3179
+#: wp-includes/script-loader.php:1436 wp-includes/script-loader.php:1543
+#: wp-includes/script-loader.php:1709 wp-includes/script-loader.php:1742
+#: wp-includes/script-loader.php:1967 wp-includes/theme.php:3179
 #: wp-includes/class-wp-editor.php:1270
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "De wijzigingen zullen verloren gaan als je deze pagina nu verlaat."
 
-#: wp-includes/js/dist/block-library.js:10094
+#: wp-includes/js/dist/block-library.js:10098
 msgid "Column"
 msgstr "Kolom"
 
@@ -16073,12 +16073,12 @@ msgstr "Zoekresultaten %1$s %2$s"
 msgid "Site Admin"
 msgstr "Sitebeheerder"
 
-#: wp-login.php:853 wp-login.php:988 wp-login.php:1081 wp-login.php:1392
+#: wp-login.php:869 wp-login.php:1004 wp-login.php:1097 wp-login.php:1414
 #: wp-includes/general-template.php:595
 msgid "Register"
 msgstr "Registreren"
 
-#: wp-login.php:1357 wp-includes/general-template.php:465
+#: wp-login.php:1379 wp-includes/general-template.php:465
 msgid "Remember Me"
 msgstr "Onthoud mij"
 
@@ -16086,39 +16086,39 @@ msgstr "Onthoud mij"
 msgid "Log out"
 msgstr "Uitloggen"
 
-#: wp-login.php:849 wp-login.php:924 wp-login.php:984 wp-login.php:1086
+#: wp-login.php:865 wp-login.php:940 wp-login.php:1000 wp-login.php:1102
 #: wp-includes/general-template.php:324
 msgid "Log in"
 msgstr "Inloggen"
 
-#: wp-includes/functions.php:5529
+#: wp-includes/functions.php:5596
 msgid "Manual Offsets"
 msgstr "Handmatige compensatie"
 
-#: wp-includes/functions.php:5520 wp-includes/functions.php:5525
+#: wp-includes/functions.php:5587 wp-includes/functions.php:5592
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:5475
+#: wp-includes/functions.php:5542
 msgid "Select a city"
 msgstr "Een plaats selecteren"
 
 #. translators: 1: PHP function name, 2: Version number.
-#: wp-includes/functions.php:4785
+#: wp-includes/functions.php:4852
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s werd aangeroepen met een argument dat <strong>verouderd</strong> is sinds versie %2$s, zonder beschikbaar alternatief."
 
 #. translators: 1: PHP function name, 2: Version number, 3: Optional message
 #. regarding the change.
-#: wp-includes/functions.php:4782
+#: wp-includes/functions.php:4849
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s werd aangeroepen met een argument dat <strong>verouderd</strong> is sinds versie %2$s. %3$s"
 
 #. translators: 1: PHP function name, 2: Version number.
 #. translators: 1: PHP file name, 2: Version number.
 #. translators: 1: WordPress hook name, 2: Version number.
-#: wp-includes/functions.php:4568 wp-includes/functions.php:4722
-#: wp-includes/functions.php:4844
+#: wp-includes/functions.php:4635 wp-includes/functions.php:4789
+#: wp-includes/functions.php:4911
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s is <strong>verouderd</strong> sinds versie %2$s, zonder beschikbaar alternatief."
 
@@ -16127,44 +16127,44 @@ msgstr "%1$s is <strong>verouderd</strong> sinds versie %2$s, zonder beschikbaar
 #. translators: 1: PHP file name, 2: Version number, 3: Alternative file name.
 #. translators: 1: WordPress hook name, 2: Version number, 3: Alternative hook
 #. name.
-#: wp-includes/functions.php:4565 wp-includes/functions.php:4719
-#: wp-includes/functions.php:4841
+#: wp-includes/functions.php:4632 wp-includes/functions.php:4786
+#: wp-includes/functions.php:4908
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s is <strong>verouderd</strong> sinds versie %2$s. Gebruik in plaats daarvan %3$s."
 
-#: wp-load.php:92 wp-includes/functions.php:3708
+#: wp-load.php:92 wp-includes/functions.php:3775
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; fout"
 
-#: wp-includes/functions.php:3254
+#: wp-includes/functions.php:3321
 msgid "&laquo; Back"
 msgstr "&laquo; Terug"
 
-#: wp-includes/functions.php:3084
+#: wp-includes/functions.php:3151
 msgid "Please try again."
 msgstr "Probeer het opnieuw."
 
 #. translators: %s: Logout URL.
-#: wp-includes/functions.php:3074
+#: wp-includes/functions.php:3141
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "Weet je zeker dat je wilt <a href='%s'>uitloggen</a>?"
 
 #. translators: %s: Site title.
-#: wp-includes/functions.php:3067
+#: wp-includes/functions.php:3134
 msgid "You are attempting to log out of %s"
 msgstr "Je probeert uit te loggen van %s"
 
 #. translators: %s: File name.
-#: wp-includes/functions.php:2559
+#: wp-includes/functions.php:2626
 msgid "Could not write file %s"
 msgstr "Bestand %s kan niet worden opgeslagen"
 
-#: wp-includes/functions.php:2500
+#: wp-includes/functions.php:2567
 msgid "Empty filename"
 msgstr "Lege bestandsnaam"
 
 #. translators: %s: Directory path.
-#: wp-includes/functions.php:2263 wp-includes/functions.php:2549
+#: wp-includes/functions.php:2268 wp-includes/functions.php:2616
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Kan map %s niet aanmaken. Is de bovenliggende map beschrijfbaar door de server?"
 
@@ -16179,7 +16179,7 @@ msgid ", "
 msgstr ", "
 
 #. translators: Time difference between two dates, in days. %s: Number of days.
-#: wp-includes/formatting.php:3729
+#: wp-includes/formatting.php:3740
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s dag"
@@ -16188,7 +16188,7 @@ msgstr[1] "%s dagen"
 #. translators: %s: Time duration in hour or hours.
 #. translators: Time difference between two dates, in hours. %s: Number of
 #. hours.
-#: wp-includes/functions.php:504 wp-includes/formatting.php:3722
+#: wp-includes/functions.php:509 wp-includes/formatting.php:3733
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s uur"
@@ -16196,7 +16196,7 @@ msgstr[1] "%s uur"
 
 #. translators: Time difference between two dates, in minutes (min=minute). %s:
 #. Number of minutes.
-#: wp-includes/formatting.php:3715
+#: wp-includes/formatting.php:3726
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minuut"
@@ -16245,7 +16245,7 @@ msgid "new WordPress Loop"
 msgstr "nieuwe WordPress-loop"
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:29
-#: wp-includes/js/dist/block-library.js:19920
+#: wp-includes/js/dist/block-library.js:19924
 msgid "Tag Cloud"
 msgstr "Tagwolk"
 
@@ -16310,18 +16310,18 @@ msgid "Text"
 msgstr "Tekst"
 
 #: wp-includes/widgets/class-wp-widget-calendar.php:37
-#: wp-includes/js/dist/block-library.js:8660
+#: wp-includes/js/dist/block-library.js:8664
 msgid "Calendar"
 msgstr "Kalender"
 
-#: wp-includes/js/dist/block-library.js:7377
-#: wp-includes/js/dist/block-library.js:8864
+#: wp-includes/js/dist/block-library.js:7381
+#: wp-includes/js/dist/block-library.js:8868
 msgid "Display as Dropdown"
 msgstr "Toon als dropdown"
 
 #: wp-includes/widgets/class-wp-widget-categories.php:176
 #: wp-includes/widgets/class-wp-widget-archives.php:204
-#: wp-includes/js/dist/block-library.js:19887
+#: wp-includes/js/dist/block-library.js:19891
 msgid "Show post counts"
 msgstr "Berichtaantal tonen"
 
@@ -16489,7 +16489,7 @@ msgstr "Je reactie is in afwachting van moderatie."
 msgid "Comments are closed."
 msgstr "Reacties zijn gesloten."
 
-#: wp-includes/script-loader.php:1912
+#: wp-includes/script-loader.php:1915
 msgid "Select default color"
 msgstr "Kies standaard kleur"
 
@@ -16498,7 +16498,7 @@ msgid "Pages:"
 msgstr "Pagina&#39;s:"
 
 #. translators: %s: Comments count.
-#: wp-includes/script-loader.php:1651
+#: wp-includes/script-loader.php:1654
 msgid "Comments (%s)"
 msgstr "Reacties (%s)"
 
@@ -16511,8 +16511,8 @@ msgstr "Tags: "
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "Je moet <a href=\"%s\">inloggen</a> om een reactie te kunnen plaatsen."
 
-#: wp-includes/link-template.php:1062 wp-includes/link-template.php:1422
-#: wp-includes/link-template.php:1530 wp-includes/link-template.php:1593
+#: wp-includes/link-template.php:1065 wp-includes/link-template.php:1425
+#: wp-includes/link-template.php:1533 wp-includes/link-template.php:1596
 msgid "Edit This"
 msgstr "Bewerken"
 
@@ -16538,16 +16538,16 @@ msgid "Comments on %s"
 msgstr "Reacties op %s"
 
 #: wp-includes/script-loader.php:1174 wp-includes/script-loader.php:1504
-#: wp-includes/script-loader.php:1962
+#: wp-includes/script-loader.php:1965
 #: wp-includes/class-wp-customize-nav-menus.php:289
 msgid "No results found."
 msgstr "Niets gevonden."
 
-#: wp-includes/link-template.php:2366 wp-includes/link-template.php:2506
+#: wp-includes/link-template.php:2369 wp-includes/link-template.php:2509
 msgid "Next Page &raquo;"
 msgstr "Volgende pagina &raquo;"
 
-#: wp-includes/link-template.php:2452 wp-includes/link-template.php:2505
+#: wp-includes/link-template.php:2455 wp-includes/link-template.php:2508
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Vorige pagina"
 
@@ -16566,7 +16566,7 @@ msgid "For some strange yet very annoying reason, this post could not be edited.
 msgstr "Om een onbekende maar bijzonder irritante reden kan dit bericht niet worden bewerkt."
 
 #: wp-includes/admin-bar.php:952 wp-includes/class-wp-customize-widgets.php:417
-#: wp-includes/functions.php:4455 wp-includes/js/dist/blocks.js:5540
+#: wp-includes/functions.php:4522 wp-includes/js/dist/blocks.js:5540
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -16602,28 +16602,28 @@ msgstr "Tags scheiden door komma's"
 msgid "Title:"
 msgstr "Titel:"
 
-#: wp-includes/js/dist/block-library.js:12613
+#: wp-includes/js/dist/block-library.js:12617
 msgid "HTML"
 msgstr "HTML"
 
-#: wp-includes/script-loader.php:1785
+#: wp-includes/script-loader.php:1788
 msgid "Plugin:"
 msgstr "Plugin:"
 
-#: wp-includes/script-loader.php:1911
+#: wp-includes/script-loader.php:1914
 #: wp-includes/customize/class-wp-customize-color-control.php:51
 #: wp-includes/customize/class-wp-customize-media-control.php:221
 #: wp-includes/customize/class-wp-customize-media-control.php:231
 #: wp-includes/customize/class-wp-customize-media-control.php:242
 #: wp-includes/customize/class-wp-customize-media-control.php:252
 #: wp-includes/class-wp-customize-manager.php:5146
-#: wp-includes/js/dist/block-library.js:16895
+#: wp-includes/js/dist/block-library.js:16899
 msgid "Default"
 msgstr "Standaard"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:83
 #: wp-includes/media-template.php:1098 wp-includes/class-wp-editor.php:1231
-#: wp-includes/js/dist/block-library.js:4432
+#: wp-includes/js/dist/block-library.js:4436
 msgid "Height"
 msgstr "Hoogte"
 
@@ -16635,7 +16635,7 @@ msgstr "Tijdnotatie"
 msgid "Date Format"
 msgstr "Datumnotatie"
 
-#: wp-login.php:1062 wp-includes/comment-template.php:2300
+#: wp-login.php:1078 wp-includes/comment-template.php:2300
 msgid "Email"
 msgstr "E-mail"
 
@@ -16671,7 +16671,7 @@ msgid "Sites"
 msgstr "Sites"
 
 #: wp-includes/js/dist/block-editor.js:17682
-#: wp-includes/js/dist/block-library.js:3838
+#: wp-includes/js/dist/block-library.js:3842
 msgid "Edit link"
 msgstr "Bewerk link"
 
@@ -16683,11 +16683,11 @@ msgstr "Ja"
 msgid "Edit Category"
 msgstr "Categorie bewerken"
 
-#: wp-login.php:1315 wp-login.php:1359 wp-includes/general-template.php:466
+#: wp-login.php:1337 wp-login.php:1381 wp-includes/general-template.php:466
 msgid "Log In"
 msgstr "Inloggen"
 
-#: wp-login.php:949
+#: wp-login.php:965
 msgid "Strength indicator"
 msgstr "Sterkte-indicator"
 
@@ -16711,7 +16711,7 @@ msgstr "<strong>FOUT</strong>: Voer een gebruikersnaam in."
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:77
 #: wp-includes/media-template.php:1093 wp-includes/class-wp-editor.php:1232
-#: wp-includes/js/dist/block-library.js:4425
+#: wp-includes/js/dist/block-library.js:4429
 #: wp-includes/js/dist/format-library.js:713
 msgid "Width"
 msgstr "Breedte"
@@ -16771,13 +16771,13 @@ msgstr "Zwart"
 msgid "Help"
 msgstr "Hulp"
 
-#: wp-includes/script-loader.php:1503 wp-includes/script-loader.php:1764
+#: wp-includes/script-loader.php:1503 wp-includes/script-loader.php:1767
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:97
 #: wp-includes/blocks/rss.php:35 wp-includes/blocks/latest-comments.php:31
 #: wp-includes/blocks/latest-posts.php:37 wp-includes/media.php:3427
 #: wp-includes/js/dist/editor.js:10143 wp-includes/js/dist/editor.js:14172
 #: wp-includes/js/dist/edit-post.js:4559
-#: wp-includes/js/dist/block-library.js:14007
+#: wp-includes/js/dist/block-library.js:14011
 msgid "(no title)"
 msgstr "(geen titel)"
 
@@ -16798,7 +16798,7 @@ msgid "Select"
 msgstr "Selecteren"
 
 #: wp-includes/script-loader.php:1213 wp-includes/script-loader.php:1319
-#: wp-includes/script-loader.php:1543 wp-includes/script-loader.php:2341
+#: wp-includes/script-loader.php:1546 wp-includes/script-loader.php:2344
 #: wp-includes/class-wp-customize-manager.php:5637
 #: wp-includes/class-wp-editor.php:1086 wp-includes/class-wp-editor.php:1737
 #: wp-includes/js/dist/components.js:37978
@@ -16837,7 +16837,7 @@ msgstr "Pagina bekijken"
 msgid "Images"
 msgstr "Afbeeldingen"
 
-#: wp-includes/js/dist/block-library.js:18787
+#: wp-includes/js/dist/block-library.js:18791
 msgid "Version"
 msgstr "Versie"
 
@@ -16845,7 +16845,7 @@ msgstr "Versie"
 #: wp-includes/blocks/search.php:78 wp-includes/blocks/search.php:86
 #: wp-includes/media.php:3807 wp-includes/media.php:3851
 #: wp-includes/class-wp-editor.php:1758
-#: wp-includes/js/dist/block-library.js:16447
+#: wp-includes/js/dist/block-library.js:16451
 msgid "Search"
 msgstr "Zoeken"
 
@@ -16870,8 +16870,8 @@ msgstr "Toevoegen"
 msgid "Add or remove tags"
 msgstr "Tags toevoegen of verwijderen"
 
-#: wp-login.php:681 wp-includes/script-loader.php:1501
-#: wp-includes/script-loader.php:1697 wp-includes/script-loader.php:1825
+#: wp-login.php:695 wp-includes/script-loader.php:1501
+#: wp-includes/script-loader.php:1700 wp-includes/script-loader.php:1828
 #: wp-includes/media.php:3810 wp-includes/js/dist/editor.js:8955
 msgid "Update"
 msgstr "Bijwerken"
@@ -16880,28 +16880,28 @@ msgstr "Bijwerken"
 msgid "Schedule"
 msgstr "Inplannen"
 
-#: wp-includes/script-loader.php:1701 wp-includes/js/dist/editor.js:9166
+#: wp-includes/script-loader.php:1704 wp-includes/js/dist/editor.js:9166
 msgid "Public"
 msgstr "Openbaar"
 
-#: wp-includes/script-loader.php:1702
+#: wp-includes/script-loader.php:1705
 msgid "Public, Sticky"
 msgstr "Openbaar, sticky"
 
-#: wp-includes/script-loader.php:1700 wp-includes/post.php:940
+#: wp-includes/script-loader.php:1703 wp-includes/post.php:940
 #: wp-includes/post.php:960 wp-includes/js/dist/editor.js:9170
 msgid "Private"
 msgstr "Privé"
 
-#: wp-includes/script-loader.php:1686 wp-includes/class-wp-editor.php:1084
+#: wp-includes/script-loader.php:1689 wp-includes/class-wp-editor.php:1084
 msgid "OK"
 msgstr "OK"
 
-#: wp-includes/script-loader.php:1704
+#: wp-includes/script-loader.php:1707
 msgid "Privately Published"
 msgstr "Gepubliceerd als privé"
 
-#: wp-includes/script-loader.php:1698 wp-includes/js/dist/editor.js:10556
+#: wp-includes/script-loader.php:1701 wp-includes/js/dist/editor.js:10556
 msgid "Save as Pending"
 msgstr "Opslaan als wachtend"
 
@@ -17003,11 +17003,11 @@ msgstr "Thumbnail"
 msgid "Redo"
 msgstr "Opnieuw"
 
-#: wp-login.php:1339 wp-includes/general-template.php:464
+#: wp-login.php:1361 wp-includes/general-template.php:464
 msgid "Password"
 msgstr "Wachtwoord"
 
-#: wp-login.php:1058
+#: wp-login.php:1074
 msgid "Username"
 msgstr "Gebruikersnaam"
 
@@ -17015,7 +17015,7 @@ msgstr "Gebruikersnaam"
 #: wp-includes/widgets/class-wp-widget-archives.php:43
 #: wp-includes/blocks/archives.php:35 wp-includes/general-template.php:1559
 #: wp-includes/theme-compat/sidebar.php:119
-#: wp-includes/js/dist/block-library.js:7425
+#: wp-includes/js/dist/block-library.js:7429
 msgid "Archives"
 msgstr "Archief"
 
@@ -17043,11 +17043,11 @@ msgstr "Trackback"
 msgid "Pingback"
 msgstr "Pingback"
 
-#: wp-includes/script-loader.php:1646 wp-includes/comment-template.php:1631
+#: wp-includes/script-loader.php:1649 wp-includes/comment-template.php:1631
 msgid "Reply"
 msgstr "Beantwoorden"
 
-#: wp-includes/script-loader.php:1532 wp-includes/script-loader.php:1699
+#: wp-includes/script-loader.php:1535 wp-includes/script-loader.php:1702
 #: wp-includes/class-wp-customize-manager.php:4766
 #: wp-includes/js/dist/editor.js:10556
 msgid "Save Draft"
@@ -17061,8 +17061,8 @@ msgstr "Tags"
 msgid "Content"
 msgstr "Inhoud"
 
-#: wp-includes/script-loader.php:1483 wp-includes/script-loader.php:1542
-#: wp-includes/script-loader.php:1687 wp-includes/media.php:3809
+#: wp-includes/script-loader.php:1483 wp-includes/script-loader.php:1545
+#: wp-includes/script-loader.php:1690 wp-includes/media.php:3809
 #: wp-includes/class-wp-editor.php:1085 wp-includes/class-wp-editor.php:1783
 #: wp-includes/js/dist/block-editor.js:16472
 #: wp-includes/js/dist/block-editor.js:16475
@@ -17082,12 +17082,12 @@ msgstr "Recente reacties"
 #: wp-includes/class-wp-customize-manager.php:4264
 #: wp-includes/class-wp-editor.php:1152
 #: wp-includes/js/dist/block-editor.js:19033
-#: wp-includes/js/dist/block-library.js:12601
+#: wp-includes/js/dist/block-library.js:12605
 msgid "Preview"
 msgstr "Voorbeeld"
 
 #: wp-includes/widgets/class-wp-widget-rss.php:33
-#: wp-includes/js/dist/block-library.js:16362
+#: wp-includes/js/dist/block-library.js:16366
 msgid "RSS"
 msgstr "RSS"
 
@@ -17101,7 +17101,7 @@ msgstr "Verzenden"
 msgid "Anonymous"
 msgstr "Anoniem"
 
-#: wp-includes/script-loader.php:1949
+#: wp-includes/script-loader.php:1952
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:57
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:61
 msgid "Done"
@@ -17133,9 +17133,9 @@ msgstr "Tag bewerken"
 #: wp-includes/media-template.php:984 wp-includes/media-template.php:1001
 #: wp-includes/media-template.php:1048 wp-includes/media-template.php:1124
 #: wp-includes/media-template.php:1244 wp-includes/media-template.php:1343
-#: wp-includes/deprecated.php:688 wp-includes/js/dist/block-library.js:6645
-#: wp-includes/js/dist/block-library.js:7707
-#: wp-includes/js/dist/block-library.js:19535
+#: wp-includes/deprecated.php:688 wp-includes/js/dist/block-library.js:6649
+#: wp-includes/js/dist/block-library.js:7711
+#: wp-includes/js/dist/block-library.js:19539
 msgid "None"
 msgstr "Geen"
 
@@ -17162,15 +17162,15 @@ msgstr "Doel"
 #: wp-includes/widgets/class-wp-widget-categories.php:47
 #: wp-includes/category-template.php:532
 #: wp-includes/theme-compat/sidebar.php:129
-#: wp-includes/js/dist/block-library.js:8828
-#: wp-includes/js/dist/block-library.js:8880
-#: wp-includes/js/dist/block-library.js:8944
+#: wp-includes/js/dist/block-library.js:8832
+#: wp-includes/js/dist/block-library.js:8884
+#: wp-includes/js/dist/block-library.js:8948
 msgid "Categories"
 msgstr "Categorieën"
 
-#: wp-includes/script-loader.php:1737 wp-includes/class-wp-editor.php:1154
+#: wp-includes/script-loader.php:1740 wp-includes/class-wp-editor.php:1154
 #: wp-includes/js/dist/editor.js:11568
-#: wp-includes/js/dist/block-library.js:15879
+#: wp-includes/js/dist/block-library.js:15883
 msgid "Save"
 msgstr "Opslaan"
 
@@ -17203,14 +17203,14 @@ msgstr "Revisies"
 msgid "Excerpt"
 msgstr "Samenvatting"
 
-#: wp-includes/script-loader.php:1530 wp-includes/script-loader.php:1695
+#: wp-includes/script-loader.php:1533 wp-includes/script-loader.php:1698
 #: wp-includes/class-wp-customize-manager.php:4761
 #: wp-includes/js/dist/editor.js:8960 wp-includes/js/dist/edit-post.js:4715
 msgid "Publish"
 msgstr "Publiceren"
 
-#: wp-includes/script-loader.php:1649 wp-includes/comment.php:3485
-#: wp-includes/link-template.php:3039 wp-includes/link-template.php:3099
+#: wp-includes/script-loader.php:1652 wp-includes/comment.php:3485
+#: wp-includes/link-template.php:3042 wp-includes/link-template.php:3102
 msgid "Comments"
 msgstr "Reacties"
 
@@ -17240,7 +17240,7 @@ msgstr "%s geleden"
 #: wp-includes/class-walker-comment.php:242
 #: wp-includes/class-walker-comment.php:392 wp-includes/js/dist/editor.js:11740
 #: wp-includes/js/dist/block-editor.js:15685
-#: wp-includes/js/dist/block-library.js:15858
+#: wp-includes/js/dist/block-library.js:15862
 msgid "Edit"
 msgstr "Bewerken"
 
@@ -17267,7 +17267,7 @@ msgstr "Reactie"
 #: wp-includes/class-wp-customize-nav-menus.php:1194
 #: wp-includes/js/dist/block-editor.js:15990
 #: wp-includes/js/dist/block-editor.js:16239
-#: wp-includes/js/dist/block-library.js:11949
+#: wp-includes/js/dist/block-library.js:11953
 msgid "URL"
 msgstr "URL"
 
@@ -17298,7 +17298,7 @@ msgstr "Concept"
 msgid "Pending Review"
 msgstr "Wachtend op beoordeling"
 
-#: wp-includes/script-loader.php:1531 wp-includes/script-loader.php:1705
+#: wp-includes/script-loader.php:1534 wp-includes/script-loader.php:1708
 #: wp-includes/post.php:941 wp-includes/post.php:961
 #: wp-includes/js/dist/editor.js:10279
 msgid "Published"
@@ -17310,7 +17310,7 @@ msgstr "Gepubliceerd"
 msgid "Title"
 msgstr "Titel"
 
-#: wp-includes/post.php:1692 wp-includes/js/dist/block-library.js:13955
+#: wp-includes/post.php:1692 wp-includes/js/dist/block-library.js:13959
 msgid "No posts found."
 msgstr "Geen berichten gevonden."
 
@@ -17330,8 +17330,8 @@ msgstr "Er is een fout opgetreden bij de activering"
 msgid "Your account is now active!"
 msgstr "Je account is geactiveerd."
 
-#: wp-activate.php:133 wp-includes/script-loader.php:1882
-#: wp-includes/script-loader.php:1883
+#: wp-activate.php:133 wp-includes/script-loader.php:1885
+#: wp-includes/script-loader.php:1886
 msgid "Activate"
 msgstr "Activeren"
 
