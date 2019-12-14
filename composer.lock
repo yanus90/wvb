@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9c6d3eabee9fccdd085e92426b50ac1",
+    "content-hash": "6dc0b3e98fbbd80526f22b86271682aa",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1356,6 +1356,24 @@
             "homepage": "https://wordpress.org/plugins/login-logo/"
         },
         {
+            "name": "wpackagist-plugin/mollie-payments-for-woocommerce",
+            "version": "5.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mollie-payments-for-woocommerce/",
+                "reference": "tags/5.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mollie-payments-for-woocommerce.5.4.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mollie-payments-for-woocommerce/"
+        },
+        {
             "name": "wpackagist-plugin/onesignal-free-web-push-notifications",
             "version": "1.17.9",
             "source": {
@@ -1480,6 +1498,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/webp-express/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "3.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/3.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.8.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
