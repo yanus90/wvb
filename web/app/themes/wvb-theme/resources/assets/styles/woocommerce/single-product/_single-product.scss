@@ -1,0 +1,23 @@
+.single-product {
+  .attribute-row {
+    &:nth-of-type(odd) {
+      background: rgba($primary, 0.15);
+    }
+
+    .attr-column {
+      &-left {
+        padding: 0.7rem 0.75rem;
+        color: $primary-dark;
+        font-weight: $font-weight-semi-bold;
+      }
+
+      &-right {
+        padding: 0.7rem 0.75rem;
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

@@ -96,7 +96,7 @@ if ( post_password_required() ) {
             </div>
         </div>
     </div>
-{{--    @include('woocommerce.single-product.add-to-cart.cart-mobile')--}}
+    @include('woocommerce.single-product.add-to-cart.cart-mobile')
 </div>
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>

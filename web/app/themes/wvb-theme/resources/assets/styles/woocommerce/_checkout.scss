@@ -1,0 +1,19 @@
+.woocommerce-checkout {
+  p {
+    &.form-row {
+      @extend .form-group;
+    }
+  }
+
+  .input-text {
+    @extend .form-control;
+  }
+
+  .order-notities {
+    span {
+      &.woocommerce-input-wrapper {
+        @extend .w-100;
+      }
+    }
+  }
+}

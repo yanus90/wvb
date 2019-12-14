@@ -46,3 +46,11 @@
 
 /** Blocks */
 @import "blocks/file-block";
+
+/** Woocommerce */
+@import "woocommerce/single-product/breadcrumb";
+@import "woocommerce/single-product/single-product";
+@import "woocommerce/single-product/product-type-simple";
+@import "woocommerce/myaccount";
+@import "woocommerce/cart";
+@import "woocommerce/checkout";

@@ -1,0 +1,107 @@
+.woocommerce {
+  table {
+    th {
+      font-weight: $font-weight-semi-bold !important;
+    }
+  }
+}
+
+.woocommerce-cart-form {
+  table {
+    &.cart {
+      .actions {
+        .coupon {
+          #coupon_code {
+            @extend .form-control;
+          }
+
+          .button {
+            @extend .btn;
+            @extend .btn-sm;
+            @extend .btn-light;
+            @extend .no-border;
+
+            float: left;
+            margin-top: 0.5rem;
+          }
+        }
+
+        .button {
+          @extend .btn;
+          @extend .btn-md;
+          @extend .btn-secondary;
+          @extend .no-border;
+
+          &:disabled {
+            opacity: 0.4;
+            border-color: rgba($black, 0.45);
+          }
+        }
+      }
+
+      .product-thumbnail {
+        img {
+          width: 3.125rem;
+        }
+      }
+
+      .product-quantity {
+        .quantity {
+          .input-text {
+            @extend .form-control;
+            width: 3.631em;
+          }
+        }
+      }
+    }
+  }
+}
+
+.cart_totals {
+  .shop_table {
+    .woocommerce-shipping-totals {
+      .woocommerce-shipping-calculator {
+        .shipping-calculator-button {
+          @extend .btn;
+          @extend .btn-sm;
+          @extend .btn-light;
+          @extend .no-border;
+
+          &::after {
+            font-family: "Font Awesome 5 Pro";
+            content: "\f48b";
+          }
+        }
+
+        .shipping-calculator-form {
+          .input-text {
+            @extend .form-control;
+          }
+
+          .button {
+            @extend .btn;
+            @extend .btn-sm;
+            @extend .btn-secondary;
+            @extend .no-border;
+          }
+        }
+      }
+    }
+  }
+
+  .wc-proceed-to-checkout {
+    .checkout-button {
+      &.button {
+        &.alt {
+          &.wc-forward {
+            @extend .btn;
+            @extend .btn-block;
+            @extend .btn-lg;
+            @extend .btn-success;
+            @extend .no-border;
+          }
+        }
+      }
+    }
+  }
+}
