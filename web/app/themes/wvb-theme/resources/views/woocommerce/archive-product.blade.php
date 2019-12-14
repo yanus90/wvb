@@ -29,11 +29,11 @@ the readme will list any important changes.
                     @include('partials.sidebar.products-filter')
                 </div>
                 <div class="col-lg-8 col-xl-9 col-xxl-8">
-                    @if($queried_category->afbeelding_overzichtpagina)
-                        <div class="category-header mb-4 mb-xl-5">
-                            <img src="{!! wp_get_attachment_image_url($queried_category->afbeelding_overzichtpagina['ID'], 'image_cat_crop') !!}" alt="{!! $queried_category->name !!}" class="img-fluid rounded">
-                        </div>
-                    @endif
+                    {{--@if($queried_category->afbeelding_overzichtpagina)--}}
+                        {{--<div class="category-header mb-4 mb-xl-5">--}}
+                            {{--<img src="{!! wp_get_attachment_image_url($queried_category->afbeelding_overzichtpagina['ID'], 'image_cat_crop') !!}" alt="{!! $queried_category->name !!}" class="img-fluid rounded">--}}
+                        {{--</div>--}}
+                    {{--@endif--}}
                     <div class="category-content">
                         @if(apply_filters('woocommerce_show_page_title', true))
                             <h1 class="woocommerce-products-header__title page-title color-primary-dark">@php woocommerce_page_title() @endphp</h1>
