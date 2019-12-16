@@ -40,11 +40,18 @@ class FrontPage extends Controller
         return $query->posts;
     }
 
-    public function program()
+    public function programHome()
     {
         $file = get_template_directory().'/storage/complete-club-program.json';
 
-        return $this->getFileFromExternalLink('programma', $file,'','&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=JA');
+        return $this->getFileFromExternalLink('programma', $file,'','&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=NEE');
+    }
+
+    public function programAway()
+    {
+        $file = get_template_directory().'/storage/complete-club-program.json';
+
+        return $this->getFileFromExternalLink('programma', $file,'','&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=NEE&uit=JA');
     }
 
     public function results()

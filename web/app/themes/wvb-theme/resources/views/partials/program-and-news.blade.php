@@ -3,9 +3,14 @@
         <div class="row">
             <div class="col-12">
                 <ul class="nav nav-pills" id="programResults" role="tablist">
-                    @if($program)
+                    @if($program_home)
                         <li class="nav-item">
-                            <a class="nav-link active font-size-p14 font-size-md-p16 font-size-lg-p20" id="program-tab" data-toggle="tab" href="#program" role="tab" aria-controls="program" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Programma</a>
+                            <a class="nav-link active font-size-p14 font-size-md-p16 font-size-lg-p20" id="program-home-tab" data-toggle="tab" href="#programHome" role="tab" aria-controls="programHome" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Programma thuis</a>
+                        </li>
+                    @endif
+                    @if($program_away)
+                        <li class="nav-item">
+                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="program-away-tab" data-toggle="tab" href="#programAway" role="tab" aria-controls="programAway" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Programma uit</a>
                         </li>
                     @endif
                     @if($results)
@@ -25,8 +30,8 @@
                     @endif
                 </ul>
                 <div class="tab-content" id="programResultsContent">
-                    @if($program)
-                        <div class="tab-pane fade show active program" id="program" role="tabpanel" aria-labelledby="program-tab">
+                    @if($program_home)
+                        <div class="tab-pane fade show active program" id="programHome" role="tabpanel" aria-labelledby="program-home-tab">
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead>
@@ -39,13 +44,41 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach($program as $p)
+                                    @foreach($program_home as $ph)
                                         <tr>
-                                            <td>{!! $p['datum'] !!}</td>
-                                            <td>{!! $p['aanvangstijd'] !!}</td>
-                                            <td>{!! $p['thuisteam'] !!}</td>
-                                            <td>{!! $p['uitteam'] !!}</td>
-                                            <td class="d-none d-lg-block">{!! $p['accommodatie'] !!}</td>
+                                            <td>{!! $ph['datum'] !!}</td>
+                                            <td>{!! $ph['aanvangstijd'] !!}</td>
+                                            <td>{!! $ph['thuisteam'] !!}</td>
+                                            <td>{!! $ph['uitteam'] !!}</td>
+                                            <td class="d-none d-lg-block">{!! $ph['accommodatie'] !!}</td>
+                                        </tr>
+                                    @endforeach
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    @endif
+                    @if($program_away)
+                        <div class="tab-pane fade program" id="programAway" role="tabpanel" aria-labelledby="program-away-tab">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>Datum</th>
+                                        <th>Tijd</th>
+                                        <th>Thuisteam</th>
+                                        <th>Uitteam</th>
+                                        <th class="d-none d-lg-block">Accommodatie</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @foreach($program_away as $pa)
+                                        <tr>
+                                            <td>{!! $pa['datum'] !!}</td>
+                                            <td>{!! $pa['aanvangstijd'] !!}</td>
+                                            <td>{!! $pa['thuisteam'] !!}</td>
+                                            <td>{!! $pa['uitteam'] !!}</td>
+                                            <td class="d-none d-lg-block">{!! $pa['accommodatie'] !!}, {!! $pa['plaats'] !!}</td>
                                         </tr>
                                     @endforeach
                                     </tbody>
