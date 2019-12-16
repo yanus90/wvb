@@ -5,12 +5,16 @@
                 <ul class="nav nav-pills" id="programResults" role="tablist">
                     @if($program_home)
                         <li class="nav-item">
-                            <a class="nav-link active font-size-p14 font-size-md-p16 font-size-lg-p20" id="program-home-tab" data-toggle="tab" href="#programHome" role="tab" aria-controls="programHome" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Programma thuis</a>
+                            <a class="nav-link active font-size-p14 font-size-md-p16 font-size-lg-p20" id="program-home-tab" data-toggle="tab" href="#programHome" role="tab" aria-controls="programHome" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>
+                                <span class="d-none d-md-inline-block">Programma</span> thuis
+                            </a>
                         </li>
                     @endif
                     @if($program_away)
                         <li class="nav-item">
-                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="program-away-tab" data-toggle="tab" href="#programAway" role="tab" aria-controls="programAway" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Programma uit</a>
+                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="program-away-tab" data-toggle="tab" href="#programAway" role="tab" aria-controls="programAway" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>
+                                <span class="d-none d-md-inline-block">Programma</span> uit
+                            </a>
                         </li>
                     @endif
                     @if($results)
