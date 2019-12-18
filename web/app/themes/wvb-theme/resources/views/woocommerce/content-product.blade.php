@@ -26,9 +26,8 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 
 $archive_image = get_field('product_overzicht_afbeelding');
 ?>
-<!--<div <?php //wc_product_class('col-12 col-sm-6 col-md-4 col-lg-3'); ?>>-->
-<div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-5 d-flex">
-	<div class="card single-product-grid">
+<div class="col-12 col-sm-6 col-lg-6 col-xl-3 mb-5 d-flex">
+	<div class="card single-product-grid w-100">
 		<?php
 		/**
 		 * Hook: woocommerce_before_shop_loop_item.
@@ -79,18 +78,14 @@ $archive_image = get_field('product_overzicht_afbeelding');
 				} else {
 					echo '<span class="reg-price">'. wc_price( get_post_meta( $product->get_id(), '_regular_price', true ) ) .'</span>';
 				}
-
-//				if($product->get_short_description()) {
-//					echo '<br><span class="subtext">'. $product->get_short_description() .'</span>';
-//				}
 			echo '</p>';
 		echo '</div>';
 
 		echo '<div class="mt-auto">';
 		?>
-			@include('woocommerce.loop.add-to-cart', ['product' => $product, 'args' => ['class' => 'btn btn-md btn-success no-border arrow-right']])
+			@include('woocommerce.loop.add-to-cart', ['product' => $product, 'args' => ['class' => 'btn btn-md btn-success']])
 		<?php
-			echo '<a href="'. esc_url(get_permalink($product->get_id())) .'" class="btn btn-md btn-primary no-border arrow-right" title="'. $product->get_name() .'">Meer info</a>';
+			echo '<a href="'. esc_url(get_permalink($product->get_id())) .'" class="btn btn-md btn-info" title="'. $product->get_name() .'">Info<i class="fal fa-info-circle ml-2"></i></a>';
 		echo '</div>';
 
 		/**

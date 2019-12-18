@@ -28,6 +28,13 @@
                     <a class="navbar-brand" href="{{ home_url('/') }}" title="{!! get_bloginfo('name', 'display') !!}">
                         <img src="@asset('images/logo/logo.svg')" class="logo" alt="{!! get_bloginfo('name', 'display') !!}">
                     </a>
+                    <div class="cart-search-btns d-xl-none ml-auto">
+                        <a href="{{ esc_url(wc_get_cart_url()) }}" title="Bekijk je bestelling" class="cart-totals-item mr-3">
+                            <span class="badge badge-pill badge-danger badge-cart-counter"></span>
+                            <i class="fal fa-shopping-cart"></i>
+                        </a>
+                        <button class="navbar-search mr-3"><i class="fal fa-search"></i></button>
+                    </div>
                     <button class="navbar-toggler" type="button" onclick="toggleMenu()">
                         <span class="text-uppercase">Menu<i class="fal fa-align-right ml-2"></i></span>
                     </button>
@@ -45,6 +52,10 @@
                             !!}
                         @endif
                         <span class="d-none d-lg-inline-block">
+                            <a href="{{ esc_url(wc_get_cart_url()) }}" title="Bekijk je bestelling" class="cart-totals-item mr-3">
+                                <span class="badge badge-pill badge-danger badge-cart-counter"></span>
+                                <i class="fal fa-shopping-cart"></i>
+                            </a>
                             <button class="navbar-search mr-3"><i class="fal fa-search"></i></button>
                             <button class="btn navbar-more" onclick="toggleMenu()">Meer <i class="fal fa-align-right ml-2"></i></button>
                         </span>

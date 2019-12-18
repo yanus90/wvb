@@ -24,15 +24,7 @@ global $product;
 
 ?>
 <div class="row">
-    <div class="col-12 col-md-6 d-none d-lg-block">
+    <div class="col-12 col-md-6 d-none d-lg-block mb-2">
         <p class="price"><?php echo $product->get_price_html(); ?></p>
     </div>
-    @if($product->is_on_sale())
-        @php
-            $regular_price = $product->get_regular_price();
-            $sale_price = $product->get_sale_price();
-            $discount = ($regular_price - $sale_price) * 1;
-            $discount_total = $discount;
-        @endphp
-    @endif
 </div>

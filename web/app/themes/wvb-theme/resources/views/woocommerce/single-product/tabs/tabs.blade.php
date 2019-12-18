@@ -1,6 +1,4 @@
-<hr class="hr-light">
-@include('woocommerce.single-product.meta')
-<hr class="hr-light mb-5">
+{{--@include('woocommerce.single-product.meta')--}}
 <?php
 /**
  * Single Product tabs

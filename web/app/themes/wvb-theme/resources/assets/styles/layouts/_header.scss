@@ -168,6 +168,24 @@
           }
         }
 
+        .cart-totals-item {
+          text-decoration: none;
+
+          i {
+            font-size: 1.3rem;
+            color: $white;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+
+        .badge-cart-counter {
+          position: absolute;
+          font-weight: $font-weight-medium;
+          font-size: 0.75rem;
+          margin-left: 12px;
+        }
+
         .navbar-search {
           border: 0;
           padding: 0;

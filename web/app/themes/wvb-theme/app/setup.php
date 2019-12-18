@@ -15,11 +15,17 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('font/montserrat', 'https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
     // Styles
-    wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
+    wp_enqueue_style('wvb/main.css', asset_path('styles/main.css'), false, null);
 
     // JavaScript
-    wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+    wp_enqueue_script('wvb/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
     wp_enqueue_script('sportlink', 'https://dexels.github.io/navajofeeds-json-parser/js/dist/feed-0.0.1.min.js');
+
+    // Set globals
+    wp_localize_script('wvb/main.js', 'my_ajax_object', [
+        'ajax_url' => admin_url('admin-ajax.php'),
+        'ajax_nonce' => wp_create_nonce('my_nonce'),
+    ]);
 
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');

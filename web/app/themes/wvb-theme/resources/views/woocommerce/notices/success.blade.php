@@ -26,9 +26,9 @@ if ( ! $messages ) {
 ?>
 
 <?php foreach ( $messages as $message ) : ?>
-	<div class="alert alert-success mb-4" role="alert">
+	<div class="alert alert-success mb-0" role="alert">
 		<?php
-			echo '<i class="far fa-check mr-2"></i>'.wc_kses_notice( $message );
+			echo wc_kses_notice( $message );
 		?>
 	</div>
 <?php endforeach; ?>

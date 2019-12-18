@@ -29,19 +29,26 @@ if ( post_password_required() ) {
     return;
 }
 ?>
-<div class="section-page-header bg-primary-dark">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="page-header">
-                    @php the_title( '<h1 class="font-size-p26 font-size-sm-p30 font-size-md-p36 font-size-xl-p40 mb-0">', '</h1>' ); @endphp
+<div id="product-<?php the_ID(); ?>" <?php wc_product_class(); ?>>
+    <div class="section-page-header bg-primary-dark mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="page-header">
+                        @php the_title( '<h1 class="font-size-p26 font-size-sm-p30 font-size-md-p36 font-size-xl-p40 mb-0">', '</h1>' ); @endphp
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div id="product-<?php the_ID(); ?>" <?php wc_product_class(); ?>>
-    <div class="section-single-post section">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                @php do_action('print_notices'); @endphp
+            </div>
+        </div>
+    </div>
+    <div class="section-single-post section pt-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-xl-7 col-xxl-8">

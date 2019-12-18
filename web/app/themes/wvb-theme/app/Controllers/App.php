@@ -43,4 +43,9 @@ class App extends Controller
         }
         return get_the_title();
     }
+
+    public function payment_methods()
+    {
+        return WC()->payment_gateways->get_available_payment_gateways();
+    }
 }

@@ -1,0 +1,11 @@
+.woocommerce-notices-wrapper {
+  .alert {
+    .button {
+      &.wc-forward {
+        @extend .btn;
+        @extend .btn-success;
+        @extend .mr-2;
+      }
+    }
+  }
+}

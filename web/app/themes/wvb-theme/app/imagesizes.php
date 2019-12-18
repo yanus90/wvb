@@ -9,3 +9,4 @@ add_image_size('about_wvb_home_image', 1000, 600, true);
 add_image_size('commission_image', 850, 550, true);
 add_image_size('person_image', 600, 800, true);
 add_image_size('sponsor_month_image', 850, 550, true);
+add_image_size('product_image_crop', 900, 573, true);

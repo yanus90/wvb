@@ -1,8 +1,11 @@
 import CookieNotice from '../util/CookieNotice';
+import CartBadge from '../partials/cart-badge';
 
 export default {
   init() {
     // JavaScript to be fired on all pages
+    CartBadge.setBadgeQty();
+
     $(window).on('scroll', function() {
       let scrollPosition = $(this).scrollTop();
       if (scrollPosition >= 35) {

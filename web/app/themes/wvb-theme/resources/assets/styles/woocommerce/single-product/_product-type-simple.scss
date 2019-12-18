@@ -87,6 +87,19 @@
     }
   }
 
+  form {
+    &.cart {
+      .quantity {
+        float: none !important;
+        margin: 0 0 1rem 0 !important;
+
+        .qty {
+          @extend .form-control;
+        }
+      }
+    }
+  }
+
   .add-to-cart-mobile {
     position: fixed;
     display: flex;

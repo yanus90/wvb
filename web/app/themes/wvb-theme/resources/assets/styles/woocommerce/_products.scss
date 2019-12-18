@@ -1,0 +1,62 @@
+.card {
+  &.single-product-grid {
+    border: none;
+    border-radius: 0;
+
+    .card-body {
+      padding: 1.25rem 0 0 0;
+
+      .card-title {
+        font-weight: $font-weight-medium;
+        color: $black;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+        }
+
+        span {
+          font-weight: $font-weight-semi-bold;
+        }
+      }
+
+      .prices {
+        .card-text {
+          span {
+            &.sale,
+            &.subtext {
+              font-size: 0.875rem;
+              font-weight: $font-weight-normal;
+            }
+
+            &.sale {
+              text-decoration: line-through;
+            }
+
+            &.indication {
+              font-size: 1rem;
+              font-weight: $font-weight-semi-bold
+            }
+
+            &.reg-price {
+              font-size: 1.25rem;
+              font-weight: $font-weight-semi-bold;
+            }
+          }
+        }
+      }
+    }
+
+    &:hover {
+      //box-shadow: 0 0 1rem 0 rgba($black, 0.3);
+      //border-radius: 0.3125rem;
+      //background: rgba($primary-dark, 0.3);
+      .card-body {
+        .card-title {
+          color: $primary-dark;
+          transition: 0.3s ease-in;
+        }
+      }
+    }
+  }
+}

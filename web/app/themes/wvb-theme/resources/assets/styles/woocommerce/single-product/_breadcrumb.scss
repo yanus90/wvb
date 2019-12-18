@@ -1,18 +1,5 @@
 nav {
   &.woocommerce-breadcrumb {
-    padding: 1rem 0 !important;
-    font-size: 0.875rem !important;
-
-    a {
-      font-size: 0.875rem;
-      color: $primary;
-      text-transform: lowercase;
-    }
-  }
-}
-
-#breadcrumbs {
-  a {
-    color: $secondary;
+    display: none;
   }
 }

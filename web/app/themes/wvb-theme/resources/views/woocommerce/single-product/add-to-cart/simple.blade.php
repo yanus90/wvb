@@ -27,50 +27,31 @@ echo wc_get_stock_html( $product ); // WPCS: XSS ok.
 
 if ( $product->is_in_stock() ) : ?>
 
-@php
-
-    $shipping_zones = WC_Shipping_Zones::get_zones();
-    $shippingSettings = null;
-    $shippingCosts = null;
-    $shippingCostsAll = [];
-
-    foreach ($shipping_zones as $shipping_zone) {
-
-        foreach ($shipping_zone['shipping_methods'] as $method) {
-
-            if ($method->instance_settings) {
-                $shippingSettings = $method->instance_settings;
-
-                if (isset($shippingSettings["class_cost_{$product->get_shipping_class_id()}"])) {
-                    $shippingCosts = App\money($shippingSettings["class_cost_{$product->get_shipping_class_id()}"]);
-                    $shippingCostsAll[] = $shippingSettings["class_cost_{$product->get_shipping_class_id()}"];
-                }
-            }
-        }
-    }
-
-    if (isset($shippingSettings["class_cost_{$product->get_shipping_class_id()}"])) {
-        $shippingCosts = App\money(min($shippingCostsAll));
-    }
-
-@endphp
-
 <div class="d-none d-lg-block">
-
-<p class="font-size-small color-secondary"><em>Verzendkosten vanaf: &euro; {{ $shippingCosts }}</em></p>
 
 <?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
 <form class="cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
     <?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 
-    <?php
-    do_action( 'woocommerce_before_add_to_cart_quantity' );
+        <div class="row">
+            <div class="col-xl-4">
+                <?php
+                do_action( 'woocommerce_before_add_to_cart_quantity' );
 
-    do_action( 'woocommerce_after_add_to_cart_quantity' );
-    ?>
+                woocommerce_quantity_input( array(
+                    'min_value'   => apply_filters( 'woocommerce_quantity_input_min', $product->get_min_purchase_quantity(), $product ),
+                    'max_value'   => apply_filters( 'woocommerce_quantity_input_max', $product->get_max_purchase_quantity(), $product ),
+                    'input_value' => isset( $_POST['quantity'] ) ? wc_stock_amount( wp_unslash( $_POST['quantity'] ) ) : $product->get_min_purchase_quantity(), // WPCS: CSRF ok, input var ok.
+                ) );
 
-    <button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="btn btn-lg btn-success btn-block no-border"><?php echo esc_html( $product->single_add_to_cart_text() ); ?><i class="fal fa-cart-plus ml-3"></i></button>
+                do_action( 'woocommerce_after_add_to_cart_quantity' );
+                ?>
+            </div>
+            <div class="col-xl-8">
+                <button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="btn btn-lg btn-success btn-block no-border"><?php echo esc_html( $product->single_add_to_cart_text() ); ?><i class="fal fa-cart-plus ml-3"></i></button>
+            </div>
+        </div>
 
     <?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 </form>

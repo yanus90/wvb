@@ -30,6 +30,6 @@ echo apply_filters( 'woocommerce_loop_add_to_cart_link', // WPCS: XSS ok.
         esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
         esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
         isset( $args['attributes'] ) ? wc_implode_html_attributes( $args['attributes'] ) : '',
-        'Bestellen'
+        'Bestellen<i class="fal fa-cart-plus ml-2"></i>'
     ),
     $product, $args );

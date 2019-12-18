@@ -21,64 +21,54 @@ the readme will list any important changes.
         do_action('get_header', 'shop');
         do_action('woocommerce_before_main_content');
     @endphp
-    
-    <div class="container">
-        <div class="pt-4 pb-5 section-category">
-            <div class="row">
-                <div class="col-lg-4 col-xl-3 col-xxl-4">
-                    @include('partials.sidebar.products-filter')
-                </div>
-                <div class="col-lg-8 col-xl-9 col-xxl-8">
-                    {{--@if($queried_category->afbeelding_overzichtpagina)--}}
-                        {{--<div class="category-header mb-4 mb-xl-5">--}}
-                            {{--<img src="{!! wp_get_attachment_image_url($queried_category->afbeelding_overzichtpagina['ID'], 'image_cat_crop') !!}" alt="{!! $queried_category->name !!}" class="img-fluid rounded">--}}
-                        {{--</div>--}}
-                    {{--@endif--}}
-                    <div class="category-content">
-                        @if(apply_filters('woocommerce_show_page_title', true))
-                            <h1 class="woocommerce-products-header__title page-title color-primary-dark">@php woocommerce_page_title() @endphp</h1>
-                        @endif
-                        @php
-                            do_action('woocommerce_archive_description');
-                        @endphp
-                    </div>
-                    <hr class="hr-light mb-5 mt-4">
-                    <div class="category-products">
-                        <div class="row">
-                            <div class="col">
-                                @if(woocommerce_product_loop())
-                                    @php
-                                        do_action('woocommerce_before_shop_loop');
-                                        woocommerce_product_loop_start();
-                                    @endphp
-                                    
-                                    @if(wc_get_loop_prop('total'))
-                                        @while (have_posts())
-                                            @php
-                                                the_post();
-                                                do_action('woocommerce_shop_loop');
-                                                wc_get_template_part('content', 'product');
-                                            @endphp
-                                        @endwhile
-                                    @endif
-                                    
-                                    @php
-                                        woocommerce_product_loop_end();
-                                        do_action('woocommerce_after_shop_loop');
-                                    @endphp
-                                @else
-                                    @php
-                                        do_action('woocommerce_no_products_found');
-                                    @endphp
-                                @endif
-                                
-                                @if($queried_category->beschrijving_onder_overzichtspagina)
-                                    <hr>
-                                    {!! $queried_category->beschrijving_onder_overzichtspagina !!}
-                                @endif
-                            </div>
+
+    @if(apply_filters('woocommerce_show_page_title', true))
+        <div class="section-page-header bg-primary-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="page-header">
+                            <h1 class="font-size-p26 font-size-sm-p30 font-size-md-p36 font-size-xl-p40 mb-0">@php woocommerce_page_title() @endphp</h1>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    @endif
+    <div class="section section-content">
+        <div class="container">
+            <div class="row justify-content-lg-center mb-5">
+                <div class="col-12 col-lg-10 col-xl-12 col-xxl-11">
+                    @if(woocommerce_product_loop())
+                        @php
+                            do_action('woocommerce_before_shop_loop');
+                            woocommerce_product_loop_start();
+                        @endphp
+
+                        @if(wc_get_loop_prop('total'))
+                            @while (have_posts())
+                                @php
+                                    the_post();
+                                    do_action('woocommerce_shop_loop');
+                                    wc_get_template_part('content', 'product');
+                                @endphp
+                            @endwhile
+                        @endif
+
+                        @php
+                            woocommerce_product_loop_end();
+                            do_action('woocommerce_after_shop_loop');
+                        @endphp
+                    @else
+                        @php
+                            do_action('woocommerce_no_products_found');
+                        @endphp
+                    @endif
+
+                    @if($queried_category->beschrijving_onder_overzichtspagina)
+                        <hr>
+                        {!! $queried_category->beschrijving_onder_overzichtspagina !!}
+                    @endif
                 </div>
             </div>
         </div>
