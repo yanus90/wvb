@@ -64,11 +64,6 @@ the readme will list any important changes.
                             do_action('woocommerce_no_products_found');
                         @endphp
                     @endif
-
-                    @if($queried_category->beschrijving_onder_overzichtspagina)
-                        <hr>
-                        {!! $queried_category->beschrijving_onder_overzichtspagina !!}
-                    @endif
                 </div>
             </div>
         </div>
