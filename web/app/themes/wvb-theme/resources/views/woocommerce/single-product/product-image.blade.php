@@ -46,7 +46,7 @@ $wrapper_classes   = apply_filters( 'woocommerce_single_product_image_gallery_cl
                     <span class="zoom-image">
                         <i class="fal fa-search-plus"></i>
                     </span>
-                    <img src="{!! $product_detail_image['sizes']['product_image_crop'] !!}" alt="{!! $product_detail_image['alt'] !!}" class="img-fluid rounded">
+                    <img src="{!! $product_detail_image['sizes']['product_image_crop'] !!}" alt="{!! $product_detail_image['alt'] !!}" class="img-fluid rounded w-100">
                 </a>
             </figure>
         </div>
