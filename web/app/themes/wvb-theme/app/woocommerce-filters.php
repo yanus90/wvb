@@ -2,6 +2,7 @@
 /**
  * Update cart totals in header when using AJAX.
  */
+/*
 add_filter('woocommerce_add_to_cart_fragments', function ($fragments) {
     global $woocommerce;
     ob_start();
@@ -16,7 +17,7 @@ add_filter('woocommerce_add_to_cart_fragments', function ($fragments) {
     $fragments['a.cart-totals-item'] = ob_get_clean();
     return $fragments;
 });
-
+*/
 // Woocommerce filters
 add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
 
