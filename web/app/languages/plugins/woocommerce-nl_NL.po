@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-11-05 11:58:01+0000\n"
+"PO-Revision-Date: 2019-12-22 10:48:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -994,6 +994,12 @@ msgstr "In dit blok worden producten met geselecteerde tags weergeven. Voor een 
 #: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:221
 msgid "This block displays products from selected tags. Select at least one tag to display its products."
 msgstr "In dit blok worden producten met geselecteerde tags weergeven. Selecteer minstens één tag om de bijbehorende producten weer te geven."
+
+#: packages/woocommerce-blocks/build/product-tag.js:1
+#: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:176
+#: packages/woocommerce-blocks/assets/js/blocks/product-tag/index.js:25
+msgid "Display a grid of products from your selected tags."
+msgstr "Toon een raster van producten met door jou geselecteerde tags."
 
 #: packages/woocommerce-blocks/build/product-tag.js:1
 #: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:173
@@ -2511,6 +2517,10 @@ msgstr "Nultarief"
 msgid "Reduced rate"
 msgstr "Gereduceerd tarief"
 
+#: includes/emails/class-wc-email-new-order.php:149
+msgid "Congratulations on the sale."
+msgstr "Gefeliciteerd met de verkoop."
+
 #: includes/emails/class-wc-email-customer-invoice.php:115
 #: includes/emails/class-wc-email-customer-processing-order.php:144
 msgid "Thanks for using {site_address}!"
@@ -3331,6 +3341,10 @@ msgstr "Hallo %s,"
 #: templates/emails/admin-new-order.php:26
 msgid "You’ve received the following order from %s:"
 msgstr "Je hebt de volgende bestelling ontvangen van %s:"
+
+#: includes/emails/class-wc-email-failed-order.php:142
+msgid "Hopefully they’ll be back. Read more about <a href=\"https://docs.woocommerce.com/document/managing-orders/\">troubleshooting failed payments</a>."
+msgstr "Hopelijk komen ze weer terug. Lees meer over <a href=\"https://docs.woocommerce.com/document/managing-orders/\">problemen met mislukte betalingen oplossen</a>."
 
 #: includes/emails/class-wc-email-customer-reset-password.php:171
 #: includes/emails/class-wc-email-customer-note.php:160
@@ -8991,10 +9005,20 @@ msgstr "Betaling voor geannuleerde bestelling %s ontvangen"
 msgid "Payment authorized. Change payment status to processing or complete to capture funds."
 msgstr "Betaling geautoriseerd. Wijzig betaalstatus naar in behandeling of voltooid om bedragen te ontvangen."
 
+#. translators: 1: Authorization ID, 2: Payment status
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:428
+msgid "Payment could not be captured - Auth ID: %1$s, Status: %2$s"
+msgstr "Betaling kon niet worden ontvangen - Auth-ID: %1$s, status: %2$s"
+
 #. translators: 1: Amount, 2: Authorization ID, 3: Transaction ID
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:422
 msgid "Payment of %1$s was captured - Auth ID: %2$s, Transaction ID: %3$s"
 msgstr "Betaling van %1$s ontvangen - Auth ID: %2$s, transactienummer: %3$s"
+
+#. translators: %s: Paypal gateway error message
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:411
+msgid "Payment could not be captured: %s"
+msgstr "Betaling kon niet ontvangen worden: %s"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:312
 msgid "Bank"
@@ -17654,6 +17678,10 @@ msgstr "Deze e-mailmelding inschakelen"
 #: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:97
 msgid "Enable/Disable"
 msgstr "Inschakelen/uitschakelen"
+
+#: includes/emails/class-wc-email-failed-order.php:32
+msgid "Failed order emails are sent to chosen recipient(s) when orders have been marked failed (if they were previously pending or on-hold)."
+msgstr "Bestelling geannuleerd e-mail wordt verstuurd naar de ontvanger(s) wanneer de bestelling als geannuleerd is gemarkeerd (als deze eerst 'in behandeling' of 'wachtend' stond)."
 
 #: includes/emails/class-wc-email-cancelled-order.php:31
 msgid "Cancelled order"
@@ -27454,6 +27482,10 @@ msgstr "Xinjiang / &#26032;&#30086;"
 #: i18n/states.php:289
 msgid "Tibet / &#35199;&#34255;"
 msgstr "Tibet / &#35199;&#34255;"
+
+#: i18n/states.php:288
+msgid "Macao / &#28595;&#38376;"
+msgstr "Mação  / &#28595;&#38376;"
 
 #: i18n/states.php:287
 msgid "Ningxia Hui / &#23425;&#22799;"

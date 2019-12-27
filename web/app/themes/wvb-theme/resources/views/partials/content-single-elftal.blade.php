@@ -9,6 +9,8 @@
           $rows = get_field('rijen_met_namen');
           $sponsors = get_field('sponsoren');
           $news = get_field('nieuws_categorie');
+          $social_media = get_field('sociale_media');
+        //dd($social_media)
         @endphp
         <div class="row">
           <div class="col-lg-8 col-xl-9">
@@ -70,7 +72,7 @@
                           @endphp
                           <h3 class="color-black text-uppercase h5 mb-1">Laatste nieuws</h3>
                           <hr class="mt-0 mb-4">
-                          <ul class="list-unstyled">
+                          <ul class="list-unstyled mb-5">
                               @foreach($articles as $article)
                                   <li class="mb-3">
                                       <a href="{!! get_permalink($article) !!}" title="{!! $article->post_title !!}" class="media text-decoration-none">
@@ -80,6 +82,27 @@
                                           </div>
                                       </a>
                                   </li>
+                              @endforeach
+                          </ul>
+                      @endif
+                      @if($social_media)
+                          <h3 class="color-black text-uppercase h5 mb-1">Sociale media</h3>
+                          <hr class="mt-0 mb-4">
+                          <ul class="list-inline social-media-list">
+                              @foreach($social_media as $medium)
+                                  @foreach($medium as $m)
+                                      @php
+                                          $icon = $m['social_medium'];
+                                          if($icon == 'facebook') {
+                                              $icon = 'facebook-f';
+                                          } elseif($icon == 'linkedin') {
+                                            $icon = 'linkedin-in';
+                                          }
+                                      @endphp
+                                      <li class="list-inline-item">
+                                          <a href="{!! $m['link'] !!}" title="Volg ons op {{ ucfirst($m['social_medium']) }}" target="_blank" class="icon s {{ $m['social_medium'] }} text-center"><i class="fab fa-{{ $icon }} font-size-regular line-height-bigger"></i></a>
+                                      </li>
+                                  @endforeach
                               @endforeach
                           </ul>
                       @endif
