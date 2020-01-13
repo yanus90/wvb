@@ -31,6 +31,9 @@ function custom_override_checkout_fields( $fields ) {
     return $fields;
 }
 
+// Add shipping address in email
+add_filter( 'woocommerce_order_needs_shipping_address', '__return_true' );
+
 // Remove Woocommerce Hooked
 
 remove_action('init', 'woocommerce_breadcrumb', 20 );
