@@ -25,12 +25,14 @@
                                 @endphp
                                 <a href="{!! $link !!}" class="carousel-item @if ($key < 1) active @endif" title="{!! $slide['titel'] !!}" target="{{ ($slide['nieuw_tabblad'] == '_blank' ? '_blank' : '_self') }}">
                                     <img src="{!! wp_get_attachment_image_url($slide['afbeelding']['ID'], 'slider_image_crop') !!}" class="d-block w-100" alt="{!! $slide['afbeelding']['alt'] !!}">
-                                    <div class="carousel-caption">
-                                        <h3 class="font-size-p20 font-size-sm-p22 font-size-md-p24 font-size-lg-p26 {{ ($slide['korte_intro'] ? 'mb-1' : '') }}">{!! $slide['titel'] !!}</h3>
-                                        @if($slide['korte_intro'])
-                                            <p class="mb-0 font-size-p14 font-size-md-p16">{!! $slide['korte_intro'] !!}</p>
-                                        @endif
-                                    </div>
+                                    @if($slide['alle_tekst_verbergen'] != 1)
+                                        <div class="carousel-caption">
+                                            <h3 class="font-size-p20 font-size-sm-p22 font-size-md-p24 font-size-lg-p26 {{ ($slide['korte_intro'] ? 'mb-1' : '') }}">{!! $slide['titel'] !!}</h3>
+                                            @if($slide['korte_intro'])
+                                                <p class="mb-0 font-size-p14 font-size-md-p16">{!! $slide['korte_intro'] !!}</p>
+                                            @endif
+                                        </div>
+                                    @endif
                                 </a>
                             @endforeach
                         </div>
