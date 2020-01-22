@@ -53,7 +53,7 @@
                                                 </div>
                                             @endif
                                             <div class="{{ ($sponsor->afbeelding ? 'col-8 col-sm-9 col-md-9 col-lg-12 pt-lg-2' : 'col-12 pt-lg-2') }}">
-                                                <h5 class="card-title font-size-p16 mb-2">Sponsor van de maand</h5>
+                                                <h5 class="card-title font-size-p16 mb-2">Sponsor uitgelicht</h5>
                                                 <h5 class="card-title font-size-p18 font-size-xl-p18 font-size-xxl-p22 text-primary">{!! $sponsor->post_title !!}</h5>
                                                 @if($sponsor->korte_omschrijving)
                                                     <p class="font-size-p14 color-black d-none d-xl-inline-block">
