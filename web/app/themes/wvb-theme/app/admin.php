@@ -49,7 +49,6 @@ function remove_menu_items()
         remove_menu_page('edit.php?post_type=historie');
         remove_menu_page('wpcf7');
         remove_menu_page('general-business-settings');
-
         remove_menu_page('edit.php');
         remove_menu_page('edit-comments.php');
         remove_menu_page('tools.php');
@@ -116,8 +115,6 @@ add_action('init', function () {
         $customCaps['update_plugins'] = false;
         $customCaps['delete_plugins'] = false;
         $customCaps['install_plugins'] = false;
-
-        dd($customCaps);
 
         add_role('wvb_editor', 'WvB Editor', $customCaps);
     }
