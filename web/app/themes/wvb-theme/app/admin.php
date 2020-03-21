@@ -39,7 +39,7 @@ function remove_menu_items()
         remove_submenu_page('themes.php', 'widgets.php');
         remove_submenu_page('themes.php', 'customize.php?return=' . urlencode($_SERVER['REQUEST_URI']));
         remove_submenu_page('themes.php', 'themes.php');
-    } elseif (current_user_can('editor_1')) {
+    } elseif (current_user_can('editor_1') || current_user_can('wvb_editor')) {
         remove_menu_page('edit.php?post_type=elftal');
         remove_menu_page('edit.php?post_type=evenement');
         remove_menu_page('edit.php?post_type=sponsor');
@@ -90,4 +90,35 @@ add_action('init', function () {
     remove_role('subscriber');
     remove_role('wpseo_manager');
     remove_role('wpseo_editor');
+});
+
+/**
+ * Add a custom role.
+ */
+add_action('init', function () {
+    global $wp_roles;
+
+    if (!isset($wp_roles)) {
+        $wp_roles = new \WP_Roles();
+    }
+
+    $wvbEditor = $wp_roles->get_role('wvb_editor');
+
+    if (!$wvbEditor) {
+        $admin = $wp_roles->get_role('administrator');
+        $customCaps = $admin->capabilities;
+
+        $customCaps['switch_themes'] = false;
+        $customCaps['edit_themes'] = false;
+        $customCaps['delete_themes'] = false;
+        $customCaps['install_themes'] = false;
+        $customCaps['update_themes'] = false;
+        $customCaps['update_plugins'] = false;
+        $customCaps['delete_plugins'] = false;
+        $customCaps['install_plugins'] = false;
+
+        dd($customCaps);
+
+        add_role('wvb_editor', 'WvB Editor', $customCaps);
+    }
 });
