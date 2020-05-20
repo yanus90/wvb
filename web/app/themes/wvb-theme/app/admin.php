@@ -119,3 +119,21 @@ add_action('init', function () {
         add_role('wvb_editor', 'WvB Editor', $customCaps);
     }
 });
+
+// Customize edit logo of wp-admin login screen.
+function my_wp_login_logo()
+{
+    ?>
+    <style>
+        body.login div#login h1 a {
+            background-image: url('/app/login-logo.svg');
+            background-size: contain !important;
+            padding-bottom: 150px;
+            width: 100% !important;
+            height: auto !important;
+            font-size: larger !important;
+        }
+    </style>
+    <?php
+}
+add_action('login_enqueue_scripts', __NAMESPACE__ . '\\my_wp_login_logo');
