@@ -4,6 +4,7 @@
  */
 
 use Roots\WPConfig\Config;
+use function Env\env;
 
 /**
  * WP Rocket Config

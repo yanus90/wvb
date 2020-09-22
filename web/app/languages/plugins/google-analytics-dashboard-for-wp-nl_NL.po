@@ -2,66 +2,333 @@
 # This file is distributed under the same license as the Plugins - Google Analytics Dashboard for WP by ExactMetrics (formerly GADWP) - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-08-04 08:24:48+0000\n"
+"PO-Revision-Date: 2020-08-05 16:49:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: nl\n"
 "Project-Id-Version: Plugins - Google Analytics Dashboard for WP by ExactMetrics (formerly GADWP) - Stable (latest release)\n"
+
+#: includes/admin/routes.php:604
+msgid "Unknown report. Try refreshing and retrying. Contact support if this issue persists."
+msgstr "Onbekend rapport. Probeer te vernieuwen en probeer het opnieuw. Neem contact op met ondersteuning als dit probleem zich blijft voordoen."
+
+#: includes/admin/pages/settings.php:108
+msgid "Copy the error message above and paste it in a message to the ExactMetrics support team."
+msgstr "Kopieer het bovenstaande foutbericht en plak het in een bericht aan het ExactMetrics-ondersteuningsteam."
+
+#: includes/admin/pages/settings.php:115
+msgid "Your browser version is not supported"
+msgstr "Je browserversie wordt niet ondersteund"
+
+#: includes/admin/pages/settings.php:116
+msgid "You are using a browser which is no longer supported by ExactMetrics. Please update or use another browser in order to access the plugin settings."
+msgstr "Je gebruikt een browser die niet langer wordt ondersteund door ExactMetrics. Update of gebruik een andere browser om toegang te krijgen tot de plugin-instellingen."
+
+#: includes/admin/pages/settings.php:118
+msgid "View supported browsers"
+msgstr "Bekijk ondersteunde browsers"
+
+#. Translators: Adds a link to the settings panel.
+#: includes/admin/admin.php:501
+msgid "Warning: ExactMetrics found cross-domain settings in the custom code field and converted them to the new settings structure.  %1$sPlease click here to review and remove the code no longer needed.%2$s"
+msgstr "Waarschuwing: ExactMetrics heeft domein overschrijdende instellingen gevonden in het aangepaste codeveld en heeft deze geconverteerd naar de nieuwe instellingenstructuur. %1$sKlik hier om de code die niet meer nodig is te bekijken en te verwijderen. %2$s"
+
+#. Translators: Placeholders make the text bold, add the license level and add
+#. a link to upgrade.
+#: includes/admin/reports/abstract-report.php:358
+msgid "Do you you want to access to %1$s reporting right now%2$s in your WordPress Dashboard? That comes with %3$s level%4$s of our paid packages. To get instant access, you'll want to buy a ExactMetrics license, which also gives you access to powerful addons, expanded reporting (including the ability to use custom date ranges), comprehensive tracking features (like UserID tracking) and access to our world-class support team."
+msgstr "Wil je nu toegang hebben tot %1$s rapportage %2$s in je WordPress Dashboard? Dat komt met %3$s niveau %4$s van onze betaalde pakketten. Om direct toegang te krijgen, wil je een ExactMetrics-licentie kopen, die je ook toegang geeft tot krachtige add-ons, uitgebreide rapportage (inclusief de mogelijkheid om aangepaste datumbereiken te gebruiken), uitgebreide trackingfuncties (zoals UserID-tracking) en toegang tot onze wereld-klasse ondersteuningsteam."
+
+#. Translators: Placeholders add the current WordPress version and links to the
+#. ExactMetrics blog
+#: includes/admin/admin.php:345
+msgid "Your site is running an outdated version of WordPress (%1$s).%4$sExactMetrics will stop supporting WordPress versions lower than 4.9 in 2020.%4$sUpdating WordPress takes just a few minutes and will also solve many bugs that exist in your WordPress install.%4$s%2$sLearn more about updating WordPress%3$s"
+msgstr "Je site gebruikt een verouderde versie van WordPress (%1$s).%4$sExactMetrics stopt met het ondersteunen van WordPress versies lager dan 4,9 in april 2020. %4$sHet updaten van WordPress duurt slechts een paar minuten en lost ook veel bugs op die bestaat in je WordPress installatie.%4$s%2$sMeer informatie over het bijwerken van WordPress%3$s"
+
+#. Translators: Placeholders add the PHP version, a link to the ExactMetrics
+#. blog and a line break.
+#: includes/admin/admin.php:337
+msgid "Your site is running an outdated, insecure version of PHP (%1$s), which could be putting your site at risk for being hacked.%4$sWordPress stopped supporting your PHP version in April, 2019.%4$sUpdating PHP only takes a few minutes and will make your website significantly faster and more secure.%4$s%2$sLearn more about updating PHP%3$s"
+msgstr "Je site gebruikt een verouderde, onveilige versie van PHP (%1$s), waardoor je site het risico loopt gehackt te worden. %4$sWordPress is gestopt in april 2019 met het ondersteunen van je PHP-versie. %4$s PHP updaten duurt slechts enkele minuten en maakt je site aanzienlijk sneller en veiliger.%4$s%2$sMeer informatie over het bijwerken van PHP%3$s"
+
+#. Translators: Placeholder adds a line break.
+#: languages/vue.php:1849
+msgid "You can customize your %sdate range only in the PRO version."
+msgstr "Je kan je %sdatumbereik alleen aanpassen in de PRO-versie."
+
+#. Translators: Adds a link to the general settings tab.
+#: languages/vue.php:858
+msgid "It looks like you added a Google Analytics tracking code in the custom code area, this can potentially prevent proper tracking. If you want to use a manual UA please use the setting in the %1$sGeneral%2$s tab."
+msgstr "Het lijkt erop dat je een Google Analytics-trackingcode heeft toegevoegd in het aangepaste codegebied, dit kan mogelijk een goede tracking voorkomen. Als je een handmatige UA wilt gebruiken, gebruik dan de instelling op het %1$sGeneral %2$s tabblad."
+
+#: languages/vue.php:885
+msgid "Custom code"
+msgstr "Aangepaste code"
+
+#: languages/vue.php:1528
+msgid "Add Custom Dimensions and track who's the most popular author on your site, which post types get the most traffic, and more"
+msgstr "Voeg aangepaste dimensies toe en houd bij wie de populairste auteur op je site is, welke berichttypen het meeste verkeer genereren en meer"
+
+#. Translators: Makes text bold.
+#: languages/vue.php:250
+msgid "%1$sCustom Dimensions%2$s - Setup tracking for authors, tags, searches, custom post types, users, and other events with 1-click."
+msgstr "%1$s Aangepaste afmetingen %2$s - Stel tracking voor auteurs, tags, zoekopdrachten, aangepaste berichttypen, gebruikers en andere evenementen in met één klik."
+
+#: languages/vue.php:677
+msgid "Upgrade to Pro to get the complete ExactMetrics experience including 1 click tracking integrations for your favorite WordPress plugins and insightful reports backed by our legendary support team."
+msgstr "Upgrade naar Pro om de volledige ExactMetrics-ervaring te krijgen, inclusief 1-klik-trackingintegraties voor je favoriete WordPress-plugins en inzichtelijke rapporten ondersteund door ons legendarische ondersteuningsteam."
+
+#: languages/vue.php:1267
+msgid "Custom Campaign Parameters"
+msgstr "Aangepaste campagneparameters"
+
+#: languages/vue.php:1270
+msgid "The URL builder helps you add parameters to your URLs you use in custom web or email ad campaigns."
+msgstr "Met de URL-builder kan je parameters toevoegen aan je URL's die je gebruikt in aangepaste web- of e-mailadvertentiecampagnes."
+
+#: languages/vue.php:1273
+msgid "A custom campaign is any ad campaign not using the AdWords auto-tagging feature. When users click one of the custom links, the unique parameters are sent to your Analytics account, so you can identify the URLs that are the most effective in attracting users to your content."
+msgstr "Een aangepaste campagne is een advertentiecampagne die geen gebruik maakt van de autotagging-functie van AdWords. Wanneer gebruikers op een van de aangepaste links klikken, worden de unieke parameters naar je Analytics-account gestuurd, zodat je de URL's kan identificeren die het meest effectief zijn om gebruikers naar je inhoud te trekken."
+
+#: languages/vue.php:1369
+msgid "About Custom Campaigns"
+msgstr "Over aangepaste campagnes"
+
+#: languages/vue.php:1372
+msgid "Best Practices for Creating Custom Campaigns"
+msgstr "Praktische tips voor het maken van aangepaste campagnes"
+
+#. Translators: Makes the text bold.
+#: languages/vue.php:1516
+msgid "%1$sCustom Dimensions%2$s - Setup tracking for authors, tags, searches, custom post type, users, and other events with 1-click."
+msgstr "%1$s Aangepaste afmetingen %2$s - Stel tracking voor auteurs, tags, zoekopdrachten, aangepast berichttype, gebruikers en andere evenementen in met één klik."
+
+#: includes/admin/admin.php:175 includes/admin/admin.php:178
+#: languages/vue.php:995
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: languages/vue.php:998
+msgid "Limited Support"
+msgstr "Beperkte ondersteuning"
+
+#: languages/vue.php:1001
+msgid "Priority Support"
+msgstr "Prioritaire ondersteuning"
+
+#: languages/vue.php:1415
+msgid "See The Time it Takes for Customers to Purchase"
+msgstr "Bekijk de tijd die klanten nodig hebben om te kopen"
+
+#. Translators: Add links to documentation.
+#: languages/vue.php:799
+msgid "This allows you to track custom affiliate links. A path of /go/ would match urls that start with that. The label is appended onto the end of the string \"outbound-link-\", to provide unique labels for these links in Google Analytics. Complete documentation on affiliate links is available %1$shere%2$s."
+msgstr "Hiermee kan je aangepaste affiliate-links volgen. Een pad van /go/zou overeenkomen met URL's die daarmee beginnen. Het label wordt aan het einde van de string\"outbound-link-\" toegevoegd om unieke labels voor deze links in Google Analytics te bieden. Volledige documentatie over gelieerde links is beschikbaar %1$shier %2$s."
+
+#: languages/vue.php:768
+msgid "ExactMetrics will automatically help you track affiliate links that use internal looking urls like example.com/go/ or example.com/refer/. You can add custom affiliate patterns on our settings panel when you finish the onboarding wizard."
+msgstr "ExactMetrics helpt je automatisch bij het volgen van partnerlinks die intern ogende URL's gebruiken, zoals example.com/go/ of example.com/refer/. Je kan aangepaste partnerpatronen toevoegen aan ons instellingenpaneel wanneer je de onboarding-wizard voltooit."
+
+#: languages/vue.php:1810
+msgid "Custom Dimensions Report"
+msgstr "Rapport aangepaste dimensies"
+
+#: languages/vue.php:748
+msgid "ExactMetrics will automatically track downloads of common file types from links you have inserted onto your website. For example: want to know how many of your site's visitors have downloaded a PDF or other file you offer your visitors to download on your site? ExactMetrics makes this both easy, and code-free! You can customize the file types to track at any time from our settings panel."
+msgstr "ExactMetrics houdt automatisch downloads bij van veelvoorkomende bestandstypen via links die je op je site hebt ingevoegd. Bijvoorbeeld: wil je weten hoeveel bezoekers van je site een pdf of ander bestand hebben gedownload die je je bezoekers aanbiedt om op je site te downloaden? ExactMetrics maakt dit zowel eenvoudig als zonder code! Je kan de bestandstypen die je wil volgen op elk gewenst moment aanpassen via ons instellingenpaneel."
+
+#: languages/vue.php:1813
+msgid "Unlock the Dimensions Report and decide what data is important using your own custom tracking parameters"
+msgstr "Ontgrendel het dimensierapport en beslis welke gegevens belangrijk zijn met behulp van je eigen aangepaste trackingparameters"
+
+#: languages/vue.php:959
+msgid "Publisher, eCommerce, Search Console, Custom Dimensions, Forms and Real-Time with custom date period selection"
+msgstr "Publisher, eCommerce, Zoek console, Aangepaste afmetingen, Formulieren en Real-Time met aangepaste periode selectie"
+
+#: languages/vue.php:989
+msgid "Complete Custom Dimensions Tracking"
+msgstr "Volledig bijhouden van aangepaste afmetingen"
+
+#: languages/vue.php:1031
+msgid "Custom Google Analytics Link Tracking"
+msgstr "Custom Google Analytics Link Tracking"
+
+#: languages/vue.php:1040
+msgid "Automatic tracking of outbound/external, file download, affiliate, email and telephone links and our simple Custom Link Attribution markup for custom link tracking"
+msgstr "Automatische tracking van uitgaande/externe, bestandsdownload, gelieerde, e-mail- en telefoonlinks en onze eenvoudige aangepaste Link Attribution-opmaak voor aangepaste link-tracking"
+
+#. Translators: Current WordPress version.
+#: languages/vue.php:38
+msgid "ExactMetrics has detected that your site is running an outdated version of WordPress (%s). ExactMetrics will stop supporting WordPress versions lower than 4.6 in April, 2019.  Updating WordPress takes just a few minutes and will also solve many bugs that exist in your WordPress install."
+msgstr "ExactMetrics heeft gedetecteerd dat op je site een verouderde versie van WordPress (%s) wordt uitgevoerd. ExactMetrics stopt met het ondersteunen van WordPress-versies lager dan 4,6 in april 2019. WordPress updaten duurt slechts een paar minuten en lost ook veel bugs op die voorkomen in je WordPress-installatie."
+
+#. Translators: Current WordPress version.
+#: languages/vue.php:55
+msgid "ExactMetrics has detected that your site is running an outdated version of WordPress (%s). ExactMetrics will stop supporting WordPress versions lower than 4.9 in October, 2019.  Updating WordPress takes just a few minutes and will also solve many bugs that exist in your WordPress install."
+msgstr "ExactMetrics heeft gedetecteerd dat op je site een verouderde versie van WordPress (%s) wordt uitgevoerd. ExactMetrics stopt met het ondersteunen van WordPress-versies lager dan 4.9 in oktober 2019. Het updaten van WordPress duurt slechts een paar minuten en lost ook veel bugs op die voorkomen in je WordPress-installatie."
+
+#. Translators: Current PHP version and recommended PHP version.
+#: languages/vue.php:45
+msgid "ExactMetrics has detected that your site is running an outdated, insecure version of PHP (%1$s), which could be putting your site at risk for being hacked. WordPress stopped supporting your PHP version in April, 2019. Updating to the recommended version (PHP %2$s) only takes a few minutes and will make your website significantly faster and more secure."
+msgstr "ExactMetrics heeft gedetecteerd dat je site een verouderde, onveilige versie van PHP (%1$s) gebruikt, waardoor je site het risico loopt gehackt te worden. WordPress hebt in april 2019 je PHP-versie niet meer ondersteund. Het updaten naar de aanbevolen versie (PHP %2$s) duurt slechts enkele minuten en zal je site aanzienlijk sneller en veiliger maken."
+
+#: languages/vue.php:199
+msgid "Support & Docs"
+msgstr "Ondersteuning en documenten"
+
+#: languages/vue.php:308
+msgid "AMP Support"
+msgstr "AMP-ondersteuning"
+
+#: languages/vue.php:1079
+msgid "Better Support"
+msgstr "Betere ondersteuning"
+
+#: languages/vue.php:323
+msgid "Custom Date Ranges"
+msgstr "Aangepaste datumbereiken"
+
+#: languages/vue.php:282
+msgid "Love this plugin! It’s got powerful customization options, it’s easy to use, there’s good documentation, and if all that’s not enough, ExactMetrics is quick to provide support. Thanks for this wonderful plugin!"
+msgstr "Ik hou van deze plugin! Het heeft aangepast aanpassingsopties, het is gemakkelijk te gebruiken, er is goede documentatie en als dat nog niet genoeg is, biedt ExactMetrics snel ondersteuning. Bedankt voor deze geweldige plugin!"
+
+#: languages/vue.php:388
+msgid "Unlock the Dimensions Report and Track Your Own Custom Data"
+msgstr "Ontgrendel het afmetingenrapport en volg je eigen aangepaste gegevens"
+
+#: languages/vue.php:391
+msgid "Decide what data is important using your own custom tracking parameters. The Dimensions report allows you to easily see what's working right inside your WordPress dashboard."
+msgstr "Bepaal welke gegevens belangrijk zijn met behulp van je eigen aangepaste trackingparameters. Met het afmentingenrapport kan je eenvoudig zien wat er in je WordPress-dashboard werkt."
+
+#: languages/vue.php:2094
+msgid "Usage Tracking"
+msgstr "Gebruik bijhouden"
+
+#: languages/vue.php:1468
+msgid "Hides plugin announcements and update details. This includes critical notices we use to inform about deprecations and important required configuration changes."
+msgstr "Verbergt plugin meldingen en update details. Inclusief kritieke berichten die we gebruiken om je te informeren over uit te faseren onderdelen en belangrijke vereiste configuratiewijzigingen"
+
+#. Author of the plugin
+#: includes/emails/class-emails.php:254 includes/admin/admin.php:31
+#: includes/admin/admin.php:34 includes/admin/admin.php:42
+#: lite/includes/admin/dashboard-widget.php:97
+#: lite/includes/admin/wp-site-health.php:246
+#: lite/includes/admin/wp-site-health.php:298
+#: lite/includes/admin/wp-site-health.php:325
+#: lite/includes/admin/wp-site-health.php:363
+#: lite/includes/admin/wp-site-health.php:390
+#: lite/includes/admin/wp-site-health.php:417
+#: lite/includes/admin/wp-site-health.php:442
+#: lite/includes/admin/wp-site-health.php:481
+msgid "ExactMetrics"
+msgstr "ExactMetrics"
+
+#: includes/admin/tracking.php:242
+msgid "Once Weekly"
+msgstr "Eenmaal per week"
+
+#: includes/admin/review.php:128
+msgid "No thanks"
+msgstr "Nee, bedankt"
+
+#: languages/vue.php:1471
+msgid "Hide Announcements"
+msgstr "Verberg aankondigingen"
+
+#. Translators: Placeholder is replaced with WPForms.
+#: languages/vue.php:178
+msgid "Recommended Plugin: %s"
+msgstr "Aanbevolen plugins"
+
+#: languages/vue.php:301
+msgid "Custom Dimensions"
+msgstr "Aangepaste afmetingen"
 
 #: assets/lib/pandora/class-am-deactivation-survey.php:310
 msgid "Other"
 msgstr "Anders..."
 
-#: languages/vue.php:1156
+#: includes/gutenberg/headline-tool/headline-tool.php:766
+msgid "technology"
+msgstr "technology"
+
+#: languages/vue.php:1186
+msgid "Cross Domain Tracking"
+msgstr "Bijhouden van meerdere domeinen"
+
+#: languages/vue.php:540
 msgid "Bounce Rate"
 msgstr "Bouncepercentage"
 
 #: includes/admin/admin.php:34 includes/admin/admin.php:42
-#: includes/admin/admin.php:182
+#: includes/admin/admin.php:185
 msgid "Settings"
 msgstr "Instellingen"
 
-#: languages/vue.php:393
+#: languages/vue.php:92
 msgid "Real-Time"
 msgstr "Realtime"
 
-#: languages/vue.php:1127
+#: languages/vue.php:531
 msgid "Sessions"
 msgstr "Bezoeken"
 
-#. Description of the plugin
-msgid "Displays Google Analytics Reports and Real-Time Statistics in your Dashboard. Automatically inserts the tracking code in every page of your website."
-msgstr ""
-"Toon Google Analytics rapporten en realtime gegevens in je dashboard.\n"
-"De trackingcode wordt automatisch aan alle pagina's toegevoegd."
+#. Translators: Number of days.
+#: languages/vue.php:649
+msgid "Last %s days"
+msgstr "Afgelopen %s dagen"
 
-#: languages/vue.php:311
+#: languages/vue.php:1876
+msgid "Go to the Analytics Dashboard"
+msgstr "Ga naar het Analytics Dashboard"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:241
+msgid "three"
+msgstr "drie"
+
+#: languages/vue.php:652
 msgid "Analytics"
 msgstr "Analytics"
 
-#: languages/vue.php:939
+#: languages/vue.php:861
 msgid "Permissions"
 msgstr "Rechten"
 
-#: languages/vue.php:492
+#: languages/vue.php:205
 msgid "Save Changes"
 msgstr "Wijzigingen opslaan"
 
-#: languages/vue.php:627
+#: languages/vue.php:715
 msgid "Events Tracking"
 msgstr "Gebeurtenis tracking"
 
-#: languages/vue.php:1103
+#: languages/vue.php:1037
 msgid "Advanced Tracking"
 msgstr "Geavanceerde tracking"
 
-#: languages/vue.php:973
+#: includes/gutenberg/headline-tool/headline-tool.php:934
+msgid "video"
+msgstr "video"
+
+#: languages/vue.php:895
 msgid "Automatic Updates"
 msgstr "Automatische updates"
 
-#: languages/vue.php:728
+#: languages/vue.php:700
 msgid "Google Analytics"
 msgstr "Google Analytics"
+
+#: languages/vue.php:2151
+msgid "Today"
+msgstr "Vandaag"
+
+#: languages/vue.php:2154
+msgid "Yesterday"
+msgstr "Gisteren"
+
+#: languages/vue.php:1205
+msgid "Enable Enhanced Link Attribution"
+msgstr "Inschakelen van uitgebreide link toeschrijving"
