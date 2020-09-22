@@ -62,6 +62,7 @@
     "roots/wordpress": "^5.0",
     "roots/wp-config": "^1.0",
     "roots/wp-password-bcrypt": "^1.0",
+    "roots/bedrock-autoloader": "^1.0",
     "laposta/laposta-api-php": "^1.5",
     "wp-media/wp-rocket": "^3.3",
     "j7mbo/twitter-api-php": "^1.0",
