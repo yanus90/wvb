@@ -1,4 +1,4 @@
-<div class="section section-slider pb-md-4 pb-xl-5 {{ ($notifications ? 'pt-3' : 'pt-4 pt-xl-5') }}">
+<div class="section section-slider pb-md-4 pb-xl-5 {{ ($notifications ? 'pt-3' : 'pt-3 pt-xl-3') }}">
     <div class="container">
         <div class="row">
             @if (get_field('homepagina_slider'))
