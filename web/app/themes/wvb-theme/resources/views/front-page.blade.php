@@ -6,6 +6,7 @@
 
 @section('content')
     @include('partials.notifications')
+    @include('partials.grote-club-actie')
     @include('partials.slider')
     @include('partials.sponsoren')
     @include('partials.news-home')
