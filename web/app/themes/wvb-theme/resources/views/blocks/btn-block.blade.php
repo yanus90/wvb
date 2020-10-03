@@ -5,7 +5,7 @@
   Icon: admin-links
   Keywords: knop
   Mode: edit
-  Align: left
+  Align: center
   ClassName: btn-block
   SupportsAlign: left right center
   SupportsMode: true
