@@ -109,3 +109,14 @@ function acf_set_featured_image($value, $post_id, $field)
 }
 add_filter('acf/update_value/name=afbeelding_bericht', __NAMESPACE__.'\\acf_set_featured_image', 10, 3);
 
+function wvb_remove_protected_from_title($title)
+{
+    $post = get_post();
+
+    if (! empty($post->post_password)) {
+        $formatted = sprintf(__('Protected: %s'), $post->post_title);
+        $title = str_replace($formatted, $post->post_title, $title);
+    }
+    return $title;
+}
+add_filter('the_title', __NAMESPACE__.'\\wvb_remove_protected_from_title', 10);
