@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Themes - Twenty Twelve package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-13 20:58:26+0000\n"
+"PO-Revision-Date: 2020-12-09 07:42:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: nl\n"
 "Project-Id-Version: Themes - Twenty Twelve\n"
 
@@ -20,8 +20,8 @@ msgid "Twenty Twelve"
 msgstr "Twenty Twelve"
 
 #: functions.php:454
-msgid "Your comment is awaiting moderation. This is a preview, your comment will be visible after it has been approved."
-msgstr "Je reactie is in afwachting van moderatie. Dit is een voorbeeld, je reactie wordt zichtbaar zodra deze is goedgekeurd."
+msgid "Your comment is awaiting moderation. This is a preview; your comment will be visible after it has been approved."
+msgstr "Je reactie is in afwachting van moderatie. Dit is een voorbeeld; je reactie wordt zichtbaar nadat deze is goedgekeurd."
 
 #. translators: %s: The post title.
 #: comments.php:35
@@ -101,8 +101,8 @@ msgstr "&larr; Vorige"
 #. 5: Image height in pixels, 6: Post parent permalink, 7: Post parent title,
 #. 8: Post parent title.
 #: image.php:31
-msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
-msgstr "<span class=\"meta-prep meta-prep-entry-date\">Gepubliceerd </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> op <a href=\"%3$s\" title=\"Link naar volledige afbeelding\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Terug naar %7$s\" rel=\"gallery\">%8$s</a>."
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Go to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Gepubliceerd </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link naar de volledige grootte van de afbeelding\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Ga terug naar %7$s\" rel=\"gallery\">%8$s</a>."
 
 #: header.php:45
 msgid "Skip to content"
@@ -170,7 +170,7 @@ msgstr "Nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Oudere berichten"
 
-#: single.php:23 functions.php:393
+#: functions.php:393 single.php:23
 msgid "Post navigation"
 msgstr "Berichtnavigatie"
 
@@ -231,7 +231,7 @@ msgstr "Bekijk alle berichten van %s <span class=\"meta-nav\">&rarr;</span>"
 msgid "Featured post"
 msgstr "Uitgelicht bericht"
 
-#: content-page.php:24 image.php:124 content.php:50
+#: content.php:50 image.php:124 content-page.php:24
 msgid "Pages:"
 msgstr "Pagina&#39;s:"
 
@@ -247,35 +247,35 @@ msgstr "Niets gevonden"
 msgid "Link"
 msgstr "Link"
 
-#: content-aside.php:29 content-status.php:43 content-image.php:26
-#: content-link.php:27 content-page.php:31 content-quote.php:26 image.php:42
-#: functions.php:464 content.php:60
+#: content-link.php:27 content.php:60 functions.php:464 content-image.php:26
+#: content-quote.php:26 content-status.php:43 image.php:42 content-aside.php:29
+#: content-page.php:31
 msgid "Edit"
 msgstr "Bewerken"
 
-#: content-aside.php:26 content-status.php:40 content-image.php:23
-#: content-link.php:24 content-quote.php:23 content.php:35
+#: content-link.php:24 content.php:35 content-image.php:23 content-quote.php:23
+#: content-status.php:40 content-aside.php:26
 msgid "% Replies"
 msgstr "% reacties"
 
-#: content-aside.php:26 content-status.php:40 content-image.php:23
-#: content-link.php:24 content-quote.php:23 content.php:35
+#: content-link.php:24 content.php:35 content-image.php:23 content-quote.php:23
+#: content-status.php:40 content-aside.php:26
 msgid "1 Reply"
 msgstr "1 reactie"
 
-#: content-aside.php:26 content-status.php:40 content-image.php:23
-#: content-link.php:24 content-quote.php:23 content.php:35
+#: content-link.php:24 content.php:35 content-image.php:23 content-quote.php:23
+#: content-status.php:40 content-aside.php:26
 msgid "Leave a reply"
 msgstr "Geef een reactie"
 
 #. translators: %s: Post title.
-#: content-aside.php:11 content-status.php:11 content-link.php:11
-#: content-quote.php:11
+#: content-link.php:11 content-quote.php:11 content-status.php:11
+#: content-aside.php:11
 msgid "Permalink to %s"
 msgstr "Permalink naar %s"
 
-#: content-aside.php:18 content-status.php:34 content-image.php:13
-#: content-link.php:17 content-quote.php:16 content.php:46
+#: content-link.php:17 content.php:46 content-image.php:13 content-quote.php:16
+#: content-status.php:34 content-aside.php:18
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Lees verder <span class=\"meta-nav\">&rarr;</span>"
 
@@ -307,9 +307,9 @@ msgstr[1] "%1$s gedachten over &ldquo;%2$s&rdquo;"
 msgid "Category Archives: %s"
 msgstr "Categoriearchief: %s"
 
-#. translators: %s: Author display name.
 #. translators: Author display name.
-#: content.php:77 author.php:74
+#. translators: %s: Author display name.
+#: author.php:74 content.php:77
 msgid "About %s"
 msgstr "Over %s"
 

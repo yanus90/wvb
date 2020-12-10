@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-21 13:37:53+0000\n"
+"PO-Revision-Date: 2020-12-07 09:09:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,7 +46,7 @@ msgstr "%1$s is onjuist aangeroepen. %2$s %3$s"
 msgid "(This message was added in Contact Form 7 version %s.)"
 msgstr "(Dit bericht is toegevoegd in Contact Form 7  versie %s.)"
 
-#: modules/flamingo.php:275 includes/special-mail-tags.php:22
+#: modules/flamingo.php:285 includes/special-mail-tags.php:22
 #: includes/special-mail-tags.php:97 includes/special-mail-tags.php:164
 #: includes/special-mail-tags.php:206
 msgid "The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class."
@@ -197,8 +197,8 @@ msgid "Setup Integration"
 msgstr "Integratie instellen"
 
 #: modules/constant-contact.php:490
-msgid "Constant Contact Integration"
-msgstr "Constant contact Integratie"
+msgid "Constant Contact integration"
+msgstr "Constant contact integratie"
 
 #: modules/constant-contact.php:486
 msgid "https://contactform7.com/constant-contact-integration/"
@@ -213,8 +213,8 @@ msgid "Constant Contact"
 msgstr "Constant kontakt"
 
 #: modules/constant-contact.php:9
-msgid "Email Marketing"
-msgstr "E-mail Marketing"
+msgid "Email marketing"
+msgstr "E-mail marketing"
 
 #: includes/config-validator.php:649
 msgid "It is not allowed to use files outside the wp-content directory."
@@ -1548,6 +1548,6 @@ msgid "Contact"
 msgstr "Contact"
 
 #. Plugin Name of the plugin
-#: modules/flamingo.php:191 admin/admin.php:21 includes/block-editor/index.js:1
+#: modules/flamingo.php:201 admin/admin.php:21 includes/block-editor/index.js:1
 msgid "Contact Form 7"
 msgstr "Contact Form 7"
