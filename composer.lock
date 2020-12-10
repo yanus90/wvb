@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ff38e6cb537258dc836635153e17c77",
+    "content-hash": "6fbe2834356c45921db7b54ca6d2869b",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1401,24 +1401,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-nocaptcha-recaptcha/"
-        },
-        {
-            "name": "wpackagist-plugin/cf7-mollie",
-            "version": "4.7.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cf7-mollie/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-mollie.zip?timestamp=1605168678"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cf7-mollie/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
