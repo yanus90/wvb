@@ -80,7 +80,7 @@
     "wpackagist-plugin/advanced-nocaptcha-recaptcha": "^6.0",
     "wpackagist-plugin/webp-express": "^0.19",
     "wpackagist-plugin/woocommerce": "^4.0",
-    "wpackagist-plugin/mollie-payments-for-woocommerce": "^5.3",
+    "wpackagist-plugin/mollie-payments-for-woocommerce": "^5.0",
     "wpackagist-plugin/woo-order-export-lite":"^3.0",
     "wpackagist-plugin/contact-form-entries":"1.1.4",
     "wpackagist-plugin/accesspress-facebook-auto-post":"^2.0"

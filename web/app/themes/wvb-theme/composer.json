@@ -42,7 +42,7 @@
     "illuminate/support": "5.6.*",
     "roots/sage-lib": "~9.0.5",
     "soberwp/controller": "~2.1.0",
-    "mwdelaney/sage-acf-gutenberg-blocks": "dev-master",
+    "mwdelaney/sage-acf-gutenberg-blocks": "0.5",
     "roots/sage-woocommerce": "^1.0"
   },
   "require-dev": {

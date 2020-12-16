@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6fbe2834356c45921db7b54ca6d2869b",
+    "content-hash": "67d852c304da168452ce3f0c8b96bca7",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -367,16 +367,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.25.5",
+            "version": "1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "1817faadd1846cd08be9a49e905dc68823bc38c0"
+                "reference": "2209ddd84e7ef1256b7af205d0717fb62cfc9c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1817faadd1846cd08be9a49e905dc68823bc38c0",
-                "reference": "1817faadd1846cd08be9a49e905dc68823bc38c0",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/2209ddd84e7ef1256b7af205d0717fb62cfc9c33",
+                "reference": "2209ddd84e7ef1256b7af205d0717fb62cfc9c33",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +392,7 @@
                 "graylog2/gelf-php": "~1.0",
                 "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
-                "php-parallel-lint/php-parallel-lint": "^1.0",
+                "phpstan/phpstan": "^0.12.59",
                 "phpunit/phpunit": "~4.5",
                 "ruflin/elastica": ">=0.90 <3.0",
                 "sentry/sentry": "^0.13",
@@ -412,11 +412,6 @@
                 "sentry/sentry": "Allow sending log messages to a Sentry server"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Monolog\\": "src/Monolog"
@@ -440,7 +435,17 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2020-07-23T08:35:51+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-12-14T12:56:38+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1236,16 +1241,16 @@
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.8",
+            "version": "v3.8.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "968e48def617c89190720018235fd50f4707be21"
+                "reference": "f44dd605c06b8412651e603b065c27005b19d2c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/968e48def617c89190720018235fd50f4707be21",
-                "reference": "968e48def617c89190720018235fd50f4707be21",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/f44dd605c06b8412651e603b065c27005b19d2c3",
+                "reference": "f44dd605c06b8412651e603b065c27005b19d2c3",
                 "shasum": ""
             },
             "require": {
@@ -1346,7 +1351,7 @@
                 "minification",
                 "wordpress"
             ],
-            "time": "2020-12-09T15:25:45+00:00"
+            "time": "2020-12-14T14:39:02+00:00"
         },
         {
             "name": "wpackagist-plugin/accesspress-facebook-auto-post",
@@ -1440,15 +1445,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "6.3.2",
+            "version": "6.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/6.3.2"
+                "reference": "tags/6.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.6.3.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.6.4.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1620,15 +1625,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "15.4",
+            "version": "15.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/15.4"
+                "reference": "tags/15.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"

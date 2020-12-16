@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "114ec10c3a5bc3540e63e57d68d23a9b",
+    "content-hash": "b443109eb26854ab295b859e45287d48",
     "packages": [
         {
             "name": "brain/hierarchy",
@@ -647,16 +647,16 @@
         },
         {
             "name": "mwdelaney/sage-acf-gutenberg-blocks",
-            "version": "dev-master",
+            "version": "0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MWDelaney/sage-acf-wp-blocks.git",
-                "reference": "1d5794c3b7052dfa7c946d431410329e5f021727"
+                "reference": "cb481330cfa3f34b730fa46d618a77996a00dad4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MWDelaney/sage-acf-wp-blocks/zipball/1d5794c3b7052dfa7c946d431410329e5f021727",
-                "reference": "1d5794c3b7052dfa7c946d431410329e5f021727",
+                "url": "https://api.github.com/repos/MWDelaney/sage-acf-wp-blocks/zipball/cb481330cfa3f34b730fa46d618a77996a00dad4",
+                "reference": "cb481330cfa3f34b730fa46d618a77996a00dad4",
                 "shasum": ""
             },
             "require": {
@@ -688,7 +688,7 @@
                 "gutenberg",
                 "wordpress"
             ],
-            "time": "2020-09-30T18:13:55+00:00"
+            "time": "2020-03-05T14:38:41+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -2157,9 +2157,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "mwdelaney/sage-acf-gutenberg-blocks": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
