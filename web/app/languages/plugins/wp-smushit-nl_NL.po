@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Smush &#8211; Lazy Load Images, Optimize &amp; Compress Images - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-10 13:37:51+0000\n"
+"PO-Revision-Date: 2020-12-14 14:26:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,284 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: nl\n"
 "Project-Id-Version: Plugins - Smush &#8211; Lazy Load Images, Optimize &amp; Compress Images - Stable (latest release)\n"
+
+#: core/modules/class-webp.php:636
+msgid "We were unable to automatically remove the rules. We recommend trying to remove the rules manually. If you don’t have access to the .htaccess file to remove it manually, please consult with your hosting provider to change the configuration on the server."
+msgstr "We konden de regels niet automatisch verwijderen. We raden aan om de regels handmatig te verwijderen. Als je geen toegang hebt tot het .htaccess bestand om het handmatig te verwijderen, neem dan contact op met je hosting provider om de configuratie op de server te wijzigen. "
+
+#: core/modules/class-webp.php:633
+msgid "The .htaccess file doesn't contain the WebP rules from Smush."
+msgstr "Het .htaccess bestand bevat niet de WebP-regels van Smush."
+
+#. translators: 1. opening 'a' tag to premium support, 2. closing 'a' tag.
+#: core/modules/class-webp.php:605
+msgid "We tried to apply the .htaccess rules automatically but we were unable to complete this action. Make sure the file permissions on your .htaccess file are set to 644, or switch to manual mode and apply the rules yourself. If you need further assistance, you can %1$scontact support%2$s for help."
+msgstr "We hebben geprobeerd de .htaccess-regels automatisch toe te passen, maar we konden deze actie niet voltooien. Zorg ervoor dat de bestandsrechten voor je .htaccess bestand zijn ingesteld op 644, of schakel over naar de handmatige modus en pas de regels zelf toe. Als je meer hulp nodig hebt , kan je %1$scontact opnemen met ondersteuning%2$s voor hulp. "
+
+#: core/modules/class-webp.php:600
+msgid "The .htaccess file already contains the WebP rules from Smush."
+msgstr "Het .htaccess-bestand bevat al de WebP-regels van Smush."
+
+#: core/modules/class-webp.php:430
+msgid "Newly uploaded images will be automatically converted to WebP format."
+msgstr "Nieuw geüploade afbeeldingen worden automatisch geconverteerd naar WebP- lay-out."
+
+#. translators: %1$s - opening link tag, %2$s - </a>
+#: core/modules/class-webp.php:424
+msgid "You can also enable %3$sAutomatic Compression%2$s to convert newly uploaded image files automatically going forward."
+msgstr "Je kunt ook %3$sAutomatische compressie%2$s inschakelen om nieuw geüploade afbeeldingsbestanden in de toekomst automatisch te converteren."
+
+#. translators: %1$s - opening link tag, %2$s - </a>
+#: core/modules/class-webp.php:415
+msgid "Use the %1$sBulk Smush%2$s tool to convert all the images in your media library to WebP format. "
+msgstr "Gebruik de %1$sBulk Smush%2$s tool om alle afbeeldingen in je mediabibliotheek naar WebP- lay-out te converteren."
+
+#: core/modules/class-webp.php:407
+msgid "WebP files were deleted successfully."
+msgstr "WebP bestanden zijn succesvol verwijderd."
+
+#: core/class-core.php:384
+msgid "Something went wrong with the request. Please reload the page and try again."
+msgstr "Er is iets misgegaan met de aanvraag. Laad de pagina opnieuw en probeer het opnieuw."
+
+#: app/pages/class-dashboard.php:324
+msgid "Configurations"
+msgstr "Configuraties"
+
+#: app/views/webp/webp-meta-box.php:147
+msgid "If you no longer require your images to be served in WebP format, you can disable this feature."
+msgstr "Als je je afbeeldingen niet langer in WebP- lay-out wil laten weergeven, kan je deze functie uitschakelen."
+
+#: app/views/webp/webp-meta-box.php:94
+msgid "Here's a list of the media types that will be converted to WebP format."
+msgstr "Hier is een lijst met de mediatypen die naar WebP- lay-out zullen worden geconverteerd."
+
+#: app/views/webp/webp-meta-box.php:68
+msgid "Server configurations haven't been applied yet. Make configurations below to start serving images in WebP format."
+msgstr "Serverconfiguraties zijn nog niet toegepast. Maak onderstaande configuraties om afbeeldingen in WebP- lay-out weer te geven."
+
+#: app/views/webp/webp-meta-box.php:66
+msgid "The rules have been applied, however, the images have still not been converted to WebP.  We recommend to contact your server provider to know more about the cause of this issue."
+msgstr "De regels zijn toegepast, maar de afbeeldingen zijn nog steeds niet geconverteerd naar WebP. We raden je aan contact op te nemen met je serverprovider voor meer informatie over de oorzaak van dit probleem."
+
+#. translators: 1. opening 'b' tag, 2. closing 'b' tag
+#: app/views/webp/webp-meta-box.php:50 app/views/webp/webp-meta-box.php:76
+msgid "%1$sNote:%2$s We noticed the Amazon S3 Integration is enabled. Offloaded images will not be served in WebP format, but Smush will still create local WebP copies of all images. If this is undesirable, please deactivate the WebP module below."
+msgstr "%1$sOpmerking: %2$s We hebben gemerkt dat de Amazon S3-integratie is ingeschakeld. Overgeladen afbeeldingen worden niet weergegeven in WebP- lay-out, maar Smush maak nog steeds lokale WebP kopieën van alle afbeeldingen. Als dit ongewenst is, deactiveer de WebP-module hieronder. "
+
+#: app/views/webp/webp-meta-box.php:40
+msgid "WebP conversion is active and working well. Your hosting has automatically pre-configured the conversion for you and no further actions are required."
+msgstr "WebP conversie is actief en werkt goed. Je hosting heeft de conversie automatisch voor je geconfigureerd en er zijn geen verdere acties vereist."
+
+#: app/views/webp/webp-meta-box.php:38
+msgid "WebP conversion is active and working well. Since your site is hosted with WPMU DEV, WebP conversion has been automatically configured and no further actions are required."
+msgstr "WebP conversie is actief en werkt goed. Aangezien je site wordt gehost met WPMJe DEV, is de WebP-conversie automatisch geconfigureerd en zijn er geen verdere acties vereist."
+
+#: app/views/webp/webp-meta-box.php:35
+msgid "WebP conversion is active and working well."
+msgstr "WebP conversie is actief en werkt goed."
+
+#: app/views/webp/webp-meta-box.php:19
+msgid "Serve WebP versions of your images to supported browsers, and gracefully fall back on JPEGs and PNGs for browsers that don't support WebP."
+msgstr "Serveer WebP versies van je afbeeldingen aan ondersteunde browsers, en val op een elegante manier terug op JPEG's en PNG's voor browsers die WebP niet ondersteunen."
+
+#: app/views/webp/upsell-meta-box-header.php:20
+msgid "Join WPMU DEV to use this feature"
+msgstr "Word lid van WPMJe DEV om deze functie te gebruiken"
+
+#: app/views/webp/upsell-meta-box.php:31
+#: app/views/webp/disabled-meta-box.php:24
+msgid "Fix the \"Serve images in next-gen format\" Google PageSpeed recommendation by setting up this feature. Serve WebP versions of your images to supported browsers, and gracefully fall back on JPEGs and PNGs for browsers that don't support WebP."
+msgstr "Opgelost de \"Geef afbeeldingen weer in next-gen format\" Google PageSpeed aanbeveling door deze functie in te stellen. Serveer WebP-versies van je afbeeldingen aan ondersteunde browsers en val op een elegante manier terug op JPEG's en PNG's voor browsers die WebP niet ondersteunen."
+
+#: app/views/webp/upsell-meta-box.php:25
+#: app/views/webp/disabled-meta-box.php:18
+msgid "Smush WebP"
+msgstr "Smush WebP"
+
+#: app/views/webp/config-meta-box.php:290 app/views/webp/webp-meta-box.php:153
+msgid "Note: Deactivation won’t delete existing WebP images."
+msgstr "Opmerking: bij deactivering worden bestaande WebP-afbeeldingen niet verwijderd."
+
+#: app/views/webp/config-meta-box.php:280
+msgid "If you no longer want to use this feature, click on Deactivate and we will disable the feature."
+msgstr "Als je deze functie niet langer wil gebruiken, klik je op Deactiveren en we zullen de functie uitschakelen."
+
+#: app/views/webp/config-meta-box.php:266 app/views/webp/webp-meta-box.php:134
+msgid "Note: This feature won’t delete the WebP files converted via CDN, only the files generated via the local WebP feature."
+msgstr "Opmerking: deze functie verwijdert niet de WebP-bestanden die zijn geconverteerd via CDN, alleen de bestanden die zijn gegenereerd via de lokale WebP-functie."
+
+#: app/views/webp/config-meta-box.php:259 app/views/webp/webp-meta-box.php:127
+msgid "Delete WebP Files"
+msgstr "Verwijder WebP-bestanden"
+
+#: app/views/webp/config-meta-box.php:246 app/views/webp/webp-meta-box.php:114
+msgid "If your server storage space is full, use this feature to revert the WebP conversions by deleting all generated files. The files will fall back to normal PNGs or JPEGs once you delete them."
+msgstr "Als de opslagruimte van je server vol is, gebruik je deze functie om de WebP conversies ongedaan te maken door alle gegenereerde bestanden te verwijderen. De bestanden vallen terug naar normale PNG's of JPEG's zodra je ze verwijdert."
+
+#: app/views/webp/config-meta-box.php:244 app/views/webp/webp-meta-box.php:112
+msgid "Revert WebP Conversion"
+msgstr "WebP conversie terugdraaien"
+
+#: app/views/webp/config-meta-box.php:224
+msgid "If you do not have access to your NGINX config files you will need to contact your hosting provider to make these changes."
+msgstr "Als je geen toegang hebt tot je NGINX-configuratiebestanden, moet je contact opnemen met je hosting provider om deze wijzigingen door te voeren."
+
+#: app/views/webp/config-meta-box.php:220
+msgid "Troubleshooting:"
+msgstr "Probleemoplossen:"
+
+#: app/views/webp/config-meta-box.php:213
+msgid "Reload NGINX."
+msgstr "Herlaad NGINX."
+
+#: app/views/webp/config-meta-box.php:210
+msgid "Copy the generated code found below and paste it inside your server block."
+msgstr "Kopieer de gegenereerde code hieronder en plak deze in je serverblok."
+
+#: app/views/webp/config-meta-box.php:207
+msgid "Insert the following in the server context of your configuration file (usually found in /etc/nginx/sites-available). \"The server context\" refers to the part of the configuration that starts with \"server {\" and ends with the matching \"}\"."
+msgstr "Voeg het volgende in de servercontext van je configuratiebestand in (meestal te vinden in/etc/nginx/sites-available). \"De server context\" verwijst naar het deel van de configuratie dat begint met \"server {\" en eindigt met de bijpassende \"}\"."
+
+#: app/views/webp/config-meta-box.php:202
+msgid "For NGINX servers:"
+msgstr "Voor NGINX-servers:"
+
+#. translators: 1. opening 'a' tag to premium support, 2. closing 'a' tag.
+#: app/views/webp/config-meta-box.php:188
+#: app/views/webp/config-meta-box.php:231
+msgid "Still having trouble? %1$sGet support%2$s."
+msgstr "Heb je nog steeds problemen? %1$sKrijg ondersteuning%2$s."
+
+#: app/views/webp/config-meta-box.php:181
+msgid "If you don't know where those files are, or you aren't able to reload Apache, you would need to consult with your hosting provider or a system administrator who has access to change the configuration of your server."
+msgstr "Als je niet weet waar die bestanden zijn, of als je Apache niet opnieuw kunt laden, moet je contact opnemen met je hosting provider of een systeembeheerder die toegang heeft om de configuratie van je server te wijzigen."
+
+#: app/views/webp/config-meta-box.php:175
+msgid "Look for your site in the file and find the line that starts with <Directory> - add the code above into that section and save the file."
+msgstr "Zoek je site in het bestand en vind de regel die begint met <Directory> - voeg de bovenstaande code toe aan die sectie en sla het bestand op."
+
+#: app/views/webp/config-meta-box.php:149
+msgid "If you don't know where those files are, or you aren't able to reload Apache, you would need to consult with your hosting provider or a system administrator who has access to change the configuration of your server"
+msgstr "Als je niet weet waar die bestanden zijn, of als je Apache niet opnieuw kunt laden, moet je contact opnemen met je hosting provider of een systeembeheerder die toegang heeft om de configuratie van je server te wijzigen"
+
+#: app/views/webp/config-meta-box.php:146
+#: app/views/webp/config-meta-box.php:178
+msgid "Reload Apache."
+msgstr "Herlaad Apache."
+
+#: app/views/webp/config-meta-box.php:143
+msgid "Look for your site in the file and find the line that starts with <Directory> - add the code above that line and into that section and save the file."
+msgstr "Zoek je site in het bestand en vind de regel die begint met <Directory> - voeg de code boven die regel en in die sectie toe en sla het bestand op."
+
+#: app/views/webp/config-meta-box.php:138
+#: app/views/webp/config-meta-box.php:170
+msgid "If .htaccess does not work, and you have access to vhosts.conf or httpd.conf try this"
+msgstr "Als .htaccess niet werkt, en je hebt toegang tot vhosts.conf of httpd.conf, probeer dit dan"
+
+#: app/views/webp/config-meta-box.php:135
+#: app/views/webp/config-meta-box.php:167
+msgid "Troubleshooting"
+msgstr "Probleemoplossen"
+
+#. translators: 1. opening 'a' tag to check Webp conversion status, 2. closing
+#. 'a' tag, 3. opening 'a' tag to premium support.
+#: app/views/webp/config-meta-box.php:124
+#: app/views/webp/config-meta-box.php:156
+msgid "Next, %1$sre-check WebP conversion status%2$s to see if it worked. %3$sStill having issues?%2$s"
+msgstr "Vervolgens %1$scontroleer de WebP conversiestatus%2$s opnieuw om te zien of het werkte. %3$sHeb je nog steeds problemen?%2$s"
+
+#: app/views/webp/config-meta-box.php:118
+msgid "Copy & paste the generated code below into your .htaccess file in the uploads directory (wp-content/uploads). If the file does not exist, you can create one"
+msgstr "Kopieer en plak de gegenereerde code hieronder in je .htaccess bestand in de uploads folder(wp-content/uploads). Als het bestand niet bestaat, kun je er een aanmaken"
+
+#: app/views/webp/config-meta-box.php:113
+msgid "If you are unable to get the automated method working, you can copy the generated code below into your .htaccess file in the uploads directory (wp-content/uploads) to activate WebP conversion. If the file does not exist, you can create one."
+msgstr "Als je de geautomatiseerde methode niet kunt laten werken, kan je de onderstaande gegenereerde code kopiëren naar je .htaccess bestand in de uploads folder(wp-content/uploads) om WebP conversie te activeren. Als het bestand niet bestaat, kan je er een maken."
+
+#: app/views/webp/config-meta-box.php:105
+msgid "Apply rules"
+msgstr "Regels toepassen"
+
+#: app/views/webp/config-meta-box.php:99
+msgid "Remove rules"
+msgstr "Verwijder regels"
+
+#: app/views/webp/config-meta-box.php:93
+msgid "Please note: Some servers have both Apache and NGINX software which may not begin serving WebP images after applying the .htaccess rules. If errors occur after applying the rules, we recommend adding NGINX rules manually."
+msgstr "Let op: sommige servers hebben zowel Apache- als NGINX-software die mogelijk geen WebP afbeeldingen begint te leveren na het toepassen van de.htaccess regels. Als er fouten optreden na het toepassen van de regels, raden we aan NGINX-regels handmatig toe te voegen."
+
+#: app/views/webp/config-meta-box.php:90
+msgid "Smush can automatically apply WebP conversion rules for Apache servers by writing your .htaccess file. Alternatively, switch to Manual to apply these rules yourself."
+msgstr "Smush kan automatisch WebP conversieregels toepassen voor Apache-servers door je .htaccess bestand te schrijven. Je kunt ook overschakelen naar Handmatig om deze regels zelf toe te passen."
+
+#: app/views/webp/config-meta-box.php:82
+msgid "MANUAL"
+msgstr "HANDLEIDING"
+
+#: app/views/webp/config-meta-box.php:79
+msgid "AUTOMATIC"
+msgstr "AUTOMATISCH"
+
+#: app/views/webp/config-meta-box.php:67
+msgid "Follow the instructions to activate WebP conversion for this website."
+msgstr "Volg de instructies om WebP conversie voor deze site te activeren."
+
+#: app/views/webp/config-meta-box.php:63
+msgid "Enable conversion"
+msgstr "Conversie inschakelen"
+
+#. translators: server type name.
+#: app/views/webp/config-meta-box.php:51
+msgid "We've automatically detected your server type is %s. If this is incorrect, manually select your server type to generate the relevant rules and instructions."
+msgstr "We hebben automatisch vastgesteld dat je servertype %s is. Als dit onjuist is, selecteer je handmatig je servertype om de relevante regels en instructies te genereren."
+
+#: app/views/webp/config-meta-box.php:29
+msgid "Choose your server type. If you don't know this, please contact your hosting provider."
+msgstr "Kies je servertype. Als je dit niet weet, neem dan contact op met je hosting provider."
+
+#: app/views/webp/config-meta-box.php:25 app/views/webp/config-meta-box.php:36
+msgid "Server type"
+msgstr "Servertype"
+
+#: app/views/webp/meta-box-header.php:33
+msgid "Re-check status"
+msgstr "Controleer de status opnieuw"
+
+#: app/views/webp/meta-box-header.php:31
+msgid "Made changes?"
+msgstr "Wijzigingen aangebracht?"
+
+#: app/views/webp/meta-box-header.php:23
+msgid "This feature is likely to work without issue, however our WebP is in beta stage and some issues are still present."
+msgstr "Deze functie werkt waarschijnlijk zonder problemen, maar onze WebP bevindt zich in de bètafase en sommige problemen zijn nog steeds aanwezig."
+
+#: app/views/webp/meta-box-header.php:18
+#: app/views/webp/upsell-meta-box-header.php:16
+#: app/pages/class-dashboard.php:66 app/pages/class-dashboard.php:295
+#: app/pages/class-dashboard.php:305 app/pages/class-dashboard.php:314
+msgid "WebP"
+msgstr "WebP"
+
+#: app/views/pro-features/meta-box.php:100
+msgid "Rather not use Smush CDN? Our standalone WebP feature allows you to serve next-gen images that are around 26% smaller than JPG and PNG formats. All without sacrificing image quality."
+msgstr "Gebruik je liever geen Smush CDN? Met onze zelfstandige WebP functie kun je afbeeldingen van de volgende generatie weergeven die ongeveer 26% kleiner zijn dan JPG- en PNG-formaten. En dat alles zonder in te boeten aan beeldkwaliteit."
+
+#: app/modals/webp-delete-all.php:38
+msgid "Are you sure you want to delete all WebP files?"
+msgstr "Weet je zeker dat je alle WebP bestanden wil verwijderen?"
+
+#: app/modals/webp-delete-all.php:33
+msgid "Delete WebP files"
+msgstr "Verwijder WebP bestanden"
+
+#: app/class-ajax.php:1196
+msgid "This user can not delete all WebP images."
+msgstr "Deze gebruiker kan niet alle WebP afbeeldingen verwijderen."
+
+#: app/class-ajax.php:1103
+msgid "You don't have permission to do this."
+msgstr "Je hebt hier geen toestemming voor."
 
 #: app/views/bulk/meta-box.php:209 app/views/bulk/meta-box.php:236
 msgid "Copy your full size images"

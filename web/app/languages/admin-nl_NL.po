@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.6.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-09 07:34:15+0000\n"
+"PO-Revision-Date: 2020-12-14 15:03:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,11 +43,11 @@ msgstr "https://wordpress.org/plugins/wp-jquery-update-test/"
 #. information link.
 #: wp-admin/about.php:123
 msgid "What’s more, this default theme puts accessibility at the heart of your website. It conforms to the <a href=\"%1$s\">WordPress accessibility-ready guidelines</a> and addresses several more specialized standards from the <a href=\"%2$s\">Web Content Accessibility Guidelines (WCAG) 2.1 at level AAA</a>. It will help you meet the highest level of international accessibility standards when you create accessible content and choose plugins which are accessible too!"
-msgstr "Aanvullend, dit standaardthema zet de toegankelijkheid in het hart van je site. Het voldoet aan de <a href=\"%1$s\">WordPress accessibility-ready</a> richtlijnen en behandeld verschillende meer gespecialiseerde normen van de <a href=\"%2$s\">Web Content Accessibility Guidelines (WCAG) 2.1 at level AAA</a>. Het helpt je bij het voldoen aan het hoogste niveau van internationale toegankelijkheidsnormen wanneer je toegankelijke inhoud maakt en kiest plugins die ook toegankelijk zijn!"
+msgstr "Aanvullend, dit standaardthema zet de toegankelijkheid in het hart van je site. Het voldoet aan de <a href=\"%1$s\">WordPress accessibility-ready</a> richtlijnen en behandeld verschillende meer gespecialiseerde normen van de <a href=\"%2$s\">Web Content Accessibility Guidelines (WCAG) 2.1 at level AAA</a>. Het helpt je te voldoen aan het hoogste niveau van internationale toegankelijkheidsnormen wanneer je toegankelijke inhoud maakt en plugins kiest die ook toegankelijk zijn!"
 
 #: wp-admin/about.php:91
 msgid "To help you add subtitles or captions to your videos, you can now upload them within your post or page. This makes it easier than ever to make your videos accessible for anyone who needs or prefers to use subtitles."
-msgstr "Om je te helpen ondertiteling of bijschriften toe te voegen aan je videos, kan je ze nu uploaden in je bericht of pagina. Dit maakt het makkelijker dan ooit om videos toegankelijk te maken voor iedereen die ondertiteling nodig heeft of hiervoor de voorkeur voor heeft."
+msgstr "Om je te helpen ondertiteling of bijschriften toe te voegen aan je video's, kan je ze nu uploaden in je bericht of pagina. Dit maakt het makkelijker dan ooit om video's toegankelijk te maken voor iedereen die ondertiteling nodig heeft of hiervoor de voorkeur voor heeft."
 
 #: wp-admin/about.php:90
 msgid "Upload video captions directly in the block editor"
@@ -148,7 +148,7 @@ msgstr "Meer blokpatronen"
 
 #: wp-admin/about.php:78
 msgid "Bring your stories to life with more tools that let you edit your layout with or without code. Single column blocks, designs using mixed widths and columns, full-width headers, and videos in your cover block—make small changes or big statements with equal ease!"
-msgstr "Breng je verhalen tot leven met meer gereedschappen waarmee je je lay-out met of zonder code kunt bewerken. Blokken met één kolom, ontwerpen met verschillende breedtes en kolommen, headers over de volledige breedte en video's in je cover blok - breng met hetzelfde gemak kleine wijzigingen of grote uitspraken aan!"
+msgstr "Breng je verhalen tot leven met meer gereedschappen waarmee je je lay-out met of zonder code kunt bewerken. Blokken met één kolom, ontwerpen met verschillende breedtes en kolommen, headers over de volledige breedte en video's in je cover blok—breng met hetzelfde gemak kleine wijzigingen of grote uitspraken aan!"
 
 #: wp-admin/about.php:77
 msgid "Greater layout flexibility"
@@ -1472,7 +1472,7 @@ msgstr "Je zou nu je %s bestand moeten bijwerken."
 
 #: wp-admin/update-core.php:171
 msgid "This localized version contains both the translation and various other localization fixes."
-msgstr "Deze gelokaliseerde versie bevat zowel de vertaling alsook verschillende andere vertalingsoplossingen."
+msgstr "Deze gelokaliseerde versie bevat zowel de vertaling als diverse andere lokalisatie oplossingen."
 
 #. translators: 1: Number of issues. 2: URL to Site Health screen.
 #: wp-admin/includes/dashboard.php:1863
@@ -1924,7 +1924,7 @@ msgstr "Het geplande evenement, %s, is nog niet uitgevoerd. Je site werkt nog st
 
 #: wp-admin/includes/class-wp-site-health.php:1655
 msgid "A scheduled event is late"
-msgstr "Een ingeroosterd event is laat"
+msgstr "Een gepland event is laat"
 
 #: wp-admin/includes/class-wp-site-health.php:1509
 msgid "An HTTPS connection is a more secure way of browsing the web. Many services now have HTTPS as a requirement. HTTPS allows you to take advantage of new features that can increase site speed, improve search rankings, and gain the trust of your visitors by helping to protect their online privacy."
@@ -2735,7 +2735,7 @@ msgstr "Een gepland event is mislukt"
 #. translators: %s: The error message returned while from the cron scheduler.
 #: wp-admin/includes/class-wp-site-health.php:1635
 msgid "While trying to test your site&#8217;s scheduled events, the following error was returned: %s"
-msgstr "Terwijl we je site testen voor geplande events werd de volgende foutmelding getoond: %s"
+msgstr "Tijdens het testen van de geplande events van je site werd de volgende fout geretourneerd: %s"
 
 #: wp-admin/includes/class-wp-site-health.php:1629
 msgid "It was not possible to check your scheduled events"
@@ -6786,7 +6786,7 @@ msgstr "Je telefoon verloren of ben je vergeten uit te loggen op een publieke co
 
 #: wp-admin/user-edit.php:680 wp-admin/user-edit.php:690
 msgid "Log Out Everywhere Else"
-msgstr "Op alle overige locaties uitloggen"
+msgstr "Overal uitloggen"
 
 #: wp-admin/user-edit.php:678 wp-admin/user-edit.php:688
 #: wp-admin/user-edit.php:698
@@ -7050,7 +7050,7 @@ msgstr "1 bericht is niet bijgewerkt, omdat deze momenteel in bewerking is."
 
 #: wp-admin/user-edit.php:57
 msgid "You can log out of other devices, such as your phone or a public computer, by clicking the Log Out Everywhere Else button."
-msgstr "Het is mogelijk om uit te loggen bij andere apparaten, zoals je telefoon of publieke computer, door te klikken op 'Alle andere sessies uitloggen' knop."
+msgstr "Het is mogelijk om uit te loggen bij andere apparaten, zoals je telefoon of publieke computer, door te klikken op de 'Overal uitloggen' knop."
 
 #: wp-admin/update-core.php:765
 msgid "New translations are available."
@@ -7780,7 +7780,7 @@ msgstr "De voorvertoning van het thema is volledig interactief &mdash; navigeer 
 
 #: wp-admin/themes.php:172
 msgid "Tap or hover on any theme then click the Live Preview button to see a live preview of that theme and change theme options in a separate, full-screen view. You can also find a Live Preview button at the bottom of the theme details screen. Any installed theme can be previewed and customized in this way."
-msgstr "Druk of beweeg de muis over een thema en klik dan op de Live Preview knop om een demo te zien van dat thema en verander thema opties vanuit een aparte view. Je kunt de Live Preview knop ook vinden onderaan de thema details pagina. Elk geïnstalleerd thema kan op deze manier bekeken en aangepast worden op deze manier."
+msgstr "Tik of hover over een thema en klik dan op de Live voorbeeld knop om een live voorbeeld te zien van dat thema en thema opties te wijzigen, in een aparte weergave op volledig scherm. Je kunt ook een Live voorbeeld knop onderaan het thema detailscherm vinden. Elk geïnstalleerd thema kan op deze manier bekeken en aangepast worden."
 
 #: wp-admin/themes.php:136
 msgid "The current theme is displayed highlighted as the first theme."
@@ -9716,8 +9716,8 @@ msgstr[1] "<strong>Versie %1$s</strong> heeft enkele beveiligingsproblemen verho
 #: wp-admin/about.php:290
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
-msgstr[0] "<strong> Versie%1$s</strong> loste een beveiligingsprobleem op en loste %2$s bug op."
-msgstr[1] "<strong> Versie%1$s</strong> loste een beveiligingsprobleem op en loste %2$s bugs op."
+msgstr[0] "<strong>Versie %1$s</strong> loste een beveiligingsprobleem op en loste %2$s bug op."
+msgstr[1] "<strong>Versie %1$s</strong> loste een beveiligingsprobleem op en loste %2$s bugs op."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
 #: wp-admin/about.php:284
