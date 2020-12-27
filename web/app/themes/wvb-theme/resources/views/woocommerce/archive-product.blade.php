@@ -39,6 +39,7 @@ the readme will list any important changes.
         <div class="container">
             <div class="row justify-content-lg-center mb-5">
                 <div class="col-12 col-lg-10 col-xl-12 col-xxl-11">
+                    <?php do_action( 'woocommerce_archive_description' ); ?>
                     @if(woocommerce_product_loop())
                         @php
                             do_action('woocommerce_before_shop_loop');
