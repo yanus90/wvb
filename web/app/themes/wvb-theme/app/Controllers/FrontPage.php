@@ -34,7 +34,7 @@ class FrontPage extends Controller
             ],
             'order' => 'ASC',
             'orderby' => 'menu_order',
-            'posts_per_page' => 12,
+            'posts_per_page' => 13,
         ]);
 
         return $query->posts;
