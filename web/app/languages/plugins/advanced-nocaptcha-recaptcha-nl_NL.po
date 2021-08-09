@@ -1,0 +1,639 @@
+# Translation of Plugins - Advanced noCaptcha &amp; invisible Captcha (v2 &amp; v3) - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Advanced noCaptcha &amp; invisible Captcha (v2 &amp; v3) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-18 13:41:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Advanced noCaptcha &amp; invisible Captcha (v2 &amp; v3) - Stable (latest release)\n"
+
+#: admin/settings.php:595
+msgid "BuddyPress register form"
+msgstr "BuddyPress registratieformulier"
+
+#: admin/settings.php:594
+msgid "bbPress reply to topic form"
+msgstr "bbPres antwoord op onderwerp formulier"
+
+#: admin/settings.php:593
+msgid "bbPress New topic form"
+msgstr "bbPress nieuw onderwerpformulier"
+
+#: admin/settings.php:592
+msgid "Contact Form 7 forms"
+msgstr "Contact Form 7 formulieren"
+
+#: admin/settings.php:591
+msgid "WooCommerce forms"
+msgstr "WooCommerce formulieren"
+
+#: admin/settings.php:586
+msgid "PRO Features"
+msgstr "PRO functies"
+
+#: admin/settings.php:281 admin/settings.php:597
+msgid "View Details"
+msgstr "Details bekijken"
+
+#: admin/settings.php:575
+msgid "For paid support pleasse visit <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced noCaptcha reCaptcha</a>"
+msgstr "Voor betaalde ondersteuning bezoek <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced noCaptcha reCaptcha</a>"
+
+#: admin/settings.php:567
+msgid "Full details can be found in <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"%1$s\">this instruction</a>"
+msgstr "Volledige details kun je vinden in <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"%1$s\">deze instructie</a>"
+
+#: admin/settings.php:562
+msgid "Get your site key and secret key from <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">GOOGLE</a> if you do not have already. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">How to get google reCAPTCHA keys?</a>."
+msgstr "Krijg je site sleutel en geheime sleutel van <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">GOOGLE</a> als je die niet al hebt. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Hoe krijg je google reCAPTCHA sleutels?</a>."
+
+#: admin/settings.php:68
+msgid "reCAPTCHA type"
+msgstr "reCAPTCHA type"
+
+#: admin/settings.php:48
+msgid "Get reCaptcha keys from <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Google</a>. Make sure to get keys for your selected captcha type. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">How to get google reCAPTCHA keys?</a>."
+msgstr "Krijg reCaptcha sleutels van <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Google</a>. Zorg ervoor dat je sleutels krijgt voor je geselecteerde captcha type. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Hoe krijg je google reCAPTCHA sleutels?</a>."
+
+#: admin/settings.php:105
+msgid "For \"Contact Form 7\" you need to follow <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"%1$s\">this instruction</a>. For other forms see <a href=\"%2$s\">this instruction</a>"
+msgstr "Voor \"Contactformulier 7\" moet je <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"%1$s\">deze instructie</a> volgen. Zie voor andere formulieren <a href=\"%2$s\">deze instructie</a>"
+
+#: admin/settings.php:250
+msgid "If any one is blocked in your country select other one."
+msgstr "Als iemand in je land is geblokkeerd, selecteer je een andere."
+
+#: admin/settings.php:240
+msgid "Recaptcha Domain"
+msgstr "Recaptcha domein"
+
+#: admin/settings.php:237
+msgid "One per line"
+msgstr "Een per regel"
+
+#: admin/settings.php:233
+msgid "Whitelisted IPs"
+msgstr "IP's op de witte lijst"
+
+#: admin/settings.php:230
+msgid "Higher means more sensitive"
+msgstr "Hoger betekent gevoeliger"
+
+#: admin/settings.php:224
+msgid "Captcha Score"
+msgstr "Captcha-score"
+
+#: admin/settings.php:221
+msgid "Loading in All Pages help google for analytics"
+msgstr "Laden in alle pagina's helpt Google voor analyse"
+
+#: admin/settings.php:219
+msgid "Form Pages"
+msgstr "Formulierpagina's"
+
+#: admin/settings.php:218
+msgid "All Pages"
+msgstr "Alle pagina's"
+
+#: admin/settings.php:212
+msgid "v3 Script Load"
+msgstr "v3 Script laden"
+
+#: admin/settings.php:78
+msgid "Select your reCAPTCHA type. Make sure to use site key and secret key for your selected type."
+msgstr "Selecteer je reCaptcha type. Zorg ervoor dat je de sitesleutel en geheime sleutel gebruikt voor je geselecteerde type."
+
+#: admin/settings.php:76
+msgid "V3"
+msgstr "V3"
+
+#: admin/settings.php:75
+msgid "V2 Invisible"
+msgstr "V2 onzichtbaar"
+
+#: admin/settings.php:74
+msgid "V2 \"I'm not a robot\""
+msgstr "V2\"Ik ben geen robot\""
+
+#: anr-captcha-class.php:629
+msgid "Comment Submission Failure"
+msgstr "Fout bij verzenden van reactie"
+
+#. Description of the plugin
+msgid "Show noCaptcha or invisible captcha in Comment Form, bbPress, BuddyPress, WooCommerce, CF7, Login, Register, Lost Password, Reset Password. Also can implement in any other form easily."
+msgstr "Toon noCaptcha of onzichtbare captcha in reactieformulier, bbPress, BuddyPress, WooCommerce, CF7, Login, Registreren, Wachtwoord vergeten, Wachtwoord opnieuw instellen. Kan ook gemakkelijk in een andere vorm worden geïmplementeerd."
+
+#: admin/settings.php:574
+msgid "To verify use %s. It will return true on success otherwise false."
+msgstr "Gebruik %s om te verifiëren. Het zal als waar terugkomen bij succes anders onwaar."
+
+#: admin/settings.php:573
+msgid "To show noCaptcha in a form use %1$s OR %2$s"
+msgstr "Om noCaptcha in een formulier te tonen, gebruikt u %1$s OF %2$s"
+
+#: admin/settings.php:566
+msgid "To show noCaptcha use %s"
+msgstr "Gebruik %s om noCaptcha te tonen"
+
+#: admin/settings.php:563
+msgid "Goto %s page of this plugin and set up as you need. and ENJOY..."
+msgstr "Ga naar de %s-pagina van deze plugin en stel in zoals je nodig hebt. en geniet..."
+
+#: admin/settings.php:404
+msgid "No hook defined for %s"
+msgstr "Geen hook gedefinieerd voor %s"
+
+#: admin/settings.php:268
+msgid "No JS Captcha"
+msgstr "Geen JS Captcha"
+
+#: admin/settings.php:260
+msgid "Remove CSS"
+msgstr "CSS verwijderen"
+
+#: admin/settings.php:253
+msgid "Logged in Hide"
+msgstr "Ingelogd verbergen"
+
+#: admin/settings.php:209
+msgid "Show login Captcha after how many failed attempts? 0 = show always"
+msgstr "Toon login Captcha na hoeveel mislukte pogingen? 0 = altijd tonen"
+
+#: admin/settings.php:203
+msgid "Failed login Captcha"
+msgstr "Aanmelden mislukt Captcha"
+
+#: admin/settings.php:113
+msgid "Captcha Language"
+msgstr "Captcha taal"
+
+#: admin/settings.php:110 anr-captcha-class.php:118
+msgid "Please solve Captcha correctly"
+msgstr "Los Captcha correct op"
+
+#: admin/settings.php:102
+msgid "BuddyPress register"
+msgstr "BuddyPress register"
+
+#: admin/settings.php:89
+msgid "Enabled Forms"
+msgstr "Ingeschakelde formulieren"
+
+#: admin/settings.php:85
+msgid "Secret Key"
+msgstr "Geheime sleutel"
+
+#: admin/settings.php:55
+msgid "Other Settings"
+msgstr "Andere instellingen"
+
+#: admin/settings.php:52
+msgid "Forms"
+msgstr "Formulieren"
+
+#: admin/settings.php:46
+msgid "Google Keys"
+msgstr "Google sleutels"
+
+#: anr-captcha-class.php:120
+msgid "ERROR"
+msgstr "FOUT"
+
+#. Author of the plugin
+msgid "Shamim Hasan"
+msgstr "Shamim Hasan"
+
+#: admin/anr-admin-class.php:186
+msgid "Show login Captcha after how many failed attempts"
+msgstr "Toon login Captcha na hoeveel mislukte pogingen"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.shamimsplugins.com/contact-us/"
+msgstr "https://www.shamimsplugins.com/contact-us/"
+
+#. Plugin Name of the plugin
+msgid "Advanced noCaptcha & invisible Captcha"
+msgstr "Advanced noCaptcha & invisible Captcha"
+
+#: admin/settings.php:200 admin/anr-admin-class.php:182
+msgid "Badge shows for invisible captcha"
+msgstr "Badge shows voor onzichtbare captcha"
+
+#: admin/settings.php:198 admin/anr-admin-class.php:179
+msgid "Inline"
+msgstr "Inline"
+
+#: admin/settings.php:197 admin/anr-admin-class.php:178
+msgid "Bottom Left"
+msgstr "Linksonder"
+
+#: admin/settings.php:196 admin/anr-admin-class.php:177
+msgid "Bottom Right"
+msgstr "Rechts onder"
+
+#: admin/settings.php:190 admin/anr-admin-class.php:175
+msgid "Badge"
+msgstr "Badge"
+
+#: admin/anr-admin-class.php:172
+msgid "For invisible captcha set this as Invisible. Make sure to use site key and secret key for invisible captcha"
+msgstr "Stel voor onzichtbare captcha dit in als onzichtbaar. Zorg ervoor dat je de sitesleutel en geheime sleutel gebruikt voor onzichtbare captcha"
+
+#: admin/anr-admin-class.php:169
+msgid "Invisible"
+msgstr "Onzichtbaar"
+
+#: admin/settings.php:186 admin/anr-admin-class.php:168
+msgid "Compact"
+msgstr "Compact"
+
+#: admin/settings.php:185 admin/anr-admin-class.php:167
+msgid "Normal"
+msgstr "Normaal"
+
+#: admin/settings.php:175 admin/anr-admin-class.php:162
+msgid "Dark"
+msgstr "Donker"
+
+#: admin/settings.php:174 admin/anr-admin-class.php:161
+msgid "Light"
+msgstr "Licht"
+
+#: admin/settings.php:470 admin/settings.php:476 admin/anr-admin-class.php:45
+msgid "Advanced noCaptcha & invisible captcha"
+msgstr "Geavanceerde noCaptcha & onzichtbare captcha"
+
+#: admin/settings.php:470 admin/settings.php:476 admin/settings.php:524
+#: admin/anr-admin-class.php:45
+msgid "Advanced noCaptcha & invisible captcha Settings"
+msgstr "Geavanceerde noCaptcha & onzichtbare captcha-instellingen"
+
+#: functions.php:26
+msgid "<strong>ERROR</strong>: "
+msgstr "<strong> FOUT </strong>:"
+
+#: admin/anr-admin-class.php:302
+msgid "To verify use "
+msgstr "Gebruik verifiëren"
+
+#: admin/anr-admin-class.php:301
+msgid "To show form field use "
+msgstr "Gebruik formulierveld weergeven"
+
+#: admin/settings.php:572 admin/anr-admin-class.php:300
+msgid "If you want to implement noCaptcha in any other custom form"
+msgstr "Als je noCaptcha in een ander aangepast formulier wilt implementeren"
+
+#: admin/settings.php:570 admin/anr-admin-class.php:298
+msgid "If Login Form, Registration Form, Lost Password Form, Reset Password Form is selected in SETTINGS page of this plugin they will show and verify Captcha in WooCommerce respective forms also."
+msgstr "Als het aanmeldingsformulier, het registratieformulier, het verloren wachtwoordformulier en het wachtwoord opnieuw instellen is geselecteerd op de pagina INSTELLINGEN van deze plugin, zullen ze Captcha ook tonen en verifiëren in de respectievelijke formulieren van WooCommerce."
+
+#: admin/settings.php:569 admin/anr-admin-class.php:297
+msgid "Implement noCaptcha in WooCommerce"
+msgstr "NoCaptcha implementeren in WooCommerce"
+
+#: admin/anr-admin-class.php:295
+msgid "To show noCaptcha use "
+msgstr "Gebruik \"noCaptcha"
+
+#: admin/settings.php:565 admin/anr-admin-class.php:294
+msgid "Implement noCaptcha in Contact Form 7"
+msgstr "NoCaptcha implementeren in contactformulier 7"
+
+#: admin/anr-admin-class.php:292
+msgid "Goto SETTINGS page of this plugin and set up as you need. and ENJOY..."
+msgstr "Ga naar de pagina INSTELLINGEN van deze plugin en stel in zoals je nodig hebt. en geniet..."
+
+#: admin/anr-admin-class.php:291
+msgid "Get your site key and secret key from <a href='%s' target='_blank'>GOOGLE</a> if you do not have already."
+msgstr "Haal je sitesleutel en geheime sleutel op van <a href='%s' target='_blank'> GOOGLE </a> als je dat nog niet hebt gedaan."
+
+#: admin/anr-admin-class.php:289
+msgid "Advanced noCaptcha reCaptcha Setup Instruction"
+msgstr "Geavanceerde instructies voor het instellen van noCaptcha reCaptcha"
+
+#: admin/anr-admin-class.php:255
+msgid "Sorry, your nonce did not verify!"
+msgstr "Sorry, je nonce is niet geverifieerd."
+
+#: admin/anr-admin-class.php:251
+msgid "No Permission!"
+msgstr "Geen toestemming!"
+
+#: admin/anr-admin-class.php:226
+msgid "Plugin Author"
+msgstr "Plugin Auteur"
+
+#: admin/anr-admin-class.php:213 admin/anr-admin-class.php:303
+msgid "For paid support pleasse visit <a href='%s' target='_blank'>Advanced noCaptcha reCaptcha</a>"
+msgstr "Ga voor betaalde ondersteuning naar <a href='%s' target='_blank'> Advanced noCaptcha reCaptcha </a>"
+
+#: admin/anr-admin-class.php:210
+msgid "Save Options"
+msgstr "Opties opslaan"
+
+#: admin/settings.php:273 admin/anr-admin-class.php:209
+msgid "If JavaScript is a requirement for your site, we advise that you do NOT check this."
+msgstr "Als JavaScript een vereiste is voor je site, raden we je aan dit NIET te controleren."
+
+#: admin/settings.php:272 admin/anr-admin-class.php:209
+msgid "Show captcha if javascript disabled?"
+msgstr "Captcha weergeven als JavaScript is uitgeschakeld?"
+
+#: admin/settings.php:265 admin/anr-admin-class.php:208
+msgid "This css increase login page width to adjust with Captcha width."
+msgstr "Deze CSS vergroot de inlogpagina-breedte om aan te passen met Captcha-breedte."
+
+#: admin/settings.php:264 admin/anr-admin-class.php:208
+msgid "Remove this plugin's css from login page?"
+msgstr "Css van deze plugin verwijderen van inlogpagina?"
+
+#: admin/settings.php:257 admin/anr-admin-class.php:207
+msgid "Hide Captcha for logged in users?"
+msgstr "Captcha verbergen voor ingelogde gebruikers?"
+
+#: admin/anr-admin-class.php:188
+msgid "Show Captcha on"
+msgstr "Captcha weergeven op"
+
+#: admin/settings.php:108 admin/anr-admin-class.php:185
+msgid "Error Message"
+msgstr "Foutbericht"
+
+#: admin/settings.php:179 admin/anr-admin-class.php:165
+msgid "Size"
+msgstr "Grootte"
+
+#: admin/settings.php:168 admin/anr-admin-class.php:159
+msgid "Theme"
+msgstr "Thema"
+
+#: admin/anr-admin-class.php:150
+msgid "Language"
+msgstr "Taal"
+
+#: admin/anr-admin-class.php:148
+msgid "Secret key"
+msgstr "Geheime sleutel"
+
+#: admin/settings.php:81 admin/anr-admin-class.php:147
+msgid "Site Key"
+msgstr "Sitesleutel"
+
+#: admin/anr-admin-class.php:145
+msgid "Value"
+msgstr "Waarde"
+
+#: admin/anr-admin-class.php:145
+msgid "Setting"
+msgstr "Instelling"
+
+#: admin/anr-admin-class.php:141
+msgid "If you like this plugin please <a href='%s' target='_blank'>Review in Wordpress.org</a> and give 5 star"
+msgstr "Als je deze plugin leuk vindt, <a href='%s' target='_blank'> Review in WordPress.org </a> en geef 5 sterren"
+
+#: admin/anr-admin-class.php:140
+msgid "Advanced noCaptcha reCaptcha Settings"
+msgstr "Geavanceerde noCaptcha reCaptcha-instellingen"
+
+#: admin/anr-admin-class.php:130
+msgid "Options successfully saved."
+msgstr "Opties succesvol opgeslagen."
+
+#: admin/settings.php:103 admin/anr-admin-class.php:120
+msgid "WooCommerce Checkout"
+msgstr "WooCommerce Checkout"
+
+#: admin/settings.php:101 admin/anr-admin-class.php:119
+msgid "bbPress reply to topic"
+msgstr "bbPres antwoord op onderwerp"
+
+#: admin/settings.php:100 admin/anr-admin-class.php:118
+msgid "bbPress New topic"
+msgstr "bbPress nieuw onderwerp"
+
+#: admin/settings.php:99 admin/anr-admin-class.php:117
+msgid "Comment Form"
+msgstr "Reactieformulier"
+
+#: admin/settings.php:98 admin/anr-admin-class.php:116
+msgid "Reset Password Form"
+msgstr "Wachtwoordformulier opnieuw instellen"
+
+#: admin/settings.php:97 admin/anr-admin-class.php:115
+msgid "Lost Password Form"
+msgstr "Wachtwoord kwijt"
+
+#: admin/settings.php:96 admin/anr-admin-class.php:114
+msgid "Multisite User Signup Form"
+msgstr "Aanmeldingsformulier voor meerdere gebruikers"
+
+#: admin/settings.php:95 admin/anr-admin-class.php:113
+msgid "Registration Form"
+msgstr "Registratieformulier"
+
+#: admin/settings.php:94 admin/anr-admin-class.php:112
+msgid "Login Form"
+msgstr "Login formulier"
+
+#: admin/settings.php:164 admin/anr-admin-class.php:107
+msgid "Vietnamese"
+msgstr "Vietnamees"
+
+#: admin/settings.php:163 admin/anr-admin-class.php:106
+msgid "Ukrainian"
+msgstr "Oekraïens"
+
+#: admin/settings.php:162 admin/anr-admin-class.php:105
+msgid "Turkish"
+msgstr "Turks"
+
+#: admin/settings.php:161 admin/anr-admin-class.php:104
+msgid "Thai"
+msgstr "Thais"
+
+#: admin/settings.php:160 admin/anr-admin-class.php:103
+msgid "Swedish"
+msgstr "Zweeds"
+
+#: admin/settings.php:159 admin/anr-admin-class.php:102
+msgid "Spanish (Latin America)"
+msgstr "Spaans (Latijns-Amerika)"
+
+#: admin/settings.php:158 admin/anr-admin-class.php:101
+msgid "Spanish"
+msgstr "Spaans"
+
+#: admin/settings.php:157 admin/anr-admin-class.php:100
+msgid "Slovenian"
+msgstr "Sloveens"
+
+#: admin/settings.php:156 admin/anr-admin-class.php:99
+msgid "Slovak"
+msgstr "Slowaaks"
+
+#: admin/settings.php:155 admin/anr-admin-class.php:98
+msgid "Serbian"
+msgstr "Servisch"
+
+#: admin/settings.php:154 admin/anr-admin-class.php:97
+msgid "Russian"
+msgstr "Russisch"
+
+#: admin/settings.php:153 admin/anr-admin-class.php:96
+msgid "Romanian"
+msgstr "Roemeense"
+
+#: admin/settings.php:152 admin/anr-admin-class.php:95
+msgid "Portuguese (Portugal)"
+msgstr "Portugees (Portugal)"
+
+#: admin/settings.php:151 admin/anr-admin-class.php:94
+msgid "Portuguese (Brazil)"
+msgstr "Portugees (Brazilië)"
+
+#: admin/settings.php:150 admin/anr-admin-class.php:93
+msgid "Portuguese"
+msgstr "Portugees"
+
+#: admin/settings.php:149 admin/anr-admin-class.php:92
+msgid "Polish"
+msgstr "Pools"
+
+#: admin/settings.php:148 admin/anr-admin-class.php:91
+msgid "Persian"
+msgstr "Perzisch"
+
+#: admin/settings.php:147 admin/anr-admin-class.php:90
+msgid "Norwegian"
+msgstr "Noors"
+
+#: admin/settings.php:146 admin/anr-admin-class.php:89
+msgid "Lithuanian"
+msgstr "Litouws"
+
+#: admin/settings.php:145 admin/anr-admin-class.php:88
+msgid "Latvian"
+msgstr "Lets"
+
+#: admin/settings.php:144 admin/anr-admin-class.php:87
+msgid "Korean"
+msgstr "Koreaans"
+
+#: admin/settings.php:143 admin/anr-admin-class.php:86
+msgid "Japanese"
+msgstr "Japans"
+
+#: admin/settings.php:142 admin/anr-admin-class.php:85
+msgid "Italian"
+msgstr "Italiaans"
+
+#: admin/settings.php:141 admin/anr-admin-class.php:84
+msgid "Indonesian"
+msgstr "Indonesisch"
+
+#: admin/settings.php:140 admin/anr-admin-class.php:83
+msgid "Hungarain"
+msgstr "Hongaars"
+
+#: admin/settings.php:139 admin/anr-admin-class.php:82
+msgid "Hindi"
+msgstr "Hindi"
+
+#: admin/settings.php:138 admin/anr-admin-class.php:81
+msgid "Hebrew"
+msgstr "Hebreeuws"
+
+#: admin/settings.php:137 admin/anr-admin-class.php:80
+msgid "Greek"
+msgstr "Grieks"
+
+#: admin/settings.php:136 admin/anr-admin-class.php:79
+msgid "German (Switzerland)"
+msgstr "Duits (Zwitserland)"
+
+#: admin/settings.php:135 admin/anr-admin-class.php:78
+msgid "German (Austria)"
+msgstr "Duits (Oostenrijk)"
+
+#: admin/settings.php:134 admin/anr-admin-class.php:77
+msgid "German"
+msgstr "Duits"
+
+#: admin/settings.php:133 admin/anr-admin-class.php:76
+msgid "French (Canadian)"
+msgstr "Frans Canadees)"
+
+#: admin/settings.php:132 admin/anr-admin-class.php:75
+msgid "French"
+msgstr "Frans"
+
+#: admin/settings.php:131 admin/anr-admin-class.php:74
+msgid "Finnish"
+msgstr "Fins"
+
+#: admin/settings.php:130 admin/anr-admin-class.php:73
+msgid "Filipino"
+msgstr "Filipijns"
+
+#: admin/settings.php:129 admin/anr-admin-class.php:72
+msgid "English (US)"
+msgstr "Amerikaans Engels)"
+
+#: admin/settings.php:128 admin/anr-admin-class.php:71
+msgid "English (UK)"
+msgstr "Engels (VK)"
+
+#: admin/settings.php:127 admin/anr-admin-class.php:70
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: admin/settings.php:126 admin/anr-admin-class.php:69
+msgid "Danish"
+msgstr "Deens"
+
+#: admin/settings.php:125 admin/anr-admin-class.php:68
+msgid "Czech"
+msgstr "Tsjechisch"
+
+#: admin/settings.php:124 admin/anr-admin-class.php:67
+msgid "Croatian"
+msgstr "Kroatisch"
+
+#: admin/settings.php:123 admin/anr-admin-class.php:66
+msgid "Chinese (Traditional)"
+msgstr "Chinese traditionele)"
+
+#: admin/settings.php:122 admin/anr-admin-class.php:65
+msgid "Chinese (Simplified)"
+msgstr "Versimpeld Chinees)"
+
+#: admin/settings.php:121 admin/anr-admin-class.php:64
+msgid "Catalan"
+msgstr "Catalaans"
+
+#: admin/settings.php:120 admin/anr-admin-class.php:63
+msgid "Bulgarian"
+msgstr "Bulgaars"
+
+#: admin/settings.php:119 admin/anr-admin-class.php:62
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: admin/settings.php:118 admin/anr-admin-class.php:61
+msgid "Auto Detect"
+msgstr "Automatische detectie"
+
+#: admin/settings.php:499
+msgid "Instruction"
+msgstr "Instructie"
+
+#: admin/settings.php:498 admin/settings.php:563 admin/settings.php:607
+#: admin/anr-admin-class.php:314
+msgid "Settings"
+msgstr "Instellingen"

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Eleven package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-09 07:42:08+0000\n"
+"PO-Revision-Date: 2021-07-24 19:53:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,10 +16,135 @@ msgid "The 2011 theme for WordPress is sophisticated, lightweight, and adaptable
 msgstr "Het thema 2011 voor WordPress is geavanceerd, lichtgewicht en aanpasbaar. Maak het persoonlijk met een aangepast menu, headerafbeelding en achtergrond - en ga vervolgens verder met de beschikbare themaopties voor lichte of donkere kleurstelling, aangepaste linkkleuren, layout en drie layoutkeuzes. 'Twenty Eleven' is uitgerust met een Showcase-sjabloon dat de homepagina verandert in een overzicht met de beste content, widgetondersteuning (sidebar, drie footers, en een showcasepagina-widget), een aangepaste &#39;Ephemera&#39;-widget om de kantlijn-, link-, citaat-, of status van de berichten te tonen. Inbegrepen zijn: stijlen voor printen en de editor voor de beheerder, ondersteuning voor 'uitgelichte' afbeeldingen (zoals aangepaste headers voor berichten en pagina&#39;s, en als grote afbeeldingen op de uitgelichte &#39;sticky&#39; berichten). Tevens zijn er speciale stijlen voor zes verschillende berichtformats."
 
 #. Theme Name of the theme
+#: inc/block-patterns.php:20
 msgid "Twenty Eleven"
 msgstr "'Twenty Eleven'"
 
-#: functions.php:752
+#: inc/block-patterns.php:153
+msgid "Blandit. Id ornare arcu odio ut"
+msgstr "Blandit. Id ornare arcu odio ut"
+
+#: inc/block-patterns.php:153
+msgid "At quis risus sed vulputate odio ut enim"
+msgstr "At quis risus sed vulputate odio ut enim"
+
+#: inc/block-patterns.php:153
+msgid "Etiam tempor orci eu lobortis"
+msgstr "Etiam tempor orci eu lobortis"
+
+#: inc/block-patterns.php:153
+msgid "Lectus quam id leo in vitae turpis"
+msgstr "Lectus quam id leo in vitae turpis"
+
+#: inc/block-patterns.php:153
+msgid "Nisi quis eleifend"
+msgstr "Nisi quis eleifend"
+
+#: inc/block-patterns.php:153
+msgid "Aenean euismod elementum"
+msgstr "Aenean euismod elementum"
+
+#: inc/block-patterns.php:150
+msgid "Talks"
+msgstr "Gesprekken"
+
+#: inc/block-patterns.php:145
+msgid "Aenean euismod elementum II, 2020"
+msgstr "Aenean euismod elementum II, 2020"
+
+#: inc/block-patterns.php:145
+msgid "Blandit. Id ornare arcu odio ut, 2018"
+msgstr "Blandit. Id ornare arcu odio ut, 2018"
+
+#: inc/block-patterns.php:145
+msgid "At quis risus sed vulputate odio ut enim, 2015"
+msgstr "At quis risus sed vulputate odio ut enim, 2015"
+
+#: inc/block-patterns.php:145
+msgid "Etiam tempor orci eu lobortis, 2009"
+msgstr "Etiam tempor orci eu lobortis, 2009"
+
+#: inc/block-patterns.php:145
+msgid "Lectus quam id leo in vitae turpis, 2006"
+msgstr "Lectus quam id leo in vitae turpis, 2006"
+
+#: inc/block-patterns.php:145
+msgid "Nisi quis eleifend, 1999"
+msgstr "Nisi quis eleifend, 1999"
+
+#: inc/block-patterns.php:145
+msgid "Aenean euismod elementum, 1999"
+msgstr "Aenean euismod elementum, 1999"
+
+#: inc/block-patterns.php:142
+msgid "Books"
+msgstr "Boeken"
+
+#: inc/block-patterns.php:136
+msgid "Two Columns of Lists"
+msgstr "Twee kolommen met lijsten"
+
+#: inc/block-patterns.php:125
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Feugiat nisl pretium fusce id velit. Cursus risus at ultrices mi. Pellentesque nec nam aliquam sem et tortor consequat. Est lorem ipsum dolor sit amet consectetur adipiscing. Nisi porta lorem mollis aliquam. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Viverra vitae congue eu consequat."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Feugiat nisl pretium fusce id velit. Cursus risus at ultrices mi. Pellentesque nec nam aliquam sem et tortor consequat. Est lorem ipsum dolor sit amet consectetur adipiscing. Nisi porta lorem mollis aliquam. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Viverra vitae congue eu consequat."
+
+#: inc/block-patterns.php:125
+msgid "This is a paragraph to tell about yourself."
+msgstr "Dit is een alinea om over jezelf te vertellen."
+
+#: inc/block-patterns.php:112 inc/block-patterns.php:116
+msgid "About Me"
+msgstr "Over mij"
+
+#: inc/block-patterns.php:101
+msgid "Follow"
+msgstr "Volg"
+
+#: inc/block-patterns.php:97
+msgid "Join 1,729 other followers"
+msgstr "Sluit je aan bij 1.729 andere volgers"
+
+#: inc/block-patterns.php:94
+msgid "Click to subscribe to this blog and receive notifications of new posts by email."
+msgstr "Klik om je op deze blog in te schrijven en meldingen van nieuwe berichten per e-mail te ontvangen."
+
+#: inc/block-patterns.php:91
+msgid "Get In Touch"
+msgstr "Neem contact op"
+
+#: inc/block-patterns.php:86
+msgid "Follow Blog"
+msgstr "Volg blog"
+
+#: inc/block-patterns.php:75
+msgid "Henri Matisse"
+msgstr "Henri Matisse"
+
+#: inc/block-patterns.php:75
+msgid "\"There are always flowers for those who want to see them.\""
+msgstr "\"Er zijn altijd bloemen voor wie ze wil zien\""
+
+#: inc/block-patterns.php:61
+msgid "Inline Quote"
+msgstr "Inline citaat"
+
+#: inc/block-patterns.php:50
+msgid "Aenean euismod elementum nisi quis eleifend. Lectus quam id leo in vitae turpis. Etiam tempor orci eu lobortis elementum nibh. At quis risus sed vulputate odio ut enim blandit. Id ornare arcu odio ut. Blandit massa enim nec dui nunc mattis enim ut tellus. Fermentum iaculis eu non diam phasellus vestibulum. Magna fermentum iaculis eu non diam phasellus vestibulum lorem. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Cursus sit amet dictum sit amet justo donec. At tellus at urna condimentum mattis. Et ligula ullamcorper malesuada proin libero nunc. Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Pellentesque diam volutpat commodo sed egestas. Mi proin sed libero enim sed faucibus."
+msgstr "Aenean euismod elementum nisi quis eleifend. Lectus quam id leo in vitae turpis. Etiam tempor orci eu lobortis elementum nibh. At quis risus sed vulputate odio ut enim blandit. Id ornare arcu odio ut. Blandit massa enim nec dui nunc mattis enim ut tellus. Fermentum iaculis eu non slidem phasellus vestibulum. Magna fermentum iaculis eu non slidem phasellus vestibulum lorem. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Cursus sit amet dictum sit amet justo donec. At tellus at urna condimentum mattis. Et ligula ullamcorper malesuada proin libero nunc. Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Pellentesque slidem volutpat commodo sed egestas. Mi proin sed libero enim sed faucibus."
+
+#: inc/block-patterns.php:45 inc/block-patterns.php:67
+msgid "This is just an example post to showcase the featured post section on the showcase page. Who doesn&#8217;t like flowers? I like flowers. Nullam hendrerit enim nunc. Vestibulum eget nulla magna! Fusce lobortis neque eu neque egestas tincidunt. Duis elementum consequat lorem, in eleifend justo mollis at. Nam quis adipiscing magna. Duis adipiscing est ac nibh feugiat rhoncus. Donec non lorem felis, eget commodo purus."
+msgstr "Dit is maar een voorbeeld bericht om de featured bericht sectie op de showcase pagina te laten zien. Wie houdt er niet van bloemen? Ik hou van bloemen. Nullam hendrerit enim nunc. Vestibulum eget nulla magna! Fusce lobortis neque eu neque egestas tincidunt. Duis elementum consequat lorem, in eleifend justo mollis at. Nam quis adipiscing magna. Duis adipiscing est ac nibh feugiat rhoncus. Donec non lorem felis, eget commodo purus."
+
+#: inc/block-patterns.php:37
+msgid "A Bowl Full of&nbsp;Flowers"
+msgstr "Een kom vol met bloemen"
+
+#: inc/block-patterns.php:33
+msgid "Image and Text Columns"
+msgstr "Kolommen met beeld en tekst"
+
+#: functions.php:755
 msgid "Your comment is awaiting moderation. This is a preview; your comment will be visible after it has been approved."
 msgstr "Je reactie is in afwachting van moderatie. Dit is een voorbeeld; je reactie wordt zichtbaar nadat deze is goedgekeurd."
 
@@ -145,7 +270,7 @@ msgstr "Gebruik deze widget om een lijst met recente aside, status, citaten en l
 
 #: inc/theme-options.php:612
 msgid "Layout"
-msgstr "Layout"
+msgstr "Lay-out"
 
 #. translators: %s: Theme name.
 #: inc/theme-options.php:349
@@ -247,15 +372,15 @@ msgstr "&larr; Vorige"
 msgid "Image navigation"
 msgstr "Afbeeldingsnavigatie"
 
-#: functions.php:925
+#: functions.php:928
 msgid "Skip to secondary content"
 msgstr "Spring naar de secundaire inhoud"
 
-#: functions.php:923
+#: functions.php:926
 msgid "Skip to primary content"
 msgstr "Spring naar de primaire inhoud"
 
-#: header.php:147
+#: header.php:148
 msgid "Main menu"
 msgstr "Hoofdmenu"
 
@@ -266,113 +391,113 @@ msgstr "Pagina %s"
 
 #. translators: 1: The permalink, 2: Time, 3: Date and time, 4: Date and time,
 #. 5: Author posts, 6: Author post link text, 7: Author display name.
-#: functions.php:798
+#: functions.php:801
 msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 msgstr "<span class=\"sep\">Geplaatst op </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> door </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
-#: functions.php:771
+#: functions.php:774
 msgid "Reply <span>&darr;</span>"
 msgstr "Antwoorden <span>&darr;</span>"
 
-#: functions.php:750
+#: functions.php:753
 msgid "Your comment is awaiting moderation."
 msgstr "Je reactie is in afwachting van moderatie."
 
 #. translators: 1: Date, 2: Time.
-#: functions.php:739
+#: functions.php:742
 msgid "%1$s at %2$s"
 msgstr "%1$s om %2$s"
 
 #. translators: 1: Comment author, 2: Date and time.
-#: functions.php:732
+#: functions.php:735
 msgid "%1$s on %2$s <span class=\"says\">said:</span>"
 msgstr "%1$s op %2$s <span class=\"says\">schreef:</span>"
 
-#: functions.php:712
+#: functions.php:715
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: functions.php:607
+#: functions.php:610
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions.php:606
+#: functions.php:609
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Oudere berichten"
 
-#: functions.php:605 single.php:21
+#: functions.php:608 single.php:21
 msgid "Post navigation"
 msgstr "Berichtnavigatie"
 
-#: functions.php:579
+#: functions.php:582
 msgid "Footer Area Three"
 msgstr "Footergebied drie"
 
-#: functions.php:567
+#: functions.php:570
 msgid "Footer Area Two"
 msgstr "Footergebied twee"
 
-#: functions.php:557 functions.php:569 functions.php:581
+#: functions.php:560 functions.php:572 functions.php:584
 msgid "An optional widget area for your site footer"
 msgstr "Een optionele widget die je in de footer kunt gebruiken"
 
-#: functions.php:555
+#: functions.php:558
 msgid "Footer Area One"
 msgstr "Footergebied een"
 
-#: functions.php:545
+#: functions.php:548
 msgid "The sidebar for the optional Showcase Template"
 msgstr "De sidebar voor het optionele Showcase-sjabloon"
 
-#: functions.php:543
+#: functions.php:546
 msgid "Showcase Sidebar"
 msgstr "Showcase sidebar"
 
-#: functions.php:532
+#: functions.php:535
 msgid "Main Sidebar"
 msgstr "Hoofd sidebar"
 
 #. translators: Header image description.
-#: functions.php:280
+#: functions.php:283
 msgid "Hanoi Plant"
 msgstr "Hanoi-plant"
 
 #. translators: Header image description.
-#: functions.php:274
+#: functions.php:277
 msgid "Willow"
 msgstr "Wilg"
 
 #. translators: Header image description.
-#: functions.php:268
+#: functions.php:271
 msgid "Lanterns"
 msgstr "Lantaarns"
 
 #. translators: Header image description.
-#: functions.php:262
+#: functions.php:265
 msgid "Chessboard"
 msgstr "Schaakbord"
 
 #. translators: Header image description.
-#: functions.php:256
+#: functions.php:259
 msgid "Pine Cone"
 msgstr "Pijnappel"
 
 #. translators: Header image description.
-#: functions.php:250
+#: functions.php:253
 msgid "Trolley"
 msgstr "Trolley"
 
 #. translators: Header image description.
-#: functions.php:244
+#: functions.php:247
 msgid "Shore"
 msgstr "Kust"
 
 #. translators: Header image description.
-#: functions.php:238
+#: functions.php:241
 msgid "Wheel"
 msgstr "Wiel"
 
-#: functions.php:144
+#: functions.php:147
 msgid "Primary Menu"
 msgstr "Primair menu"
 
@@ -425,7 +550,8 @@ msgid "Link"
 msgstr "Link"
 
 #. translators: %s: Author display name.
-#: content-image.php:51 functions.php:805
+#. translators: %s: Author display name.
+#: content-image.php:51 functions.php:808
 msgid "View all posts by %s"
 msgstr "Alle berichten tonen van %s"
 
@@ -439,20 +565,25 @@ msgstr "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"
 msgid "Image"
 msgstr "Afbeelding"
 
+#. translators: 1: CSS classes, 2: List of tags.
 #. translators: 1: CSS classes, 2: Tag list.
 #. translators: 1: CSS classes, 2: List of tags.
-#: content-image.php:80 content-gallery.php:101 content.php:86
-#: content-quote.php:77
+#. translators: 1: CSS classes, 2: Tag list.
+#: content-gallery.php:101 content-image.php:80 content-quote.php:77
+#: content.php:86
 msgid "<span class=\"%1$s\">Tagged</span> %2$s"
 msgstr "<span class=\"%1$s\">Getagged</span> %2$s"
 
+#. translators: 1: CSS classes, 2: List of categories.
 #. translators: 1: CSS classes, 2: Category list.
 #. translators: 1: CSS classes, 2: List of categories.
-#: content-image.php:66 content-gallery.php:83 content.php:66
-#: content-quote.php:59
+#. translators: 1: CSS classes, 2: Category list.
+#: content-gallery.php:83 content-image.php:66 content-quote.php:59
+#: content.php:66
 msgid "<span class=\"%1$s\">Posted in</span> %2$s"
 msgstr "<span class=\"%1$s\">Geplaatst in</span> %2$s"
 
+#. translators: %s: Post title.
 #. translators: %s: Post title.
 #: content-gallery.php:52 showcase.php:129
 msgid "Permalink to %s"
@@ -481,66 +612,77 @@ msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$
 msgstr "Dit bericht is geplaatst in %1$s met de tags %2$s. Bookmark de <a href=\"%3$s\" title=\"Permalink naar %4$s\" rel=\"bookmark\">permalink</a>."
 
 #. translators: Used between list items, there is a space after the comma.
-#: content-image.php:59 content-image.php:73 content-gallery.php:76
-#: content-gallery.php:91 content-featured.php:36 content-featured.php:49
-#: content.php:59 content.php:76 content-quote.php:52 content-quote.php:67
-#: content-single.php:37 content-single.php:40
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#: content-featured.php:36 content-featured.php:49 content-gallery.php:76
+#: content-gallery.php:91 content-image.php:59 content-image.php:73
+#: content-quote.php:52 content-quote.php:67 content-single.php:37
+#: content-single.php:40 content.php:59 content.php:76
 msgid ", "
 msgstr ", "
 
-#: content-intro.php:26 content-image.php:90 content-page.php:28
-#: functions.php:712 functions.php:744 content-gallery.php:114
-#: content-featured.php:56 content.php:100 image.php:46 content-status.php:66
-#: content-quote.php:90 content-aside.php:53 content-link.php:53
-#: content-single.php:64
+#: content-aside.php:53 content-featured.php:56 content-gallery.php:114
+#: content-image.php:90 content-intro.php:26 content-link.php:53
+#: content-page.php:28 content-quote.php:90 content-single.php:64
+#: content-status.php:66 content.php:100 functions.php:715 functions.php:747
+#: image.php:46
 msgid "Edit"
 msgstr "Bewerken"
 
-#: content-image.php:86 content-gallery.php:111 content.php:97
-#: content-status.php:64 content-quote.php:87 content-aside.php:51
-#: showcase.php:220 content-link.php:51
+#: content-aside.php:51 content-gallery.php:111 content-image.php:86
+#: content-link.php:51 content-quote.php:87 content-status.php:64
+#: content.php:97 showcase.php:220
 msgid "<b>%</b> Replies"
 msgstr "<b>%</b> reacties"
 
-#: content-image.php:86 content-gallery.php:111 content.php:97
-#: content-status.php:64 content-quote.php:87 content-aside.php:51
-#: showcase.php:220 content-link.php:51
+#: content-aside.php:51 content-gallery.php:111 content-image.php:86
+#: content-link.php:51 content-quote.php:87 content-status.php:64
+#: content.php:97 showcase.php:220
 msgid "<b>1</b> Reply"
 msgstr "<b>1</b> reactie"
 
-#: content-image.php:86 content-gallery.php:111 content.php:97
-#: content-status.php:64 content-quote.php:87 content-aside.php:51
-#: showcase.php:220 content-link.php:51
+#: content-aside.php:51 content-gallery.php:111 content-image.php:86
+#: content-link.php:51 content-quote.php:87 content-status.php:64
+#: content.php:97 showcase.php:220
 msgid "Leave a reply"
 msgstr "Geef een reactie"
 
-#: content-intro.php:21 content-image.php:33 content-page.php:21
-#: content-gallery.php:63 content-featured.php:26 content.php:45 image.php:122
-#: content-status.php:52 content-quote.php:39 content-aside.php:39
-#: content-link.php:39 content-single.php:27
+#: content-aside.php:39 content-featured.php:26 content-gallery.php:63
+#: content-image.php:33 content-intro.php:21 content-link.php:39
+#: content-page.php:21 content-quote.php:39 content-single.php:27
+#: content-status.php:52 content.php:45 image.php:122
 msgid "Pages:"
 msgstr "Pagina&#39;s:"
 
-#: content-image.php:29 functions.php:459 content-gallery.php:34 content.php:41
-#: content-status.php:48 content-quote.php:35 content-aside.php:35
-#: content-link.php:35
+#: content-aside.php:35 content-gallery.php:34 content-image.php:29
+#: content-link.php:35 content-quote.php:35 content-status.php:48
+#: content.php:41 functions.php:462
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Lees verder <span class=\"meta-nav\">&rarr;</span>"
 
-#: content-image.php:23 content.php:30 content-status.php:24
-#: content-quote.php:24 content-aside.php:24 content-link.php:24
+#: content-aside.php:24 content-image.php:23 content-link.php:24
+#: content-quote.php:24 content-status.php:24 content.php:30
 msgctxt "comments number"
 msgid "%"
 msgstr "%"
 
-#: content-image.php:23 content.php:30 content-status.php:24
-#: content-quote.php:24 content-aside.php:24 content-link.php:24
+#: content-aside.php:24 content-image.php:23 content-link.php:24
+#: content-quote.php:24 content-status.php:24 content.php:30
 msgctxt "comments number"
 msgid "1"
 msgstr "1"
 
-#: content-image.php:23 content.php:30 content-status.php:24
-#: content-quote.php:24 content-aside.php:24 content-link.php:24
+#: content-aside.php:24 content-image.php:23 content-link.php:24
+#: content-quote.php:24 content-status.php:24 content.php:30
 msgid "Reply"
 msgstr "Beantwoorden"
 
@@ -564,7 +706,7 @@ msgstr "&larr; Oudere reacties"
 msgid "Comment navigation"
 msgstr "Reactienavigatie"
 
-#. translators: %1$s: The number of comments. %2$s: The post title.
+#. translators: 1: The number of comments, 2: The post title.
 #: comments.php:43
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -591,12 +733,12 @@ msgstr "Over %s"
 msgid "Author Archives: %s"
 msgstr "Auteursarchief: %s"
 
-#: author.php:106 category.php:70 tag.php:70 archive.php:71 index.php:44
+#: archive.php:71 author.php:106 category.php:70 index.php:44 tag.php:70
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr "Excuses, er werden geen resultaten gevonden voor het gevraagde archief. Misschien zal zoeken helpen een gerelateerd bericht te vinden."
 
-#: author.php:102 category.php:66 search.php:52 tag.php:66 archive.php:67
-#: index.php:40
+#: archive.php:67 author.php:102 category.php:66 index.php:40 search.php:52
+#: tag.php:66
 msgid "Nothing Found"
 msgstr "Niets gevonden"
 
@@ -631,10 +773,10 @@ msgstr "Maandelijks archief: %s"
 msgid "Daily Archives: %s"
 msgstr "Dagelijks archief: %s"
 
-#. translators: %1$s: Smilie.
+#. translators: %s: Smilie.
 #: 404.php:46
-msgid "Try looking in the monthly archives. %1$s"
-msgstr "Probeer eens te zoeken in het maandelijks archief: %1$s"
+msgid "Try looking in the monthly archives. %s"
+msgstr "Probeer te zoeken in de maandelijkse archieven. %s"
 
 #: 404.php:28
 msgid "Most Used Categories"
