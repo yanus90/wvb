@@ -345,7 +345,7 @@ function register_news_post_type()
         'rewrite'            => ['slug' => 'nieuws'],
         'capability_type'    => 'post',
         'has_archive'        => false,
-        'hierarchical'       => true,
+        'hierarchical'       => false,
         'menu_position'      => 4,
         'supports'           => ['title', 'editor', 'revisions', 'author', 'custom-fields', 'post-formats'],
         'show_in_rest'       => true,
