@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - SVG Support - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-27 11:18:36+0000\n"
+"PO-Revision-Date: 2021-10-18 07:42:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -514,7 +514,7 @@ msgstr "Klasse automatisch invoegen?"
 
 #: admin/svgs-settings-page.php:119
 msgid " Normally, scripts are placed in <code>head</code> of the HTML document. If this parameter is true, the script is placed before the closing <code>body</code> tag. This requires the theme to have the <code>wp_footer()</code> template tag in the appropriate place."
-msgstr "Normaal gesproken worden scripts in <code> head </code> van het HTML-document geplaatst. Als deze parameter waar is, wordt het script voor de afsluitende <code> body </code> -tag geplaatst. Dit vereist dat het thema de <code> wp_footer () </code> -templatetag op de juiste plaats heeft."
+msgstr " Normaal gesproken worden scripts in <code>head</code> van het HTML-document geplaatst. Als deze parameter waar is, wordt het script voor de afsluitende <code> body </code> -tag geplaatst. Dit vereist dat het thema de <code>wp_footer()</code> templatetag op de juiste plaats heeft."
 
 #: admin/svgs-settings-page.php:114
 msgid "Output JS in Footer?"
@@ -522,7 +522,7 @@ msgstr "Uitvoer JS in footer?"
 
 #: admin/svgs-settings-page.php:73
 msgid " Restricts SVG upload privileges to Administrators."
-msgstr "Beperkt SVG upload rechten voor beheerders. "
+msgstr " Beperkt SVG upload rechten voor beheerders."
 
 #: admin/svgs-settings-page.php:73 admin/svgs-settings-page.php:85
 #: admin/svgs-settings-page.php:97 admin/svgs-settings-page.php:119
@@ -574,4 +574,4 @@ msgstr "Je kan hier niet mee spelen."
 #. Plugin Name of the plugin
 #: admin/admin-init.php:16
 msgid "SVG Support"
-msgstr "SVG Ondersteuning"
+msgstr "SVG Support"

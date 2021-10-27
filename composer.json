@@ -36,7 +36,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.9.9",
+        "version": "5.10.2",
         "type": "wordpress-muplugin",
         "dist": {
           "type": "zip",
@@ -70,19 +70,18 @@
     "wpackagist-plugin/safe-redirect-manager": "^1.9",
     "wpackagist-plugin/simple-page-ordering": "^2.3",
     "wpackagist-plugin/wp-smushit": "^3.3",
-    "wpackagist-plugin/wordpress-seo":"^16.0",
-    "wpackagist-plugin/acf-image-aspect-ratio-crop":"^5.0",
-    "wpackagist-plugin/google-analytics-dashboard-for-wp":"^6.0",
+    "wpackagist-plugin/wordpress-seo":"^17.0",
+    "wpackagist-plugin/acf-image-aspect-ratio-crop":"^6.0",
+    "wpackagist-plugin/google-analytics-dashboard-for-wp":"^7.0",
     "wpackagist-plugin/onesignal-free-web-push-notifications":"^2.0",
     "wpackagist-plugin/simple-taxonomy-ordering": "^2.0",
     "wpackagist-plugin/svg-support": "^2.3",
     "wpackagist-plugin/wp-mail-smtp":"^3.0",
-    "wpackagist-plugin/webp-express": "^0.20",
+    "wpackagist-plugin/webp-express": "^0.21",
     "wpackagist-plugin/woocommerce": "^5.0",
     "wpackagist-plugin/mollie-payments-for-woocommerce": "^6.0",
     "wpackagist-plugin/woo-order-export-lite":"^3.0",
-    "wpackagist-plugin/contact-form-entries":"^1.2",
-    "wpackagist-plugin/accesspress-facebook-auto-post":"^2.0"
+    "wpackagist-plugin/contact-form-entries":"^1.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.4",
