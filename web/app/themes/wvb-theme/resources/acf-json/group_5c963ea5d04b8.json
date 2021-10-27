@@ -3,12 +3,12 @@
     "title": "Eigenschappen nieuwsbericht",
     "fields": [
         {
-            "key": "field_6178fae216ac9",
+            "key": "field_6178fb825fcc9",
             "label": "Overzichtafbeelding",
             "name": "overzichtafbeelding",
             "type": "image_aspect_ratio_crop",
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -19,7 +19,7 @@
             "aspect_ratio_width": 550,
             "aspect_ratio_height": 360,
             "return_format": "array",
-            "preview_size": "medium",
+            "preview_size": "thumbnail",
             "library": "all",
             "min_width": "",
             "min_height": "",
@@ -152,5 +152,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1635318516
+    "modified": 1635318679
 }
