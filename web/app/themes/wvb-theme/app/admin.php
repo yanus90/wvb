@@ -137,3 +137,15 @@ function my_wp_login_logo()
     <?php
 }
 add_action('login_enqueue_scripts', __NAMESPACE__ . '\\my_wp_login_logo');
+
+function wp_post_types_admin_order( $wp_query ) {
+    if (is_admin()) {
+        $post_type = $wp_query->query['post_type'];
+
+        if ($post_type == 'news-article') {
+            $wp_query->set('orderby', 'date');
+            $wp_query->set('order', 'DESC');
+        }
+    }
+}
+add_filter('pre_get_posts', 'wp_post_types_admin_order');

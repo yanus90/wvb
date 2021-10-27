@@ -350,7 +350,7 @@ function register_news_post_type()
         'supports'           => ['title', 'editor', 'revisions', 'author', 'custom-fields', 'post-formats'],
         'show_in_rest'       => true,
         'menu_icon'          => 'dashicons-format-aside',
-        'taxonomies'         => ['category']
+        'taxonomies'         => ['category'],
     ];
     register_post_type('news-article', $args);
 
