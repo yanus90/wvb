@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="row">
-                    @if ($latest_news_articles)
+                    @if($latest_news_articles)
                         <div class="d-none d-lg-inline-block col-lg-8">
                             <h3 class="mb-4 mb-lg-5"><i class="fal fa-newspaper mr-2 text-primary"></i>Laatste nieuws</h3>
                             <div class="row">
@@ -13,7 +13,7 @@
                                             @foreach($chunk as $article)
                                                 <li class="mb-3">
                                                     <a href="{!! get_permalink($article) !!}" title="{!! $article->post_title !!}" class="media text-decoration-none">
-                                                        <img src="{!! ($article->overzichtafbeelding ? wp_get_attachment_image_url($article->overzichtafbeelding, 'thumbnail') : '//placehold.it/150x150') !!}" class="mr-3 img-fluid rounded" alt="{!! $article->post_title !!}" width="80">
+                                                        <img src="{!! ($article->overzichtafbeelding ? wp_get_attachment_image_url($article->overzichtafbeelding, 'thumbnail') : '//via.placeholder.com/150x150') !!}" class="mr-3 img-fluid rounded" alt="{!! $article->post_title !!}" width="80">
                                                         <div class="media-body font-size-p16 line-height-regular">
                                                             <h6 class="date small mb-1 color-black">{{ get_the_date('', $article) }}</h6>
                                                             <h5 class="">{!! $article->post_title !!}</h5>
@@ -39,7 +39,7 @@
                                         @foreach($events as $event)
                                             <li class="mb-3">
                                                 <a href="{!! get_permalink($event) !!}" title="{!! $event->post_title !!}" class="media text-decoration-none">
-                                                    <img src="{!! ($event->overzichtafbeelding ? wp_get_attachment_image_url($event->overzichtafbeelding, 'thumbnail') : '//placehold.it/150x150') !!}" class="mr-3 img-fluid rounded" alt="{!! $event->post_title !!}" width="80">
+                                                    <img src="{!! ($event->overzichtafbeelding ? wp_get_attachment_image_url($event->overzichtafbeelding, 'thumbnail') : '//via.placeholder.com/150x150') !!}" class="mr-3 img-fluid rounded" alt="{!! $event->post_title !!}" width="80">
                                                     <div class="media-body font-size-p16 line-height-regular">
                                                         <h6 class="date small mb-1 color-black">{{ $event->datum }}</h6>
                                                         <h5 class="">{!! $event->post_title !!}</h5>

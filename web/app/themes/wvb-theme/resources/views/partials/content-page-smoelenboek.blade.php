@@ -19,7 +19,7 @@
                                             @endphp
                                             <div class="col-12 col-md-6 col-lg-4 col-xxl-3 mb-4">
                                                 <div class="card" title="{!! $item->post_title !!}">
-                                                    <img src="{!! ($image ? wp_get_attachment_image_url($image['id'], 'person_image') : '//placehold.it/600x800?text='.$item->post_title) !!}" class="card-img" alt="{!! $item->post_title !!}">
+                                                    <img src="{!! ($image ? wp_get_attachment_image_url($image['id'], 'person_image') : '//via.placeholder.com/600x800?text='.$item->post_title) !!}" class="card-img" alt="{!! $item->post_title !!}">
                                                     <div class="card-img-overlay d-flex flex-column">
                                                         <div class="mt-auto">
                                                             <h3 class="h5 color-white mb-0 font-weight-semi-bold">{!! $item->post_title !!}</h3>

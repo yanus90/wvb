@@ -28,7 +28,7 @@ $persons = get_field('personen');
         @endphp
         <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card" title="{!! $persoon->post_title !!}">
-                <img src="{!! ($image ? wp_get_attachment_image_url($image['id'], 'person_image') : '//placehold.it/600x800?text='.$persoon->post_title) !!}" class="card-img" alt="{!! $persoon->post_title !!}">
+                <img src="{!! ($image ? wp_get_attachment_image_url($image['id'], 'person_image') : '//via.placeholder.com/600x800?text='.$persoon->post_title) !!}" class="card-img" alt="{!! $persoon->post_title !!}">
                 <div class="card-img-overlay d-flex flex-column">
                     <div class="mt-auto">
                         <h3 class="h5 color-white font-weight-semi-bold">{!! $persoon->post_title !!}</h3>

@@ -8,7 +8,7 @@
                 $functions = wp_get_post_terms($person->ID, 'functie');
             @endphp
             <div class="media mb-4">
-                <img src="{!! ($image ? wp_get_attachment_image_url($image['id'], 'thumbnail') : '//placehold.it/100x100?text='.$person->post_title) !!}" class="mr-3 rounded-circle" width="100" alt="{!! $person->post_title !!}">
+                <img src="{!! ($image ? wp_get_attachment_image_url($image['id'], 'thumbnail') : '//via.placeholder.com/100x100?text='.$person->post_title) !!}" class="mr-3 rounded-circle" width="100" alt="{!! $person->post_title !!}">
                 <div class="media-body">
                     <h5 class="mt-0 mb-0 text-primary">{!! $person->post_title !!}</h5>
                     @if($functions)
