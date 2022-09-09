@@ -16,7 +16,7 @@
           <div class="col-lg-8 col-xl-9">
             <div class="team-image mb-4">
               <a href="{!! wp_get_attachment_image_url($team_image['ID'], 'large') !!}" data-fancybox="big-team-image" title="Vergroot teamfoto van {!! $post->post_title !!}">
-                <img src="{!! wp_get_attachment_image_url($team_image['ID'], 'team_image') !!}" alt="{!! get_post_meta( $team_image['ID'], '_wp_attachment_image_alt', true ); !!}" class="img-fluid rounded w-100">
+                <img src="{!! wp_get_attachment_image_url($team_image['ID'], 'team_image_large') !!}" alt="{!! get_post_meta( $team_image['ID'], '_wp_attachment_image_alt', true ); !!}" class="img-fluid rounded w-100">
               </a>
             </div>
             <div class="team-information">
