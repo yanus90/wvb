@@ -15,8 +15,8 @@
                 "class": "",
                 "id": ""
             },
-            "aspect_ratio_width": 1024,
-            "aspect_ratio_height": 685,
+            "aspect_ratio_width": 1600,
+            "aspect_ratio_height": 1070,
             "return_format": "array",
             "preview_size": "thumbnail",
             "library": "all",
