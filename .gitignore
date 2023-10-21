@@ -23,3 +23,4 @@ web/app/themes/wvb-theme/resources/storage/*
 !web/app/themes/wvb-theme/resources/storage/.gitkeep
 
 web/app/db.php
+htdocs
