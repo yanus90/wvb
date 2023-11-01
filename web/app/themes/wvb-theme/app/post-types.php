@@ -29,7 +29,7 @@ function register_elftal_post_type() {
         'show_ui'            => true,
         'show_in_menu'       => true,
         'query_var'          => true,
-        'rewrite'            => ['slug' => 'elftallen/%afdeling%', 'with_front' => false],
+        'rewrite'            => ['slug' => 'teams/%afdeling%', 'with_front' => false],
         'capability_type'    => 'post',
         'has_archive'        => 'afdeling',
         'hierarchical'       => true,
