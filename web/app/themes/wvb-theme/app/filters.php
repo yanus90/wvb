@@ -98,7 +98,8 @@ add_filter('post_type_link', function ($post_link, $post) {
  * @param $field
  * @return mixed
  */
-function acf_set_featured_image($value, $post_id, $field)
+
+add_filter('acf/update_value/name=afbeelding_bericht', function ($value, $post_id, $field)
 {
     if ($value != '') {
         //Add the value which is the image ID to the _thumbnail_id meta data for the current post
@@ -106,10 +107,9 @@ function acf_set_featured_image($value, $post_id, $field)
     }
 
     return $value;
-}
-add_filter('acf/update_value/name=afbeelding_bericht', __NAMESPACE__.'\\acf_set_featured_image', 10, 3);
+}, 10, 3);
 
-function wvb_remove_protected_from_title($title)
+add_filter('the_title', function ($title)
 {
     $post = get_post();
 
@@ -118,5 +118,25 @@ function wvb_remove_protected_from_title($title)
         $title = str_replace($formatted, $post->post_title, $title);
     }
     return $title;
-}
-add_filter('the_title', __NAMESPACE__.'\\wvb_remove_protected_from_title', 10);
+}, 10);
+
+add_filter('allowed_block_types_all', function()
+{
+    return [
+        'core/paragraph',
+        'core/heading',
+        'core/list',
+        'core/list-item',
+        'core/block',
+        'core/table',
+        'core/code',
+        'core/columns',
+        'core/separator',
+        'core/spacer',
+        'core/more',
+        'core/shortcode',
+        'core/html',
+        'core/video',
+        'core/image',
+    ];
+});

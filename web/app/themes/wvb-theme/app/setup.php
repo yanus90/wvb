@@ -12,7 +12,7 @@ use Roots\Sage\Template\BladeProvider;
  */
 add_action('wp_enqueue_scripts', function () {
     // Fonts
-    wp_enqueue_style('font/montserrat', 'https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+    wp_enqueue_style('font/montserrat', 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
     // Styles
     wp_enqueue_style('wvb/main.css', asset_path('styles/main.css'), false, null);
@@ -31,6 +31,11 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_script('comment-reply');
     }
 }, 100);
+
+add_action('enqueue_block_editor_assets', function () {
+    // Voeg hier je editor stylesheet toe
+    wp_enqueue_style('wvb/editor.css', asset_path('styles/editor.css'), false, null);
+});
 
 /**
  * Theme setup
