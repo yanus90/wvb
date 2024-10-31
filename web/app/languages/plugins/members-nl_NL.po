@@ -2,14 +2,18 @@
 # This file is distributed under the same license as the Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-17 22:52:24+0000\n"
+"PO-Revision-Date: 2024-09-30 19:48:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.8\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: nl\n"
 "Project-Id-Version: Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release)\n"
+
+#: admin/class-settings.php:158 admin/functions-admin.php:285
+msgid "You are not allowed to make these changes."
+msgstr "Je hebt geen toestemming om deze wijzigingen aan te brengen"
 
 #: admin/functions-admin.php:266
 msgid "Made with ♥ by the Members Team"
@@ -29,7 +33,7 @@ msgstr "Ondersteuning"
 
 #: admin/class-notifications.php:633
 msgid "Dismiss All"
-msgstr "Alles afwijzen"
+msgstr "Alles negeren"
 
 #: admin/class-notifications.php:630
 msgid "Notifications"
@@ -123,7 +127,7 @@ msgstr "Verwijder permanent de ledenbeoordeling prompt."
 
 #: admin/views/class-view-general.php:85
 msgid "Disable Review Prompt"
-msgstr "Herzieningsprompt uitschakelen"
+msgstr "Beoordeling prompt uitschakelen"
 
 #: admin/views/class-view-general.php:65
 msgid "Miscellaneous"
@@ -170,7 +174,7 @@ msgstr "Oké, je verdient het"
 
 #: admin/class-review-prompt.php:85
 msgid "That's awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
-msgstr "Dat is geweldig! Kun je me alsjeblieft een GROOT plezier doen en het een 5-sterren waardering geven op WordPress om ons te helpen het woord te verspreiden en onze motivatie een boost te geven?"
+msgstr "Dat is geweldig! Kun je me een GROOT plezier doen en het een 5-sterren waardering geven op WordPress om ons te helpen het woord te verspreiden en onze motivatie een boost te geven?"
 
 #: admin/class-review-prompt.php:81
 msgid "Are you enjoying using Members?"
@@ -636,7 +640,7 @@ msgstr "Kortingen: taxonomie voorwaarden verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:327
 msgid "Allows users to edit discount taxonomy terms."
-msgstr "Geeft gebruikers toegang tot het bewerken van korting taxonomievoorwaarden."
+msgstr "Geeft gebruikers toegang tot het bewerken van korting taxonomie voorwaarden."
 
 #: addons/members-edd-integration/src/functions-caps.php:326
 msgid "Discounts: Edit Taxonomy Terms"
@@ -1034,17 +1038,17 @@ msgstr "Geeft toegang tot het beheer van winkelinstellingen."
 msgid "Shop: Manage Settings"
 msgstr "Winkel: instellingen beheren"
 
-#: addons/members-acf-integration/src/Plugin.php:367
+#: addons/members-acf-integration/src/Plugin.php:371
 msgid "Custom Fields"
 msgstr "Aangepaste velden"
 
-#: addons/members-acf-integration/src/Plugin.php:336
+#: addons/members-acf-integration/src/Plugin.php:340
 msgid "Advanced Custom Fields %s"
 msgid_plural "Advanced Custom Fields %s"
 msgstr[0] "Advanced Custom Fields %s"
 msgstr[1] "Advanced Custom Fields %s"
 
-#: addons/members-acf-integration/src/Plugin.php:335
+#: addons/members-acf-integration/src/Plugin.php:339
 msgid "Advanced Custom Fields"
 msgstr "Advanced Custom Fields"
 
@@ -1066,7 +1070,7 @@ msgstr "Veldgroepen van anderen bewerken"
 
 #: addons/members-acf-integration/src/functions-caps.php:29
 msgid "Allows access to settings and tools for the Advanced Custom Fields plugin and may be required to access some third-party add-ons."
-msgstr "Geeft toegang tot instellingen en hulpprogramma's voor de plugin Advanced Custom Fieldsplugin en is mogelijk vereist om toegang te krijgen tot een aantal invoegtoepassingen van derden."
+msgstr "Geeft toegang tot instellingen en gereedschappen voor de Advanced Custom Fields plugin en kan nodig zijn om toegang te krijgen tot sommige add-ons van derden."
 
 #: addons/members-acf-integration/src/functions-caps.php:28
 msgid "Manage Advanced Custom Fields"
@@ -1136,13 +1140,13 @@ msgstr "Niveau 0"
 #: addons/members-meta-box-integration/src/Plugin.php:122
 msgid "Meta Box %s"
 msgid_plural "MetaBox %s"
-msgstr[0] "Meta Box %s"
-msgstr[1] "MetaBoxen %s"
+msgstr[0] "Meta vak %s"
+msgstr[1] "Meta vakken %s"
 
 #: addons/members-meta-box-integration/src/Plugin.php:121
 #: addons/members-meta-box-integration/src/Plugin.php:146
 msgid "Meta Box"
-msgstr "Meta Box"
+msgstr "Meta vak"
 
 #. Translators: %s is a capability name.
 #: addons/members-acf-integration/src/functions-caps.php:50
@@ -1180,7 +1184,7 @@ msgstr "Geeft gebruikers toegang om machtigingen te blokkeren in de blok-editor.
 
 #: addons/members-block-permissions/src/Integration.php:49
 msgid "Assign Block Permissions"
-msgstr "Blokmachtigingen toewijzen"
+msgstr "Blok machtigingen toewijzen"
 
 #: addons/members-block-permissions/src/Editor.php:130
 msgid "Your user account does not have access to assign permissions to this block."
@@ -1547,48 +1551,48 @@ msgid "GiveWP: Manage Settings"
 msgstr "GiveWP: instellingen beheren"
 
 #: addons/members-block-permissions/src/Editor.php:131
-#: addons/members-block-permissions/src/Editor.php:132 members.php:467
+#: addons/members-block-permissions/src/Editor.php:132 members.php:468
 msgid "To protect this block by paid membership or centrally with a content protection rule, add MemberPress."
 msgstr "Om deze blokkering te beschermen door middel van betaald lidmaatschap of centraal met een regel voor inhoudsbescherming, voeg MemberPress toe."
 
-#: addons/members-block-permissions/src/Editor.php:87 members.php:466
+#: addons/members-block-permissions/src/Editor.php:87 members.php:467
 msgid "Permissions"
 msgstr "Rechten"
 
-#: admin/class-settings.php:267 admin/class-settings.php:645
+#: admin/class-settings.php:271 admin/class-settings.php:649
 msgctxt "admin screen"
 msgid "About Us"
 msgstr "Over ons"
 
-#: admin/class-settings.php:264 admin/class-settings.php:389
+#: admin/class-settings.php:268 admin/class-settings.php:393
 msgctxt "admin screen"
 msgid "Payments"
 msgstr "Betalingen"
 
-#: admin/class-settings.php:261
+#: admin/class-settings.php:265
 msgctxt "admin screen"
 msgid "<span style=\"color: #8CBD5A;\">Add-Ons</span>"
 msgstr "<span style=\"color: #8CBD5A;\">Add-ons</span>"
 
-#: admin/class-settings.php:261
+#: admin/class-settings.php:265
 msgctxt "admin screen"
 msgid "Add-Ons"
 msgstr "Add-ons"
 
-#: admin/class-settings.php:259
+#: admin/class-settings.php:263
 msgctxt "admin screen"
 msgid "Settings"
 msgstr "Instellingen"
 
-#: admin/class-settings.php:185
+#: admin/class-settings.php:189
 msgid "Add-on deactivated"
 msgstr "Add-on gedeactiveerd"
 
-#: admin/class-settings.php:173
+#: admin/class-settings.php:177
 msgid "Add-on activated"
 msgstr "Add-on geactiveerd"
 
-#: admin/class-settings.php:161
+#: admin/class-settings.php:165
 msgid "No add-on provided."
 msgstr "Geen add-on aanwezig."
 
@@ -1597,24 +1601,27 @@ msgctxt "admin screen"
 msgid "Add New Role"
 msgstr "Nieuwe rol toevoegen"
 
-#: admin/class-settings.php:172 admin/views/class-view-addons.php:159
+#: admin/class-settings.php:176 admin/views/class-view-addons.php:159
 msgid "Active"
 msgstr "Actief"
 
-#: admin/class-settings.php:184 admin/views/class-view-addons.php:153
+#: admin/class-settings.php:188 admin/views/class-view-addons.php:153
 #: admin/views/class-view-addons.php:159
 msgid "Activate"
 msgstr "Activeren"
 
 #. Author URI of the plugin
+#: members.php
 msgid "https://memberpress.com"
 msgstr "https://memberpress.com"
 
 #. Author of the plugin
+#: members.php
 msgid "MemberPress"
 msgstr "MemberPress"
 
 #. Plugin URI of the plugin
+#: members.php
 msgid "https://memberpress.com/plugins/members"
 msgstr "https://memberpress.com/plugins/members"
 
@@ -1624,19 +1631,19 @@ msgid_plural "%s Users"
 msgstr[0] "%s Gebruiker"
 msgstr[1] "%s Gebruikers"
 
-#: members.php:351
+#: members.php:352
 msgid "Members requires PHP version %1$s. You are running version %2$s. Please upgrade and try again."
 msgstr "Members vereist PHP versie %1$s, maar je gebruikt versie %2$s; voer een upgrade uit en probeer het nog eens."
 
-#: inc/functions-private-site.php:198
+#: inc/functions-private-site.php:200
 msgid "If you reached this page by accident and meant to visit one of your own sites, try one of the following links."
 msgstr "Als je per ongeluk op deze pagina bent gekomen en een van je eigen sites wilt bezoeken, probeer dan een van de volgende links."
 
-#: inc/functions-private-site.php:191
+#: inc/functions-private-site.php:193
 msgid "You do not currently have access to the \"%s\" site. If you believe you should have access, please contact your network administrator."
 msgstr "Je hebt momenteel geen toegang tot de site \"%s\". Als je denkt dat dit niet klopt, kun je contact opnemen met je netwerkbeheerder."
 
-#: inc/functions-private-site.php:167
+#: inc/functions-private-site.php:169
 msgid "You are not currently logged in."
 msgstr "Je bent momenteel niet ingelogd."
 
@@ -1750,7 +1757,7 @@ msgstr "Bewerk thema's"
 
 #: inc/functions-capabilities.php:100
 msgid "Edit Theme Options"
-msgstr "Bewerk thema-opties"
+msgstr "Bewerk thema opties"
 
 #: inc/functions-capabilities.php:99
 msgid "Delete Themes"
@@ -1910,7 +1917,7 @@ msgstr "Sommige plugins zijn mogelijk beschikbaar voor directe download. In derg
 
 #: admin/views/class-view-addons.php:223
 msgid "The Add-Ons screen allows you to view available add-ons for the Members plugin. You can download some plugins directly. Others may be available to purchase."
-msgstr "In het venster Add-ons kan je de beschikbare invoegtoepassingen voor de Members plugin zien. Je kan sommige plugins rechtstreeks downloaden. Anderen kunnen beschikbaar zijn om te kopen."
+msgstr "In het venster add-ons kun je de beschikbare invoegtoepassingen voor de Members plugin zien. Je kunt sommige plugins rechtstreeks downloaden. Anderen kunnen beschikbaar zijn om te kopen."
 
 #: admin/views/class-view-addons.php:195
 msgid "Download"
@@ -1983,14 +1990,16 @@ msgid "Role added to selected users."
 msgstr "Rol toegevoegd aan de geselecteerde gebruikers."
 
 #. Description of the plugin
+#: members.php
 msgid "A user and role management plugin that puts you in full control of your site's permissions. This plugin allows you to edit your roles and their capabilities, clone existing roles, assign multiple roles per user, block post content, or even make your site completely private."
 msgstr "Een plugin voor gebruikers en rollen beheer waarmee je de rechten van je site volledig beheren. Deze plugin maakt het mogelijk je rollen en hun competenties te bewerken, kloon bestaande rollen, toewijzen van meerdere rollen per gebruiker, blok bericht inhoud, of maak zelfs je site volledig privé."
 
 #. Plugin Name of the plugin
+#: members.php
 msgid "Members"
 msgstr "Members"
 
-#: members.php:151
+#: members.php:152
 msgid "Method does not exist."
 msgstr "Methode bestaat niet."
 
@@ -2000,11 +2009,11 @@ msgstr "Je moet ingelogd zijn op de site om deze inhoud te kunnen bekijken."
 
 #: inc/functions-options.php:132
 msgid "Sorry, but you do not have permission to view this content."
-msgstr "Helaas, je hebt niet het recht om deze inhoud te bekijken.."
+msgstr "Je hebt geen toestemming om deze inhoud te bekijken."
 
 #: inc/class-widget-users.php:276
 msgid "Meta Value:"
-msgstr "Meta-waarde:"
+msgstr "Meta waarde:"
 
 #: inc/class-widget-users.php:268
 msgid "Meta Key:"
@@ -2234,7 +2243,7 @@ msgstr[1] "Mijn %s"
 
 #: admin/functions-help.php:168
 msgid "The custom capability box allows you to create a custom capability for the role. After hitting the Add New button, it will add the capability to the Custom tab in the Edit Capabilities box."
-msgstr "In de Aangepaste rechten box kan je aangepaste rechten voor de rol maken. Nadat je op de knop Nieuw toevoegen hebt geklikt, wordt het recht toegevoegd aan de tab Aangepast in de bewerk rechten box."
+msgstr "In het aangepaste rechten vak kun je aangepaste rechten voor de rol maken. Nadat je op de knop Nieuwe toevoegen hebt geklikt, wordt het recht toegevoegd aan de tab Aangepast in het bewerken rechten vak."
 
 #: admin/functions-help.php:154
 msgid "You may also opt to neither grant nor deny the role a capability."
@@ -2250,7 +2259,7 @@ msgstr "Met <strong>Toekennen</strong> kan je de rol een recht geven."
 
 #: admin/functions-help.php:148
 msgid "The capabilities edit box is made up of tabs that separate capabilities into groups. You may take the following actions for each capability:"
-msgstr "De bewerking box voor rechten bestaat uit tabs die de rechten in groepen onderverdelen; voor elk recht kun je de volgende acties ondernemen:"
+msgstr "Het bewerkings vak voor rechten bestaat uit tabs die de rechten in groepen onderverdelen; voor elk recht kun je de volgende acties ondernemen:"
 
 #: admin/functions-help.php:134
 msgid "The machine-readable version of the role appears below the name field, which you can edit. This can only have lowercase letters, numbers, or underscores."
@@ -2258,7 +2267,7 @@ msgstr "De machine-leesbare versie van de rol verschijnt onder het naamveld, dat
 
 #: admin/functions-help.php:130
 msgid "The role name field allows you to enter a human-readable name for your role."
-msgstr "Het rol naam veld maakt het mogelijk dat je een door de mens leesbare naam voor jouw rol kunt invoeren."
+msgstr "Het rol naam veld maakt het mogelijk dat je een door de mens leesbare naam voor je rol kunt invoeren."
 
 #: admin/functions-help.php:109
 msgid "This screen allows you to edit an individual role and its capabilities."
@@ -2315,7 +2324,7 @@ msgstr "Gebruikersrollen"
 
 #: admin/views/class-view-general.php:440
 msgid "The private site feature redirects all users who are not logged into the site to the login page, creating an entirely private site. You may also replace your feed content with a custom error message."
-msgstr "De functie Privé site leid alle gebruikers om die niet op de site zijn aangemeld, naar de aanmeldingspagina, waardoor een geheel eigen site wordt gemaakt. Je kunt jouw feed inhoud ook vervangen door een aangepast foutbericht."
+msgstr "De functie Privé site leid alle gebruikers om die niet op de site zijn aangemeld, naar de login pagina, waardoor een geheel eigen site wordt gemaakt. Je kunt je feed inhoud ook vervangen door een aangepast foutbericht."
 
 #: admin/views/class-view-general.php:426
 msgid "The sidebar widgets feature adds additional widgets for use in your theme's sidebars."
@@ -2323,7 +2332,7 @@ msgstr "De functie zijbalk widgets voegt extra widgets toe voor gebruik in je zi
 
 #: admin/views/class-view-general.php:412
 msgid "The content permissions features adds a meta box to the edit post screen that allows you to grant permissions for who can read the post content based on the user's role. Only users of roles with the %s capability will be able to use this component."
-msgstr "De functies voor inhoud machtigingen voegt een meta box toe aan het scherm bericht bewerken, waarmee je machtigingen kan toekennen voor wie de berichtinhoud kan lezen op basis van de rol van de gebruiker. Alleen gebruikers van rollen met de %s rechten kunnen dit onderdeel gebruiken."
+msgstr "De functies voor inhoud machtigingen voegt een meta vak toe aan het scherm bericht bewerken, waarmee je machtigingen kan toekennen voor wie de bericht inhoud kan lezen op basis van de rol van de gebruiker. Alleen gebruikers van rollen met de %s rechten kunnen dit onderdeel gebruiken."
 
 #: admin/views/class-view-general.php:390
 msgid "The multiple user roles feature allows you to assign more than one role to each user from the edit user screen."
@@ -2400,7 +2409,7 @@ msgstr "Persoonlijke site inschakelen"
 #: admin/class-meta-box-content-permissions.php:371
 #: admin/views/class-view-general.php:76
 msgid "Error Message"
-msgstr "Foutmelding"
+msgstr "Foutbericht"
 
 #: admin/views/class-view-general.php:75
 msgid "Enable Permissions"
@@ -2430,7 +2439,7 @@ msgstr "Zijbalk widgets"
 msgid "Roles and Capabilities"
 msgstr "Rollen en competenties"
 
-#: admin/class-settings.php:366
+#: admin/class-settings.php:370
 msgctxt "admin screen"
 msgid "Members"
 msgstr "Members"
@@ -2603,7 +2612,7 @@ msgid "The requested role to edit does not exist."
 msgstr "De gevraagde te bewerken rol bestaat niet."
 
 #: admin/class-manage-users.php:161 admin/class-manage-users.php:236
-#: admin/class-role-edit.php:92 members.php:129 members.php:140
+#: admin/class-role-edit.php:92 members.php:130 members.php:141
 msgid "Whoah, partner!"
 msgstr "Whoah, partner!"
 
