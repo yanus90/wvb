@@ -2,39 +2,112 @@
 # This file is distributed under the same license as the Plugins - Simple Page Ordering - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-04 11:15:55+0000\n"
+"PO-Revision-Date: 2024-04-08 20:57:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: nl\n"
 "Project-Id-Version: Plugins - Simple Page Ordering - Stable (latest release)\n"
 
-#. Author URI of the plugin
-msgid "https://10up.com"
-msgstr "http://10up.com"
+#. translators: %s: sibling page/post title
+#: class-simple-page-ordering.php:465
+msgid "Move under %s"
+msgstr "Verplaats onder %s"
+
+#. translators: %s: parent page/post title
+#: class-simple-page-ordering.php:430
+msgid "Move out from under %s"
+msgstr "Verplaats van onder %s vandaan"
+
+#: class-simple-page-ordering.php:78 class-simple-page-ordering.php:124
+msgid "You are not allowed to edit this item."
+msgstr "Je hebt geen toestemming om dit item te bewerken."
+
+#. translators: %1$s is replaced with the post type name
+#: class-simple-page-ordering.php:379
+msgid "Reset %1$s order"
+msgstr "Reset %1$s volgorde"
+
+#. translators: %1$s is replaced with the post type name
+#: class-simple-page-ordering.php:343
+msgid "Are you sure you want to reset the ordering of the \"%1$s\" post type?"
+msgstr "Weet je zeker dat je de volgorde van het \"%1$s\" berichttype wil resetten?"
+
+#: 10up-lib/wp-compat-validation-tool/src/Validator.php:152
+msgid "%s error:"
+msgstr "%s fout:"
+
+#: 10up-lib/wp-compat-validation-tool/src/Validator.php:127
+msgid "The maximum PHP version supported is %s"
+msgstr "De maximaal ondersteunde versie van PHP is %s"
+
+#: 10up-lib/wp-compat-validation-tool/src/Validator.php:121
+msgid "The minimum PHP version required is %s"
+msgstr "De minimale vereiste PHP versie is %s"
+
+#: class-simple-page-ordering.php:859
+msgid "This post type is not sortable."
+msgstr "Dit berichttype is niet sorteerbaar."
+
+#: class-simple-page-ordering.php:817
+msgid "Array of IDs we want to exclude"
+msgstr "Array van ID's die we willen uitsluiten"
+
+#: class-simple-page-ordering.php:811
+msgid "Index we start with when sorting"
+msgstr "Index waarmee we beginnen bij het sorteren"
+
+#: class-simple-page-ordering.php:805
+msgid "ID of item we want to be next to after sorting"
+msgstr "ID van item waar we na sortering naast willen staan"
+
+#: class-simple-page-ordering.php:800
+msgid "ID of item we want to be previous to after sorting"
+msgstr "ID van item waar we voor willen staan na sortering"
+
+#: class-simple-page-ordering.php:794
+msgid "ID of item we want to sort"
+msgstr "ID van item dat we willen sorteren"
 
 #. Author of the plugin
-msgid "Jake Goldman, 10up"
-msgstr "Jake Goldman, 10up"
+#: simple-page-ordering.php
+msgid "10up"
+msgstr "10up"
+
+#: class-simple-page-ordering.php:354
+msgid "It looks like you are using a development copy of <strong>Simple Page Ordering</strong>. Please run <code>npm i; npm run build</code> to create assets."
+msgstr "Het lijkt erop dat je een ontwikkelingsexemplaar van <strong>Simple Page Ordering</strong> gebruikt. Voer <code>npm i; npm run build</code> uit om assets te maken."
+
+#: class-simple-page-ordering.php:564 class-simple-page-ordering.php:879
+msgid "Missing mandatory parameters."
+msgstr "Ontbrekende verplichte parameters."
+
+#. Author URI of the plugin
+#: simple-page-ordering.php
+msgid "https://10up.com"
+msgstr "https://10up.com"
 
 #. Plugin URI of the plugin
+#: simple-page-ordering.php
 msgid "http://10up.com/plugins/simple-page-ordering-wordpress/"
 msgstr "http://10up.com/plugins/simple-page-ordering-wordpress/"
 
 #. Plugin Name of the plugin
+#: simple-page-ordering.php class-simple-page-ordering.php:373
 msgid "Simple Page Ordering"
 msgstr "Simple Page Ordering"
 
 #. Description of the plugin
+#: simple-page-ordering.php
 msgid "Order your pages and hierarchical post types using drag and drop on the built in page list. For further instructions, open the \"Help\" tab on the Pages screen."
-msgstr "Sorteer uw pagina's en hiërarchische berichttypen d.m.v. het slepen en loslaten in het ingebouwde pagina overzicht. Voor verdere instructies opent u het tabblad \"Hulp\" op het scherm Pagina's."
+msgstr "Sorteer je pagina's en hiërarchische berichttypen d.m.v. het verslepen in het ingebouwde pagina overzicht. Voor verdere instructies open je de tab \"Hulp\" op het scherm Pagina's."
 
-#: simple-page-ordering.php:323
+#: class-simple-page-ordering.php:762
 msgid "Sort by Order"
 msgstr "Sorteer op volgorde"
 
-#: simple-page-ordering.php:115
+#: class-simple-page-ordering.php:376
 msgid "To reposition an item, simply drag and drop the row by \"clicking and holding\" it anywhere (outside of the links and form controls) and moving it to its new position."
 msgstr "Om een item te verplaatsen, gebruik eenvoudigweg drag en drop (slepen en loslaten) door klikken en vasthouden (buiten de links en knoppen) en het te verplaatsen naar de nieuwe positie."

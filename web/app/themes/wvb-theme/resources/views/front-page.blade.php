@@ -13,5 +13,5 @@
     @include('partials.program-and-news')
     @include('partials.bc-cta')
     @include('partials.about-wvb-home')
-    @include('partials.follow-on-twitter')
+    <div class="w-100 bg-white py-5"></div>
 @endsection
