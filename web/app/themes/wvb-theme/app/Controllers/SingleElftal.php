@@ -11,7 +11,17 @@ class SingleElftal extends Controller
 
     public function __construct()
     {
-        $this->sportlink = new Sportlink(get_field('sportlink_gegevens', get_queried_object_id()));
+        add_action('wp', [$this, 'initializeSportlink']);
+    }
+
+    public function initializeSportlink()
+    {
+        if (function_exists('get_field')) {
+            $this->sportlink = new Sportlink(\get_field('sportlink_gegevens', \get_queried_object_id()));
+        } else {
+            // Logging of een fallbackactie indien nodig
+            error_log('ACF get_field() functie is niet beschikbaar');
+        }
     }
 
     public function ranking()
