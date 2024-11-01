@@ -22,16 +22,16 @@
                             <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="results-tab" data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false"><i class="fal fa-futbol mr-2"></i>Uitslagen</a>
                         </li>
                     @endif
-                    @if($latest_news_articles)
-                        <li class="nav-item d-lg-none">
-                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="news-tab" data-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="true"><i class="fal fa-newspaper mr-2"></i>Nieuws</a>
-                        </li>
-                    @endif
-                    @if($events)
-                        <li class="nav-item d-lg-none">
-                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Agenda</a>
-                        </li>
-                    @endif
+{{--                    @if($latest_news_articles)--}}
+{{--                        <li class="nav-item d-lg-none">--}}
+{{--                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="news-tab" data-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="true"><i class="fal fa-newspaper mr-2"></i>Nieuws</a>--}}
+{{--                        </li>--}}
+{{--                    @endif--}}
+{{--                    @if($events)--}}
+{{--                        <li class="nav-item d-lg-none">--}}
+{{--                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Agenda</a>--}}
+{{--                        </li>--}}
+{{--                    @endif--}}
                 </ul>
                 <div class="tab-content" id="programResultsContent">
                     @if($program_home)
@@ -116,16 +116,16 @@
                             </div>
                         </div>
                     @endif
-                    @if($latest_news_articles)
-                        <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="news-tab">
-                            @include('partials.featured-news')
-                        </div>
-                    @endif
-                    @if($events)
-                        <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
-                            @include('partials.upcoming-events')
-                        </div>
-                    @endif
+{{--                    @if($latest_news_articles)--}}
+{{--                        <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="news-tab">--}}
+{{--                            @include('partials.featured-news')--}}
+{{--                        </div>--}}
+{{--                    @endif--}}
+{{--                    @if($events)--}}
+{{--                        <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">--}}
+{{--                            @include('partials.upcoming-events')--}}
+{{--                        </div>--}}
+{{--                    @endif--}}
                 </div>
             </div>
         </div>

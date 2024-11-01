@@ -103,9 +103,9 @@
     }
   }
 
-  @include media-breakpoint-down(md) {
-    &.bg-news-home-light {
-      background: $bg-dark-light !important;
-    }
-  }
+  //@include media-breakpoint-down(md) {
+  //  &.bg-news-home-light {
+  //    background: $bg-dark-light !important;
+  //  }
+  //}
 }
