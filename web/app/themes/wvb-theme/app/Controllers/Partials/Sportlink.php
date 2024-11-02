@@ -43,4 +43,19 @@ trait Sportlink
 
         return $results;
     }
+
+    public function getFileForSpecificTeamAndPoule($type, $file_slug, $teamcode = null, $poulecode = null, $extra = null)
+    {
+        // Specifieke team- en poulecoden voor deze functie
+        $specific_teamcode = $teamcode;
+        $specific_poulecode = $poulecode;
+
+        $this->teamcode = $specific_teamcode;
+        $this->poulecode = $specific_poulecode;
+
+        // Roep de bestaande functie aan
+        $result = $this->getFileFromExternalLink($type, $file_slug, $teamcode, $extra);
+
+        return $result;
+    }
 }

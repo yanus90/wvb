@@ -9,6 +9,7 @@
 {{--    @include('partials.grote-club-actie')--}}
     @include('partials.slider')
     @include('partials.sponsoren')
+{{--    @include('partials.upcoming-game-first-team')--}}
     @include('partials.news-home')
     @include('partials.program-and-news')
     @include('partials.bc-cta')

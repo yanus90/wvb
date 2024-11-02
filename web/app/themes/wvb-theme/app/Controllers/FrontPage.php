@@ -6,22 +6,38 @@ use App\Controllers\Partials\EventTrait;
 use App\Controllers\Partials\LatestNewsArticles;
 use App\Services\TwitterTweets;
 use App\Controllers\Partials\SponsorOfTheMonth;
-use App\Controllers\Partials\Sportlink;
 use Sober\Controller\Controller;
+use App\Helpers\Sportlink;
 
 class FrontPage extends Controller
 {
     use LatestNewsArticles;
     use EventTrait;
-    use Sportlink;
     use SponsorOfTheMonth;
+
+    private $sportlink;
+
+    public function __construct()
+    {
+        add_action('wp', [$this, 'initializeSportlink']);
+    }
+
+    public function initializeSportlink()
+    {
+        if (function_exists('get_field')) {
+            $this->sportlink = new Sportlink(\get_field('sportlink_gegevens', \get_queried_object_id()));
+        } else {
+            // Logging of een fallbackactie indien nodig
+            error_log('ACF get_field() functie is niet beschikbaar');
+        }
+    }
 
     public function slider()
     {
         return \get_field('homepagina_slider', 'option');
     }
 
-    public function sponsoren()
+    public function sponsoren(): array
     {
         $query = new \WP_Query([
             'post_type' => 'sponsor',
@@ -44,21 +60,21 @@ class FrontPage extends Controller
     {
         $file = get_template_directory().'/storage/complete-club-program.json';
 
-        return $this->getFileFromExternalLink('programma', $file,'','&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=NEE');
+        return $this->sportlink->getFileFromExternalLink('programma', $file,'','&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=NEE');
     }
 
     public function programAway()
     {
         $file = get_template_directory().'/storage/complete-club-program.json';
 
-        return $this->getFileFromExternalLink('programma', $file,'','&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=NEE&uit=JA');
+        return $this->sportlink->getFileFromExternalLink('programma', $file,'','&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=NEE&uit=JA');
     }
 
     public function results()
     {
         $file = get_template_directory().'/storage/complete-club-results.json';
 
-        return $this->getFileFromExternalLink('uitslagen', $file, '', '&gebruiklokaleteamgegevens=NEE&sorteervolgorde=datum-omgekeerd&eigenwedstrijden=JA&thuis=JA&uit=JA');
+        return $this->sportlink->getFileFromExternalLink('uitslagen', $file, '', '&gebruiklokaleteamgegevens=NEE&sorteervolgorde=datum-omgekeerd&eigenwedstrijden=JA&thuis=JA&uit=JA');
     }
 
     public function tweets()
@@ -66,7 +82,7 @@ class FrontPage extends Controller
         return (new TwitterTweets())->tweets();
     }
 
-    public function notifications()
+    public function notifications(): array
     {
         $query = new \WP_Query([
             'post_type' => 'melding',
@@ -76,5 +92,10 @@ class FrontPage extends Controller
         ]);
 
         return $query->posts;
+    }
+
+    public function upcomingGameFirstTeam(): array
+    {
+        return $this->sportlink->getFileForSpecificTeamAndPoule('programma', 'team-program', 161895, 753086, '&aantalregels=1');
     }
 }

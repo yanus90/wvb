@@ -57,4 +57,28 @@ class Sportlink
 
         return $results;
     }
+
+    public function getFileForSpecificTeamAndPoule($type, $file_slug, $teamcode = null, $poulecode = null, $extra = null)
+    {
+        // Specifieke team- en poulecoden voor deze functie
+        $specific_teamcode = $teamcode;
+        $specific_poulecode = $poulecode;
+
+        // Sla huidige waarden tijdelijk op
+        $original_teamcode = $this->teamcode;
+        $original_poulecode = $this->poulecode;
+
+        // Zet naar specifieke team- en poulecode
+        $this->teamcode = $specific_teamcode;
+        $this->poulecode = $specific_poulecode;
+
+        // Roep de bestaande functie aan
+        $result = $this->getFileFromExternalLink($type, $file_slug, $extra);
+
+        // Herstel de oorspronkelijke team- en poulecode
+        $this->teamcode = $original_teamcode;
+        $this->poulecode = $original_poulecode;
+
+        return $result;
+    }
 }
