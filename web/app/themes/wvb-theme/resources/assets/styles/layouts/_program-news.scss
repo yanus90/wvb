@@ -1,5 +1,5 @@
 .section-featured-news {
-  .container {
+  .container{
     @include media-breakpoint-down(md) {
       width: 100%;
       max-width: 100%;
