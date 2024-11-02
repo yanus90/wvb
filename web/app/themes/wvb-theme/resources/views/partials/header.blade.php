@@ -12,26 +12,27 @@
                         !!}
                     @endif
                 </div>
+
                 <div class="col d-flex justify-content-end">
                     <ul class="list-inline mb-0 font-size-p16 font-size-xl-p18">
                         @if(! empty(get_field('facebook_pagina', 'option')))
                             <li class="list-inline-item">
-                                <a href="{{ get_field('facebook_pagina', 'option') }}" class="text-black" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="{{ get_field('facebook_pagina', 'option') }}" title="Facebook" class="text-black" target="_blank"><i class="fab fa-facebook-f"></i></a>
                             </li>
                         @endif
                         @if(! empty(get_field('twitter_pagina', 'option')))
                             <li class="list-inline-item">
-                                <a href="{{ get_field('twitter_pagina', 'option') }}" class="text-black" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                                <a href="{{ get_field('twitter_pagina', 'option') }}" title="X" class="text-black" target="_blank"><i class="fab fa-x-twitter"></i></a>
                             </li>
                         @endif
                         @if(! empty(get_field('youtube_pagina', 'option')))
                             <li class="list-inline-item">
-                                <a href="{{ get_field('youtube_pagina', 'option') }}" class="text-black" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="{{ get_field('youtube_pagina', 'option') }}" title="YouTube" class="text-black" target="_blank"><i class="fab fa-youtube"></i></a>
                             </li>
                         @endif
                         @if(! empty(get_field('instagram_pagina', 'option')))
                             <li class="list-inline-item">
-                                <a href="{{ get_field('instagram_pagina', 'option') }}" class="text-black" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="{{ get_field('instagram_pagina', 'option') }}" title="Instagram" class="text-black" target="_blank"><i class="fab fa-instagram"></i></a>
                             </li>
                         @endif
                     </ul>
@@ -76,7 +77,7 @@
                                 <i class="fal fa-shopping-cart"></i>
                             </a>
                             <button class="navbar-search mr-3"><i class="fal fa-search"></i></button>
-                            <button class="btn navbar-more" onclick="toggleMenu()">Meer <i class="fal fa-align-right ml-2"></i></button>
+{{--                            <button class="btn navbar-more" onclick="toggleMenu()">Meer <i class="fal fa-align-right ml-2"></i></button>--}}
                         </span>
                     </div>
                 </div>
@@ -84,4 +85,4 @@
         </div>
     </div>
 </header>
-@include('partials.navbar-right')
+{{--@include('partials.navbar-right')--}}

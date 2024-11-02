@@ -15,7 +15,15 @@
         }
 
         a {
-          color: $black;
+          color: $primary;
+
+          &:hover {
+            color: $primary-dark;
+          }
+
+          i {
+            color: $black !important;
+          }
         }
       }
     }
