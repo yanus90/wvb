@@ -114,6 +114,7 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
 }
 
 Config::define('ACF_PRO_LICENSE', env('ACF_PRO_KEY'));
+Config::define('CLIENT_ID', env('CLIENT_ID'));
 
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 

@@ -5,12 +5,11 @@
     <div class="row">
       <div class="col-12 font-weight-medium line-height-md-big">
         @php
-          $team_image = get_field('afbeelding');
-          $rows = get_field('rijen_met_namen');
-          $sponsors = get_field('sponsoren');
-          $news = get_field('nieuws_categorie');
-          $social_media = get_field('sociale_media');
-        //dd($social_media)
+          $team_image = get_field('afbeelding', $post);
+          $rows = get_field('rijen_met_namen', $post);
+          $sponsors = get_field('sponsoren', $post);
+          $news = get_field('nieuws_categorie', $post);
+          $social_media = get_field('sociale_media', $post);
         @endphp
         <div class="row">
           <div class="col-lg-8 col-xl-9">
