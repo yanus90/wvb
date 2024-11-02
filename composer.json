@@ -57,7 +57,7 @@
     "roots/wp-password-bcrypt": "^1.2",
     "roots/bedrock-autoloader": "^1.0",
     "laposta/laposta-api-php": "^1.6",
-    "wp-media/wp-rocket": "^3.17",
+    "wpackagist-plugin/litespeed-cache":"^6.2",
     "j7mbo/twitter-api-php": "^1.0",
     "wpackagist-plugin/contact-form-7": "^5.9",
     "wpackagist-plugin/contact-form-cfdb7": "^1.2",

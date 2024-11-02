@@ -65,7 +65,6 @@
     "node": ">= 6.9.4"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-pro": "^5.7.2",
     "autoprefixer": "~8.2.0",
     "browser-sync": "~2.24.6",
     "browsersync-webpack-plugin": "^0.6.0",

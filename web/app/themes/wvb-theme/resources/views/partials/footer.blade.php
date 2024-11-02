@@ -7,31 +7,30 @@
                         <img src="{{ get_template_directory_uri() }}/assets/images/logo/logo.svg" class="logo" alt="{!! get_bloginfo('name', 'display') !!}" width="200">
                     </div>
                     <ul class="list-inline social-media-list">
-                        @if (get_field('facebook_pagina', 'option'))
+                        @if(! empty(get_field('facebook_pagina', 'option')))
                             <li class="list-inline-item">
                                 <a href="{{ get_field('facebook_pagina', 'option') }}" class="social-icon fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
                             </li>
                         @endif
-                        @if (get_field('twitter_pagina', 'option'))
+                        @if(! empty(get_field('twitter_pagina', 'option')))
                             <li class="list-inline-item">
-                                <a href="{{ get_field('twitter_pagina', 'option') }}" class="social-icon tw" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="{{ get_field('twitter_pagina', 'option') }}" class="social-icon tw" target="_blank"><i class="fab fa-x-twitter"></i></a>
                             </li>
                         @endif
-                        @if (get_field('youtube_pagina', 'option'))
+                        @if(! empty(get_field('youtube_pagina', 'option')))
                             <li class="list-inline-item">
                                 <a href="{{ get_field('youtube_pagina', 'option') }}" class="social-icon yt" target="_blank"><i class="fab fa-youtube"></i></a>
                             </li>
                         @endif
-                        @if (get_field('instagram_pagina', 'option'))
+                        @if(! empty(get_field('instagram_pagina', 'option')))
                             <li class="list-inline-item">
                                 <a href="{{ get_field('instagram_pagina', 'option') }}" class="social-icon insta" target="_blank"><i class="fab fa-instagram"></i></a>
                             </li>
                         @endif
                     </ul>
                     <ul class="list-unstyled small color-white mb-0">
-                        <li>Copyright 2019</li>
+                        <li>Copyright {{ date('Y') }}</li>
                         <li><a href="/app/uploads/2019/10/privacyverklaring-warnsveldse-boys-2019.pdf" target="_blank" class="color-white text-decoration-none" title="Privacyverklaring">Privacyverklaring</a></li>
-                        <li>Ontwikkeling: <a href="https://avnc.nl/" target="_blank" title="Avancé Communicatie" class="color-white text-decoration-none">Avancé Communicatie</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,7 +44,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-xl-6">
                             <p class="mb-0">Aanmelden</p>
-                            @if (has_nav_menu('Footer_1'))
+                            @if(has_nav_menu('Footer_1'))
                                 {!!
                                     wp_nav_menu([
                                         'theme_location' => 'Footer_1',
@@ -56,7 +55,7 @@
                         </div>
                         <div class="col-lg-4 col-xl-6">
                             <p class="mb-0">Handige links</p>
-                            @if (has_nav_menu('Footer_2'))
+                            @if(has_nav_menu('Footer_2'))
                                 {!!
                                     wp_nav_menu([
                                         'theme_location' => 'Footer_2',

@@ -11,6 +11,9 @@ use Roots\Sage\Template\BladeProvider;
  * Theme assets
  */
 add_action('wp_enqueue_scripts', function () {
+    // Fontawesome
+    wp_enqueue_script('fa', 'https://kit.fontawesome.com/5a72d3e2aa.js'); // CSS version
+
     // Fonts
     wp_enqueue_style('font/montserrat', 'https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
