@@ -1,21 +1,40 @@
 <header class="header">
     <div class="topbar">
         <div class="container">
-            <div class="row">
-                @if (get_field('slogan', 'option'))
-                    <div class="col-12 col-sm-7 col-md-6 col-lg-8 col-xl-9 col-xxl-10 text-center">
-                        <p class="mb-0">{!! get_field('slogan', 'option') !!}</p>
-                    </div>
-                @endif
-                <div class="d-none d-sm-block col-sm-5 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+            <div class="row justify-content-between">
+                <div class="d-none d-sm-block col">
                     @if (has_nav_menu('top_navigation'))
                         {!!
                             wp_nav_menu([
                                 'theme_location' => 'top_navigation',
-                                'menu_class' => 'list-inline mb-0 text-right'
+                                'menu_class' => 'list-inline mb-0'
                             ])
                         !!}
                     @endif
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <ul class="list-inline mb-0">
+                        @if(! empty(get_field('facebook_pagina', 'option')))
+                            <li class="list-inline-item">
+                                <a href="{{ get_field('facebook_pagina', 'option') }}" class="text-black" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                        @endif
+                        @if(! empty(get_field('twitter_pagina', 'option')))
+                            <li class="list-inline-item">
+                                <a href="{{ get_field('twitter_pagina', 'option') }}" class="text-black" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                            </li>
+                        @endif
+                        @if(! empty(get_field('youtube_pagina', 'option')))
+                            <li class="list-inline-item">
+                                <a href="{{ get_field('youtube_pagina', 'option') }}" class="text-black" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </li>
+                        @endif
+                        @if(! empty(get_field('instagram_pagina', 'option')))
+                            <li class="list-inline-item">
+                                <a href="{{ get_field('instagram_pagina', 'option') }}" class="text-black" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        @endif
+                    </ul>
                 </div>
             </div>
         </div>
@@ -25,7 +44,7 @@
             <nav class="navbar navbar-expand-xl">
                 <div class="container">
                     <div class="navbar-brand-bg"></div>
-                    <a class="navbar-brand" href="{{ home_url('/') }}" title="{!! get_bloginfo('name', 'display') !!}">
+                    <a class="navbar-brand" href="{{ home_url() }}" title="{!! get_bloginfo('name', 'display') !!}">
                         <img src="@asset('images/logo/logo.svg')" class="logo" alt="{!! get_bloginfo('name', 'display') !!}">
                     </a>
                     <div class="cart-search-btns d-xl-none ml-auto">
