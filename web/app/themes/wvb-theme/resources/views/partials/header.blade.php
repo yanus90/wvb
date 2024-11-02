@@ -1,7 +1,7 @@
 <header class="header">
     <div class="topbar">
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row align-items-center justify-content-between">
                 <div class="d-none d-sm-block col">
                     @if (has_nav_menu('top_navigation'))
                         {!!
@@ -13,7 +13,7 @@
                     @endif
                 </div>
                 <div class="col d-flex justify-content-end">
-                    <ul class="list-inline mb-0">
+                    <ul class="list-inline mb-0 font-size-p16 font-size-xl-p18">
                         @if(! empty(get_field('facebook_pagina', 'option')))
                             <li class="list-inline-item">
                                 <a href="{{ get_field('facebook_pagina', 'option') }}" class="text-black" target="_blank"><i class="fab fa-facebook-f"></i></a>
