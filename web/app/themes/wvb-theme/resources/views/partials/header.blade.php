@@ -1,8 +1,8 @@
 <header class="header">
     <div class="topbar">
         <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="d-none d-sm-block col">
+            <div class="row align-items-center justify-content-center justify-content-xl-between">
+                <div class="d-none d-xl-block">
                     @if (has_nav_menu('top_navigation'))
                         {!!
                             wp_nav_menu([
@@ -13,7 +13,7 @@
                     @endif
                 </div>
 
-                <div class="col d-flex justify-content-end">
+                <div class="col d-flex justify-content-center justify-content-xl-end">
                     <ul class="list-inline mb-0 font-size-p16 font-size-xl-p18">
                         @if(! empty(get_field('facebook_pagina', 'option')))
                             <li class="list-inline-item">
@@ -85,4 +85,4 @@
         </div>
     </div>
 </header>
-{{--@include('partials.navbar-right')--}}
+@include('partials.navbar-right')
