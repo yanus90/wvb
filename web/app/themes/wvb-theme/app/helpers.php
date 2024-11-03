@@ -165,3 +165,18 @@ function convertYoutube($string)
         $string
     );
 }
+
+function embedVideoUrl(?string $url): string
+{
+    if (preg_match('/youtube\.com\/watch\?v=([a-zA-Z0-9_-]+)/', $url, $matches)) {
+        $videoId = $matches[1];
+        return "https://www.youtube.com/embed/$videoId";
+    }
+
+    if (preg_match('/vimeo\.com\/(\d+)/', $url, $matches)) {
+        $videoId = $matches[1];
+        return "https://player.vimeo.com/video/$videoId";
+    }
+
+    return $url;
+}

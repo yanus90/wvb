@@ -99,7 +99,7 @@ add_filter('post_type_link', function ($post_link, $post) {
  * @return mixed
  */
 
-add_filter('acf/update_value/name=afbeelding_bericht', function ($value, $post_id, $field)
+add_filter('acf/update_value/name=overzichtafbeelding', function ($value, $post_id, $field)
 {
     if ($value != '') {
         //Add the value which is the image ID to the _thumbnail_id meta data for the current post

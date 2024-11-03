@@ -6,6 +6,7 @@
             "key": "field_6178fb825fcc9",
             "label": "Overzichtafbeelding",
             "name": "overzichtafbeelding",
+            "aria-label": "",
             "type": "image_aspect_ratio_crop",
             "instructions": "",
             "required": 1,
@@ -16,10 +17,10 @@
                 "id": ""
             },
             "crop_type": "aspect_ratio",
-            "aspect_ratio_width": 550,
-            "aspect_ratio_height": 360,
+            "aspect_ratio_width": 900,
+            "aspect_ratio_height": 600,
             "return_format": "array",
-            "preview_size": "thumbnail",
+            "preview_size": "medium",
             "library": "all",
             "min_width": "",
             "min_height": "",
@@ -30,36 +31,10 @@
             "mime_types": ""
         },
         {
-            "key": "field_5c963f260baee",
-            "label": "Afbeelding bericht",
-            "name": "afbeelding_bericht",
-            "type": "image_aspect_ratio_crop",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "aspect_ratio_width": 900,
-            "aspect_ratio_height": 600,
-            "return_format": "array",
-            "preview_size": "thumbnail",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": "",
-            "crop_type": "aspect_ratio"
-        },
-        {
             "key": "field_5c963ef80baec",
             "label": "Galerij",
             "name": "galerij",
+            "aria-label": "",
             "type": "gallery",
             "instructions": "",
             "required": 0,
@@ -87,6 +62,7 @@
             "key": "field_5d2a24f4dd48d",
             "label": "Foto's externe link",
             "name": "fotos_externe_link",
+            "aria-label": "",
             "type": "url",
             "instructions": "",
             "required": 0,
@@ -103,6 +79,7 @@
             "key": "field_5dc9ce30bacdb",
             "label": "Youtube video",
             "name": "youtube_video",
+            "aria-label": "",
             "type": "url",
             "instructions": "Vul hier een volledige link in van Youtube",
             "required": 0,
@@ -119,8 +96,9 @@
             "key": "field_5dc9ce4dbacdc",
             "label": "Vimeo video",
             "name": "vimeo_video",
-            "type": "text",
-            "instructions": "Kopieër de code uit de adresbalk (https:\/\/vimeo.com\/124346309)",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "Vul hier een volledige link in van Vimeo",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -129,10 +107,8 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "allow_in_bindings": 1,
+            "placeholder": ""
         }
     ],
     "location": [
@@ -152,5 +128,6 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1635318679
+    "show_in_rest": 0,
+    "modified": 1730635112
 }
