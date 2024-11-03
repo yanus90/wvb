@@ -47,22 +47,6 @@
                     </div>
                 </div>
 
-                @if(! empty($images))
-                    <div class="row mb-3 justify-content-md-center">
-                        <div class="col-12">
-                            <div class="row">
-                                @foreach($images as $img)
-                                    <div class="col-4 col-md-3 col-lg-3 col-xl-3 mb-4">
-                                        <a href="{!! $img['sizes']['large'] !!}" data-fancybox="galerij-news" data-caption="{!! $img['alt'] !!}">
-                                            <img src="{!! wp_get_attachment_image_url($img['ID'], 'thumbnail') !!}" class="img-fluid w-100 rounded" alt="{!! $img['alt'] !!}">
-                                        </a>
-                                    </div>
-                                @endforeach
-                            </div>
-                        </div>
-                    </div>
-                @endif
-
                 @if($post->youtube_video)
                     <div class="row mb-5 justify-content-md-center">
                         <div class="col-12">
@@ -94,15 +78,33 @@
 
             @if($image_id)
                 <div class="col-12 col-lg-5 col-xl-4">
-                    <a href="{{ wp_get_attachment_image_url($image_id, 'large') }}"
-                       data-fancybox="galerij-news"
-                       data-caption="{{ get_post_meta($image_id, '_wp_attachment_image_alt', true) }}"
-                       class="position-relative">
-                        <span class="position-absolute bg-white text-black pl-2 pr-2 pt-1 pb-1">
-                            <i class="fa-regular fa-search-plus font-size-p16 font-size-xxl-p18"></i>
-                        </span>
-                        <img src="{{ wp_get_attachment_image_url($image_id, 'post_image') }}" class="img-fluid w-100 rounded" alt="{{ get_post_meta($image_id, '_wp_attachment_image_alt', true) }}">
-                    </a>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="{{ wp_get_attachment_image_url($image_id, 'large') }}"
+                               data-fancybox="galerij-news"
+                               data-caption="{{ get_post_meta($image_id, '_wp_attachment_image_alt', true) }}"
+                               class="position-relative">
+                                <span class="position-absolute bg-white text-black pl-2 pr-2 pt-1 pb-1">
+                                    <i class="fa-regular fa-search-plus font-size-p16 font-size-xxl-p18"></i>
+                                </span>
+                                <img src="{{ wp_get_attachment_image_url($image_id, 'post_image') }}" class="img-fluid w-100 rounded" alt="{{ get_post_meta($image_id, '_wp_attachment_image_alt', true) }}">
+                            </a>
+                        </div>
+                    </div>
+
+                    @if(! empty($images))
+                        <div class="row mt-4">
+                            @foreach($images as $img)
+                                @if(! empty($img['ID']))
+                                    <div class="col-3 col-lg-4 mb-4 col-xxl-3">
+                                        <a href="{{ wp_get_attachment_image_url($img['ID'], 'large') }}" data-fancybox="galerij-news" data-caption="{{ get_post_meta($img['ID'], '_wp_attachment_image_alt', true) }}">
+                                            <img src="{!! wp_get_attachment_image_url($img['ID'], 'thumbnail') !!}" class="img-fluid w-100 rounded" alt="{{ get_post_meta($img['ID'], '_wp_attachment_image_alt', true) }}">
+                                        </a>
+                                    </div>
+                                @endif
+                            @endforeach
+                        </div>
+                    @endif
                 </div>
             @endif
         </div>
