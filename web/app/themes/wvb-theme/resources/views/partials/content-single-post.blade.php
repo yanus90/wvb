@@ -94,7 +94,15 @@
 
             @if($image_id)
                 <div class="col-12 col-lg-5 col-xl-4">
-                    <img src="{!! wp_get_attachment_image_url($image_id, 'post_image') !!}" class="img-fluid w-100 rounded" alt="{{ get_post_meta($image_id, '_wp_attachment_image_alt', true) }}">
+                    <a href="{{ wp_get_attachment_image_url($image_id, 'large') }}"
+                       data-fancybox="galerij-news"
+                       data-caption="{{ get_post_meta($image_id, '_wp_attachment_image_alt', true) }}"
+                       class="position-relative">
+                        <span class="position-absolute bg-white text-black pl-2 pr-2 pt-1 pb-1">
+                            <i class="fa-regular fa-search-plus font-size-p16 font-size-xxl-p18"></i>
+                        </span>
+                        <img src="{{ wp_get_attachment_image_url($image_id, 'post_image') }}" class="img-fluid w-100 rounded" alt="{{ get_post_meta($image_id, '_wp_attachment_image_alt', true) }}">
+                    </a>
                 </div>
             @endif
         </div>
