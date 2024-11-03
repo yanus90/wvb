@@ -37,6 +37,18 @@ class FrontPage extends Controller
         return \get_field('homepagina_slider', 'option');
     }
 
+//    public function callToActions(): array
+//    {
+//        $items = \get_field('uitgelichte_afbeeldingen', 'option') ?: [];
+//
+//        return array_map(function ($item) {
+//            if (!empty($item['afbeelding']['ID'])) {
+//                $item['image_url'] = \wp_get_attachment_image_url($item['afbeelding']['ID'], 'large');
+//            }
+//            return $item;
+//        }, $items);
+//    }
+
     public function sponsoren(): array
     {
         $query = new \WP_Query([
@@ -60,21 +72,21 @@ class FrontPage extends Controller
     {
         $file = get_template_directory().'/storage/complete-club-program.json';
 
-        return $this->sportlink->getFileFromExternalLink('programma', $file,'','&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=NEE');
+        return $this->sportlink->getFileFromExternalLink('programma', $file, '&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=JA&uit=NEE');
     }
 
     public function programAway()
     {
         $file = get_template_directory().'/storage/complete-club-program.json';
 
-        return $this->sportlink->getFileFromExternalLink('programma', $file,'','&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=NEE&uit=JA');
+        return $this->sportlink->getFileFromExternalLink('programma', $file,'&gebruiklokaleteamgegevens=NEE&eigenwedstrijden=JA&thuis=NEE&uit=JA');
     }
 
     public function results()
     {
         $file = get_template_directory().'/storage/complete-club-results.json';
 
-        return $this->sportlink->getFileFromExternalLink('uitslagen', $file, '', '&gebruiklokaleteamgegevens=NEE&sorteervolgorde=datum-omgekeerd&eigenwedstrijden=JA&thuis=JA&uit=JA');
+        return $this->sportlink->getFileFromExternalLink('uitslagen', $file, '&gebruiklokaleteamgegevens=NEE&sorteervolgorde=datum-omgekeerd&eigenwedstrijden=JA&thuis=JA&uit=JA');
     }
 
     public function tweets()

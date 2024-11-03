@@ -7,6 +7,7 @@ class Sportlink
     private $teamcode;
     private $poulecode;
     private $poulecode_cup;
+    private $cache_duration = 86400; // Cache duur in seconden (1 dag)
 
     public function __construct($sportlink_settings)
     {
@@ -18,42 +19,38 @@ class Sportlink
     public function setTeamcode($teamcode)
     {
         $this->teamcode = $teamcode;
-
         return $this;
     }
 
     public function getFileFromExternalLink($type, $file_slug, $extra = null)
     {
-        $file_path = get_template_directory()."/storage/{$file_slug}-{$this->teamcode}.json";
+        $file_path = get_template_directory() . "/storage/{$file_slug}-{$this->teamcode}.json";
 
-        $teamcode_full = '';
-        if ($this->teamcode) {
-            $teamcode_full = '&teamcode=' . $this->teamcode;
-        }
-
-        $poulecode_full = '';
-        if ($this->poulecode) {
-            $poulecode_full = '&poulecode=' . $this->poulecode ?? null;
-        }
-
-        $results = [];
-
-        try {
-            $json = file_get_contents('https://data.sportlink.com/'.$type.'?clientId='. CLIENT_ID .''. $teamcode_full .'' . $poulecode_full . '' . $extra);
-        } catch (\Exception $e) {
-            $json = null;
-        }
-
-        if ($json !== false) {
-            file_put_contents($file_path, $json);
+        // Controleer of cache bestand bestaat en nog geldig is
+        if (file_exists($file_path) && (time() - filemtime($file_path)) < $this->cache_duration) {
+            $json = file_get_contents($file_path);
         } else {
-            $file = file_get_contents($file_path);
-            $json = is_array($file) ? json_encode($file, true) : $file;
+            // Bouw de URL op en haal de data van de externe link
+            $teamcode_full = $this->teamcode ? '&teamcode=' . $this->teamcode : '';
+            $poulecode_full = $this->poulecode ? '&poulecode=' . $this->poulecode : '';
+
+            try {
+                $json = file_get_contents('https://data.sportlink.com/' . $type . '?clientId=' . CLIENT_ID . $teamcode_full . $poulecode_full . $extra);
+            } catch (\Exception $e) {
+                $json = null;
+            }
+
+            // Cache het bestand als de data succesvol is opgehaald
+            if ($json !== false) {
+                file_put_contents($file_path, $json);
+            } elseif (file_exists($file_path)) {
+                // Gebruik het bestaande cachebestand als de nieuwe data niet kon worden opgehaald
+                $json = file_get_contents($file_path);
+            }
         }
 
-        if ($json) {
-            $results = json_decode($json, true);
-        }
+        // Converteer JSON naar array als het beschikbaar is
+        $results = $json ? json_decode($json, true) : [];
 
         return $results;
     }
