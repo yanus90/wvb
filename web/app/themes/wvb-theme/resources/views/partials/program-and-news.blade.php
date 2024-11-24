@@ -22,16 +22,6 @@
                             <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="results-tab" data-toggle="tab" href="#results" role="tab" aria-controls="results" aria-selected="false"><i class="fal fa-futbol mr-2"></i>Uitslagen</a>
                         </li>
                     @endif
-{{--                    @if($latest_news_articles)--}}
-{{--                        <li class="nav-item d-lg-none">--}}
-{{--                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="news-tab" data-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="true"><i class="fal fa-newspaper mr-2"></i>Nieuws</a>--}}
-{{--                        </li>--}}
-{{--                    @endif--}}
-{{--                    @if($events)--}}
-{{--                        <li class="nav-item d-lg-none">--}}
-{{--                            <a class="nav-link font-size-p14 font-size-md-p16 font-size-lg-p20" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="true"><i class="fal fa-calendar-alt mr-2"></i>Agenda</a>--}}
-{{--                        </li>--}}
-{{--                    @endif--}}
                 </ul>
                 <div class="tab-content" id="programResultsContent">
                     @if($program_home)
@@ -44,6 +34,7 @@
                                         <th>Tijd</th>
                                         <th>Thuisteam</th>
                                         <th>Uitteam</th>
+                                        <th>Status</th>
                                         <th class="d-none d-lg-block">Accommodatie</th>
                                     </tr>
                                     </thead>
@@ -54,6 +45,11 @@
                                             <td>{!! $ph['aanvangstijd'] !!}</td>
                                             <td>{!! $ph['thuisteam'] !!}</td>
                                             <td>{!! $ph['uitteam'] !!}</td>
+                                            @if($ph['status'] === 'Afgelast')
+                                                <td><strong>{!! $ph['status'] !!}</strong></td>
+                                            @else
+                                                <td>{!! $ph['status'] !!}</td>
+                                            @endif
                                             <td class="d-none d-lg-block">{!! $ph['accommodatie'] !!}</td>
                                         </tr>
                                     @endforeach
@@ -72,6 +68,7 @@
                                         <th>Tijd</th>
                                         <th>Thuisteam</th>
                                         <th>Uitteam</th>
+                                        <th>Status</th>
                                         <th class="d-none d-lg-block">Accommodatie</th>
                                     </tr>
                                     </thead>
@@ -82,6 +79,11 @@
                                             <td>{!! $pa['aanvangstijd'] !!}</td>
                                             <td>{!! $pa['thuisteam'] !!}</td>
                                             <td>{!! $pa['uitteam'] !!}</td>
+                                            @if($pa['status'] === 'Afgelast')
+                                                <td><strong>{!! $pa['status'] !!}</strong></td>
+                                            @else
+                                                <td>{!! $pa['status'] !!}</td>
+                                            @endif
                                             <td class="d-none d-lg-block">{!! $pa['accommodatie'] !!}, {!! $pa['plaats'] !!}</td>
                                         </tr>
                                     @endforeach
@@ -116,16 +118,6 @@
                             </div>
                         </div>
                     @endif
-{{--                    @if($latest_news_articles)--}}
-{{--                        <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="news-tab">--}}
-{{--                            @include('partials.featured-news')--}}
-{{--                        </div>--}}
-{{--                    @endif--}}
-{{--                    @if($events)--}}
-{{--                        <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">--}}
-{{--                            @include('partials.upcoming-events')--}}
-{{--                        </div>--}}
-{{--                    @endif--}}
                 </div>
             </div>
         </div>
