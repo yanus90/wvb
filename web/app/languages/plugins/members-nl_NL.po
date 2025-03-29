@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-09-30 19:48:09+0000\n"
+"PO-Revision-Date: 2024-12-24 12:16:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,12 +11,83 @@ msgstr ""
 "Language: nl\n"
 "Project-Id-Version: Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release)\n"
 
+#: admin/tmpl/cap-section.php:26 admin/tmpl/cap-section.php:40
+msgid "Deny All"
+msgstr "Alles weigeren"
+
+#: admin/tmpl/cap-section.php:22 admin/tmpl/cap-section.php:36
+msgid "Grant All"
+msgstr "Alles toestaan"
+
+#: vendor-prefixed/caseproof/growth-tools/src/Helper/AddonHelper.php:61
+msgid "Could not deactivate the addon. Please deactivate from the Plugins page."
+msgstr "Kon de add-on niet deactiveren. Deactiveer vanaf de plugin pagina."
+
+#: vendor-prefixed/caseproof/growth-tools/src/Helper/AddonHelper.php:59
+msgid "Plugin deactivated."
+msgstr "Plugin gedeactiveerd."
+
+#: vendor-prefixed/caseproof/growth-tools/src/Helper/AddonHelper.php:38
+msgid "Could not activate addon. Please refresh page and try again."
+msgstr "Kon add-on niet activeren. Vernieuw de pagina en probeer het opnieuw."
+
+#: vendor-prefixed/caseproof/growth-tools/src/Helper/AddonHelper.php:33
+msgid "Could not activate addon. Please activate from the Plugins page."
+msgstr "Kon add-on niet activeren. Activeer vanaf de plugin pagina."
+
+#: vendor-prefixed/caseproof/growth-tools/src/Helper/AddonHelper.php:28
+msgid "Addon activated."
+msgstr "Add-on geactiveerd."
+
+#: vendor-prefixed/caseproof/growth-tools/src/Helper/AddonHelper.php:19
+msgid "Could not activate addon. Please check user permissions."
+msgstr "Kon add-on niet activeren. Controleer de gebruikersrechten."
+
+#: vendor-prefixed/caseproof/growth-tools/src/App.php:87
+msgid "Install"
+msgstr "Installeer"
+
+#: vendor-prefixed/caseproof/growth-tools/src/App.php:86
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: vendor-prefixed/caseproof/growth-tools/src/App.php:83
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: vendor-prefixed/caseproof/growth-tools/src/App.php:82
+msgid "Not Installed"
+msgstr "Niet geïnstalleerd"
+
+#: vendor-prefixed/caseproof/growth-tools/src/App.php:49
+#: vendor-prefixed/caseproof/growth-tools/src/App.php:50
+#: vendor-prefixed/caseproof/growth-tools/src/App.php:160
+msgid "Growth Tools"
+msgstr "Gereedschap voor groei"
+
+#: admin/class-meta-box-content-permissions.php:115
+msgid "Content Permissions (Members)"
+msgstr "Inhoud permissies (leden)"
+
+#. Plugin URI of the plugin
+#: members.php
+msgid "https://members-plugin.com/"
+msgstr "https://members-plugin.com/"
+
+#: admin/views/class-view-general.php:253
+msgid "Block protected posts from showing in the REST API requests."
+msgstr "Blokkeer beschermde berichten van weergave in de REST API aanvragen."
+
+#: admin/views/class-view-general.php:76
+msgid "Hide Protected Posts from WP REST API"
+msgstr "Verberg beschermde berichten van WP REST API"
+
 #: admin/class-settings.php:158 admin/functions-admin.php:285
 msgid "You are not allowed to make these changes."
 msgstr "Je hebt geen toestemming om deze wijzigingen aan te brengen"
 
 #: admin/functions-admin.php:266
-msgid "Made with ♥ by the Members Team"
+msgid "Made with ♥ by the MemberPress Team"
 msgstr "Gemaakt met ♥ door het Members team"
 
 #: admin/functions-admin.php:261
@@ -116,16 +187,16 @@ msgstr[1] "%s ongelezen berichten"
 msgid "%1$s ago"
 msgstr "%1$s geleden"
 
-#: admin/class-meta-box-content-permissions.php:243
-#: admin/class-meta-box-content-permissions.php:364
+#: admin/class-meta-box-content-permissions.php:242
+#: admin/class-meta-box-content-permissions.php:363
 msgid "Add MemberPress"
 msgstr "MemberPress toevoegen"
 
-#: admin/views/class-view-general.php:302
+#: admin/views/class-view-general.php:319
 msgid "Permanently remove Members review prompt."
 msgstr "Verwijder permanent de ledenbeoordeling prompt."
 
-#: admin/views/class-view-general.php:85
+#: admin/views/class-view-general.php:86
 msgid "Disable Review Prompt"
 msgstr "Beoordeling prompt uitschakelen"
 
@@ -134,17 +205,17 @@ msgid "Miscellaneous"
 msgstr "Diversen"
 
 #: admin/functions-admin.php:201
-msgid "You're using Members. To unlock more features, consider <a href=\"https://memberpress.com/plans/pricing/?utm_source=members&utm_medium=link&utm_campaign=in_plugin&utm_content=pro_features\">adding MemberPress.</a>"
-msgstr "Je gebruikt Members. Om meer functies vrij te geven, overweeg <a href=\"https://memberpress.com/plans/pricing/?utm_source=members&utm_medium=link&utm_campaign=in_plugin&utm_content=pro_features\"> om MemberPress toe te voegen.</a>"
+msgid "You're using Members. To unlock more features, consider <a href=\"https://memberpress.com/plans/pricing/?utm_source=members_plugin&utm_medium=link&utm_campaign=in_plugin&utm_content=pro_features\">adding MemberPress.</a>"
+msgstr "Je gebruikt Members. Om meer functies te ontgrendelen, overweeg <a href=\"https://memberpress.com/plans/pricing/?utm_source=members_plugin&utm_medium=link&utm_campaign=in_plugin&utm_content=pro_features\">MemberPress toe te voegen.</a>"
 
-#: admin/class-meta-box-content-permissions.php:242
-#: admin/class-meta-box-content-permissions.php:363
+#: admin/class-meta-box-content-permissions.php:241
+#: admin/class-meta-box-content-permissions.php:362
 msgid "To protect this block by paid membership or centrally with <br> a content protection rule, add MemberPress."
 msgstr "Om deze blokkering te beschermen door middel van betaald lidmaatschap of centraal met <br>een regel voor inhoudsbescherming, voeg MemberPress toe."
 
-#: admin/class-meta-box-content-permissions.php:196
-#: admin/class-meta-box-content-permissions.php:315
-#: admin/class-meta-box-content-permissions.php:360
+#: admin/class-meta-box-content-permissions.php:195
+#: admin/class-meta-box-content-permissions.php:314
+#: admin/class-meta-box-content-permissions.php:359
 msgid "Paid Memberships"
 msgstr "Betaalde lidmaatschappen"
 
@@ -1038,17 +1109,17 @@ msgstr "Geeft toegang tot het beheer van winkelinstellingen."
 msgid "Shop: Manage Settings"
 msgstr "Winkel: instellingen beheren"
 
-#: addons/members-acf-integration/src/Plugin.php:371
+#: addons/members-acf-integration/src/Plugin.php:352
 msgid "Custom Fields"
 msgstr "Aangepaste velden"
 
-#: addons/members-acf-integration/src/Plugin.php:340
+#: addons/members-acf-integration/src/Plugin.php:321
 msgid "Advanced Custom Fields %s"
 msgid_plural "Advanced Custom Fields %s"
 msgstr[0] "Advanced Custom Fields %s"
 msgstr[1] "Advanced Custom Fields %s"
 
-#: addons/members-acf-integration/src/Plugin.php:339
+#: addons/members-acf-integration/src/Plugin.php:320
 msgid "Advanced Custom Fields"
 msgstr "Advanced Custom Fields"
 
@@ -1551,11 +1622,11 @@ msgid "GiveWP: Manage Settings"
 msgstr "GiveWP: instellingen beheren"
 
 #: addons/members-block-permissions/src/Editor.php:131
-#: addons/members-block-permissions/src/Editor.php:132 members.php:468
+#: addons/members-block-permissions/src/Editor.php:132 members.php:456
 msgid "To protect this block by paid membership or centrally with a content protection rule, add MemberPress."
 msgstr "Om deze blokkering te beschermen door middel van betaald lidmaatschap of centraal met een regel voor inhoudsbescherming, voeg MemberPress toe."
 
-#: addons/members-block-permissions/src/Editor.php:87 members.php:467
+#: addons/members-block-permissions/src/Editor.php:87 members.php:455
 msgid "Permissions"
 msgstr "Rechten"
 
@@ -1602,11 +1673,13 @@ msgid "Add New Role"
 msgstr "Nieuwe rol toevoegen"
 
 #: admin/class-settings.php:176 admin/views/class-view-addons.php:159
+#: vendor-prefixed/caseproof/growth-tools/src/App.php:84
 msgid "Active"
 msgstr "Actief"
 
 #: admin/class-settings.php:188 admin/views/class-view-addons.php:153
 #: admin/views/class-view-addons.php:159
+#: vendor-prefixed/caseproof/growth-tools/src/App.php:85
 msgid "Activate"
 msgstr "Activeren"
 
@@ -1620,30 +1693,25 @@ msgstr "https://memberpress.com"
 msgid "MemberPress"
 msgstr "MemberPress"
 
-#. Plugin URI of the plugin
-#: members.php
-msgid "https://memberpress.com/plugins/members"
-msgstr "https://memberpress.com/plugins/members"
-
 #: admin/class-meta-box-publish-role.php:104
 msgid "%s User"
 msgid_plural "%s Users"
 msgstr[0] "%s Gebruiker"
 msgstr[1] "%s Gebruikers"
 
-#: members.php:352
+#: members.php:340
 msgid "Members requires PHP version %1$s. You are running version %2$s. Please upgrade and try again."
 msgstr "Members vereist PHP versie %1$s, maar je gebruikt versie %2$s; voer een upgrade uit en probeer het nog eens."
 
-#: inc/functions-private-site.php:200
+#: inc/functions-private-site.php:203
 msgid "If you reached this page by accident and meant to visit one of your own sites, try one of the following links."
 msgstr "Als je per ongeluk op deze pagina bent gekomen en een van je eigen sites wilt bezoeken, probeer dan een van de volgende links."
 
-#: inc/functions-private-site.php:193
+#: inc/functions-private-site.php:196
 msgid "You do not currently have access to the \"%s\" site. If you believe you should have access, please contact your network administrator."
 msgstr "Je hebt momenteel geen toegang tot de site \"%s\". Als je denkt dat dit niet klopt, kun je contact opnemen met je netwerkbeheerder."
 
-#: inc/functions-private-site.php:169
+#: inc/functions-private-site.php:172
 msgid "You are not currently logged in."
 msgstr "Je bent momenteel niet ingelogd."
 
@@ -1891,19 +1959,19 @@ msgstr "Bestanden bewerken"
 msgid "Edit Dashboard"
 msgstr "Dashboard bewerken"
 
-#: admin/views/class-view-general.php:398
+#: admin/views/class-view-general.php:415
 msgid "Tick the checkbox to show human-readable capabilities when possible. Note that custom capabilities and capabilities from third-party plugins will show the machine-readable capability name unless they are registered."
 msgstr "Vink het selectievakje aan om zo mogelijk door mensen leesbare functies te tonen. Merk op dat aangepaste mogelijkheden en mogelijkheden van plugins van derden de machine leesbare naam van de mogelijkheid tonen, tenzij ze zijn geregistreerd."
 
-#: admin/views/class-view-general.php:251
+#: admin/views/class-view-general.php:268
 msgid "Require authentication for access to the REST API."
 msgstr "Verificatie vereist voor toegang tot de REST API."
 
-#: admin/views/class-view-general.php:168
+#: admin/views/class-view-general.php:170
 msgid "Show human-readable capabilities when possible."
 msgstr "Altijd proberen om leesbare mogelijkheden te tonen."
 
-#: admin/views/class-view-general.php:80
+#: admin/views/class-view-general.php:81
 msgid "REST API"
 msgstr "REST API"
 
@@ -1999,17 +2067,9 @@ msgstr "Een plugin voor gebruikers en rollen beheer waarmee je de rechten van je
 msgid "Members"
 msgstr "Members"
 
-#: members.php:152
+#: members.php:156
 msgid "Method does not exist."
 msgstr "Methode bestaat niet."
-
-#: inc/functions-options.php:133
-msgid "You must be logged into the site to view this content."
-msgstr "Je moet ingelogd zijn op de site om deze inhoud te kunnen bekijken."
-
-#: inc/functions-options.php:132
-msgid "Sorry, but you do not have permission to view this content."
-msgstr "Je hebt geen toestemming om deze inhoud te bekijken."
 
 #: inc/class-widget-users.php:276
 msgid "Meta Value:"
@@ -2187,17 +2247,9 @@ msgstr "Members: login formulier"
 msgid "A widget that allows users to log into your site."
 msgstr "Een widget die het gebruikers mogelijk maakt zich aan te melden op je site."
 
-#: admin/tmpl/cap-section.php:21 admin/tmpl/cap-section.php:29
-msgid "Deny"
-msgstr "Afwijzen"
-
-#: admin/tmpl/cap-section.php:20 admin/tmpl/cap-section.php:28
-msgid "Grant"
-msgstr "Toestemming geven"
-
 #: addons/members-block-permissions/src/Editor.php:90
 #: addons/members-block-permissions/src/Editor.php:116
-#: admin/tmpl/cap-section.php:19 admin/tmpl/cap-section.php:27
+#: admin/tmpl/cap-section.php:19 admin/tmpl/cap-section.php:33
 msgid "Capability"
 msgstr "Rechten"
 
@@ -2318,31 +2370,31 @@ msgid "OK"
 msgstr "OK"
 
 #: addons/members-block-permissions/src/Editor.php:108
-#: admin/class-user-edit.php:98 admin/class-user-new.php:109
+#: admin/class-user-edit.php:98 admin/class-user-new.php:108
 msgid "User Roles"
 msgstr "Gebruikersrollen"
 
-#: admin/views/class-view-general.php:440
+#: admin/views/class-view-general.php:457
 msgid "The private site feature redirects all users who are not logged into the site to the login page, creating an entirely private site. You may also replace your feed content with a custom error message."
 msgstr "De functie Privé site leid alle gebruikers om die niet op de site zijn aangemeld, naar de login pagina, waardoor een geheel eigen site wordt gemaakt. Je kunt je feed inhoud ook vervangen door een aangepast foutbericht."
 
-#: admin/views/class-view-general.php:426
+#: admin/views/class-view-general.php:443
 msgid "The sidebar widgets feature adds additional widgets for use in your theme's sidebars."
 msgstr "De functie zijbalk widgets voegt extra widgets toe voor gebruik in je zijbalken van het thema."
 
-#: admin/views/class-view-general.php:412
+#: admin/views/class-view-general.php:429
 msgid "The content permissions features adds a meta box to the edit post screen that allows you to grant permissions for who can read the post content based on the user's role. Only users of roles with the %s capability will be able to use this component."
 msgstr "De functies voor inhoud machtigingen voegt een meta vak toe aan het scherm bericht bewerken, waarmee je machtigingen kan toekennen voor wie de bericht inhoud kan lezen op basis van de rol van de gebruiker. Alleen gebruikers van rollen met de %s rechten kunnen dit onderdeel gebruiken."
 
-#: admin/views/class-view-general.php:390
+#: admin/views/class-view-general.php:407
 msgid "The multiple user roles feature allows you to assign more than one role to each user from the edit user screen."
 msgstr "De functie Meerdere gebruikersrollen stelt je in staat om meer dan één rol aan elke gebruiker toe te wijzen vanuit het bewerkingsscherm voor gebruikers."
 
-#: admin/views/class-view-general.php:394
+#: admin/views/class-view-general.php:411
 msgid "Tick the checkbox for denied capabilities to always take precedence over granted capabilities when there is a conflict. This is only relevant when using multiple roles per user."
 msgstr "Vink het selectievakje aan voor geweigerde mogelijkheden om altijd voorrang te krijgen boven verleende mogelijkheden wanneer er een conflict is. Dit is alleen relevant wanneer je meerdere rollen per gebruiker gebruikt."
 
-#: admin/views/class-view-general.php:386
+#: admin/views/class-view-general.php:403
 msgid "The role manager allows you to manage roles on your site by giving you the ability to create, edit, and delete any role. Note that changes to roles do not change settings for the Members plugin. You are literally changing data in your WordPress database. This plugin feature merely provides an interface for you to make these changes."
 msgstr "Met de rol manager kun je rollen op je site beheren door je de mogelijkheid te geven om elke rol te maken, te bewerken en te verwijderen. Houd er rekening mee dat wijzigingen in rollen de instellingen voor de Members plugin niet wijzigen. Je bent letterlijk gegevens aan het veranderen in je WordPress database. Deze plugin functie biedt alleen een interface voor je om deze wijzigingen aan te brengen."
 
@@ -2354,60 +2406,60 @@ msgstr "Ondersteuningsforums"
 msgid "Documentation"
 msgstr "Documentatie"
 
-#: admin/views/class-view-general.php:340
+#: admin/views/class-view-general.php:357
 msgid "Role and Capabilities"
 msgstr "Rol en competenties"
 
 #: addons/members-admin-access/app/class-view-settings.php:189
-#: admin/views/class-view-general.php:319
+#: admin/views/class-view-general.php:336
 msgid "Update Settings"
 msgstr "Update instellingen"
 
-#: admin/views/class-view-general.php:266
+#: admin/views/class-view-general.php:283
 msgid "Show error message for feed items."
 msgstr "Foutbericht weergeven voor feed items."
 
-#: admin/views/class-view-general.php:236
+#: admin/views/class-view-general.php:238
 msgid "Redirect all logged-out users to the login page before allowing them to view the site."
 msgstr "Leid alle uitgelogde gebruikers om naar de inlogpagina voordat ze de site mogen bekijken."
 
-#: admin/views/class-view-general.php:201
+#: admin/views/class-view-general.php:203
 msgid "Enable the content permissions feature."
 msgstr "Schakel de functie voor inhoud machtigingen in."
 
-#: admin/views/class-view-general.php:186
+#: admin/views/class-view-general.php:188
 msgid "Allow users to be assigned more than a single role."
 msgstr "Sta toe dat gebruikers meer dan één rol toegewezen krijgen."
 
-#: admin/views/class-view-general.php:161
+#: admin/views/class-view-general.php:163
 msgid "Denied capabilities should always overrule granted capabilities."
 msgstr "Afgewezen competenties zouden altijd de toegewezen competenties moeten overrulen."
 
-#: admin/views/class-view-general.php:143
+#: admin/views/class-view-general.php:145
 msgid "Enable the role manager."
 msgstr "Schakel de rol van manager in."
 
-#: admin/views/class-view-general.php:128
+#: admin/views/class-view-general.php:130
 msgid "Your roles and capabilities will not revert back to their previous settings after deactivating or uninstalling this plugin, so use this feature wisely."
 msgstr "Je rollen en competenties zullen niet naar hun eerdere instellingen teruggezet kunnen worden na het uitschakelen of verwijderen van deze plugin; gebruik deze functie dus verstandig."
 
-#: admin/views/class-view-general.php:82
+#: admin/views/class-view-general.php:83
 msgid "Feed Error Message"
 msgstr "Feed Foutmelding"
 
-#: admin/views/class-view-general.php:81
+#: admin/views/class-view-general.php:82
 msgid "Disable Feed"
 msgstr "Feed uitschakelen"
 
-#: admin/views/class-view-general.php:79
+#: admin/views/class-view-general.php:80
 msgid "Enable Private Site"
 msgstr "Persoonlijke site inschakelen"
 
 #: addons/members-block-permissions/src/Editor.php:103
-#: admin/class-meta-box-content-permissions.php:203
-#: admin/class-meta-box-content-permissions.php:322
-#: admin/class-meta-box-content-permissions.php:371
-#: admin/views/class-view-general.php:76
+#: admin/class-meta-box-content-permissions.php:202
+#: admin/class-meta-box-content-permissions.php:321
+#: admin/class-meta-box-content-permissions.php:370
+#: admin/views/class-view-general.php:77
 msgid "Error Message"
 msgstr "Foutbericht"
 
@@ -2427,11 +2479,11 @@ msgstr "Competenties"
 msgid "Role Manager"
 msgstr "Rollenbeheer"
 
-#: admin/views/class-view-general.php:64 admin/views/class-view-general.php:367
+#: admin/views/class-view-general.php:64 admin/views/class-view-general.php:384
 msgid "Private Site"
 msgstr "Afgeschermde site"
 
-#: admin/views/class-view-general.php:358
+#: admin/views/class-view-general.php:375
 msgid "Sidebar Widgets"
 msgstr "Zijbalk widgets"
 
@@ -2612,7 +2664,7 @@ msgid "The requested role to edit does not exist."
 msgstr "De gevraagde te bewerken rol bestaat niet."
 
 #: admin/class-manage-users.php:161 admin/class-manage-users.php:236
-#: admin/class-role-edit.php:92 members.php:130 members.php:141
+#: admin/class-role-edit.php:92 members.php:134 members.php:145
 msgid "Whoah, partner!"
 msgstr "Whoah, partner!"
 
@@ -2650,18 +2702,17 @@ msgstr "Rol"
 msgid "Custom Capability"
 msgstr "Aangepast recht"
 
-#: admin/class-meta-box-content-permissions.php:233
-#: admin/class-meta-box-content-permissions.php:353
+#: admin/class-meta-box-content-permissions.php:232
+#: admin/class-meta-box-content-permissions.php:352
 msgid "If no roles are selected, everyone can view the content. The author, any users who can edit the content, and users with the %s capability can view the content regardless of role."
 msgstr "Als er geen rollen zijn geselecteerd, kan iedereen de inhoud bekijken. De auteur, alle gebruikers die de inhoud kunnen bewerken en gebruikers met de %s rechten kunnen de inhoud bekijken, ongeacht de rol."
 
-#: admin/class-meta-box-content-permissions.php:213
-#: admin/class-meta-box-content-permissions.php:333
+#: admin/class-meta-box-content-permissions.php:212
+#: admin/class-meta-box-content-permissions.php:332
 msgid "Limit access to the content to users of the selected roles."
 msgstr "De toegang tot de inhoud beperken tot gebruikers van de geselecteerde rollen."
 
-#: admin/class-meta-box-content-permissions.php:115
-#: admin/views/class-view-general.php:63 admin/views/class-view-general.php:349
+#: admin/views/class-view-general.php:63 admin/views/class-view-general.php:366
 msgid "Content Permissions"
 msgstr "Inhoud rechten"
 
@@ -2671,9 +2722,9 @@ msgstr "Bewerk rol"
 
 #: admin/class-manage-roles.php:88 admin/class-manage-roles.php:94
 #: admin/class-manage-users.php:360
-#: admin/class-meta-box-content-permissions.php:189
-#: admin/class-meta-box-content-permissions.php:308
-#: admin/class-meta-box-content-permissions.php:330 admin/class-roles.php:170
+#: admin/class-meta-box-content-permissions.php:188
+#: admin/class-meta-box-content-permissions.php:307
+#: admin/class-meta-box-content-permissions.php:329 admin/class-roles.php:170
 #: admin/class-user-edit.php:93
 msgid "Roles"
 msgstr "Rollen"

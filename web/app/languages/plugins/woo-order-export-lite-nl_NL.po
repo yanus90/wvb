@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Advanced Order Export For WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-11 09:22:40+0000\n"
+"PO-Revision-Date: 2025-03-26 06:55:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,29 +11,105 @@ msgstr ""
 "Language: nl\n"
 "Project-Id-Version: Plugins - Advanced Order Export For WooCommerce - Stable (latest release)\n"
 
-#: view/tab/schedules.php:9
+#: view/settings-form.php:851
+msgid " order"
+msgstr " bestelling"
+
+#: view/settings-form.php:842
+msgid " in "
+msgstr " in "
+
+#: view/settings-form.php:833
+msgid "Sort orders by "
+msgstr "Sorteer bestellingen op "
+
+#. translators: page numeration in PDF
+#: classes/FPDF/class-woe-pdf-mc-table.php:198
+msgid "Page %1$s / %2$s"
+msgstr "Pagina %1$s / %2$s"
+
+#. translators: PHP version requred for Excel format
+#: classes/formats/class-woe-formatter-xls.php:12
+msgid "PhpSpreadsheet requires PHP version %s or later."
+msgstr "PhpSpreadsheet vereist PHP versie %s of later."
+
+#. translators: link to plugin's page
+#: classes/class-wc-order-export-admin.php:218
+msgid "Advanced Order Export For WooCommerce is available %s."
+msgstr "Advanced Order Export For WooCommerce is beschikbaar %s."
+
+#: classes/admin/tabs/ajax/class-wc-order-export-ajax.php:18
+msgid "Nonce verification failed!"
+msgstr "Nonce verificatie mislukt!"
+
+#: view/settings-form.php:991
+msgid "(only date filters applied)"
+msgstr "(alleen datumfilters toegepast)"
+
+#: view/settings-form.php:275
+msgid "Auto row height"
+msgstr "Automatische rijhoogte"
+
+#: classes/core/trait-woe-core-extractor-ui.php:684
+msgid "New or Returning"
+msgstr "Nieuw of terugkerend"
+
+#: classes/core/class-wc-order-export-order-fields.php:719
+msgid "New"
+msgstr "Nieuw"
+
+#: classes/core/class-wc-order-export-order-fields.php:717
+msgid "Returning"
+msgstr "Terugkerend"
+
+#: view/settings-form.php:1617
+msgid "Display summary row (you must mark fields below)"
+msgstr "Overzichtslijst weergeven (je moet onderstaande velden markeren)"
+
+#: view/settings-form.php:1513
+msgid "Exclude free items"
+msgstr "Sluit gratis items uit"
+
+#: classes/core/trait-woe-core-extractor-ui.php:1081
+msgid "Tax Rates (exact)"
+msgstr "Belastingtarieven (exact)"
+
+#: classes/core/trait-woe-core-extractor-ui.php:1076
+msgid "Tax Rate (calculated)"
+msgstr "Belastingtarief (berekend)"
+
+#: classes/core/trait-woe-core-extractor-ui.php:1001
+msgid "Quantity (Refunded)"
+msgstr "Hoeveelheid (Terugbetaald)"
+
+#: classes/core/trait-woe-core-extractor-ui.php:1180
+msgid "Cart Discount Amount(inc. tax)"
+msgstr "Bedrag winkelwagenkorting (incl. BTW)"
+
+#: view/tab/schedules.php:8
 msgid "Export orders by schedule different ways (Email,FTP,etc)"
 msgstr "Bestellingen exporteren door verschillende manieren te plannen (e-mail, FTP, enz.)"
 
-#: view/tab/profiles.php:9
+#: view/tab/profiles.php:8
 msgid "Create different datasets/formats for any cases"
 msgstr "Maak verschillende datasets/formats voor alle gevallen"
 
-#: view/tab/order-actions.php:13 view/tab/profiles.php:13
-#: view/tab/schedules.php:13
+#. translators: purchase Pro link
+#: view/tab/order-actions.php:14 view/tab/profiles.php:14
+#: view/tab/schedules.php:14
 msgid "Buy %s to get access to this section"
 msgstr "Koop %s om toegang tot deze sectie te verkrijgen"
 
-#: view/tab/order-actions.php:11 view/tab/profiles.php:11
-#: view/tab/schedules.php:11
+#: view/tab/order-actions.php:10 view/tab/profiles.php:10
+#: view/tab/schedules.php:10
 msgid "More details"
 msgstr "Meer details"
 
-#: view/tab/order-actions.php:9
+#: view/tab/order-actions.php:8
 msgid "Export single order automatically when it's paid or created"
 msgstr "Exporteer een bestelling automatisch wanneer deze is betaald of aangemaakt"
 
-#: classes/core/trait-woe-core-extractor-ui.php:285
+#: classes/core/trait-woe-core-extractor-ui.php:289
 msgid "GTIN/EAN"
 msgstr "GTIN/EAN"
 
@@ -42,75 +118,76 @@ msgstr "GTIN/EAN"
 msgid "Export WooCommerce orders to Excel/CSV/XML/JSON/PDF/TSV"
 msgstr "WooCommerce bestellingen exporteren naar Excel/CSV/XML/JSON/PDF/TSV"
 
-#: classes/core/trait-woe-core-extractor.php:1249
+#: classes/core/trait-woe-core-extractor.php:1262
 msgid "Mobile app"
 msgstr "Mobiele app"
 
-#: classes/admin/tabs/ajax/trait-wc-order-export-ajax-helpers.php:133
+#: classes/admin/tabs/ajax/trait-wc-order-export-ajax-helpers.php:140
 msgid "Can't find transient key. Try button \"Export [w/o progressbar]\" or contact to export support."
 msgstr "Kan sleutel van voorbijgaande aard niet vinden. Probeer de knop \"Exporteer [zonder voortgangsbalk]\" of neem contact op met ondersteuning voor exporteren."
 
-#: classes/core/trait-woe-core-extractor-ui.php:464
+#: classes/core/trait-woe-core-extractor-ui.php:468
 msgid "Subscription Price"
 msgstr "Abonnement prijs"
 
-#: classes/core/trait-woe-core-extractor-ui.php:459
+#: classes/core/trait-woe-core-extractor-ui.php:463
 msgid "Stop Renewal After"
 msgstr "Stop vernieuwing na"
 
-#: classes/core/trait-woe-core-extractor.php:1255
+#: classes/core/trait-woe-core-extractor.php:1268
 msgid "Web admin"
 msgstr "Webbeheerder"
 
-#: classes/core/trait-woe-core-extractor.php:1243
+#: classes/core/trait-woe-core-extractor.php:1256
 msgid "Direct"
 msgstr "Direct"
 
 #. translators: %s is the source value
-#: classes/core/trait-woe-core-extractor.php:1237
+#: classes/core/trait-woe-core-extractor.php:1250
 msgid "Referral: %s"
 msgstr "Verwijzing: %s"
 
 #. translators: %s is the source value
-#: classes/core/trait-woe-core-extractor.php:1231
+#: classes/core/trait-woe-core-extractor.php:1244
 msgid "Organic: %s"
 msgstr "Biologisch: %s"
 
 #. translators: %s is the source value
-#: classes/core/trait-woe-core-extractor.php:1225
+#: classes/core/trait-woe-core-extractor.php:1238
 msgid "Source: %s"
 msgstr "Bron: %s"
 
-#: classes/core/trait-woe-core-extractor.php:1204
-#: classes/core/trait-woe-core-extractor.php:1262
+#: classes/core/class-wc-order-export-order-fields.php:721
+#: classes/core/trait-woe-core-extractor.php:1217
+#: classes/core/trait-woe-core-extractor.php:1275
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: classes/core/trait-woe-core-extractor-ui.php:631
+#: classes/core/trait-woe-core-extractor-ui.php:635
 msgid "Origin"
 msgstr "Oorsprong"
 
-#: classes/core/trait-woe-core-extractor-ui.php:945
+#: classes/core/trait-woe-core-extractor-ui.php:954
 msgid "Full Address (Shipping)"
 msgstr "Volledig adres (Verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:855
+#: classes/core/trait-woe-core-extractor-ui.php:864
 msgid "Full Adress (Billing)"
 msgstr "Volledig adres (facturatie)"
 
-#: view/settings-form.php:1655
+#: view/settings-form.php:1679
 msgid "Drag a field to list of exported fields"
 msgstr "Sleep een veld naar de lijst met geëxporteerde velden"
 
-#: classes/class-wc-order-export-admin.php:338
+#: classes/class-wc-order-export-admin.php:352
 msgid "Sum"
 msgstr "Som"
 
-#: classes/admin/tabs/ajax/trait-wc-order-export-ajax-helpers.php:131
+#: classes/admin/tabs/ajax/trait-wc-order-export-ajax-helpers.php:138
 msgid "Transient API is broken. Try to disable \"Transients Manager\" plugin or contact to export support."
 msgstr "De Transient API is kapot. Probeer de plugin \"Transients Manager\" uit te schakelen of neem contact op met export ondersteuning."
 
-#: classes/admin/tabs/ajax/trait-wc-order-export-ajax-helpers.php:138
+#: classes/admin/tabs/ajax/trait-wc-order-export-ajax-helpers.php:145
 msgid "Can't find exported file. Try button \"Export [w/o progressbar]\" or contact to export support."
 msgstr "Kan het geëxporteerde bestand niet vinden. Probeer de knop 'Exporteren [zonder voortgangsbalk]' of neem contact op met de ondersteuning voor exporteren."
 
@@ -118,105 +195,105 @@ msgstr "Kan het geëxporteerde bestand niet vinden. Probeer de knop 'Exporteren 
 msgid "Your settings uses custom PHP code. This code will be removed during import. Proceed?"
 msgstr "Je instellingen gebruiken aangepaste PHP code. Deze code wordt tijdens het importeren verwijderd. Doorgaan?"
 
-#: classes/core/trait-woe-core-extractor-ui.php:685
+#: classes/core/trait-woe-core-extractor-ui.php:694
 msgid "Customer Paid Orders"
 msgstr "Betaalde bestellingen van klanten"
 
-#: view/settings-form.php:901
+#: view/settings-form.php:907
 msgid "Strip tags from all fields"
 msgstr "Strip tags van alle velden"
 
-#: view/settings-form.php:1599
+#: view/settings-form.php:1622
 msgid "Total"
 msgstr "Totaal"
 
-#: view/settings-form.php:1599
+#: view/settings-form.php:1620
 msgid "Title for summary row"
 msgstr "Titel voor samenvattende rij"
 
-#: classes/core/class-wc-order-export-order-fields.php:495
+#: classes/core/class-wc-order-export-order-fields.php:500
 msgid "Parent Order"
 msgstr "Hoofdbestelling"
 
-#: classes/core/class-wc-order-export-order-fields.php:493
+#: classes/core/class-wc-order-export-order-fields.php:498
 msgid "Resubscribe Order"
 msgstr "Opnieuw inschrijven bestelling"
 
-#: classes/core/class-wc-order-export-order-fields.php:491
+#: classes/core/class-wc-order-export-order-fields.php:496
 msgid "Renewal Order"
 msgstr "Vernieuwingsopdracht"
 
-#: classes/core/trait-woe-core-extractor-ui.php:940
+#: classes/core/trait-woe-core-extractor-ui.php:949
 msgid "Phone (Shipping)"
 msgstr "Telefoon (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:639
+#: classes/core/trait-woe-core-extractor-ui.php:643
 msgid "Subscription Relationship"
 msgstr "Abonnement relatie"
 
-#: classes/core/trait-woe-core-extractor-ui.php:596
+#: classes/core/trait-woe-core-extractor-ui.php:600
 msgid "Currency Symbol"
 msgstr "Valuta symbool"
 
-#: classes/core/trait-woe-core-extractor-ui.php:425
+#: classes/core/trait-woe-core-extractor-ui.php:429
 msgid "Summary Report Total Amount (inc. tax)"
 msgstr "Samenvattend rapport totaalbedrag (incl. belasting)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:420
+#: classes/core/trait-woe-core-extractor-ui.php:424
 msgid "Summary Report Total Amount (-Refund)"
 msgstr "Overzicht rapport totaalbedrag (-terugbetaling)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:410
+#: classes/core/trait-woe-core-extractor-ui.php:414
 msgid "Summary Report Total Quantity (-Refund)"
 msgstr "Overzichtsrapport totale hoeveelheid (terugbetaling)"
 
-#: classes/class-wc-order-export-admin.php:337
+#: classes/class-wc-order-export-admin.php:351
 msgid "Show total amount for this column"
 msgstr "Toon het totaalbedrag voor deze kolom"
 
-#: view/settings-form.php:2190
+#: view/settings-form.php:2218
 msgid "Generating file..."
 msgstr "Bestand genereren..."
 
-#: view/settings-form.php:2023 view/settings-form.php:2053
-#: view/settings-form.php:2083
+#: view/settings-form.php:2047 view/settings-form.php:2077
+#: view/settings-form.php:2107
 msgid "Label"
 msgstr "Label"
 
-#: view/settings-form.php:2012 view/settings-form.php:2042
-#: view/settings-form.php:2072
+#: view/settings-form.php:2036 view/settings-form.php:2066
+#: view/settings-form.php:2096
 msgid "You should add code to section \"Misc Settings\". Read the guide"
 msgstr "Je moet code toevoegen aan de sectie \"Verschillende instellingen\". Lees de gids"
 
-#: view/settings-form.php:1653
+#: view/settings-form.php:1677
 msgid "Add calculated field"
 msgstr "Berekend veld toevoegen"
 
-#: view/settings-form.php:1407 view/settings-form.php:1457
+#: view/settings-form.php:1414 view/settings-form.php:1464
 msgid "Country"
 msgstr "Land"
 
-#: view/settings-form.php:1406 view/settings-form.php:1456
+#: view/settings-form.php:1413 view/settings-form.php:1463
 msgid "Postcode"
 msgstr "Berichtcode"
 
-#: view/settings-form.php:1405 view/settings-form.php:1455
+#: view/settings-form.php:1412 view/settings-form.php:1462
 msgid "State"
 msgstr "Staat"
 
-#: view/settings-form.php:1404 view/settings-form.php:1454
+#: view/settings-form.php:1411 view/settings-form.php:1461
 msgid "City"
 msgstr "Stad"
 
-#: view/settings-form.php:324
+#: view/settings-form.php:330
 msgid "Remove line breaks"
 msgstr "Regeleinden verwijderen"
 
-#: view/settings-form.php:281
+#: view/settings-form.php:287
 msgid "Remove emojis"
 msgstr "Emoji's verwijderen"
 
-#: view/settings-form.php:219
+#: view/settings-form.php:220
 msgid "supported tags"
 msgstr "ondersteunde tags"
 
@@ -236,229 +313,227 @@ msgstr "Landschap"
 msgid "Portrait"
 msgstr "Portret"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1119
+#: classes/core/trait-woe-core-extractor-ui.php:1138
 msgid "Total volume"
 msgstr "Totaal volume"
 
-#: classes/core/trait-woe-core-extractor-ui.php:576
+#: classes/core/trait-woe-core-extractor-ui.php:580
 msgid "Date of original order"
 msgstr "Datum van oorspronkelijke bestelling"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1391
+#: classes/core/trait-woe-core-extractor-ui.php:1415
 msgid "Please, choose the template"
 msgstr "Kies de template"
 
-#: classes/core/trait-woe-core-extractor-ui.php:720
+#: classes/core/trait-woe-core-extractor-ui.php:729
 msgid "Summary Report Sum of Items (Exported)"
 msgstr "Overzichtsrapport som van items (geëxporteerd)"
 
-#: classes/core/trait-woe-core-extractor.php:1176
+#: classes/core/trait-woe-core-extractor.php:1189
 msgid "Rest of the World"
 msgstr "Rest van de wereld"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1374
+#: classes/core/trait-woe-core-extractor-ui.php:1398
 msgid "Use section \"Product order item\" to add item meta"
 msgstr "Gebruik de sectie \"Product bestelling item\" om item meta toe te voegen"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1216
+#: classes/core/trait-woe-core-extractor-ui.php:1240
 msgid "Shipping Zone"
 msgstr "Verzendzone"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1191
+#: classes/core/trait-woe-core-extractor-ui.php:1215
 msgid "Cart Tax Amount"
 msgstr "Winkelwagen belastingbedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1171
+#: classes/core/trait-woe-core-extractor-ui.php:1195
 msgid "Order Subtotal Amount + Cart Tax"
 msgstr "Bestelling subtotaal bedrag + winkelwagen belasting"
 
-#: view/settings-form.php:408
+#: view/settings-form.php:414
 msgid "Don't encode unicode chars"
 msgstr "Codeer geen unicode karakters"
 
-#: classes/core/trait-woe-core-extractor-ui.php:430
+#: classes/core/trait-woe-core-extractor-ui.php:434
 msgid "Summary Report Total Weight"
 msgstr "Samenvattend rapport Totaalgewicht"
 
-#: view/settings-form.php:907
+#: view/settings-form.php:913
 msgid "Item Tax Rate as an integer"
 msgstr "Artikel belastingtarief als een geheel getal"
 
-#: view/settings-form.php:316
+#: view/settings-form.php:322
 msgid "Force enclosure for all values"
 msgstr "Forceer insluiting voor alle waarden"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1326
 #: classes/core/trait-woe-core-extractor-ui.php:1350
+#: classes/core/trait-woe-core-extractor-ui.php:1374
 msgid "Customer"
 msgstr "Klant"
 
-#: classes/core/trait-woe-core-extractor-ui.php:997
+#: classes/core/trait-woe-core-extractor-ui.php:1011
 msgid "Item Cost (inc. tax)"
 msgstr "Item kostprijs (incl. belasting)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:690
+#: classes/core/trait-woe-core-extractor-ui.php:699
 msgid "Customer Total Spent"
 msgstr "Totaal uitgegeven door klanten"
 
-#: classes/core/trait-woe-core-extractor-ui.php:400
+#: classes/core/trait-woe-core-extractor-ui.php:404
 msgid "Non variation attributes"
 msgstr "Non variatie attributen"
 
-#: classes/core/trait-woe-core-extractor-ui.php:360
+#: classes/core/trait-woe-core-extractor-ui.php:364
 msgid "Stock Quantity"
 msgstr "Voorraad aantal"
 
-#: classes/core/trait-woe-core-extractor-ui.php:355
+#: classes/core/trait-woe-core-extractor-ui.php:359
 msgid "Stock Status"
 msgstr "Voorraadstatus"
 
-#: view/tab/help.php:21
+#. translators: links to documentation website
+#: view/tab/help.php:13
 msgid "Please, review %s at first."
 msgstr "Beoordeel %s als eerste."
 
-#: view/tab/help.php:6
+#: view/tab/help.php:14
 msgid "user guide"
 msgstr "gebruikersgids"
 
-#: view/settings-form.php:925
+#: view/settings-form.php:931
 msgid "Try to convert serialized values"
 msgstr "Probeer geserialiseerde waarden te converteren"
 
-#: view/settings-form.php:636 view/settings-form.php:729
+#: view/settings-form.php:647 view/settings-form.php:740
 msgid "Add links to images"
 msgstr "Voeg links toe aan afbeeldingen"
 
-#: view/settings-form.php:628
+#: view/settings-form.php:639
 msgid "Don't put page break between order lines"
 msgstr "Plaats geen pagina-einde tussen bestelling regels"
 
-#: view/settings-form.php:382
+#: view/settings-form.php:388
 msgid "Format output"
 msgstr "Format weergave"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1385
+#: classes/core/trait-woe-core-extractor-ui.php:1409
 msgid "Link"
 msgstr "Link"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1151
+#: classes/core/trait-woe-core-extractor-ui.php:1170
 msgid "Number of coupons used"
 msgstr "Aantal waardebonnen gebruikt"
 
-#: classes/core/trait-woe-core-extractor-ui.php:760
+#: classes/core/trait-woe-core-extractor-ui.php:769
 msgid "Summary Report Total Fee Amount"
 msgstr "Samenvattend rapport Totaal kosten bedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:755
+#: classes/core/trait-woe-core-extractor-ui.php:764
 msgid "Summary Report Total Tax Amount"
 msgstr "Samenvattend rapport Totaal belastingbedrag"
 
-#: view/settings-form.php:1500
+#: view/settings-form.php:1507
 msgid "Export only matched product items"
 msgstr "Alleen overeenkomende productitems exporteren"
 
-#: view/settings-form.php:919
+#: view/settings-form.php:925
 msgid "Shipping fields use billing details (if shipping address is empty)"
 msgstr "Verzendvelden gebruiken factuurgegevens (als het verzendadres leeg is)"
 
-#: view/settings-form.php:185
+#: view/settings-form.php:186
 msgid "Orders range"
 msgstr "Bestellingen bereik"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1368
+#: classes/core/trait-woe-core-extractor-ui.php:1392
 msgid "Use \"Add field\" to export specific product attribute"
 msgstr "Gebruik \"Veld toevoegen\" om een specifiek product attribuut te exporteren"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1367
+#: classes/core/trait-woe-core-extractor-ui.php:1391
 msgid "Use section \"Product order items\" to add attributes"
 msgstr "Gebruik de sectie \"Bestellingen van producten\" om attributen toe te voegen"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1354
+#: classes/core/trait-woe-core-extractor-ui.php:1378
 msgid "Product order items"
 msgstr "Productbestelling items"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1082
+#: classes/core/trait-woe-core-extractor-ui.php:1101
 msgid "Item Discount Amount + Tax"
 msgstr "Artikel Kortingsbedrag + belasting"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1077
+#: classes/core/trait-woe-core-extractor-ui.php:1096
 msgid "Item Discount Tax"
 msgstr "Item Kortingsbelasting"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1072
+#: classes/core/trait-woe-core-extractor-ui.php:1091
 msgid "Order Item Metadata"
 msgstr "Bestelling item metadata"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1002
+#: classes/core/trait-woe-core-extractor-ui.php:1016
 msgid "Item Cost Before Discount"
 msgstr "Artikelkosten vóór korting"
 
-#: classes/admin/tabs/ajax/class-wc-order-export-ajax.php:39
+#. translators: results of export when bulk action finished
+#: classes/admin/tabs/ajax/class-wc-order-export-ajax.php:43
 msgid "Result: %s"
 msgstr "Resultaat: %s"
 
-#: classes/class-wc-order-export-admin.php:389
+#: classes/class-wc-order-export-admin.php:404
 msgid "select item field"
 msgstr "item veld selecteren"
 
-#: classes/class-wc-order-export-admin.php:387
+#: classes/class-wc-order-export-admin.php:402
 msgid "select product field or taxonomy"
 msgstr "selecteer productveld of taxonomie"
 
-#: classes/FPDF/class-woe-pdf-mc-table.php:197
-msgid "Page %s / %s"
-msgstr "Pagina %s / %s"
-
-#: classes/core/trait-woe-core-extractor-ui.php:1330
-#: classes/core/trait-woe-core-extractor-ui.php:1355
+#: classes/core/trait-woe-core-extractor-ui.php:1354
+#: classes/core/trait-woe-core-extractor-ui.php:1379
 msgid "Product totals"
 msgstr "Product totalen"
 
-#: classes/core/trait-woe-core-extractor-ui.php:735
+#: classes/core/trait-woe-core-extractor-ui.php:744
 msgid "Summary Report Total Shipping"
 msgstr "Overzichtsrapport totale verzendkosten"
 
-#: classes/core/trait-woe-core-extractor-ui.php:715
+#: classes/core/trait-woe-core-extractor-ui.php:724
 msgid "Summary Report Total Items (Exported)"
 msgstr "Overzichtsrapport Totaal aantal items (geëxporteerd)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:710
+#: classes/core/trait-woe-core-extractor-ui.php:719
 msgid "Summary Report Total Items"
 msgstr "Overzichtsrapport Totaal aantal items"
 
-#: classes/core/trait-woe-core-extractor-ui.php:310
+#: classes/core/trait-woe-core-extractor-ui.php:314
 msgid "Product Seller"
 msgstr "Productverkoper"
 
-#: classes/core/trait-woe-core-extractor-ui.php:275
+#: classes/core/trait-woe-core-extractor-ui.php:279
 msgid "SKU (parent)"
 msgstr "SKU (hoofd)"
 
-#: view/settings-form.php:1120
+#: view/settings-form.php:1127
 msgid "Product SKU"
 msgstr "Product SKU"
 
-#: view/settings-form.php:531
+#: view/settings-form.php:537
 msgid "T,C or B. Comma separated list"
 msgstr "T, C of B. Door komma's gescheiden lijst"
 
-#: view/settings-form.php:530
+#: view/settings-form.php:536
 msgid "Columns vertical align"
 msgstr "Kolommen verticaal uitlijnen"
 
-#: view/settings-form.php:520
+#: view/settings-form.php:526
 msgid "L,C or R. Comma separated list"
 msgstr "L, C of R. Door komma's gescheiden lijst"
 
-#: view/settings-form.php:519
+#: view/settings-form.php:525
 msgid "Columns horizontal align"
 msgstr "Kolommen horizontaal uitlijnen"
 
-#: view/settings-form.php:403
+#: view/settings-form.php:409
 msgid "Encode numeric strings as numbers"
 msgstr "Numerieke tekenreeksen coderen als cijfers"
 
-#: view/settings-form.php:398
+#: view/settings-form.php:404
 msgid "Don't escape /"
 msgstr "Stop niet /"
 
@@ -470,556 +545,547 @@ msgstr "Je exporteert alleen afgeronde bestellingen"
 msgid "You will export only paid orders"
 msgstr "Je exporteert alleen betaalde orders"
 
-#: classes/admin/tabs/ajax/trait-wc-order-export-admin-tab-abstract-ajax-export.php:48
-#: classes/admin/tabs/ajax/trait-wc-order-export-admin-tab-abstract-ajax-export.php:103
-#: view/settings-form.php:246
+#: classes/admin/tabs/ajax/trait-wc-order-export-admin-tab-abstract-ajax-export.php:55
+#: classes/admin/tabs/ajax/trait-wc-order-export-admin-tab-abstract-ajax-export.php:115
+#: view/settings-form.php:247
 msgid "Please, install/enable PHP mbstring extension!"
 msgstr "Installeer/inschakelen de PHP mbstring extensie!"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1332
-#: classes/core/trait-woe-core-extractor-ui.php:1357
+#: classes/core/trait-woe-core-extractor-ui.php:1356
+#: classes/core/trait-woe-core-extractor-ui.php:1381
 msgid "Other items"
 msgstr "Andere items"
 
-#: classes/core/trait-woe-core-extractor-ui.php:730
+#: classes/core/trait-woe-core-extractor-ui.php:739
 msgid "Summary Report Total Amount Paid"
 msgstr "Overzichtsrapport Totaal betaald bedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:705
+#: classes/core/trait-woe-core-extractor-ui.php:714
 msgid "Summary Report Total Orders"
 msgstr "Overzichtsrapport Totaal aantal orders"
 
-#: view/settings-form.php:1989
+#: view/settings-form.php:2013
 msgid "Tax name"
 msgstr "Belasting naam"
 
-#: view/settings-form.php:1967
+#: view/settings-form.php:1991
 msgid "Shipping name"
 msgstr "Verzendnaam"
 
-#: view/settings-form.php:1945
+#: view/settings-form.php:1969
 msgid "Fee name"
 msgstr "Naam kosten"
 
-#: view/settings-form.php:1668
+#: view/settings-form.php:1692
 msgid "Add tax"
 msgstr "Belasting toevoegen"
 
-#: view/settings-form.php:1665
+#: view/settings-form.php:1689
 msgid "Add shipping"
 msgstr "Verzending toevoegen"
 
-#: view/settings-form.php:1662
+#: view/settings-form.php:1686
 msgid "Add fee"
 msgstr "Kosten toevoegen"
 
-#: view/settings-form.php:1274
+#: view/settings-form.php:1281
 msgid "Exclude products"
 msgstr "Producten uitsluiten"
 
-#: view/settings-form.php:208
+#: view/settings-form.php:209
 msgid "Summary Report By Customers"
 msgstr "Overzichtsrapport op klanten"
 
-#: view/settings-form.php:122
+#: view/settings-form.php:121
 msgid "Order Refund"
 msgstr "Bestelling terugbetalen"
 
-#: view/settings-form.php:118
+#: view/settings-form.php:117
 msgid "Order Subscription"
 msgstr "Bestelling abonnement"
 
-#: view/settings-form.php:112
+#: view/settings-form.php:111
 msgid "Order Type"
 msgstr "Besteltype"
 
-#: classes/core/trait-woe-core-extractor-ui.php:450
-#: classes/core/trait-woe-core-extractor-ui.php:750
+#: classes/core/trait-woe-core-extractor-ui.php:454
+#: classes/core/trait-woe-core-extractor-ui.php:759
 msgid "Summary Report Total Refund Amount"
 msgstr "Overzichtsrapport Totaal restitutiebedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:445
-#: classes/core/trait-woe-core-extractor-ui.php:745
+#: classes/core/trait-woe-core-extractor-ui.php:449
+#: classes/core/trait-woe-core-extractor-ui.php:754
 msgid "Summary Report Total Refund Count"
 msgstr "Overzichtsrapport Totaal teruggave aantal"
 
-#: classes/core/trait-woe-core-extractor-ui.php:440
-#: classes/core/trait-woe-core-extractor-ui.php:740
+#: classes/core/trait-woe-core-extractor-ui.php:444
+#: classes/core/trait-woe-core-extractor-ui.php:749
 msgid "Summary Report Total Discount"
 msgstr "Overzichtsrapport Totale korting"
 
-#: classes/core/trait-woe-core-extractor-ui.php:295
+#: classes/core/trait-woe-core-extractor-ui.php:299
 msgid "Product Name (main)"
 msgstr "Productnaam (hoofd)"
 
-#: classes/admin/tabs/ajax/class-wc-order-export-ajax.php:20
+#: classes/admin/tabs/ajax/class-wc-order-export-ajax.php:24
 msgid "Profile required!"
 msgstr "Profiel vereist!"
 
-#: classes/class-wc-order-export-admin.php:525
+#: classes/class-wc-order-export-admin.php:545
 msgid "Wrong nonce"
 msgstr "Verkeerde nonce"
 
-#: classes/class-wc-order-export-admin.php:521
+#. translators: error message if current tab doesn't support ajax method
+#: classes/class-wc-order-export-admin.php:541
 msgid "Unknown tab method %s"
 msgstr "Onbekende tab methode %s"
 
-#: classes/class-wc-order-export-admin.php:513
+#. translators: error message for bad ajax method
+#: classes/class-wc-order-export-admin.php:532
 msgid "Unknown AJAX method %s"
 msgstr "Onbekende Ajax methode %s"
 
-#: classes/class-wc-order-export-admin.php:502
+#: classes/class-wc-order-export-admin.php:517
 msgid "Empty method"
 msgstr "Lege methode"
 
-#: classes/class-wc-order-export-admin.php:498
+#: classes/class-wc-order-export-admin.php:513
 msgid "You can not do it"
 msgstr "Dat kan je niet doen"
 
-#: classes/core/class-wc-order-export-order-fields.php:485
+#: classes/core/class-wc-order-export-order-fields.php:490
 msgid "Edit order"
 msgstr "Bestelling bewerken"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1384
+#: classes/core/trait-woe-core-extractor-ui.php:1408
 msgid "Image"
 msgstr "Afbeelding"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1211
+#: classes/core/trait-woe-core-extractor-ui.php:1235
 msgid "Shipping Method (no id)"
 msgstr "Verzendmethode (geen id)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:700
+#: classes/core/trait-woe-core-extractor-ui.php:709
 msgid "Customer last order date"
 msgstr "Datum laatste bestelling klant"
 
-#: classes/core/trait-woe-core-extractor-ui.php:695
+#: classes/core/trait-woe-core-extractor-ui.php:704
 msgid "Customer first order date"
 msgstr "Datum eerste bestelling klant"
 
-#: classes/core/trait-woe-core-extractor-ui.php:626
+#: classes/core/trait-woe-core-extractor-ui.php:630
 msgid "Link to edit order"
 msgstr "Link om order te bewerken"
 
-#: classes/core/trait-woe-core-extractor-ui.php:435
+#: classes/core/trait-woe-core-extractor-ui.php:439
 msgid "Embedded Product Image"
 msgstr "Ingesloten productafbeelding"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1067
+#: classes/core/trait-woe-core-extractor-ui.php:1086
 msgid "Item download URL"
 msgstr "URL voor downloaden van item"
 
-#: view/settings-form.php:1673 view/settings-form.php:1838
+#: view/settings-form.php:1697 view/settings-form.php:1862
 msgid "The plugin fetches meta keys from the existing orders. So you should create fake order if you've added new field just now."
 msgstr "De plugin haalt meta sleutels op uit bestaande bestellingen. Dus je zou een valse bestelling moeten maken als je net een nieuw veld hebt toegevoegd."
 
-#: view/settings-form.php:2103
+#: view/settings-form.php:2127
 msgid "Turn off mode Summary report to export order fields"
 msgstr "Schakel modus overzichtsrapport uit om ordervelden te exporteren"
 
-#: view/settings-form.php:947
+#: view/settings-form.php:953
 msgid "Read how to fix it"
 msgstr "Lees hoe je dit kan oplossen"
 
-#: view/settings-form.php:811
+#: view/settings-form.php:822
 msgid "Order status"
 msgstr "Bestelling status"
 
-#: view/settings-form.php:742
+#: view/settings-form.php:753
 msgid "This option cancels UI settings(above) and don't applied to Preview"
 msgstr "Deze optie annuleert UI instellingen (hierboven) en is niet van toepassing op voorbeeld"
 
-#: view/settings-form.php:740
+#: view/settings-form.php:751
 msgid "Custom css"
 msgstr "Aangepaste CSS"
 
-#: view/settings-form.php:705
+#: view/settings-form.php:716
 msgid "Footer text color"
 msgstr "footer tekstkleur"
 
-#: view/settings-form.php:700
+#: view/settings-form.php:711
 msgid "Header text color"
 msgstr "Header tekstkleur"
 
-#: view/settings-form.php:673
+#: view/settings-form.php:684
 msgid "Footer text"
 msgstr "Footer tekst"
 
-#: view/settings-form.php:668
+#: view/settings-form.php:679
 msgid "Header text"
 msgstr "Header tekst"
 
-#: view/settings-form.php:653
+#: view/settings-form.php:664
 msgid "repeat header as last line"
 msgstr "herhaal header als laatste regel"
 
-#: view/settings-form.php:641
+#: view/settings-form.php:652
 msgid "Html options"
 msgstr "HTML opties"
 
-#: view/settings-form.php:328 view/settings-form.php:426
+#: view/settings-form.php:334 view/settings-form.php:432
 msgid "Product rows start with a new line"
 msgstr "Productrijen beginnen met een nieuwe lijn"
 
-#: view/settings-form.php:291 view/settings-form.php:617
-#: view/settings-form.php:718
+#: view/settings-form.php:297 view/settings-form.php:628
+#: view/settings-form.php:729
 msgid "Images height"
 msgstr "Hoogte afbeeldingen"
 
-#: view/settings-form.php:284 view/settings-form.php:610
-#: view/settings-form.php:711
+#: view/settings-form.php:290 view/settings-form.php:621
+#: view/settings-form.php:722
 msgid "Images width"
 msgstr "Breedte van afbeeldingen"
 
-#: classes/core/trait-woe-core-extractor-ui.php:915
+#: classes/core/trait-woe-core-extractor-ui.php:924
 msgid "City, State Zip (Shipping)"
 msgstr "Woonplaats, Provincie Postcode (Verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:820
+#: classes/core/trait-woe-core-extractor-ui.php:829
 msgid "City, State Zip (Billing)"
 msgstr "Woonplaats, Provincie Postcode (Betaling)"
 
-#: classes/class-wc-order-export-admin.php:336
+#: classes/class-wc-order-export-admin.php:350
 msgid "This action will reset filters, settings and fields to default state. Are you sure?"
 msgstr "Met deze actie worden filters, instellingen en velden opnieuw ingesteld naar de standaardstatus. Weet je het zeker?"
 
-#: view/settings-form.php:2164
+#: view/settings-form.php:2190
 msgid "Reset settings"
 msgstr "Reset Instellingen"
 
-#: view/settings-form.php:603
+#: view/settings-form.php:614
 msgid "0 - auto scale"
 msgstr "0 - automatisch schalen"
 
-#: view/settings-form.php:602
+#: view/settings-form.php:613
 msgid "Logo width"
 msgstr "Logo breedte"
 
-#: view/settings-form.php:596
+#: view/settings-form.php:607
 msgid "Logo height"
 msgstr "Logo hoogte"
 
-#: view/settings-form.php:588
+#: view/settings-form.php:599
 msgid "Logo align"
 msgstr "Logo uitlijning"
 
-#: view/settings-form.php:585
+#: view/settings-form.php:596
 msgid "Remove logo"
 msgstr "Verwijder logo"
 
-#: view/settings-form.php:573
+#: view/settings-form.php:579
 msgid "Select logo"
 msgstr "Selecteer logo"
 
-#: view/settings-form.php:564
+#: view/settings-form.php:570
 msgid "Page footer text color"
 msgstr "Pagina footer tekstkleur"
 
-#: view/settings-form.php:559
+#: view/settings-form.php:565
 msgid "Page header text color"
 msgstr "Pagina koptekst kleur"
 
-#: view/settings-form.php:553 view/settings-form.php:694
+#: view/settings-form.php:559 view/settings-form.php:705
 msgid "Table row background color"
 msgstr "Tabelrij achtergrondkleur"
 
-#: view/settings-form.php:548 view/settings-form.php:689
+#: view/settings-form.php:554 view/settings-form.php:700
 msgid "Table row text color"
 msgstr "Tabelrij tekstkleur"
 
-#: view/settings-form.php:542 view/settings-form.php:683
+#: view/settings-form.php:548 view/settings-form.php:694
 msgid "Table header background color"
 msgstr "Tabel header achtergrondkleur"
 
-#: view/settings-form.php:537 view/settings-form.php:678
+#: view/settings-form.php:543 view/settings-form.php:689
 msgid "Table header text color"
 msgstr "Tabel header tekstkleur"
 
-#: view/settings-form.php:526
+#: view/settings-form.php:532
 msgid "No"
 msgstr "Nee"
 
-#: view/settings-form.php:525
+#: view/settings-form.php:531
 msgid "Yes"
 msgstr "Ja"
 
-#: view/settings-form.php:524
+#: view/settings-form.php:530
 msgid "Fit table to page width"
 msgstr "Tabel aanpassen op pagina breedte"
 
-#: view/settings-form.php:663
+#: view/settings-form.php:674
 msgid "Columns align"
 msgstr "Kolom uitlijning"
 
-#: view/settings-form.php:514
+#: view/settings-form.php:520
 msgid "Page footer text"
 msgstr "Pagina footer tekst"
 
-#: view/settings-form.php:510 view/settings-form.php:664
+#: view/settings-form.php:516 view/settings-form.php:675
 msgid "comma separated list"
 msgstr "Komma gescheiden lijst"
 
-#: view/settings-form.php:509
+#: view/settings-form.php:515
 msgid "Columns width"
 msgstr "Kolom breedte"
 
-#: view/settings-form.php:504
+#: view/settings-form.php:510
 msgid "Page header text"
 msgstr "Pagina koptekst"
 
-#: view/settings-form.php:496
+#: view/settings-form.php:502
 msgid "No page numbers"
 msgstr "Geen pagina nummers"
 
-#: view/settings-form.php:491
+#: view/settings-form.php:497
 msgid "Right align"
 msgstr "Rechts uitlijnen"
 
-#: view/settings-form.php:490
+#: view/settings-form.php:496
 msgid "Center align"
 msgstr "Gecentreerd uitlijnen"
 
-#: view/settings-form.php:489
+#: view/settings-form.php:495
 msgid "Left align"
 msgstr "Links uitlijnen"
 
-#: view/settings-form.php:486
+#: view/settings-form.php:492
 msgid "Page numbers"
 msgstr "Pagina nummers"
 
-#: view/settings-form.php:480 view/settings-form.php:657
+#: view/settings-form.php:486 view/settings-form.php:668
 msgid "Font size"
 msgstr "Lettertype grootte"
 
-#: view/settings-form.php:471
+#: view/settings-form.php:477
 msgid "Page size"
 msgstr "Pagina grootte"
 
-#: view/settings-form.php:462
+#: view/settings-form.php:468
 msgid "Orientation"
 msgstr "Orientatie"
 
-#: view/settings-form.php:453
+#: view/settings-form.php:459
 msgid "repeat at each page"
 msgstr "Herhalen op elke pagina"
 
-#: view/settings-form.php:440
+#: view/settings-form.php:446
 msgid "PDF options"
 msgstr "PDF Opties"
 
-#: view/settings-form.php:277
+#: view/settings-form.php:283
 msgid "Force general format for all cells"
 msgstr "Forceer standaard formaat voor alle cellen"
 
-#: view/settings-form.php:355
+#: view/settings-form.php:361
 msgid "Please, install/enable PHP XML extension!"
 msgstr "Installeer en schakel de PHP XML Extensie in!"
 
-#: view/settings-form.php:2177 view/tab/tools.php:88
+#: view/settings-form.php:2205 view/tab/tools.php:88
 msgid "Settings were successfully updated!"
 msgstr "Instellingen zijn succesvol geüpdatet!"
 
-#: view/settings-form.php:2145
+#: view/settings-form.php:2171
 msgid "Save & Exit"
 msgstr "Opslaan & Afsluiten"
 
-#: view/settings-form.php:1611
+#: view/settings-form.php:1635
 msgid "Remove all fields"
 msgstr "Verwijder alle velden"
 
-#: view/settings-form.php:43
+#: view/settings-form.php:42
 msgid "Field format"
 msgstr "Veld format"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1382
+#: classes/core/trait-woe-core-extractor-ui.php:1406
 msgid "Number"
 msgstr "Nummer"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1381
+#: classes/core/trait-woe-core-extractor-ui.php:1405
 msgid "Money"
 msgstr "Geld"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1380
+#: classes/core/trait-woe-core-extractor-ui.php:1404
 msgid "String"
 msgstr "String"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1335
-#: classes/core/trait-woe-core-extractor-ui.php:1360
+#: classes/core/trait-woe-core-extractor-ui.php:1359
+#: classes/core/trait-woe-core-extractor-ui.php:1384
 msgid "Totals"
 msgstr "Totalen"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1328
 #: classes/core/trait-woe-core-extractor-ui.php:1352
+#: classes/core/trait-woe-core-extractor-ui.php:1376
 msgid "Shipping Address"
 msgstr "Verzendadres"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1327
 #: classes/core/trait-woe-core-extractor-ui.php:1351
+#: classes/core/trait-woe-core-extractor-ui.php:1375
 msgid "Billing Address"
 msgstr "Facturatie adres"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1261
+#: classes/core/trait-woe-core-extractor-ui.php:1285
 msgid "Order Total Fee"
 msgstr "Bestelling totale kosten"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1226
+#: classes/core/trait-woe-core-extractor-ui.php:1250
 msgid "Order Shipping + Tax Amount"
 msgstr "Bestelling verzending + belasting bedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1176
+#: classes/core/trait-woe-core-extractor-ui.php:1200
 msgid "Order Subtotal - Cart Discount"
 msgstr "Bestelling subtotaal - winkelwagen korting"
 
-#: classes/core/trait-woe-core-extractor-ui.php:415
-#: classes/core/trait-woe-core-extractor-ui.php:725
+#: classes/core/trait-woe-core-extractor-ui.php:419
+#: classes/core/trait-woe-core-extractor-ui.php:734
 msgid "Summary Report Total Amount"
 msgstr "Samenvatting rapport totaalbedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:405
+#: classes/core/trait-woe-core-extractor-ui.php:409
 msgid "Summary Report Total Quantity"
 msgstr "Samenvatting rapport totale hoeveelheid"
 
-#: classes/class-wc-order-export-admin.php:335
+#. translators: confirmations for critical actions
+#: classes/class-wc-order-export-admin.php:349
 msgid "Remove all fields?"
 msgstr "Verwijder alle velden?"
 
-#: classes/class-wc-order-export-admin.php:333
+#: classes/class-wc-order-export-admin.php:346
 msgid "coupons"
 msgstr "Waardebonnen"
 
-#: classes/class-wc-order-export-admin.php:332
+#: classes/class-wc-order-export-admin.php:345
 msgid "products"
 msgstr "Producten"
 
-#: classes/class-wc-order-export-admin.php:331
-msgid "Set up coupon fields"
-msgstr "Instellen waardebon velden"
-
-#: classes/class-wc-order-export-admin.php:330
-msgid "Set up product fields"
-msgstr "Instelling product velden"
-
-#: classes/class-wc-order-export-admin.php:326
+#: classes/class-wc-order-export-admin.php:341
 msgid "Grouping by coupon"
 msgstr "Groeperen op waardebon"
 
-#: classes/class-wc-order-export-admin.php:325
+#: classes/class-wc-order-export-admin.php:340
 msgid "Grouping by product"
 msgstr "Groeperen op product"
 
-#: classes/class-wc-order-export-admin.php:323
+#: classes/class-wc-order-export-admin.php:338
 msgid "1st row only"
 msgstr "alleen 1ste rij"
 
-#: classes/class-wc-order-export-admin.php:322
+#: classes/class-wc-order-export-admin.php:337
 msgid "all rows"
 msgstr "alle rijen"
 
-#: classes/class-wc-order-export-admin.php:321
+#: classes/class-wc-order-export-admin.php:336
 msgid "Fill order columns for"
 msgstr "Vul order kolommen voor"
 
-#: classes/class-wc-order-export-admin.php:320
+#: classes/class-wc-order-export-admin.php:335
 msgid "Split values by"
 msgstr "Split waardes bij"
 
-#: classes/class-wc-order-export-admin.php:319
+#: classes/class-wc-order-export-admin.php:334
 msgid "as"
 msgstr "als"
 
-#: classes/class-wc-order-export-admin.php:315
+#: classes/class-wc-order-export-admin.php:329
 msgid "one row"
 msgstr "één rij"
 
-#: classes/class-wc-order-export-admin.php:314
+#: classes/class-wc-order-export-admin.php:328
 msgid "columns"
 msgstr "kolommen"
 
-#: classes/class-wc-order-export-admin.php:313
+#: classes/class-wc-order-export-admin.php:327
 msgid "rows"
 msgstr "rijen"
 
-#: classes/class-wc-order-export-admin.php:311
-msgid "Add %s fields"
-msgstr "%s velden toevoegen"
-
-#: view/settings-form.php:942
+#: view/settings-form.php:948
 msgid "Please check permissions for your role. You must have capability “edit_themes” to use this box."
 msgstr "Controleer de rechten voor je rol. Je moet de competentie \"edit_themes\" hebben om deze box te gebruiken."
 
-#: classes/core/trait-woe-core-extractor-ui.php:1109
+#: classes/core/trait-woe-core-extractor-ui.php:1128
 msgid "Exported items"
 msgstr "Exporteer items"
 
-#: classes/core/trait-woe-core-extractor-ui.php:665
+#: classes/core/trait-woe-core-extractor-ui.php:669
 msgid "User Website"
 msgstr "Gebruiker site"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1032
+#: classes/core/trait-woe-core-extractor-ui.php:1046
 msgid "Order Line Subtotal Tax"
 msgstr "Bestelling regel subtotaal belasting"
 
-#: classes/core/trait-woe-core-extractor-ui.php:305
+#: classes/core/trait-woe-core-extractor-ui.php:309
 msgid "Variation Id"
 msgstr "Variatie Id"
 
-#: classes/core/trait-woe-core-extractor-ui.php:280
+#: classes/core/trait-woe-core-extractor-ui.php:284
 msgid "Product Id"
 msgstr "Product Id"
 
-#: view/settings-form.php:1538
+#: view/settings-form.php:1551
 msgid "Item metadata"
 msgstr "Items metadata"
 
-#: view/settings-form.php:1504
+#: view/settings-form.php:1517
 msgid "Item names"
 msgstr "Item namen"
 
-#: view/settings-form.php:1495
+#: view/settings-form.php:1502
 msgid "Filter by item and metadata"
 msgstr "Filter op item en meta gegevens"
 
-#: classes/core/trait-woe-core-extractor-ui.php:680
+#: classes/core/trait-woe-core-extractor-ui.php:689
 msgid "Customer Total Orders"
 msgstr "Klant totaal orders"
 
-#: classes/core/trait-woe-core-extractor-ui.php:290
+#: classes/core/trait-woe-core-extractor-ui.php:294
 msgid "Product Name"
 msgstr "Productnaam"
 
-#: classes/core/trait-woe-core-extractor-ui.php:977
+#: classes/core/trait-woe-core-extractor-ui.php:986
 msgid "Item Name"
 msgstr "Item naam"
 
-#: view/settings-form.php:931
+#: view/settings-form.php:937
 msgid "Enable debug output"
 msgstr "Schakel debug uitvoer in"
 
-#: view/settings-form.php:913
+#: view/settings-form.php:919
 msgid "Cleanup phone (export only digits)"
 msgstr "Telefoonnummer opruimen (exporteer alleen nummers)"
 
-#: view/settings-form.php:1841
+#: view/settings-form.php:1865
 msgid "Order item fields"
 msgstr "Bestelling item velden"
 
-#: view/settings-form.php:1772
+#: view/settings-form.php:1796
 msgid "Product fields"
 msgstr "Product velden"
 
-#: classes/core/class-wc-order-export-engine.php:547
+#: classes/core/class-wc-order-export-engine.php:587
 msgid "Main SQL queries are listed below"
 msgstr "Hoofd SQL-query's worden hieronder vermeld"
 
-#: classes/core/trait-woe-core-extractor-ui.php:551
+#: classes/core/trait-woe-core-extractor-ui.php:555
 msgid "Line number"
 msgstr "Regelnummer"
 
-#: classes/core/trait-woe-core-extractor-ui.php:395
+#: classes/core/trait-woe-core-extractor-ui.php:399
 msgid "Full names for categories"
 msgstr "Volledige namen voor categorieën"
 
-#: classes/class-wc-order-export-admin.php:396
-#: classes/core/trait-woe-core-extractor.php:171
+#: classes/class-wc-order-export-admin.php:411
+#: classes/core/trait-woe-core-extractor.php:175
 msgid "empty"
 msgstr "leeg"
 
@@ -1078,484 +1144,485 @@ msgstr "Kopieer deze instellingen en gebruik deze om de plugin te migreren naar 
 msgid "Export settings"
 msgstr "Exporteer instellingen"
 
-#: view/tab/order-actions.php:5 view/tab/profiles.php:5
-#: view/tab/schedules.php:5
+#: view/tab/order-actions.php:15 view/tab/profiles.php:15
+#: view/tab/schedules.php:15
 msgid "Pro version"
 msgstr "Pro versie"
 
-#: view/tab/help.php:30
-msgid "Look at %s for popular plugins or check %s to study how to extend the plugin."
-msgstr "Kijk naar %s voor populaire plugins of vink aan %s om te bestuderen hoe de plugin kan worden uitgebreid."
+#. translators: links to documentation website
+#: view/tab/help.php:38
+msgid "Look at %1$s for popular plugins or check %2$s to study how to extend the plugin."
+msgstr "Kijk naar %1$s voor populaire plugins of vink aan %2$s om te bestuderen hoe de plugin kan worden uitgebreid."
 
+#. translators: links to documentation website
 #: view/tab/help.php:27
 msgid "Don't forget to attach your %s or some screenshots. It will significantly reduce reply time :)"
 msgstr "Vergeet niet je %s of enkele schermafbeeldingen bij te voegen. Het zal de reactietijd aanzienlijk verkorten :)"
 
-#: view/tab/help.php:8
+#: view/tab/help.php:21
 msgid "helpdesk system"
 msgstr "helpdesk systeem"
 
-#: view/tab/help.php:24
+#. translators: links to documentation website
+#: view/tab/help.php:20
 msgid "Need help? Create ticket in %s ."
 msgstr "Hulp nodig? Maak een ticket in %s."
 
-#: view/tab/help.php:14
+#: classes/class-wc-order-export-admin.php:220 view/tab/help.php:41
 msgid "this page"
 msgstr "deze pagina"
 
-#: view/tab/help.php:12
+#: view/tab/help.php:40
 msgid "code snippets"
 msgstr "code snippets"
 
-#: view/tab/help.php:10
+#: view/tab/help.php:31
 msgid "settings"
 msgstr "instellingen"
 
-#: view/settings-form.php:2185
+#: view/settings-form.php:2213
 msgid "Click here to download"
 msgstr "Klik hier om te downloaden"
 
-#: view/settings-form.php:2184
+#: view/settings-form.php:2212
 msgid "Press 'Esc' to cancel the export"
 msgstr "Druk op 'Esc' om het exporteren te annuleren"
 
-#: view/settings-form.php:2170
+#: view/settings-form.php:2198
 msgid "Preview size"
 msgstr "Voorbeeld grootte"
 
-#: view/settings-form.php:2168
+#. translators: estimation when button Preview pressed
+#: view/settings-form.php:2196
 msgid "Export total: %s orders"
 msgstr "Export totaal: %s orders"
 
-#: view/settings-form.php:2157
+#: view/settings-form.php:2183
 msgid "It might not work for huge datasets!"
 msgstr "Het werkt misschien niet voor enorme datasets!"
 
-#: view/settings-form.php:2156
+#: view/settings-form.php:2182
 msgid "Export [w/o progressbar]"
 msgstr "Exporteren [zonder voortgangsbalk]"
 
-#: view/settings-form.php:2152
+#: view/settings-form.php:2178
 msgid "Export"
 msgstr "Exporteer"
 
-#: view/settings-form.php:2142 view/settings-form.php:2147
+#: view/settings-form.php:2168 view/settings-form.php:2173
 msgid "Save settings"
 msgstr "Instellingen opslaan"
 
-#: view/settings-form.php:2139
+#: view/settings-form.php:2165
 msgid "Might be different from actual export!"
 msgstr "Kan verschillen van daadwerkelijke export!"
 
-#: view/settings-form.php:2138
+#: view/settings-form.php:2164
 msgid "Preview"
 msgstr "Voorbeeld"
 
-#: view/settings-form.php:2132
+#. translators: error message if external js broken our UI loader
+#: view/settings-form.php:2158
 msgid "If you see this message after page load, user interface won't work correctly!<br>There is a JS error (<a target=blank href='%s'>read here</a> how to view it). Probably, it's a conflict with another plugin or active theme."
 msgstr "Als je dit bericht ziet na het laden van deze pagina, dan zal de gebruikersinterface niet goed werken!<br>Er is een JS- fout (<a target=blank href='%s'>lees hier</a>hoe het te bekijken ). Waarschijnlijk is het een conflict met een andere plugin of een actief thema."
 
-#: view/settings-form.php:1605
+#: view/settings-form.php:1629
 msgid "Drag rows to reorder exported fields"
 msgstr "Versleep de rijen om de geëxporteerde velden opnieuw in te delen"
 
-#: view/settings-form.php:1644 view/settings-form.php:1659
+#: view/settings-form.php:1668 view/settings-form.php:1683
 msgid "Actions"
 msgstr "Acties"
 
-#: view/settings-form.php:1707 view/settings-form.php:1728
-#: view/settings-form.php:1766 view/settings-form.php:1811
-#: view/settings-form.php:1833 view/settings-form.php:1868
-#: view/settings-form.php:1890 view/settings-form.php:1916
-#: view/settings-form.php:1939 view/settings-form.php:1961
-#: view/settings-form.php:1983 view/settings-form.php:2005
-#: view/settings-form.php:2035 view/settings-form.php:2065
-#: view/settings-form.php:2095
+#: view/settings-form.php:1731 view/settings-form.php:1752
+#: view/settings-form.php:1790 view/settings-form.php:1835
+#: view/settings-form.php:1857 view/settings-form.php:1892
+#: view/settings-form.php:1914 view/settings-form.php:1940
+#: view/settings-form.php:1963 view/settings-form.php:1985
+#: view/settings-form.php:2007 view/settings-form.php:2029
+#: view/settings-form.php:2059 view/settings-form.php:2089
+#: view/settings-form.php:2119
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: view/settings-form.php:1705 view/settings-form.php:1726
-#: view/settings-form.php:1764 view/settings-form.php:1809
-#: view/settings-form.php:1831 view/settings-form.php:1866
-#: view/settings-form.php:1888 view/settings-form.php:1914
-#: view/settings-form.php:1936 view/settings-form.php:1958
-#: view/settings-form.php:1980 view/settings-form.php:2002
-#: view/settings-form.php:2032 view/settings-form.php:2062
-#: view/settings-form.php:2092
+#: view/settings-form.php:1729 view/settings-form.php:1750
+#: view/settings-form.php:1788 view/settings-form.php:1833
+#: view/settings-form.php:1855 view/settings-form.php:1890
+#: view/settings-form.php:1912 view/settings-form.php:1938
+#: view/settings-form.php:1960 view/settings-form.php:1982
+#: view/settings-form.php:2004 view/settings-form.php:2026
+#: view/settings-form.php:2056 view/settings-form.php:2086
+#: view/settings-form.php:2116
 msgid "Confirm"
 msgstr "Bevestig"
 
-#: view/settings-form.php:1688 view/settings-form.php:1747
-#: view/settings-form.php:1782 view/settings-form.php:1850
-#: view/settings-form.php:1904
+#: view/settings-form.php:1712 view/settings-form.php:1771
+#: view/settings-form.php:1806 view/settings-form.php:1874
+#: view/settings-form.php:1928
 msgid "or type meta key here"
 msgstr "of typ hier de meta sleutel"
 
-#: view/settings-form.php:1585
+#: view/settings-form.php:1598
 msgid "Set up fields to export"
 msgstr "Stel velden in om te exporteren"
 
-#: view/settings-form.php:1479
+#: view/settings-form.php:1486
 msgid "Shipping methods"
 msgstr "Verzendmethoden"
 
-#: view/settings-form.php:1450
+#: view/settings-form.php:1457
 msgid "Shipping locations"
 msgstr "Verzending locaties"
 
-#: view/settings-form.php:1445
+#: view/settings-form.php:1452
 msgid "Filter by shipping"
 msgstr "Filter op verzending"
 
-#: view/settings-form.php:1429
+#: view/settings-form.php:1436
 msgid "Payment methods"
 msgstr "Betaalmethodes"
 
-#: view/settings-form.php:1400
+#: view/settings-form.php:1407
 msgid "Billing locations"
 msgstr "Factureringslocaties"
 
-#: view/settings-form.php:1395
+#: view/settings-form.php:1402
 msgid "Filter by billing"
 msgstr "Filteren op facturering"
 
-#: view/settings-form.php:1374
+#: view/settings-form.php:1381
 msgid "Any coupon used"
 msgstr "Elke gebruikte waardebon"
 
-#: view/settings-form.php:1368
+#: view/settings-form.php:1375
 msgid "Filter by coupon"
 msgstr "Filter op waardebonnen"
 
-#: view/settings-form.php:1299
+#: view/settings-form.php:1306
 msgid "Usernames"
 msgstr "gebruikersnamen"
 
-#: view/settings-form.php:1313
+#: view/settings-form.php:1320
 msgid "User roles"
 msgstr "Gebruikersrollen"
 
-#: view/settings-form.php:1295
+#: view/settings-form.php:1302
 msgid "Filter by customer"
 msgstr "Filter op klanten"
 
-#: view/settings-form.php:1238
+#: view/settings-form.php:1245
 msgid "Item meta data"
 msgstr "Item meta gegevens"
 
-#: view/settings-form.php:1203
+#: view/settings-form.php:1210
 msgid "Variable product attributes"
 msgstr "Variabele productkenmerken"
 
-#: view/settings-form.php:1161
+#: view/settings-form.php:1168
 msgid "Product custom fields"
 msgstr "Aangepaste velden voor producten"
 
-#: view/settings-form.php:1126
+#: view/settings-form.php:1133
 msgid "Product taxonomies"
 msgstr "Product taxonomieën"
 
-#: view/settings-form.php:1089
+#: view/settings-form.php:1096
 msgid "Vendors/creators"
 msgstr "Leveranciers/makers"
 
-#: view/settings-form.php:1071
+#: view/settings-form.php:1078
 msgid "Product categories"
 msgstr "Productcategorieën"
 
-#: view/settings-form.php:1069
+#: view/settings-form.php:1076
 msgid "Skip fully refunded items"
 msgstr "Sla volledig terugbetaalde items over"
 
-#: view/settings-form.php:1065
+#: view/settings-form.php:1072
 msgid "Export all products from the order"
 msgstr "Exporteer alle producten van de order"
 
-#: view/settings-form.php:1060
+#: view/settings-form.php:1067
 msgid "Filter by product"
 msgstr "Filter op product"
 
-#: view/settings-form.php:1058
+#: view/settings-form.php:1065
 msgid "The filters won't work correctly.<br>Another plugin(or theme) has loaded outdated Select2.js"
 msgstr "De filters zullen niet correct werken.<br>Een andere plugin (of thema) heeft verouderde Select2.js geladen"
 
-#: view/settings-form.php:1012 view/settings-form.php:1324
+#: view/settings-form.php:1019 view/settings-form.php:1331
 msgid "Custom fields"
 msgstr "Aangepaste velden"
 
-#: view/settings-form.php:998
+#: view/settings-form.php:1005
 msgid "Order statuses"
 msgstr "Bestelling statussen"
 
-#: view/settings-form.php:996
+#: view/settings-form.php:1003
 msgid "Export unmarked orders only"
 msgstr "Exporteer alleen ongemarkeerde orders"
 
-#: view/settings-form.php:992
+#: view/settings-form.php:999
 msgid "Mark exported orders"
 msgstr "Markeer geëxporteerde bestellingen"
 
-#: view/settings-form.php:984
+#: view/settings-form.php:990
 msgid "Export refunds"
 msgstr "Export terugbetalingen"
 
-#: view/settings-form.php:972
+#: view/settings-form.php:978
 msgid "Don't export child orders"
 msgstr "Exporteer geen sub bestellingen"
 
-#: view/settings-form.php:967
+#: view/settings-form.php:973
 msgid "Filter by order"
 msgstr "Filteren op order"
 
-#: view/settings-form.php:951
+#: view/settings-form.php:957
 msgid "Use only unnamed functions!"
 msgstr "Gebruik alleen naamloze functies!"
 
-#: view/settings-form.php:937
+#: view/settings-form.php:943
 msgid "Custom PHP code to modify output"
 msgstr "Aangepaste PHP code om uitvoer te wijzigen"
 
-#: view/settings-form.php:895
+#: view/settings-form.php:901
 msgid "Strip tags from Product Description/Variation"
 msgstr "Strip tags uit product beschrijving/variaties"
 
-#: view/settings-form.php:889
+#: view/settings-form.php:895
 msgid "Export refund notes as Customer Note"
 msgstr "Restitutiebonnen exporteren als klantnotitie"
 
-#: view/settings-form.php:883
+#: view/settings-form.php:889
 msgid "Export all order notes"
 msgstr "Exporteer alle order aantekeningen"
 
-#: view/settings-form.php:877
+#: view/settings-form.php:883
 msgid "Format numbers (use WC decimal separator)"
 msgstr "Format nummers (gebruik WC decimaal scheidingsteken)"
 
-#: view/settings-form.php:871
+#: view/settings-form.php:877
 msgid "Misc settings"
 msgstr "Diverse instellingen"
 
-#: view/settings-form.php:858
+#: view/settings-form.php:864
 msgid "- don't modify -"
 msgstr "- niet wijzigen -"
 
-#: view/settings-form.php:853
+#: view/settings-form.php:859
 msgid "Change order status to"
 msgstr "Wijzig de status van bestellingen in"
 
-#: view/settings-form.php:844
-msgid "Sort orders by %s in %s order"
-msgstr "Sorteer orders op %s in %s order"
-
-#: view/settings-form.php:839
+#: view/settings-form.php:848
 msgid "Ascending"
 msgstr "oplopend"
 
-#: view/settings-form.php:837
+#: view/settings-form.php:846
 msgid "Descending"
 msgstr "Aflopend"
 
-#: view/settings-form.php:777
+#: view/settings-form.php:788
 msgid "Time"
 msgstr "Tijd"
 
-#: view/settings-form.php:768 view/settings-form.php:794
+#: view/settings-form.php:779 view/settings-form.php:805
 msgid "custom"
 msgstr "Aangepast"
 
-#: view/settings-form.php:46 view/settings-form.php:764
-#: view/settings-form.php:790
+#: view/settings-form.php:45 view/settings-form.php:775
+#: view/settings-form.php:801
 msgid "-"
 msgstr "-"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1383 view/settings-form.php:750
+#: classes/core/trait-woe-core-extractor-ui.php:1407 view/settings-form.php:761
 msgid "Date"
 msgstr "Datum"
 
-#: view/settings-form.php:410
+#: view/settings-form.php:416
 msgid "TSV options"
 msgstr "TSV opties"
 
-#: view/settings-form.php:393
+#: view/settings-form.php:399
 msgid "End tag"
 msgstr "Eind tag"
 
-#: view/settings-form.php:390
+#: view/settings-form.php:396
 msgid "Start tag"
 msgstr "Start tag"
 
-#: view/settings-form.php:388
+#: view/settings-form.php:394
 msgid "JSON options"
 msgstr "JSON opties"
 
-#: view/settings-form.php:377
+#: view/settings-form.php:383
 msgid "Self closing tags"
 msgstr "Zelfsluitende tags"
 
-#: view/settings-form.php:374
+#: view/settings-form.php:380
 msgid "Append XML"
 msgstr "Voeg XML toe"
 
-#: view/settings-form.php:371
+#: view/settings-form.php:377
 msgid "Coupon tag"
 msgstr "Waardebon tag"
 
-#: view/settings-form.php:368
+#: view/settings-form.php:374
 msgid "Product tag"
 msgstr "Product tag"
 
-#: view/settings-form.php:365
+#: view/settings-form.php:371
 msgid "Order tag"
 msgstr "Bestelling tag"
 
-#: view/settings-form.php:362
+#: view/settings-form.php:368
 msgid "Root tag"
 msgstr "Root tag"
 
-#: view/settings-form.php:359
+#: view/settings-form.php:365
 msgid "Prepend XML"
 msgstr "XML vooraf toevoegen"
 
-#: view/settings-form.php:352
+#: view/settings-form.php:358
 msgid "XML options"
 msgstr "XML opties"
 
-#: view/settings-form.php:343 view/settings-form.php:432
+#: view/settings-form.php:349 view/settings-form.php:438
 msgid "Character encoding"
 msgstr "Karakter codering"
 
-#: view/settings-form.php:338 view/settings-form.php:427
+#: view/settings-form.php:344 view/settings-form.php:433
 msgid "Line Break"
 msgstr "Regeleinde"
 
-#: view/settings-form.php:334
+#: view/settings-form.php:340
 msgid "Field Delimiter"
 msgstr "Veld scheidingsteken"
 
-#: view/settings-form.php:330
+#: view/settings-form.php:336
 msgid "Enclosure"
 msgstr "Bijlage"
 
-#: view/settings-form.php:320
+#: view/settings-form.php:326
 msgid "Convert line breaks to literals"
 msgstr "Zet regeleinden om naar letterlijke tekens"
 
-#: view/settings-form.php:308 view/settings-form.php:418
+#: view/settings-form.php:314 view/settings-form.php:424
 msgid "Output UTF-8 BOM"
 msgstr "Uitvoer BOM UTF-8"
 
-#: view/settings-form.php:297
+#: view/settings-form.php:303
 msgid "CSV options"
 msgstr "CSV opties"
 
-#: view/settings-form.php:273 view/settings-form.php:459
+#: view/settings-form.php:279 view/settings-form.php:465
 msgid "Right-to-Left direction"
 msgstr "Van rechts naar links"
 
-#: view/settings-form.php:269
+#: view/settings-form.php:271
 msgid "Auto column width"
 msgstr "Kolombreedte automatisch"
 
-#: view/settings-form.php:265 view/settings-form.php:312
-#: view/settings-form.php:422 view/settings-form.php:446
-#: view/settings-form.php:647
+#: view/settings-form.php:267 view/settings-form.php:318
+#: view/settings-form.php:428 view/settings-form.php:452
+#: view/settings-form.php:658
 msgid "Output column titles as first line"
 msgstr "Uitvoer kolomtitels als eerste regel"
 
-#: view/settings-form.php:259
+#: view/settings-form.php:261
 msgid "Use sheet name"
 msgstr "Gebruik bladnaam"
 
-#: view/settings-form.php:257
+#: view/settings-form.php:259
 msgid "Export as .xls (Binary File Format)"
 msgstr "Exporteren als .xls (Binary bestandsformat)"
 
-#: view/settings-form.php:243
+#: view/settings-form.php:244
 msgid "XLS options"
 msgstr "XLS opties"
 
-#: view/settings-form.php:230
+#: view/settings-form.php:231
 msgid "Format"
 msgstr "Format"
 
-#: view/settings-form.php:217
+#: view/settings-form.php:218
 msgid "Export filename"
 msgstr "Export bestandsnaam"
 
-#: view/settings-form.php:200
+#: view/settings-form.php:201
 msgid "Summary Report By Products"
 msgstr "Samenvatting rapport per product"
 
-#: view/settings-form.php:189
+#: view/settings-form.php:190
 msgid "Express export"
 msgstr "Express export"
 
-#: view/settings-form.php:178 view/settings-form.php:187
+#: view/settings-form.php:179 view/settings-form.php:188
 msgid "to"
 msgstr "naar"
 
-#: view/settings-form.php:175
+#: view/settings-form.php:176
 msgid "Date range"
 msgstr "Datum bereik"
 
-#: view/settings-form.php:172
+#: view/settings-form.php:173
 msgid "This date range should not be saved in the scheduled task"
 msgstr "Dit datumbereik mag niet worden opgeslagen in de geplande taak"
 
-#: view/settings-form.php:140
+#: view/settings-form.php:139
 msgid "Filter orders by"
 msgstr "Filter orders op"
 
-#: classes/class-wc-order-export-admin.php:318
+#: classes/class-wc-order-export-admin.php:333
 msgid "Add"
 msgstr "Toevoegen"
 
-#: classes/formats/abstract-class-woe-formatter-sv.php:108
-#: classes/formats/class-woe-formatter-html.php:156
-#: classes/formats/class-woe-formatter-pdf.php:183
-#: classes/formats/class-woe-formatter-xls.php:235
+#: classes/formats/abstract-class-woe-formatter-sv.php:110
+#: classes/formats/class-woe-formatter-html.php:157
+#: classes/formats/class-woe-formatter-pdf.php:184
+#: classes/formats/class-woe-formatter-xls.php:249
 msgid "No results"
 msgstr "Geen resultaten"
 
-#: view/settings-form.php:1650
+#: view/settings-form.php:1674
 msgid "Add static field"
 msgstr "Voeg statisch veld toe"
 
-#: view/settings-form.php:1718 view/settings-form.php:1822
-#: view/settings-form.php:1879 view/settings-form.php:1927
+#: view/settings-form.php:1742 view/settings-form.php:1846
+#: view/settings-form.php:1903 view/settings-form.php:1951
 msgid "Value"
 msgstr "Waarde"
 
-#: view/settings-form.php:1647
+#: view/settings-form.php:1671
 msgid "Add field"
 msgstr "Veld toevoegen"
 
-#: view/settings-form.php:1697 view/settings-form.php:1713
-#: view/settings-form.php:1756 view/settings-form.php:1803
-#: view/settings-form.php:1817 view/settings-form.php:1860
-#: view/settings-form.php:1874 view/settings-form.php:1907
-#: view/settings-form.php:1922 view/settings-form.php:1951
-#: view/settings-form.php:1973 view/settings-form.php:1995
+#: view/settings-form.php:1721 view/settings-form.php:1737
+#: view/settings-form.php:1780 view/settings-form.php:1827
+#: view/settings-form.php:1841 view/settings-form.php:1884
+#: view/settings-form.php:1898 view/settings-form.php:1931
+#: view/settings-form.php:1946 view/settings-form.php:1975
+#: view/settings-form.php:1997 view/settings-form.php:2019
 msgid "Column name"
 msgstr "Kolomnaam"
 
-#: view/settings-form.php:1792
+#: view/settings-form.php:1816
 msgid "Taxonomy"
 msgstr "Taxonomie"
 
-#: view/settings-form.php:1790
+#: view/settings-form.php:1814
 msgid "OR"
 msgstr "OF"
 
-#: view/settings-form.php:1693 view/settings-form.php:1752
-#: view/settings-form.php:1787 view/settings-form.php:1855
-#: view/settings-form.php:1898
+#: view/settings-form.php:1717 view/settings-form.php:1776
+#: view/settings-form.php:1811 view/settings-form.php:1879
+#: view/settings-form.php:1922
 msgid "Hide unused fields"
 msgstr "Ongebruikte velden verbergen"
 
-#: view/settings-form.php:1675 view/settings-form.php:1734
-#: view/settings-form.php:1895 view/settings-form.php:2017
-#: view/settings-form.php:2047 view/settings-form.php:2077
+#: view/settings-form.php:1699 view/settings-form.php:1758
+#: view/settings-form.php:1919 view/settings-form.php:2041
+#: view/settings-form.php:2071 view/settings-form.php:2101
 msgid "Meta key"
 msgstr "Meta sleutel"
 
@@ -1584,593 +1651,591 @@ msgstr "Profielen"
 msgid "Export now"
 msgstr "Nu exporteren"
 
-#: view/main.php:8
+#: view/main.php:10
 msgid "Settings saved"
 msgstr "Instellingen opgeslagen"
 
-#: classes/formats/abstract-class-woe-formatter.php:49
+#: classes/formats/abstract-class-woe-formatter.php:50
 msgid "can not open for output"
 msgstr "kan niet openen voor uitvoer"
 
-#: classes/core/class-wc-order-export-engine.php:394
+#. translators: position of error in custom PHP code added to "Misc Settings"
+#: classes/core/class-wc-order-export-engine.php:428
 msgid "The code you are trying to save produced a fatal error on line %d:"
 msgstr "De code die je probeert op te slaan, heeft on line een fatale fout veroorzaakt %d:"
 
-#: classes/core/class-wc-order-export-engine.php:393
+#: classes/core/class-wc-order-export-engine.php:426
 msgid "Don't Panic"
 msgstr "Geen paniek"
 
-#: classes/core/trait-woe-core-extractor.php:1166
+#: classes/core/trait-woe-core-extractor.php:1179
 msgid "[Rest of the World]"
 msgstr "[Rest van de wereld]"
 
-#: classes/core/class-wc-order-export-order-fields.php:471
+#: classes/core/class-wc-order-export-order-fields.php:476
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1336
-#: classes/core/trait-woe-core-extractor-ui.php:1361
+#: classes/core/trait-woe-core-extractor-ui.php:1360
+#: classes/core/trait-woe-core-extractor-ui.php:1385
 msgid "Others"
 msgstr "Anderen"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1333
-#: classes/core/trait-woe-core-extractor-ui.php:1358
+#: classes/core/trait-woe-core-extractor-ui.php:1357
+#: classes/core/trait-woe-core-extractor-ui.php:1382
 msgid "Cart"
 msgstr "Winkelwagen"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1334
-#: classes/core/trait-woe-core-extractor-ui.php:1359
+#: classes/core/trait-woe-core-extractor-ui.php:1358
+#: classes/core/trait-woe-core-extractor-ui.php:1383
 msgid "Shipping"
 msgstr "Verzenden"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1325
 #: classes/core/trait-woe-core-extractor-ui.php:1349
+#: classes/core/trait-woe-core-extractor-ui.php:1373
 msgid "Common"
 msgstr "Gemeenschappelijk"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1114
+#: classes/core/trait-woe-core-extractor-ui.php:1133
 msgid "Total products"
 msgstr "Totaal producten"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1104
+#: classes/core/trait-woe-core-extractor-ui.php:1123
 msgid "Total items"
 msgstr "Totaal artikelen"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1099
+#: classes/core/trait-woe-core-extractor-ui.php:1118
 msgid "Total weight"
 msgstr "Totale gewicht"
 
-#: classes/core/trait-woe-core-extractor-ui.php:591
+#: classes/core/trait-woe-core-extractor-ui.php:595
 msgid "Currency"
 msgstr "Valuta"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1296
+#: classes/core/trait-woe-core-extractor-ui.php:1320
 msgid "Order Total Tax Amount (- Refund)"
 msgstr "Bestelling totaal belastingbedrag (- terugbetaling)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1291
+#: classes/core/trait-woe-core-extractor-ui.php:1315
 msgid "Order Total Tax Amount Refunded"
 msgstr "Bestelling totaal terugbetaald belastingbedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1286
+#: classes/core/trait-woe-core-extractor-ui.php:1310
 msgid "Order Total Tax Amount"
 msgstr "Bestelling totaal belasting bedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1281
+#: classes/core/trait-woe-core-extractor-ui.php:1305
 msgid "Order Total Amount without Tax"
 msgstr "Bestelling totaalbedrag zonder belasting"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1276
+#: classes/core/trait-woe-core-extractor-ui.php:1300
 msgid "Order Total Amount"
 msgstr "Bestelling totaalbedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1271
+#: classes/core/trait-woe-core-extractor-ui.php:1295
 msgid "Order Total Amount (- Refund)"
 msgstr "Totaalbedrag bestelling (- terugbetaling)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1266
+#: classes/core/trait-woe-core-extractor-ui.php:1290
 msgid "Order Refund Amount"
 msgstr "Bestelling terugbetaling bedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1251
+#: classes/core/trait-woe-core-extractor-ui.php:1275
 msgid "Order Shipping Tax Amount (- Refund)"
 msgstr "Bestelling verzending belastingbedrag (- terugbetaling)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1246
+#: classes/core/trait-woe-core-extractor-ui.php:1270
 msgid "Order Shipping Tax Refunded"
 msgstr "Bestelling verzend belasting terugbetaald"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1241
+#: classes/core/trait-woe-core-extractor-ui.php:1265
 msgid "Order Shipping Tax Amount"
 msgstr "Bestelling verzending belastingbedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1236
+#: classes/core/trait-woe-core-extractor-ui.php:1260
 msgid "Order Shipping Amount (- Refund)"
 msgstr "Bestelling verzendbedrag (- terugbetaling)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1231
+#: classes/core/trait-woe-core-extractor-ui.php:1255
 msgid "Order Shipping Amount Refunded"
 msgstr "Bestelling verzendbedrag terugbetaald"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1221
+#: classes/core/trait-woe-core-extractor-ui.php:1245
 msgid "Order Shipping Amount"
 msgstr "Bestelling verzendbedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1186
+#: classes/core/trait-woe-core-extractor-ui.php:1210
 msgid "Order Subtotal Amount (- Refund)"
 msgstr "Bestelling subtotaal bedrag (- terugbetaling)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1181
+#: classes/core/trait-woe-core-extractor-ui.php:1205
 msgid "Order Subtotal Amount Refunded"
 msgstr "Bestelling subtotaal terugbetaald bedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1166
+#: classes/core/trait-woe-core-extractor-ui.php:1190
 msgid "Order Subtotal Amount"
 msgstr "Bestelling subtotaal bedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1161
+#: classes/core/trait-woe-core-extractor-ui.php:1185
 msgid "Cart Discount Amount Tax"
 msgstr "Winkelwagenkorting bedrag belasting"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1156
+#: classes/core/trait-woe-core-extractor-ui.php:1175
 msgid "Cart Discount Amount"
 msgstr "Winkelwagen kortingsbedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1146
+#: classes/core/trait-woe-core-extractor-ui.php:1165
 msgid "Payment Method"
 msgstr "Betaalmethode"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1141
+#: classes/core/trait-woe-core-extractor-ui.php:1160
 msgid "Payment Method Title"
 msgstr "Titel betalingsmethode"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1206
+#: classes/core/trait-woe-core-extractor-ui.php:1230
 msgid "Shipping Method"
 msgstr "Verzendmethode"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1201
+#: classes/core/trait-woe-core-extractor-ui.php:1225
 msgid "Shipping Method Title"
 msgstr "Titel verzend methode"
 
-#: classes/admin/class-wc-order-export-manage.php:755
-#: classes/core/trait-woe-core-extractor-ui.php:1130
-#: classes/core/trait-woe-core-extractor-ui.php:1331
-#: classes/core/trait-woe-core-extractor-ui.php:1356
-#: view/settings-form.php:1377
+#: classes/admin/class-wc-order-export-manage.php:762
+#: classes/core/trait-woe-core-extractor-ui.php:1149
+#: classes/core/trait-woe-core-extractor-ui.php:1355
+#: classes/core/trait-woe-core-extractor-ui.php:1380
+#: view/settings-form.php:1384
 msgid "Coupons"
 msgstr "Waardebonnen"
 
-#: classes/admin/class-wc-order-export-manage.php:712
-#: classes/core/trait-woe-core-extractor-ui.php:956
-#: classes/core/trait-woe-core-extractor-ui.php:1329
+#: classes/admin/class-wc-order-export-manage.php:719
+#: classes/core/trait-woe-core-extractor-ui.php:965
 #: classes/core/trait-woe-core-extractor-ui.php:1353
-#: view/settings-form.php:1105
+#: classes/core/trait-woe-core-extractor-ui.php:1377
+#: view/settings-form.php:1112
 msgid "Products"
 msgstr "producten"
 
-#: classes/core/trait-woe-core-extractor-ui.php:935
+#: classes/core/trait-woe-core-extractor-ui.php:944
 msgid "Country Name (Shipping)"
 msgstr "Land (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:930
+#: classes/core/trait-woe-core-extractor-ui.php:939
 msgid "Country Code (Shipping)"
 msgstr "Landcode (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:925
+#: classes/core/trait-woe-core-extractor-ui.php:934
 msgid "Postcode (Shipping)"
 msgstr "Postcode (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:920
+#: classes/core/trait-woe-core-extractor-ui.php:929
 msgid "State Name (Shipping)"
 msgstr "Provincie (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:910
+#: classes/core/trait-woe-core-extractor-ui.php:919
 msgid "City, State, Zip (Shipping)"
 msgstr "Stad, provincie, postcode (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:905
+#: classes/core/trait-woe-core-extractor-ui.php:914
 msgid "State Code (Shipping)"
 msgstr "Provincie code (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:900
+#: classes/core/trait-woe-core-extractor-ui.php:909
 msgid "City (Shipping)"
 msgstr "Woonplaats (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:895
+#: classes/core/trait-woe-core-extractor-ui.php:904
 msgid "Address 2 (Shipping)"
 msgstr "Adres 2 (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:890
+#: classes/core/trait-woe-core-extractor-ui.php:899
 msgid "Address 1 (Shipping)"
 msgstr "Adres 1 (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:885
+#: classes/core/trait-woe-core-extractor-ui.php:894
 msgid "Address 1&2 (Shipping)"
 msgstr "Adres 1 & 2 (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:880
+#: classes/core/trait-woe-core-extractor-ui.php:889
 msgid "Company (Shipping)"
 msgstr "Bedrijf (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:875
+#: classes/core/trait-woe-core-extractor-ui.php:884
 msgid "Full Name (Shipping)"
 msgstr "Volledige naam (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:870
+#: classes/core/trait-woe-core-extractor-ui.php:879
 msgid "Last Name (Shipping)"
 msgstr "Achternaam (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:865
+#: classes/core/trait-woe-core-extractor-ui.php:874
 msgid "First Name (Shipping)"
 msgstr "Voornaam (verzending)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:850
+#: classes/core/trait-woe-core-extractor-ui.php:859
 msgid "Phone (Billing)"
 msgstr "Telefoon (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:845
+#: classes/core/trait-woe-core-extractor-ui.php:854
 msgid "Email (Billing)"
 msgstr "E-mail (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:840
+#: classes/core/trait-woe-core-extractor-ui.php:849
 msgid "Country Name (Billing)"
 msgstr "Land (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:835
+#: classes/core/trait-woe-core-extractor-ui.php:844
 msgid "Country Code (Billing)"
 msgstr "Landcode (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:830
+#: classes/core/trait-woe-core-extractor-ui.php:839
 msgid "Postcode (Billing)"
 msgstr "Postcode (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:825
+#: classes/core/trait-woe-core-extractor-ui.php:834
 msgid "State Name (Billing)"
 msgstr "Provincie (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:815
+#: classes/core/trait-woe-core-extractor-ui.php:824
 msgid "City, State, Zip (Billing)"
 msgstr "Plaats, provincie, postcode (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:810
+#: classes/core/trait-woe-core-extractor-ui.php:819
 msgid "State Code (Billing)"
 msgstr "Provincie code (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:805
+#: classes/core/trait-woe-core-extractor-ui.php:814
 msgid "City (Billing)"
 msgstr "Plaats (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:800
+#: classes/core/trait-woe-core-extractor-ui.php:809
 msgid "Address 2 (Billing)"
 msgstr "Adres 2 (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:795
+#: classes/core/trait-woe-core-extractor-ui.php:804
 msgid "Address 1 (Billing)"
 msgstr "Adres 1 (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:790
+#: classes/core/trait-woe-core-extractor-ui.php:799
 msgid "Address 1&2 (Billing)"
 msgstr "Adres 1 & 2 (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:785
+#: classes/core/trait-woe-core-extractor-ui.php:794
 msgid "Company (Billing)"
 msgstr "Bedrijf (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:780
+#: classes/core/trait-woe-core-extractor-ui.php:789
 msgid "Full Name (Billing)"
 msgstr "Volledige naam (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:775
+#: classes/core/trait-woe-core-extractor-ui.php:784
 msgid "Last Name (Billing)"
 msgstr "Achternaam (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:770
+#: classes/core/trait-woe-core-extractor-ui.php:779
 msgid "First Name (Billing)"
 msgstr "Voornaam (facturering)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:675
+#: classes/core/trait-woe-core-extractor-ui.php:679
 msgid "Customer Role"
 msgstr "Klant rol"
 
-#: classes/core/trait-woe-core-extractor-ui.php:670
+#: classes/core/trait-woe-core-extractor-ui.php:674
 msgid "Customer User Email"
 msgstr "Klant gebruikers e-mail"
 
-#: classes/core/trait-woe-core-extractor-ui.php:660
+#: classes/core/trait-woe-core-extractor-ui.php:664
 msgid "Customer Username"
 msgstr "Klant gebruikersnaam"
 
-#: classes/core/trait-woe-core-extractor-ui.php:655
+#: classes/core/trait-woe-core-extractor-ui.php:659
 msgid "Customer User ID"
 msgstr "Klant gebruiker ID"
 
-#: classes/core/trait-woe-core-extractor-ui.php:650
+#: classes/core/trait-woe-core-extractor-ui.php:654
 msgid "Customer IP address"
 msgstr "IP-adres van de klant"
 
-#: classes/core/trait-woe-core-extractor-ui.php:621
+#: classes/core/trait-woe-core-extractor-ui.php:625
 msgid "Order Notes"
 msgstr "Bestelling notities"
 
-#: classes/core/trait-woe-core-extractor-ui.php:616
+#: classes/core/trait-woe-core-extractor-ui.php:620
 msgid "Customer Note"
 msgstr "Klantnotitie"
 
-#: classes/core/trait-woe-core-extractor-ui.php:611
+#: classes/core/trait-woe-core-extractor-ui.php:615
 msgid "Date of first refund"
 msgstr "Datum van eerste terugbetaling"
 
-#: classes/core/trait-woe-core-extractor-ui.php:606 view/settings-form.php:160
+#: classes/core/trait-woe-core-extractor-ui.php:610 view/settings-form.php:160
 msgid "Paid Date"
 msgstr "Datum betaald"
 
-#: classes/core/trait-woe-core-extractor-ui.php:601 view/settings-form.php:167
+#: classes/core/trait-woe-core-extractor-ui.php:605 view/settings-form.php:167
 msgid "Completed Date"
 msgstr "Voltooid datum"
 
-#: classes/core/trait-woe-core-extractor-ui.php:586
+#: classes/core/trait-woe-core-extractor-ui.php:590
 msgid "Transaction ID"
 msgstr "Transactie ID"
 
-#: classes/core/trait-woe-core-extractor-ui.php:581 view/settings-form.php:153
-#: view/settings-form.php:810
+#: classes/core/trait-woe-core-extractor-ui.php:585 view/settings-form.php:152
+#: view/settings-form.php:821
 msgid "Modification Date"
 msgstr "Wijzigingsdatum"
 
-#: classes/core/trait-woe-core-extractor-ui.php:571 view/settings-form.php:146
-#: view/settings-form.php:809
+#: classes/core/trait-woe-core-extractor-ui.php:575 view/settings-form.php:145
+#: view/settings-form.php:820
 msgid "Order Date"
 msgstr "Bestellingsdatum"
 
-#: classes/core/trait-woe-core-extractor-ui.php:566
+#: classes/core/trait-woe-core-extractor-ui.php:570
 msgid "Order Status"
 msgstr "Bestelstatus"
 
-#: classes/core/trait-woe-core-extractor-ui.php:561
+#: classes/core/trait-woe-core-extractor-ui.php:565
 msgid "Order Number"
 msgstr "Bestellingnummer"
 
-#: classes/core/trait-woe-core-extractor-ui.php:556 view/settings-form.php:808
+#: classes/core/trait-woe-core-extractor-ui.php:560 view/settings-form.php:819
 msgid "Order ID"
 msgstr "Bestelling ID"
 
-#: classes/core/trait-woe-core-extractor-ui.php:511
+#: classes/core/trait-woe-core-extractor-ui.php:515
 msgid "Coupon Amount"
 msgstr "Waardebonbedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:506
+#: classes/core/trait-woe-core-extractor-ui.php:510
 msgid "Coupon Type"
 msgstr "Waardebon type"
 
-#: classes/core/trait-woe-core-extractor-ui.php:502
+#: classes/core/trait-woe-core-extractor-ui.php:506
 msgid "Coupon Description"
 msgstr "Beschrijving waardebon"
 
-#: classes/core/trait-woe-core-extractor-ui.php:497
+#: classes/core/trait-woe-core-extractor-ui.php:501
 msgid "Discount Amount + Tax"
 msgstr "Kortingsbedrag + belasting"
 
-#: classes/core/trait-woe-core-extractor-ui.php:492
+#: classes/core/trait-woe-core-extractor-ui.php:496
 msgid "Discount Amount Tax"
 msgstr "Kortingsbedrag belasting"
 
-#: classes/core/trait-woe-core-extractor-ui.php:487
+#: classes/core/trait-woe-core-extractor-ui.php:491
 msgid "Discount Amount"
 msgstr "Kortingsbedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:482
+#: classes/core/trait-woe-core-extractor-ui.php:486
 msgid "Coupon Code"
 msgstr "Waardebon code"
 
-#: classes/core/trait-woe-core-extractor-ui.php:390
+#: classes/core/trait-woe-core-extractor-ui.php:394
 msgid "Short Description"
 msgstr "Korte beschrijving"
 
-#: classes/core/trait-woe-core-extractor-ui.php:385
+#: classes/core/trait-woe-core-extractor-ui.php:389
 msgid "Description"
 msgstr "Beschrijving"
 
-#: classes/core/trait-woe-core-extractor-ui.php:380
+#: classes/core/trait-woe-core-extractor-ui.php:384
 msgid "Product Shipping Class"
 msgstr "Productverzending klasse"
 
-#: classes/core/trait-woe-core-extractor-ui.php:375
+#: classes/core/trait-woe-core-extractor-ui.php:379
 msgid "Image URL"
 msgstr "Afbeeldings- URL"
 
-#: classes/core/trait-woe-core-extractor-ui.php:370
+#: classes/core/trait-woe-core-extractor-ui.php:374
 msgid "Download URL"
 msgstr "Download URL"
 
-#: classes/core/trait-woe-core-extractor-ui.php:365
+#: classes/core/trait-woe-core-extractor-ui.php:369
 msgid "Product URL"
 msgstr "Product URL"
 
-#: classes/core/trait-woe-core-extractor-ui.php:350
+#: classes/core/trait-woe-core-extractor-ui.php:354
 msgid "Weight"
 msgstr "Gewicht"
 
-#: classes/core/trait-woe-core-extractor-ui.php:345
+#: classes/core/trait-woe-core-extractor-ui.php:349
 msgid "Height"
 msgstr "Hoogte"
 
-#: classes/core/trait-woe-core-extractor-ui.php:340
+#: classes/core/trait-woe-core-extractor-ui.php:344
 msgid "Length"
 msgstr "Lengte"
 
-#: classes/core/trait-woe-core-extractor-ui.php:335
+#: classes/core/trait-woe-core-extractor-ui.php:339
 msgid "Width"
 msgstr "Breedte"
 
-#: classes/core/trait-woe-core-extractor-ui.php:330
+#: classes/core/trait-woe-core-extractor-ui.php:334
 msgid "Tags"
 msgstr "Tags"
 
-#: classes/core/trait-woe-core-extractor-ui.php:325
+#: classes/core/trait-woe-core-extractor-ui.php:329
 msgid "Category"
 msgstr "Categorie"
 
-#: classes/core/trait-woe-core-extractor-ui.php:320
+#: classes/core/trait-woe-core-extractor-ui.php:324
 msgid "Type"
 msgstr "Type"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1062
-msgid "Item Tax Rate"
-msgstr "Artikel belastingtarief"
-
-#: classes/core/trait-woe-core-extractor-ui.php:1057
+#: classes/core/trait-woe-core-extractor-ui.php:1071
 msgid "Item Discount Amount"
 msgstr "Artikel kortingbedrag"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1052
+#: classes/core/trait-woe-core-extractor-ui.php:1066
 msgid "Order Line Total (- Refund)"
 msgstr "Bestelling regel totaal (- terugbetaling)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1047
+#: classes/core/trait-woe-core-extractor-ui.php:1061
 msgid "Order Line Total Refunded"
 msgstr "Bestelling regel totaal terugbetaald"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1042
+#: classes/core/trait-woe-core-extractor-ui.php:1056
 msgid "Order Line Total (include tax)"
 msgstr "Bestelling regel totaal (inclusief belasting)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1037
+#: classes/core/trait-woe-core-extractor-ui.php:1051
 msgid "Order Line Total"
 msgstr "Bestelling regel totaal"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1027
+#: classes/core/trait-woe-core-extractor-ui.php:1041
 msgid "Order Line Subtotal"
 msgstr "Bestelling regel subtotaal"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1022
+#: classes/core/trait-woe-core-extractor-ui.php:1036
 msgid "Order Line Tax (- Refund)"
 msgstr "Bestelling regel belasting (- terugbetaling)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1017
+#: classes/core/trait-woe-core-extractor-ui.php:1031
 msgid "Order Line Tax Refunded"
 msgstr "Bestelling regel belasting (- terugbetaald)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1012
+#: classes/core/trait-woe-core-extractor-ui.php:1026
 msgid "Order Line Tax"
 msgstr "Bestelling regel belasting"
 
-#: classes/core/trait-woe-core-extractor-ui.php:1007
+#: classes/core/trait-woe-core-extractor-ui.php:1021
 msgid "Order Line (w/o tax)"
 msgstr "Bestelling regel (zonder belasting)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:315
+#: classes/core/trait-woe-core-extractor-ui.php:319
 msgid "Product Current Price"
 msgstr "Product huidige prijs"
 
-#: classes/core/trait-woe-core-extractor-ui.php:992
+#: classes/core/trait-woe-core-extractor-ui.php:1006
 msgid "Item Cost"
 msgstr "Artikelkosten"
 
-#: classes/core/trait-woe-core-extractor-ui.php:987
+#: classes/core/trait-woe-core-extractor-ui.php:996
 msgid "Quantity (- Refund)"
 msgstr "Aantal (- terugbetaling)"
 
-#: classes/core/trait-woe-core-extractor-ui.php:982
+#: classes/core/trait-woe-core-extractor-ui.php:991
 msgid "Quantity"
 msgstr "Aantal"
 
-#: classes/core/trait-woe-core-extractor-ui.php:300
+#: classes/core/trait-woe-core-extractor-ui.php:304
 msgid "Product Variation"
 msgstr "Product variatie"
 
-#: classes/core/trait-woe-core-extractor-ui.php:270
+#: classes/core/trait-woe-core-extractor-ui.php:274
 msgid "SKU"
 msgstr "SKU"
 
-#: classes/core/trait-woe-core-extractor-ui.php:972
+#: classes/core/trait-woe-core-extractor-ui.php:981
 msgid "Item #"
 msgstr "Item #"
 
-#: classes/core/trait-woe-core-extractor-ui.php:967
+#: classes/core/trait-woe-core-extractor-ui.php:976
 msgid "Item ID"
 msgstr "Item ID"
 
-#: classes/class-wc-order-export-admin.php:624
+#. translators: number of orders when bulk action completed (at orders list)
+#: classes/class-wc-order-export-admin.php:658
 msgid "%s order unmarked."
 msgid_plural "%s orders unmarked."
 msgstr[0] "%s bestelling ongemarkeerd."
 msgstr[1] "%s bestellingen ongemarkeerd."
 
-#: classes/class-wc-order-export-admin.php:615
+#. translators: number of orders when bulk action completed (at orders list)
+#: classes/class-wc-order-export-admin.php:646
 msgid "%s order marked."
 msgid_plural "%s orders marked."
 msgstr[0] "%s bestelling gemarkeerd."
 msgstr[1] "%s bestellingen gemarkeerd."
 
-#: classes/admin/tabs/ajax/class-wc-order-export-ajax.php:39
+#. translators: results of export when bulk action finished
+#: classes/admin/tabs/ajax/class-wc-order-export-ajax.php:43
 msgid "Export as profile \"%s\"."
 msgstr "Exporteer als profiel '%s'."
 
-#: classes/class-wc-order-export-admin.php:560
+#: classes/class-wc-order-export-admin.php:583
 msgid "Unmark exported"
 msgstr "Demarkeer geëxporteerd"
 
-#: classes/class-wc-order-export-admin.php:559
+#. translators: labels in Bulk Actions (at orders list)
+#: classes/class-wc-order-export-admin.php:582
 msgid "Mark exported"
 msgstr "Markeer geëxporteerd"
 
-#: classes/class-wc-order-export-admin.php:553
+#. translators: label for export in Bulk Actions (at orders list)
+#: classes/class-wc-order-export-admin.php:575
 msgid "Export as %s"
 msgstr "Exporteer als %s"
 
-#: classes/class-wc-order-export-admin.php:393
+#: classes/class-wc-order-export-admin.php:408
 msgid "Please, set up fields to export"
 msgstr "Stel velden in om te exporteren"
 
-#: classes/class-wc-order-export-admin.php:392
+#: classes/class-wc-order-export-admin.php:407
 msgid "Date From is greater than Date To"
 msgstr "Datum van is groter dan datum tot"
 
-#: classes/class-wc-order-export-admin.php:391
+#: classes/class-wc-order-export-admin.php:406
 msgid "Title is empty"
 msgstr "Titel is leeg"
 
-#: classes/class-wc-order-export-admin.php:390
+#: classes/class-wc-order-export-admin.php:405
 msgid "empty value"
 msgstr "lege waarde"
 
-#: classes/class-wc-order-export-admin.php:386
+#: classes/class-wc-order-export-admin.php:401
 msgid "empty meta key"
 msgstr "lege meta sleutel"
 
-#: classes/class-wc-order-export-admin.php:385
+#: classes/class-wc-order-export-admin.php:400
 msgid "empty column name"
 msgstr "lege kolomnaam"
 
-#: classes/class-wc-order-export-admin.php:240
-#: classes/class-wc-order-export-admin.php:241
-#: classes/class-wc-order-export-admin.php:246
-#: classes/class-wc-order-export-admin.php:247
+#: classes/class-wc-order-export-admin.php:249
+#: classes/class-wc-order-export-admin.php:250
+#: classes/class-wc-order-export-admin.php:255
+#: classes/class-wc-order-export-admin.php:256
 msgid "Export Orders"
 msgstr "Exporteer orders"
 
-#: classes/class-wc-order-export-admin.php:225
+#: classes/class-wc-order-export-admin.php:234
 msgid "Support"
 msgstr "Ondersteuning"
 
-#: classes/class-wc-order-export-admin.php:223
+#: classes/class-wc-order-export-admin.php:232
 msgid "Docs"
 msgstr "Documenten"
 
-#: classes/class-wc-order-export-admin.php:222
+#: classes/class-wc-order-export-admin.php:231
 msgid "Settings"
 msgstr "instellingen"
 
-#: classes/class-wc-order-export-admin.php:213
-msgid "Advanced Order Export For WooCommerce is available <a href=\"admin.php?page=wc-order-export\">on this page</a>."
-msgstr "Advanced Order Export Voor WooCommerce is beschikbaar <a href=\"admin.php?page=wc-order-export\">op deze pagina</a>."
-
-#: classes/class-wc-order-export-admin.php:126
+#: classes/class-wc-order-export-admin.php:128
 msgid "Export Status"
 msgstr "Export status"
 
 #: classes/admin/class-wc-order-export-manage.php:263
-#: classes/formats/class-woe-formatter-xls.php:372
+#: classes/formats/class-woe-formatter-xls.php:383
 msgid "Orders"
 msgstr "Orders"
 
@@ -2202,11 +2267,11 @@ msgstr "ma"
 msgid "Sun"
 msgstr "Zo"
 
-#: classes/admin/tabs/ajax/trait-wc-order-export-admin-tab-abstract-ajax-export.php:127
-#: classes/class-wc-order-export-admin.php:394
+#: classes/admin/tabs/ajax/trait-wc-order-export-admin-tab-abstract-ajax-export.php:139
+#: classes/class-wc-order-export-admin.php:409
 msgid "Nothing to export. Please, adjust your filters"
 msgstr "Niets om te exporteren. Pas alstublieft je filters aan"
 
-#: classes/admin/tabs/ajax/trait-wc-order-export-admin-tab-abstract-ajax-export.php:53
+#: classes/admin/tabs/ajax/trait-wc-order-export-admin-tab-abstract-ajax-export.php:60
 msgid "Can't create temporary file"
 msgstr "Kan tijdelijk bestand niet maken"
