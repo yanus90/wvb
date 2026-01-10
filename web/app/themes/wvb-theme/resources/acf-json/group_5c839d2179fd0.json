@@ -1,11 +1,12 @@
 {
     "key": "group_5c839d2179fd0",
-    "title": "Slider",
+    "title": "Homepagina carousel en afbeeldingen",
     "fields": [
         {
             "key": "field_5c839d3500c8c",
             "label": "Homepagina slider",
             "name": "homepagina_slider",
+            "aria-label": "",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -22,73 +23,10 @@
             "button_label": "Nieuwe slider",
             "sub_fields": [
                 {
-                    "key": "field_5c839d5400c8d",
-                    "label": "Titel",
-                    "name": "titel",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_5db4498c04039",
-                    "label": "Korte intro",
-                    "name": "korte_intro",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_5c839d6800c8e",
-                    "label": "Afbeelding",
-                    "name": "afbeelding",
-                    "type": "image_aspect_ratio_crop",
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "aspect_ratio_width": 1005,
-                    "aspect_ratio_height": 560,
-                    "return_format": "array",
-                    "preview_size": "thumbnail",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
-                },
-                {
                     "key": "field_5dd440072201a",
                     "label": "Soort link",
                     "name": "soort_link",
+                    "aria-label": "",
                     "type": "select",
                     "instructions": "",
                     "required": 0,
@@ -111,12 +49,14 @@
                     "ui": 0,
                     "return_format": "value",
                     "ajax": 0,
-                    "placeholder": ""
+                    "placeholder": "",
+                    "parent_repeater": "field_5c839d3500c8c"
                 },
                 {
                     "key": "field_5dd441452201c",
                     "label": "Pagina",
                     "name": "pagina",
+                    "aria-label": "",
                     "type": "page_link",
                     "instructions": "",
                     "required": 0,
@@ -140,12 +80,14 @@
                     "taxonomy": "",
                     "allow_null": 0,
                     "allow_archives": 1,
-                    "multiple": 0
+                    "multiple": 0,
+                    "parent_repeater": "field_5c839d3500c8c"
                 },
                 {
                     "key": "field_5dd4415c2201d",
                     "label": "Nieuwsbericht",
                     "name": "nieuwsbericht",
+                    "aria-label": "",
                     "type": "post_object",
                     "instructions": "",
                     "required": 0,
@@ -170,12 +112,15 @@
                     "allow_null": 0,
                     "multiple": 0,
                     "return_format": "object",
-                    "ui": 1
+                    "ui": 1,
+                    "bidirectional_target": [],
+                    "parent_repeater": "field_5c839d3500c8c"
                 },
                 {
                     "key": "field_5dd441772201e",
                     "label": "Externe URL",
                     "name": "externe_url",
+                    "aria-label": "",
                     "type": "text",
                     "instructions": "Vul hier een volledige link in als het om een externe website gaat. Bijvoorbeeld https:\/\/www.google.nl\/",
                     "required": 0,
@@ -197,12 +142,64 @@
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": ""
+                    "maxlength": "",
+                    "parent_repeater": "field_5c839d3500c8c"
+                },
+                {
+                    "key": "field_5c839d5400c8d",
+                    "label": "Titel",
+                    "name": "titel",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5c839d3500c8c"
+                },
+                {
+                    "key": "field_5c839d6800c8e",
+                    "label": "Afbeelding",
+                    "name": "afbeelding",
+                    "aria-label": "",
+                    "type": "image_aspect_ratio_crop",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "aspect_ratio_width": 1005,
+                    "aspect_ratio_height": 560,
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "crop_type": "aspect_ratio",
+                    "parent_repeater": "field_5c839d3500c8c"
                 },
                 {
                     "key": "field_5c839db900c90",
                     "label": "Nieuw tabblad?",
                     "name": "nieuw_tabblad",
+                    "aria-label": "",
                     "type": "select",
                     "instructions": "",
                     "required": 0,
@@ -224,12 +221,35 @@
                     "ui": 0,
                     "return_format": "value",
                     "ajax": 0,
-                    "placeholder": ""
+                    "placeholder": "",
+                    "parent_repeater": "field_5c839d3500c8c"
+                },
+                {
+                    "key": "field_5db4498c04039",
+                    "label": "Korte intro",
+                    "name": "korte_intro",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5c839d3500c8c"
                 },
                 {
                     "key": "field_5e1cbba3edba0",
                     "label": "Alle tekst verbergen",
                     "name": "alle_tekst_verbergen",
+                    "aria-label": "",
                     "type": "true_false",
                     "instructions": "",
                     "required": 0,
@@ -243,7 +263,153 @@
                     "default_value": 0,
                     "ui": 0,
                     "ui_on_text": "",
-                    "ui_off_text": ""
+                    "ui_off_text": "",
+                    "parent_repeater": "field_5c839d3500c8c"
+                }
+            ],
+            "rows_per_page": 20
+        },
+        {
+            "key": "field_6726a1681ef81",
+            "label": "Uitgelichte afbeeldingen",
+            "name": "uitgelichte_afbeeldingen",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 3,
+            "collapsed": "",
+            "button_label": "Nieuw",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_6726a1841ef82",
+                    "label": "Afbeelding",
+                    "name": "afbeelding",
+                    "aria-label": "",
+                    "type": "image_aspect_ratio_crop",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "crop_type": "free_crop",
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "allow_in_bindings": 0,
+                    "parent_repeater": "field_6726a1681ef81"
+                },
+                {
+                    "key": "field_6726a19c1ef83",
+                    "label": "Soort link",
+                    "name": "soort_link",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "intern": "Interne link",
+                        "extern": "Externe link"
+                    },
+                    "default_value": "intern",
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "parent_repeater": "field_6726a1681ef81"
+                },
+                {
+                    "key": "field_6726a1be1ef84",
+                    "label": "Link",
+                    "name": "link",
+                    "aria-label": "",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6726a19c1ef83",
+                                "operator": "==",
+                                "value": "intern"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "page",
+                        "news-article",
+                        "product",
+                        "vacature",
+                        "sponsor"
+                    ],
+                    "post_status": "",
+                    "taxonomy": "",
+                    "allow_archives": 0,
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "parent_repeater": "field_6726a1681ef81"
+                },
+                {
+                    "key": "field_6726a1fa1ef85",
+                    "label": "URL",
+                    "name": "url",
+                    "aria-label": "",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6726a19c1ef83",
+                                "operator": "==",
+                                "value": "extern"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "parent_repeater": "field_6726a1681ef81"
                 }
             ]
         }
@@ -263,7 +429,8 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "active": 1,
+    "active": true,
     "description": "",
-    "modified": 1578941372
+    "show_in_rest": 0,
+    "modified": 1730585137
 }
